@@ -1,3 +1,4 @@
 {% if include.align %}<p style="text-align:{{include.align}};">{% endif %}
-{% if {{include.url}} %}<a class="no_icon" target="_blank" rel="noopener" href="{{include.url}}">{% endif %}<img class="docimage" {% if include.src %}src="images/{{include.src}}" {% endif %}{% if include.full-src %}src="{{include.full-src}}" {% endif %}{% if include.alt %}alt="{{include.alt}}" {% endif %}style="width:{{include.width}}px;{{include.style}}" />{% if {{include.url}} %}</a>{% endif %}
+{% if {{include.url}} %}<a class="no_icon" target="_blank" rel="noopener" href="{{include.url}}">{% endif %}<img class="docimage" {% if include.src %}src="images/{{include.src}}" {% endif %}{% if include.full-src %}src="{{include.full-src}}" {% endif %}{% if include.alt %}alt="{{include.alt}}" {% endif %}style="width:{{include.width}}px;{% if include.nn %}-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;{% endif %}{{include.style}}" />{% if {{include.url}} %}</a>{% endif %}
+{% if {{include.caption}} %}<br/><i style="color:gray;">{{include.caption}}</i>{% endif %}
 {% if include.align %}</p>{% endif %}

@@ -38,11 +38,11 @@ layout: default
     {% endif %}
 
     {% if page.pmc %}
-        <a target="_blank" rel="noopener" href="{{page.pmc}}" class="btn btn-default" role="button">{% include image/inline.html src="pmc-logo-black.png" alt="" width="17" style="position:relative; top:2px;"%} View datapack on PlanetMinecraft</a>
+        <a target="_blank" rel="noopener" href="{{page.pmc}}" class="btn btn-default" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> View datapack on PlanetMinecraft</a>
     {% endif %}
 
     {% if page.pmc-collection %}
-        <a target="_blank" rel="noopener" href="{{page.pmc-collection}}" class="btn btn-default" role="button">{% include image/inline.html src="pmc-logo-black.png" alt="" width="17" style="position:relative; top:2px;"%} View collection on PlanetMinecraft</a>
+        <a target="_blank" rel="noopener" href="{{page.pmc-collection}}" class="btn btn-default" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> View collection on PlanetMinecraft</a>
     {% endif %}
 
     {% unless page.toc == false %}

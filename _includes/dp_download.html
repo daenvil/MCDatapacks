@@ -15,7 +15,7 @@
             {% endif %}
         {% endif %}
         {% if include.pmc-url %}
-            <a href="{{include.pmc-url}}" target="_blank" class="btn btn-primary" role="button"><img class="inline" src="images/pmc-logo-white.png" style="max-width:17px;position:relative; top:2px;"/> Download datapack (PlanetMinecraft)</a>
+            <a href="{{include.pmc-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> Download datapack (PlanetMinecraft)</a>
             {% if include.dropbox-url %}
                 <b>|</b>
             {% elsif include.mirror-url %}
@@ -45,7 +45,7 @@
                 {% endif %}
             {% endif %}
             {% if include.rp-pmc-url %}
-                <a href="{{include.rp-pmc-url}}" target="_blank" class="btn btn-primary" role="button"><img class="inline" src="images/pmc-logo-white.png" style="max-width:17px;position:relative; top:2px;"/> Download resourcepack (PlanetMinecraft)</a>
+                <a href="{{include.rp-pmc-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> Download resourcepack (PlanetMinecraft)</a>
                 {% if include.rp-dropbox-url %}
                     <b>|</b>
                 {% elsif include.rp-mirror-url %}
