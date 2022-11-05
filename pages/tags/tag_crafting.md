@@ -3,7 +3,7 @@ title: "Crafting datapack pages"
 tagName: crafting
 search: exclude
 permalink: tag_crafting.html
-sidebar: mydoc_sidebar
+sidebar: home_sidebar
 folder: tags
 ---
 

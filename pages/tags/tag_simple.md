@@ -3,7 +3,7 @@ title: "Simple datapack pages"
 tagName: simple
 search: exclude
 permalink: tag_simple.html
-sidebar: mydoc_sidebar
+sidebar: home_sidebar
 folder: tags
 ---
 

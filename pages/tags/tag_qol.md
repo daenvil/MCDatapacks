@@ -3,7 +3,7 @@ title: "Quality of Life datapack pages"
 tagName: qol
 search: exclude
 permalink: tag_qol.html
-sidebar: mydoc_sidebar
+sidebar: home_sidebar
 folder: tags
 ---
 

@@ -3,7 +3,7 @@ title: "Food datapack pages"
 tagName: food
 search: exclude
 permalink: tag_food.html
-sidebar: mydoc_sidebar
+sidebar: home_sidebar
 folder: tags
 ---
 
