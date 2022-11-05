@@ -129,47 +129,17 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="simple-tab">
+    <div role="tabpanel" class="tab-pane active" id="qol-tab">
         <div class="col-lg-12">
-            <p style="font-size:20px;color:#406b23;">Simple datapacks:</p>
+            <p style="font-size:20px;color:#406b23;">Quality of Life datapacks:</p>
             <hr style="text-align:left;margin-left:0;margin-top:0;width:100%;">
         </div>
         <div class="row">
             {% assign sorted_pages = site.pages | sort: 'priority' %}
             {% for page in sorted_pages %}
-            {% if page.tags contains "simple" %}
+            {% if page.tags contains "QoL" %}
             {% if page.tags contains "datapack" %}
-            <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        {% capture var_logo %}
-                        images/{{page.logo}}
-                        {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
-                    </div>
-                    <div class="panel-body">
-                        <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
-                        <p>{{page.abstract}}</p>
-                        <a href="{{page.permalink}}" class="btn btn-primary">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="crafting-tab">
-        <div class="col-lg-12">
-            <p style="font-size:20px;color:#406b23;">Crafting datapacks:</p>
-            <hr style="text-align:left;margin-left:0;margin-top:0;width:100%;">
-        </div>
-        <div class="row">
-            {% assign sorted_pages = site.pages | sort: 'priority' %}
-            {% for page in sorted_pages %}
-            {% if page.tags contains "crafting" %}
-            {% if page.tags contains "datapack" %}
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
                         {% capture var_logo %}
@@ -219,15 +189,45 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
             {% endfor %}
         </div>
     </div>
-    <div role="tabpanel" class="tab-pane" id="qol-tab">
+    <div role="tabpanel" class="tab-pane" id="simple-tab">
         <div class="col-lg-12">
-            <p style="font-size:20px;color:#406b23;">Quality of Life datapacks:</p>
+            <p style="font-size:20px;color:#406b23;">Simple datapacks:</p>
             <hr style="text-align:left;margin-left:0;margin-top:0;width:100%;">
         </div>
         <div class="row">
             {% assign sorted_pages = site.pages | sort: 'priority' %}
             {% for page in sorted_pages %}
-            {% if page.tags contains "QoL" %}
+            {% if page.tags contains "simple" %}
+            {% if page.tags contains "datapack" %}
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        {% capture var_logo %}
+                        images/{{page.logo}}
+                        {% endcapture %}
+                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                    </div>
+                    <div class="panel-body">
+                        <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
+                        <p>{{page.abstract}}</p>
+                        <a href="{{page.permalink}}" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="crafting-tab">
+        <div class="col-lg-12">
+            <p style="font-size:20px;color:#406b23;">Crafting datapacks:</p>
+            <hr style="text-align:left;margin-left:0;margin-top:0;width:100%;">
+        </div>
+        <div class="row">
+            {% assign sorted_pages = site.pages | sort: 'priority' %}
+            {% for page in sorted_pages %}
+            {% if page.tags contains "crafting" %}
             {% if page.tags contains "datapack" %}
             <div class="col-md-4 col-sm-6">
                 <div class="panel panel-default text-center">
