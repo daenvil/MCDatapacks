@@ -15,6 +15,11 @@ layout: default
     
     {% if page.intro %}
         <div>{{ page.intro }}</div>
+        {% unless page.first_release %}
+        {% unless page.last_release %}
+        <br/>
+        {% endunless %}
+        {% endunless %}
     {% endif %}
 
     {% if page.first_release %}
