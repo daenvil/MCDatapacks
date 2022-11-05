@@ -1,0 +1,98 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: <a href="index.html"><b>Daenvil's MC Datapacks</b></a>
+  folders:
+
+  - title: Vegancraft
+    output: web
+    folderitems:
+    - title: The Vegancraft collection
+      url: /vegancraft.html
+      output: web
+
+    - title: About Vegancraft
+      url: /vegancraft_philosophy.html
+      output: web
+
+      subfolders:
+      - title: Contained datapacks
+        output: web
+        subfolderitems:
+        - title: Plant-based Foods
+          url: /plant-based_foods.html
+          output: web
+
+        - title: Omnivorous Pets
+          url: /omnivorous_pets.html
+          output: web
+
+        - title: Acacia Gum
+          url: /acacia_gum.html
+          output: web
+
+        - title: Ethical Textiles
+          url: /ethical_textiles.html
+          output: web
+
+    - title: Complementary datapacks
+      url: /vegancraft_complementary_datapacks.html
+      output: web
+
+  - title: Recyclecraft
+    output: web
+
+    folderitems:
+    - title: About Recyclecraft
+      url: /recyclecraft.html
+      output: web
+
+    - title: More Compostable Items
+      url: /more_compostable_items.html
+      output: web
+
+    - title: Cuttable Wood
+      url: /cuttable_wood.html
+      output: web
+
+    - title: Better Stonecutter
+      url: /better_stonecutter.html
+      output: web
+
+    - title: More Smeltable Items
+      url: /more_smeltable_items.html
+      output: web
+
+    - title: Scrap Leather
+      url: /scrap_leather.html
+      output: web
+
+    - title: Recyclable Glass
+      url: /recyclable_glass.html
+      output: web
+      
+  - title: Other Datapacks
+    output: web
+    folderitems:
+
+    - title: Full list of datapacks
+      url: /datapacks.html
+      output: web
+
+      subfolders:
+      - title: Quality of life
+        output: web
+        subfolderitems:
+
+        - title: Easy Bone Blocks
+          url: /easy_bone_blocks.html
+          output: web
+
+      - title: Food stuff
+        output: web
+        subfolderitems:
+
+        - title: Baked Goods 
+          url: /baked_goods.html
+          output: web

@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="post-header">
+   <h1 class="post-title-main">{{ page.title }}</h1>
+   {% if page.logo != null %}<img src="images/{{page.logo}}" alt="logo" style="position:relative; top:-50px; width:128px; -ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" align="right"/>{% endif %}
+</div>
+
+<div class="post-content">
+
+    {% if page.summary %}
+        <div class="summary">{{page.summary}}</div>
+    {% endif %}
+    
+    {% if page.intro %}
+        <div>{{ page.intro }}</div>
+    {% endif %}
+
+    {% if page.first_release %}
+        <img src="https://img.shields.io/badge/first%20release-{{page.first_release[0]}}%2F{{page.first_release[1]}}%2F{{page.first_release[2]}}-informational?style=flat-square">
+        {% unless page.last_release %}
+        <br/>
+        {% endunless %}
+    {% endif %}
+    {% if page.last_release %}
+        <img src="https://img.shields.io/badge/latest%20release-{{page.last_release[0]}}%2F{{page.last_release[1]}}%2F{{page.last_release[2]}}-72ac4a?style=flat-square">
+        <br/>
+    {% endif %}
+
+    {% if page.github %}
+        <a target="_blank" rel="noopener" href="{{page.github}}" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i> View project on GitHub</a>
+    {% endif %}
+
+    {% if page.pmc %}
+        <a target="_blank" rel="noopener" href="{{page.pmc}}" class="btn btn-default" role="button">{% include image/inline.html src="pmc-logo-black.png" alt="" width="17" style="position:relative; top:2px;"%} View datapack on PlanetMinecraft</a>
+    {% endif %}
+
+    {% if page.pmc-collection %}
+        <a target="_blank" rel="noopener" href="{{page.pmc-collection}}" class="btn btn-default" role="button">{% include image/inline.html src="pmc-logo-black.png" alt="" width="17" style="position:relative; top:2px;"%} View collection on PlanetMinecraft</a>
+    {% endif %}
+
+    {% unless page.toc == false %}
+        {% include nav/toc.html %}
+    {% endunless %}
+
+   {{content}}
+
+    {% if page.tags contains "datapack" %}
+        {% capture legal_terms_html %}
+            {% include legal_terms.md %}
+        {% endcapture %}
+        {{ legal_terms_html | markdownify }}
+    {% endif %}
+
+    <div class="tags">
+        {% if page.tags != null %}
+        <b>Tags: </b>
+        {% assign projectTags = site.data.tags.allowed-tags %}
+        {% for tag in page.tags %}
+        {% if projectTags contains tag %}
+            {% if tag=="datapack" %}
+                <a href="datapacks.html" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+            {% else %}
+                <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
+
+</div>
+
+{{site.data.alerts.hr_shaded}}
+
+{% include page/footer.html %}
+
+{% comment %} Copyright 2021 Google LLC {% endcomment %}

@@ -1,0 +1,28 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: News
+      url: /news
+
+    - title: List of datapacks
+      url: /datapacks.html
+
+    - title: About Vegancraft
+      url: /vegancraft_philosophy.html
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Contact
+      folderitems:
+        - title: Contact info
+          url: /contact.html
+        - title: GitHub profile
+          external_url: https://github.com/daenvil
+        - title: PlanetMinecraft profile
+          external_url: https://www.planetminecraft.com/member/daenvil/
+
+# Copyright 2021 Google LLC

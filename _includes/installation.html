@@ -1,0 +1,18 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#how-to-install">How to install <i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <div id="how-to-install" class="panel-collapse collapse noCrossRef">
+        <div class="panel-body">
+            <ul>
+                <li>Drop the datapack zip file inside the "datapacks" folder of your world folder (<code>&lt;your minecraft folder&gt;/saves/&lt;your world&gt;/datapacks/</code>).</li>
+                {% if include.resourcepack %}<li>Drop the resourcepack zip file inside the "resourcepacks" folder of your minecraft folder.</li>{% endif %}
+            </ul>
+            {% unless include.resourcepack %}If you have any doubts, consult the <a href="https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack" target="_blank">Minecraft Wiki</a>.{% endunless %}
+            {% if include.resourcepack %}If you have any doubts, consult the Minecraft Wiki tutorials: <a href="https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack" target="_blank">Installing a data pack</a>, <a href="https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack">Loading a resource pack</a>.{% endif %}
+        </div>
+    </div>
+</div>
+
