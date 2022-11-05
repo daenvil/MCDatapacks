@@ -14,6 +14,9 @@ logo: recyclecraft/better_stonecutter/pack.png
 intro: "A datapack that adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 priority: 3
+index: 4
+downloads: 1800
+downloads_str: "1.8k"
 ---
 
 ## Downloads

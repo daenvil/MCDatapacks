@@ -14,6 +14,7 @@ logo: recyclecraft/scrap_leather/pack.png
 intro: "Tired of hoarding saddles and leather armor pieces and never using them? This datapack adds recipes to craft leather from leather armor pieces, saddles, and other leather items, allowing you to give some use to often undesired loot."
 abstract: "Adds recipes to craft leather from leather armor pieces, saddles, and other leather items, allowing you to give some use to often undesired loot."
 priority: 5
+index: 3
 ---
 
 ## Downloads

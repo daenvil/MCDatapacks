@@ -15,6 +15,7 @@ logo: vegancraft/vegan_food/pack.png
 intro: "A datapack that adds vegan alternatives to dairy, eggs, honey, and meat."
 abstract: "Vegan alternatives to dairy, eggs, honey, and meat."
 priotity: 1
+index: 7
 ---
 
 ## Downloads

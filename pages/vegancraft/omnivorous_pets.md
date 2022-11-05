@@ -15,6 +15,7 @@ logo: vegancraft/omni_pets/pack.png
 intro: "A datapack that allows you to tame wolves and cats using any food."
 abstract: "Tame cats and wolves using any food. You don't need meat anymore to make animal friends!"
 priority: 2
+index: 9
 ---
 
 ## Downloads

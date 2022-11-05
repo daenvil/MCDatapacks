@@ -36,7 +36,7 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
                         {% capture var_logo %}
                         images/{{page.logo}}
                         {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                        {% include image/basic.html full-src=var_logo width="128" nn=true %}
                     </div>
                     <div class="panel-body">
                         <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
@@ -70,7 +70,7 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
                         {% capture var_logo %}
                         images/{{page.logo}}
                         {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                        {% include image/basic.html full-src=var_logo width="128" nn=true %}
                     </div>
                     <div class="panel-body">
                         <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
@@ -103,7 +103,7 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
                         {% capture var_logo %}
                         images/{{page.logo}}
                         {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                        {% include image/basic.html full-src=var_logo width="128" nn=true %}
                     </div>
                     <div class="panel-body">
                         <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
@@ -145,7 +145,7 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
                         {% capture var_logo %}
                         images/{{page.logo}}
                         {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                        {% include image/basic.html full-src=var_logo width="128" nn=true %}
                     </div>
                     <div class="panel-body">
                         <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
@@ -175,7 +175,7 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
                         {% capture var_logo %}
                         images/{{page.logo}}
                         {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                        {% include image/basic.html full-src=var_logo width="128" nn=true %}
                     </div>
                     <div class="panel-body">
                         <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
@@ -205,7 +205,7 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
                         {% capture var_logo %}
                         images/{{page.logo}}
                         {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                        {% include image/basic.html full-src=var_logo width="128" nn=true %}
                     </div>
                     <div class="panel-body">
                         <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
@@ -235,7 +235,7 @@ intro: All my datapacks are listed on this page, sorted by different criteria.
                         {% capture var_logo %}
                         images/{{page.logo}}
                         {% endcapture %}
-                        {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                        {% include image/basic.html full-src=var_logo width="128" nn=true %}
                     </div>
                     <div class="panel-body">
                         <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>

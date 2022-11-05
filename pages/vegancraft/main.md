@@ -14,6 +14,7 @@ last_release: ["15","Oct","2022"]
 logo: vegancraft/pack.png
 intro: "Minecraft is a modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full collection in a single datapack or <a href=#features>download the individual datapacks as desired</a>."
 abstract: "A merged version of every Vegancraft datapack. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features. <i>Uncompleted</i>."
+index: 8
 ---
 
 ## Full datapack download
@@ -63,7 +64,7 @@ This datapack aims to make any vanilla feature available without hurting or usin
                 {% capture var_logo %}
                 images/{{page.logo}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_logo width="128" style="-ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" %}
+                {% include image/basic.html full-src=var_logo width="128" nn=true %}
             </div>
             <div class="panel-body">
                 <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>

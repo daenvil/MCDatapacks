@@ -80,19 +80,10 @@ entries:
       url: /datapacks.html
       output: web
 
-      subfolders:
-      - title: Quality of life
-        output: web
-        subfolderitems:
+    - title: Easy Bone Blocks
+      url: /easy_bone_blocks.html
+      output: web
 
-        - title: Easy Bone Blocks
-          url: /easy_bone_blocks.html
-          output: web
-
-      - title: Food stuff
-        output: web
-        subfolderitems:
-
-        - title: Baked Goods 
-          url: /baked_goods.html
-          output: web
+    - title: Baked Goods 
+      url: /baked_goods.html
+      output: web

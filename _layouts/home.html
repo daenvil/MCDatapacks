@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1>{{site.site_title}}</h1>
+
+<div class="post-content">
+
+    {% if page.summary %}
+        <div class="summary">{{page.summary}}</div>
+    {% endif %}
+    
+    {% if page.intro %}
+        <div>{{ page.intro }}</div>
+        {% unless page.first_release %}
+        {% unless page.last_release %}
+        <br/>
+        {% endunless %}
+        {% endunless %}
+    {% endif %}
+
+    {% include buttons/basic.html url="contact.html" content="About me" %}
+    {% include buttons/basic.html url="datapacks.html" content="Full list of datapacks" %}
+    <br/><br/>
+    {% unless page.toc == false %}
+        {% include nav/toc.html %}
+    {% endunless %}
+
+   {{content}}
+
+</div>
+
+{{site.data.alerts.hr_shaded}}
+
+{% include page/footer.html %}

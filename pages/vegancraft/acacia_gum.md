@@ -15,6 +15,7 @@ logo: vegancraft/acacia_gum/pack.png
 intro: "This datapack adds the item \"Acacia Gumball\" (a retextured Slimeball), which is obtained by stripping acacia logs."
 abstract: "Get gum from stripping acacia trees. A vegan alternative for slime."
 priority: 3
+index: 11
 ---
 
 ## Downloads

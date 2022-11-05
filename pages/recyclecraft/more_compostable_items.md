@@ -15,6 +15,9 @@ logo: recyclecraft/more_compostable_items/pack.png
 intro: "This datapack aims to add composting mechanics to all vanilla items which <i>should</i> be compostable, while being as close as possible to vanilla mechanics."
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
+index: 6
+downloads: 1900
+downloads_str: "1.9k"
 ---
 
 ## Downloads

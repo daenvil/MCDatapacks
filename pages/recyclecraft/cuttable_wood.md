@@ -14,6 +14,9 @@ logo: recyclecraft/cuttable_wood/pack.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
+index: 1
+downloads: 8100
+downloads_str: "8.1k"
 ---
 {% include comments/note.html content="Under construction" %}
 
