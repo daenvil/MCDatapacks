@@ -33,6 +33,8 @@ priority: 0
 
 ### New recipes
 
+{% include comments/important.html content="These recipes will output a knowledge book, the knowledge book will convert automatically into the desired item once you click on it. ***Not compatible with recipe unlockers***." %}
+
 #### <ins>Egg-based pies</ins>
 _<ins>Base ingredients: wheat + sugar + egg</ins>_
 
