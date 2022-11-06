@@ -30,10 +30,17 @@ The Recyclecraft collection is consided completed, only updating the current dat
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
+                {% if page.thumbnail %}
+                {% capture var_thumbnail %}
+                images/{{page.thumbnail}}
+                {% endcapture %}
+                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' %}
+                {% elsif page.logo %}
                 {% capture var_logo %}
                 images/{{page.logo}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_logo width="128" nn=true %}
+                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true %}
+                {% endif %}
             </div>
             <div class="panel-body">
                 <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>

@@ -12,6 +12,7 @@ pmc: https://www.planetminecraft.com/data-pack/omnivorous-pets/
 first_release: ["22","Jul","2022"]
 last_release: ["22","Jul","2022"]
 logo: vegancraft/omni_pets/pack.png
+thumbnail: vegancraft/omni_pets/thumbnail.png
 intro: "A datapack that allows you to tame wolves and cats using any food."
 abstract: "Tame cats and wolves using any food. You don't need meat anymore to make animal friends!"
 priority: 2

@@ -12,6 +12,7 @@ pmc: https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and
 first_release: ["15","Oct","2022"]
 last_release: ["15","Oct","2022"]
 logo: vegancraft/ethical_textiles/pack.png
+thumbnail: vegancraft/ethical_textiles/thumbnail.png
 intro: "A datapack that adds plant-based alternatives to leather, string, and wool.<br/><br/>You will need my <a href=acacia_gum.html>Acacia Gum datapack</a> in order to have a vegan leather option (but it's not required to use this datapack)."
 abstract: "Plant-based alternatives for string, leather, and beds. Use together with <i>Acacia Gum</i> to have fully vegan leather."
 priority: 4

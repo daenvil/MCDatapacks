@@ -12,6 +12,7 @@ pmc: https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-a
 first_release: ["25","Aug","2022"]
 last_release: ["25","Aug","2022"]
 logo: vegancraft/acacia_gum/pack.png
+thumbnail: vegancraft/acacia_gum/thumbnail.png
 intro: "This datapack adds the item \"Acacia Gumball\" (a retextured Slimeball), which is obtained by stripping acacia logs."
 abstract: "Get gum from stripping acacia trees. A vegan alternative for slime."
 priority: 3

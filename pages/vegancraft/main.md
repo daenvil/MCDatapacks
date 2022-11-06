@@ -58,13 +58,20 @@ This datapack aims to make any vanilla feature available without hurting or usin
     {% if page.tags contains "vegancraft" %}
     {% if page.tags contains "datapack" %}
     {% if page.tags contains "standalone" %}
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-6 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
+                {% if page.thumbnail %}
+                {% capture var_thumbnail %}
+                images/{{page.thumbnail}}
+                {% endcapture %}
+                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' %}
+                {% elsif page.logo %}
                 {% capture var_logo %}
                 images/{{page.logo}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_logo width="128" nn=true %}
+                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true %}
+                {% endif %}
             </div>
             <div class="panel-body">
                 <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>

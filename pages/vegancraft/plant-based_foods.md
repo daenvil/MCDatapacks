@@ -12,6 +12,7 @@ pmc: https://www.planetminecraft.com/data-pack/plant-based-foods/
 first_release: ["17","Jun","2022"]
 last_release: ["23","Aug","2022"]
 logo: vegancraft/vegan_food/pack.png
+thumbnail: vegancraft/vegan_food/thumbnail.png
 intro: "A datapack that adds vegan alternatives to dairy, eggs, honey, and meat."
 abstract: "Vegan alternatives to dairy, eggs, honey, and meat."
 priotity: 1

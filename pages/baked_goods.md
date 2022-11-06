@@ -11,14 +11,15 @@ pmc: TBR
 first_release: ["TBR","Nov","2020"]
 last_release: ["TBR","Nov","2022"]
 logo: baked_goods/pack.png
-intro: A datapack which adds new pies, cakes, cookies, and other baked goods to Minecraft. Bake apple pies, chocolate cakes, glow berry cookies, and many more! See <a href="#new-recipes">below</a> for the full list of recipes. Foods with golden apples/carrots/melon, chorus fruit, and glow berries provide special effects when eating them.
+thumbnail: baked_goods/thumbnail.png
+intro: A datapack which adds new pies, cakes, cookies, and other baked goods to Minecraft. Bake apple pies, chocolate cakes, glow berry cookies, and many more! See <a href="#new-recipes">below</a> for the full list of recipes. Foods with golden apples/carrots/melon, chorus fruit, and glow berries provide <a href="#special-effects">special effects</a> when eating them.
 abstract: "Adds 25 new baked goods to Minecraft, including apple pies, chocolate cakes, berry cookies, and many more."
 priority: 0
 index: 13
 ---
 
 ## Downloads
-![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.17%2B-green?style=flat-square)
+![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.19%2B-green?style=flat-square)
 ![Tested versions](https://img.shields.io/badge/tested%20in-1.19.2-informational?style=flat-square)
 
 {% include dp_download.html version="TBR" mirror-url="TBR" mirror-platform="TBR" rp-version="TBR" rp-mirror-url="TBR" rp-mirror-platform="TBR" %}
@@ -35,6 +36,7 @@ index: 13
 ### New recipes
 
 {% include comments/important.html content="These recipes will output a knowledge book, the knowledge book will convert automatically into the desired item once you click on it. ***Not compatible with recipe unlockers***." %}
+{% include comments/tip.html content="All these recipes are unshaped, you don't need to put the ingredients in the same order as shown here." %}
 
 #### <ins>Egg-based pies</ins>
 _<ins>Base ingredients: wheat + sugar + egg</ins>_
@@ -65,7 +67,7 @@ All egg-based pies are crafted with the **base ingredients plus 2 of their main 
 #### <ins>Simple pies</ins>
 _<ins>Base ingredients: wheat + sugar</ins>_
 
-All simple pies, with the exception of the mushroom pie, are crafted with the **base ingredients plus 1 of their main ingredient**, and provide the same hunger/saturation as a pumpkin pie. The recipe list is below.
+All simple pies, with the exception of the mushroom pie, are crafted with the **base ingredients plus 1 of their main ingredient**, and provide the same hunger/saturation as a pumpkin pie, unless stated otherwise in the recipe list below.
 
 
 - **Apple pie**: _base ingredients + **1 apple**_. 
@@ -97,8 +99,11 @@ All cakes are crafted with the **base ingredients plus 3 of their main ingredien
 {% include image/basic.html src='baked_goods/textures/golden_carrot_cake.png' width='32' nn=true %}
 {% include image/basic.html src='baked_goods/textures/chocolate_cake.png' width='32' nn=true %}
 </p>
-{% include image/basic.html src='baked_goods/screenshots/cakes.gif' alt='Cake recipes' align='center' width='300' nn=true %}
-<p align=center style="color:gray;"><i>Textures and recipes for the new cakes</i></p>
+<p align=center>
+{% include image/basic.html src='baked_goods/screenshots/all_cakes.png' alt='Screenshot of the three new cakes' width='300' %}
+{% include image/basic.html src='baked_goods/screenshots/cakes.gif' alt='Cake recipes' width='300' nn=true %}
+</p>
+<p align=center style="color:gray;"><i>Textures, models, and recipes for the new cakes</i></p>
 
 #### <ins>Cookies and breads</ins>
 
@@ -126,7 +131,7 @@ All cookies and breads are crafted with **2 wheat plus 1 of their main ingredien
 
 These other recipes all provide the same hunger/saturation as pumpkin pie, unless stated otherwise in the recipe list below.
 
-- **Sponge cake**: _wheat + sugar + egg_.
+- **Sponge cake**: _wheat + sugar + 2 eggs_.
 - **Cocoa sponge cake**: _wheat + sugar + egg + cocoa beans_.
 - **Custard tart**: _wheat + sugar + egg + milk bucket_. Provides a total of 4.5 {% include image/drumstick.html %} drumsticks and 6.8 saturation.
 - **Mushroom quiche**: _wheat + egg + milk bucket + 2 red or brown mushrooms_. Provides a total of 5.5 {% include image/drumstick.html %} drumsticks and 10.8 saturation.

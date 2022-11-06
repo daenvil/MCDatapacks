@@ -12,17 +12,24 @@ intro: "Welcome to my website, where I document all the info of my Minecraft cre
         <h2 class="page-header">Latest releases</h2>
     </div>
     {% assign sorted_pages = site.pages | sort: 'index' | reverse %}
-    {% for page in sorted_pages | limit: 3 %}
+    {% for page in sorted_pages limit: 3 %}
     {% if page.index %}
     {% if page.tags contains "datapack" %}
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
+                {% if page.thumbnail %}
+                {% capture var_thumbnail %}
+                images/{{page.thumbnail}}
+                {% endcapture %}
+                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' %}
+                {% elsif page.logo %}
                 {% capture var_logo %}
                 images/{{page.logo}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_logo width="128" nn=true %}
-                <img src="https://img.shields.io/badge/released%20on-{{page.first_release[0]}}%2F{{page.first_release[1]}}%2F{{page.first_release[2]}}-72ac4a?style=flat-square">
+                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true %}
+                {% endif %}
+                <p style="text-align:center;"><img src="https://img.shields.io/badge/released%20on-{{page.first_release[0]}}%2F{{page.first_release[1]}}%2F{{page.first_release[2]}}-72ac4a?style=flat-square"></p>
             </div>
             <div class="panel-body">
                 <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
@@ -51,10 +58,17 @@ intro: "Welcome to my website, where I document all the info of my Minecraft cre
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
+                {% if page.thumbnail %}
+                {% capture var_thumbnail %}
+                images/{{page.thumbnail}}
+                {% endcapture %}
+                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' %}
+                {% elsif page.logo %}
                 {% capture var_logo %}
                 images/{{page.logo}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_logo width="128" nn=true %}
+                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true %}
+                {% endif %}
                 <img src="https://img.shields.io/badge/downloads-{{page.downloads_str}}-72ac4a?style=flat-square">
             </div>
             <div class="panel-body">
