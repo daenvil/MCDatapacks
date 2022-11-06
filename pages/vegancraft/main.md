@@ -4,7 +4,7 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Nov/2022
+last_updated: 06/Nov/2022
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft

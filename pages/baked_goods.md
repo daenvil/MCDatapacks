@@ -4,7 +4,7 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Nov/2022
+last_updated: 06/Nov/2022
 permalink: baked_goods.html
 published: true
 pmc: TBR

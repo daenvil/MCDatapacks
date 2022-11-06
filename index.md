@@ -3,6 +3,7 @@ layout: home
 title: "Home"
 keywords: homepage
 sidebar: home_sidebar
+last_updated: 06/Nov/2022
 toc: true
 intro: "Welcome to my website, where I document all the info of my Minecraft creations. In this page you have a summary of my content. Use the sidebar and the top bar to navigate through all the site's pages."
 ---
