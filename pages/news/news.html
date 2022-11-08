@@ -8,6 +8,8 @@ folder: news
 ---
 <div class="home">
 
+    {% include comments/warning.html content='Page under construction.' %}
+
     <div class="post-list">
         {% for post in site.posts limit:10 %}
 

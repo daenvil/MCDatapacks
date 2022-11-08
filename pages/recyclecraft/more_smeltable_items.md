@@ -1,10 +1,10 @@
 ---
 title: More Smeltable Items
 keywords: minecraft, datapack
-tags: [datapack, recyclecraft, standalone, QoL]
+tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 04/Nov/2022
+last_updated: 07/Nov/2022
 permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
@@ -15,6 +15,7 @@ intro: "Do you have tons of items that you will never use hanging around? This d
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, or quartz (and the lodestone)."
 priority: 4
 index: 2
+gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125174-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125175-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125177-screenshot-at_l.webp]
 ---
 
 ## Downloads

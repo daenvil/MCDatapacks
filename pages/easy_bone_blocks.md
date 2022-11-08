@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, standalone, simple, crafting, QoL]
 sidebar: home_sidebar
 toc: false
-last_updated: 05/Nov/2022
+last_updated: 07/Nov/2022
 permalink: easy_bone_blocks.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/easy-bone-blocks/
@@ -23,3 +23,5 @@ index: 5
 {% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/easy-bone-blocks/download/file/15276093/" %}
 
 {% include installation.html %}
+
+{% include image/basic.html align='center' width='360' full-src='https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/250/15276086-screenshot-at_l.webp' caption='New bone block recipe' %}

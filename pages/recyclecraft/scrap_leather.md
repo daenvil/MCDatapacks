@@ -1,10 +1,10 @@
 ---
 title: Scrap Leather
 keywords: minecraft, datapack
-tags: [datapack, recyclecraft, standalone]
+tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Nov/2022
+last_updated: 07/Nov/2022
 permalink: scrap_leather.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-leather/
@@ -15,6 +15,7 @@ intro: "Tired of hoarding saddles and leather armor pieces and never using them?
 abstract: "Adds recipes to craft leather from leather armor pieces, saddles, and other leather items, allowing you to give some use to often undesired loot."
 priority: 5
 index: 3
+gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/169/15114043-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/169/15114042-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/169/15114041-screenshot-at_l.webp]
 ---
 
 ## Downloads

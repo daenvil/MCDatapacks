@@ -2,7 +2,7 @@
 
 entries:
 - title: Sidebar
-  product: <a href="index.html"><b>Daenvil's MC Datapacks</b></a>
+  product: <a href="index.html"><i class="fa fa-home fa-md"></i> <b>Daenvil's MC Datapacks</b></a>
   folders:
 
   - title: Vegancraft

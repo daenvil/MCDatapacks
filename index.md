@@ -48,7 +48,7 @@ intro: "Welcome to my website, where I document all the info of my Minecraft cre
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">Most downloaded datapacks</h2>
+        <h2 class="page-header">Most popular datapacks</h2>
     </div>
     {% assign sorted_pages = site.pages | sort: 'downloads' | reverse %}
     {% for i in (0..2) %}
@@ -83,3 +83,8 @@ intro: "Welcome to my website, where I document all the info of my Minecraft cre
     {% endif %}
     {% endfor %}
 </div>
+
+<hr>
+<p align=center>
+{% include buttons/basic.html url="datapacks.html" content="Full list of datapacks" %}
+</p>

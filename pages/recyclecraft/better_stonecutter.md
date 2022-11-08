@@ -1,10 +1,10 @@
 ---
 title: Better Stonecutter
 keywords: minecraft, datapack
-tags: [datapack, recyclecraft, standalone, QoL]
+tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 04/Nov/2022
+last_updated: 07/Nov/2022
 permalink: better_stonecutter.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/
@@ -15,8 +15,9 @@ intro: "A datapack that adds more recipes to the stonecutter, allowing you to ch
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 priority: 3
 index: 4
-downloads: 1800
-downloads_str: "1.8k"
+downloads: 1850
+downloads_str: "&gt;1.8k"
+gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262629-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262638-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262628-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262630-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262552-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262637-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262633-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262632-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262634-screenshot-at_l.webp]
 ---
 
 ## Downloads

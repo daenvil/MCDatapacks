@@ -16,7 +16,7 @@ Unless stated otherwise, all my datapacks and resourcepacks follow these general
 
 - Download, use, and edit my datapacks **for personal use**.
 - Use my datapacks or variations of them in a Minecraft server.
-- Create public content that uses my datapacks or variations of them (e.g. gameplay videos on online platforms), as long as you **acknowledge me (Daenvil) as the author of the datapack(s)** and provide a link to each datapack's webpage (either on this site or on PlanetMinecraft).
+- Publish audiovisual content that uses my datapacks or variations of them (e.g. gameplay videos on online platforms), as long as you **acknowledge me (Daenvil) as the author of the datapack(s)** and provide a link either to their PlanetMinecraft page or to this website.
 
 #### You are **not** allowed to:
 
@@ -24,6 +24,6 @@ Unless stated otherwise, all my datapacks and resourcepacks follow these general
 
 ## This site
 
-This website's design is based on the <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">Jekyll Documentation Theme</a>. As such, you are free to do what you want with its code, as long as you follow its original license.
+This website's design is based on the <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html" target="_blank">Jekyll Documentation Theme</a>. As such, you are free to do what you want with its code, as long as you follow its original license.
 
-The <a href="https://www.planetminecraft.com">PlanetMinecraft</a> logo belongs to PlanetMinecraft and is used here only for the purpose of illustration when referring users to their site.
+The <a href="https://www.planetminecraft.com" target="_blank">PlanetMinecraft</a> logo belongs to PlanetMinecraft and is used here only for the purpose of illustration when referring users to their site.

@@ -4,7 +4,7 @@ keywords: minecraft, datapack, taming, food, vegan, veganism, plant-based, pacif
 tags: [datapack, vegancraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Nov/2022
+last_updated: 07/Nov/2022
 permalink: omnivorous_pets.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -17,6 +17,7 @@ intro: "A datapack that allows you to tame wolves and cats using any food."
 abstract: "Tame cats and wolves using any food. You don't need meat anymore to make animal friends!"
 priority: 2
 index: 9
+gallery: [images/vegancraft/omni_pets/thumbnail.png]
 ---
 
 ## Downloads

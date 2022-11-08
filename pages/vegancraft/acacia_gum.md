@@ -4,7 +4,7 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, slime
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Nov/2022
+last_updated: 07/Nov/2022
 permalink: acacia_gum.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -17,6 +17,7 @@ intro: "This datapack adds the item \"Acacia Gumball\" (a retextured Slimeball),
 abstract: "Get gum from stripping acacia trees. A vegan alternative for slime."
 priority: 3
 index: 11
+gallery: [images/vegancraft/acacia_gum/thumbnail.png]
 ---
 
 ## Downloads
@@ -40,7 +41,7 @@ index: 11
 
 This is a standalone datapack, but it is designed as a part of [Vegancraft](vegancraft.html), a collection of datapacks with the goal of making a vegan gamestyle possible in a vanilla-like way without missing any game features.
 
-As part of its integration on Vegancraft, this datapack includes the following additional features:
+As part of its integration in Vegancraft, this datapack includes the following additional features:
 - A custom advancement.
 - Some xp will be awarded each time you get an acacia gumball. If using a Fortune III axe, the amount of xp per gumball is equivalent to that you would get by getting slimeballs by killing slimes.
 - In conjunction with my *[Ethical Textiles](ethical_textiles.html)* datapack, this datapack allows you to craft vegan leather.

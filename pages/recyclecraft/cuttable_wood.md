@@ -1,10 +1,10 @@
 ---
 title: Cuttable Wood
 keywords: minecraft, datapack
-tags: [datapack, recyclecraft, standalone, QoL]
+tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 04/Nov/2022
+last_updated: 07/Nov/2022
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
@@ -16,7 +16,8 @@ abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting o
 priority: 2
 index: 1
 downloads: 8100
-downloads_str: "8.1k"
+downloads_str: "&gt;8.1k"
+gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140456-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140455-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140457-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140458-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 {% include comments/note.html content="Under construction" %}
 

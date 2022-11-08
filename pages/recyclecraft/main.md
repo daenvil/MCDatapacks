@@ -11,9 +11,7 @@ pmc-collection: https://www.planetminecraft.com/collection/133777/daenvil-s-recy
 logo: recyclecraft/pack.png
 intro: "Recyclecraft is a collection of datapacks designed to improve the survival experience by repurposing unused items instead of wasting them."
 ---
-{% include comments/note.html content="Under construction" %}
-
-***
+<br/>
 
 Unlike [Vegancraft](vegancraft.html), Recyclecraft is not released as a singular datapack, nor its contents are meant to complement each other (although they accidentally might). It is just a name under which I release separate datapacks which fulfill a similar purpose in the game.
 

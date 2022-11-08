@@ -9,9 +9,6 @@ topnav:
     - title: List of datapacks
       url: /datapacks.html
 
-    - title: About Vegancraft
-      url: /vegancraft_philosophy.html
-
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns

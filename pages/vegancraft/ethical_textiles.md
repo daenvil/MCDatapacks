@@ -4,7 +4,7 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, clothes, 
 tags: [datapack, vegancraft, standalone, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Nov/2022
+last_updated: 07/Nov/2022
 permalink: ethical_textiles.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -17,6 +17,7 @@ intro: "A datapack that adds plant-based alternatives to leather, string, and wo
 abstract: "Plant-based alternatives for string, leather, and beds. Use together with <i>Acacia Gum</i> to have fully vegan leather."
 priority: 4
 index: 12
+gallery: [images/vegancraft/ethical_textiles/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/359/16162473-advancements_l.webp]
 ---
 
 ## Downloads

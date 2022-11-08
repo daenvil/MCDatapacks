@@ -4,7 +4,7 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 04/Nov/2022
+last_updated: 07/Nov/2022
 permalink: plant-based_foods.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -17,6 +17,7 @@ intro: "A datapack that adds vegan alternatives to dairy, eggs, honey, and meat.
 abstract: "Vegan alternatives to dairy, eggs, honey, and meat."
 priotity: 1
 index: 7
+gallery: [images/vegancraft/vegan_food/thumbnail.png]
 ---
 
 ## Downloads

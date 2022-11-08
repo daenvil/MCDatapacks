@@ -1,0 +1,26 @@
+{% if page.gallery %}
+<h2>Image gallery</h2>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#gallery">Click to show <i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <div id="gallery" class="panel-collapse collapse noCrossRef">
+        <div class="panel-body">
+            <div class="row">
+                {% for img in page.gallery %}
+                {% if page.gallery.size > 2 %}
+                <div class="col-lg-4 col-md-6">
+                {% else %}
+                <div class="col-lg-6 col-md-6">
+                {% endif %}
+                {% include image/basic.html full-src=img style='max-width:100%;border:1px solid black;' %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
