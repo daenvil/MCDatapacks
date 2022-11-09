@@ -1,5 +1,5 @@
 ---
-title: Daenvil's Baked Goods
+title: Daenvil's Baked Goods (TBR)
 keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
@@ -17,6 +17,7 @@ abstract: "Adds 25 new baked goods to Minecraft, including apple pies, chocolate
 priority: 0
 index: 13
 gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot_cakes.png,images/baked_goods/screenshots/golden_carrot_cakes.png,images/baked_goods/screenshots/chocolate_cakes.png]
+TBR: true
 ---
 
 ## Downloads
@@ -179,7 +180,6 @@ When eating a chorus fruit pie, you will be **teleported randomly within 32 bloc
 - When holding a chorus fruit pie on any hand, nearby endermen are attracted to it, having a chance of teleporting near you.
 - When eating a chorus fruit pie near endermen (<64 blocks), they may become angry towards you.
 
-### Datapack compatibility
-_Not yet implemented_
+### Vegancraft compatibility
 
-This datapack was made to be compatible with my _[Plant-based Foods](plant-based_foods.html)_ datapack. As such, **if _Plant-based Foods_ is also installed, you will be able to replace eggs with wheat or potato in any of the recipes**. The custom naming and advancements of that datapack are also supported by the foods in this datapack. None of this will affect you if you don't have that datapack.
+This datapack was made to be compatible with my _[Plant-based Foods](plant-based_foods.html)_ datapack. As such, **you will be able to replace eggs with wheat or potato in any of the recipes**. **If _Plant-based Foods_ is also installed**, the custom naming and advancements of that datapack are also supported by the foods in this datapack.

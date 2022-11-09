@@ -10,6 +10,10 @@ layout: default
 <div class="post-content">
 
     {% if page.summary %}
+        {% include comments/warning.html content='This datapack is not officially published yet. Some information might be incorrect and links might not work.' %}
+    {% endif %}
+
+    {% if page.summary %}
         <div class="summary">{{page.summary}}</div>
     {% endif %}
     
