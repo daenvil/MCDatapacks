@@ -181,4 +181,4 @@ When eating a chorus fruit pie, you will be **teleported randomly within 32 bloc
 
 ### Vegancraft compatibility
 
-This datapack was made to be compatible with my _[Plant-based Foods](plant-based_foods.html)_ datapack. As such, **you will be able to replace eggs with wheat or potato in any of the recipes**. **If _Plant-based Foods_ is also installed**, the custom naming and advancements of that datapack are also supported by the foods in this datapack.
+This datapack was made to be compatible with my _[Plant-based Foods](plant-based_foods.html)_ datapack. As such, **if _Plant-based Foods_ is also installed, you will be able to replace eggs with wheat or potato in any of the recipes**, and the custom naming and advancements of that datapack are also supported by the foods in this datapack. _None of this will affect you if you don't have that datapack installed_.
