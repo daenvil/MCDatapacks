@@ -1,5 +1,5 @@
 ---
-title: Daenvil's Baked Goods (TBR)
+title: Daenvil's Baked Goods
 keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
@@ -17,14 +17,13 @@ abstract: "Adds 25 new baked goods to Minecraft, including apple pies, chocolate
 priority: 0
 index: 13
 gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot_cakes.png,images/baked_goods/screenshots/golden_carrot_cakes.png,images/baked_goods/screenshots/chocolate_cakes.png]
-TBR: true
 ---
 
 ## Downloads
 ![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.19%2B-green?style=flat-square)
 ![Tested versions](https://img.shields.io/badge/tested%20in-1.19.2-informational?style=flat-square)
 
-{% include dp_download.html version="TBR" mirror-url="TBR" mirror-platform="TBR" rp-version="TBR" rp-mirror-url="TBR" rp-mirror-platform="TBR" %}
+{% include dp_download.html version="v1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240459/" mirror-url="http://adfoc.us/76840385287674" mirror-platform="AdFocus" rp-version="v1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240461/" rp-mirror-url="http://adfoc.us/76840385745425" rp-mirror-platform="AdFocus" %}
 
 {% include installation.html resourcepack=true %}
 
