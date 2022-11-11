@@ -23,7 +23,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 ![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.19%2B-green?style=flat-square)
 ![Tested versions](https://img.shields.io/badge/tested%20in-1.19.2-informational?style=flat-square)
 
-{% include dp_download.html version="v1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240459/" mirror-url="http://adfoc.us/76840385287674" mirror-platform="AdFocus" rp-version="v1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240461/" rp-mirror-url="http://adfoc.us/76840385745425" rp-mirror-platform="AdFocus" %}
+{% include dp_download.html version="v1" mirror-url="http://adfoc.us/76840385287674" mirror-platform="AdFocus" rp-version="v1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240461/" rp-mirror-url="http://adfoc.us/76840385745425" rp-mirror-platform="AdFocus" %}
 
 {% include installation.html resourcepack=true %}
 
