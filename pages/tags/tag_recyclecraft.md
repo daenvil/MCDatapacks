@@ -1,5 +1,5 @@
 ---
-title: "Recyclecraft pages"
+title: "Recyclecraft pages and posts"
 tagName: recyclecraft
 search: exclude
 permalink: tag_recyclecraft.html

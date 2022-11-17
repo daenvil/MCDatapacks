@@ -50,6 +50,18 @@
     <p class="external">
         <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
     </p>
+    
+    <li class="sidebarTitle"><i class="fa fa-rss"></i> Latest news:</li>
+
+    <div class="post-list">
+        {% for post in site.posts limit:3 %}
+        <a href="{{post.permalink}}" class="btn btn-info btn-block" style="white-space: normal;text-align:left;">
+            <p style="size:20px;"><b>{{ post.title }}</b>
+            <span class="post-meta">- {{ post.date | date: "%-d/%b/%Y" }}</span></p>
+            <p>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncatewords: 20 }} {% else %} {{ post.content | truncatewords: 20 | strip_html | strip_newlines }} {% endif %}</p>
+        </a>
+        {% endfor %}
+    </div>
 </ul>
 
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->

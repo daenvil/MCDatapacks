@@ -9,7 +9,7 @@ permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
-last_release: ["17","Jul","2022"]
+last_release: ["17","Nov","2022"]
 logo: recyclecraft/cuttable_wood/pack.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
@@ -19,7 +19,6 @@ downloads: 8100
 downloads_str: "&gt;8.1k"
 gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140456-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140455-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140457-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140458-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
-{% include comments/note.html content="Under construction" %}
 
 ## Downloads
 

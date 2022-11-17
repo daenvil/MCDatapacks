@@ -82,6 +82,17 @@ a[data-toggle="tooltip"] {
     color: black;
 }
 
+.btn-info {
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+    color: #000;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0; /*set the color you want here*/
+}
+
 .printTitle {
     color: #5b893c !important;
 }/* idk, i think unused */

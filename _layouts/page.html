@@ -33,7 +33,15 @@ layout: default
         {% endunless %}
     {% endif %}
     {% if page.last_release %}
-        <img src="https://img.shields.io/badge/latest%20release-{{page.last_release[0]}}%2F{{page.last_release[1]}}%2F{{page.last_release[2]}}-72ac4a?style=flat-square">
+        {% for post in site.posts %}
+            {% if post.tags contains "changelog" %}
+                {% if page.permalink contains post.datapack %}
+                    {% assign last_release_url = post.permalink %}
+                    {% break %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        <a href="{{last_release_url}}"><img src="https://img.shields.io/badge/latest%20release-{{page.last_release[0]}}%2F{{page.last_release[1]}}%2F{{page.last_release[2]}}-72ac4a?style=flat-square"></a>
         <br/>
     {% endif %}
 
@@ -56,6 +64,8 @@ layout: default
    {{content}}
 
     {% include gallery.html %}
+
+    {% include changelog.html %}
     
     {% if page.tags contains "datapack" %}
         {% capture legal_terms_html %}
@@ -72,6 +82,8 @@ layout: default
         {% if projectTags contains tag %}
             {% if tag=="datapack" %}
                 <a href="datapacks.html" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+            {% elsif tag=="news" %}
+                <a href="news_archive.html" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
             {% else %}
                 <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
             {% endif %}

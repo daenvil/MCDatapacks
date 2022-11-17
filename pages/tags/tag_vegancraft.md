@@ -1,5 +1,5 @@
 ---
-title: "Vegancraft pages"
+title: "Vegancraft pages and posts"
 tagName: vegancraft
 search: exclude
 permalink: tag_vegancraft.html

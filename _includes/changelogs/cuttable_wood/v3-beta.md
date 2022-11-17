@@ -1,0 +1,14 @@
+
+- **Added stonecutting recipes for bamboo wood:**
+  - Roughly summarised: follows the same pattern as the rest of wood types, except that converting bamboo blocks to lesser blocks/items has half the output count as logs/stems (since bamboo blocks provide 2 planks instead of 4).
+- **Added chiseled bookshelf recipes**
+  - They are treated the same (within the recipes of this datapack) as composters, barrels, and chests.
+- **Added hanging sign recipes**
+  - They are treated the same (within the recipes of this datapack) as regular signs, except that they are not directly craftable through the stonecutter, since they require chains to be crafted.
+- **Modified stonecutting recipes for balance:**
+  - A lot of recipes were nerfed to prevent exploiting them for extra smelting fuel.
+- **Miscellanea**:
+  - Restructured datapack files for easier development.
+  - Added README.txt file.
+  - Improved pack.png.
+  - Changed pack_format to 11.

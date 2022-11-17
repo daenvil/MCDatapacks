@@ -1,0 +1,28 @@
+{% if page.last_release %}
+<h2>Changelog</h2>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#changelog-collapsible">Click to show <i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <div id="changelog-collapsible" class="panel-collapse collapse noCrossRef">
+        <div class="panel-body">
+            <table><thead><tr><th>Version</th><th>Date</th><th style="width:70%;">Summary</th></tr></thead>
+                <tbody>
+                    {% for post in site.posts %}
+                        {% if post.tags contains "changelog" %}
+                            {% if page.permalink contains post.datapack %}
+                                <tr><td><a href="{{ post.permalink }}">{{post.changelog}}</a></td>
+                                    <td>{{ post.date | date: "%d/%b/%Y" }}</td>
+                                    <td>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</td>
+                                </tr>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}

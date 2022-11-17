@@ -2,15 +2,29 @@
 layout: default
 ---
 
+{% for _page in site.pages %}
+    {% if _page.permalink contains page.datapack %}
+        {% assign datapack_page = _page %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> {% if page.author %}<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">/ {{ page.author }}</span></span>{% endif %}{% if page.tags != null %}/
+        {% if datapack_page.logo != null %}<img src="images/{{datapack_page.logo}}" alt="logo" style="position:relative; top:-50px; width:128px; -ms-interpolation-mode: nearest neighbour; image-rendering: pixelated;" align="right"/>{% endif %}
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d/%b/%Y" }}</time> {% if page.author %}<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">- {{ page.author }} </span></span>{% endif %}{% if page.tags != null %}-
             {% assign projectTags = site.data.tags.allowed-tags %}
             {% for tag in page.tags %}
             {% if projectTags contains tag %}
-            <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
+                {% if tag=="datapack" %}
+                    <a href="datapacks.html">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
+                {% elsif tag=="news" %}
+                    <a href="news_archive.html">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
+                {% else %}
+                    <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
+                {% endif %}
             {% endif %}
             {% endfor %}
             {% endif %}
@@ -26,7 +40,24 @@ layout: default
         <div class="summary">{{page.summary}}</div>
         {% endif %}
 
+        {% if datapack_page %}
+            <a href="{{datapack_page.permalink}}" class="btn btn-primary" role="button">Go this datapack's page</a><br/><br/>
+        {% endif %}
+
         {{ content }}
+
+        {% if page.changelog %}
+            {% if page.changelog == 'v1' %}
+            <h2>Features</h2>
+            {% else %}
+            <h2>Changes</h2>
+            {%endif%}
+        {% capture changelog_html %}
+        {% include changelogs/{{page.datapack}}/{{page.changelog}}.md %}
+        {% endcapture %}
+        {{ changelog_html | markdownify }}
+        {% endif %}
+
     </div>
 
 
