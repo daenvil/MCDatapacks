@@ -2,12 +2,15 @@
 layout: default
 ---
 
-{% for _page in site.pages %}
-    {% if _page.permalink contains page.datapack %}
-        {% assign datapack_page = _page %}
-        {% break %}
-    {% endif %}
-{% endfor %}
+{% if page.datapack %}
+    {% assign page_datapack_url = page.datapack | append: ".html" %}
+    {% for _page in site.pages %}
+        {% if _page.permalink == page_datapack_url %}
+            {% assign datapack_page = _page %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
 
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
