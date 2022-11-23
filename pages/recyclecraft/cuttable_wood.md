@@ -37,7 +37,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.19.x" tested="1.19" %}
             <br/>
-            {% include dp_download.html version="v2.2.1" mirror-url="http://adfoc.us/76840384952719" mirror-platform="AdFocus" %}
+            {% include dp_download.html version="v2.2.1" dropbox-url="https://www.dropbox.com/s/t6artbztvqet562/cuttable_wood_v2.2.1.zip?dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="beta">
