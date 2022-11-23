@@ -5,10 +5,11 @@
   - They are treated the same (within the recipes of this datapack) as composters, barrels, and chests.
 - **Added hanging sign recipes**
   - They are treated the same (within the recipes of this datapack) as regular signs, except that they are not directly craftable through the stonecutter, since they require chains to be crafted.
-- **Modified stonecutting recipes for balance:**
-  - A lot of recipes were nerfed to prevent exploiting them for extra smelting fuel.
+- **Balance changes:**
+  - All recipes were revised so their output makes more sense. Now all recipe outputs follow a common logic based on how much wood each item has (following vanilla recipes and fuel values).
+    - This caused a lot of recipes to be nerfed, preventing them from being exploited for extra smelting fuel.
 - **Miscellanea**:
   - Restructured datapack files for easier development.
+  - Simplified advancements and recipes: datapack size was reduced by ~40%.
   - Added README.txt file.
   - Improved pack.png.
-  - Changed pack_format to 11.

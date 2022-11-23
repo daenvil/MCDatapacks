@@ -16,8 +16,8 @@ intro: "This datapack aims to add composting mechanics to all vanilla items whic
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 2500
-downloads_str: "&gt;2.4k"
+downloads: 2100
+downloads_str: "&gt;2.1k"
 ---
 
 ## Downloads
