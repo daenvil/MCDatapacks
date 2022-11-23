@@ -13,3 +13,8 @@ This pre-release **introduces the new bamboo blocks, hanging signs, and chiseled
 It will be in beta version as I'm still open to make some small balance changes, and will be until 1.20 comes out, just in case they make some big change that I need to adjust for.
 
 {% include comments/tip.html content='Despite being intended for 1.20 features, **this version also works with 1.19.3 snapshots without having 1.20 features enabled**, at least from Pre-release 1 onwards (tested on 1.19.3-pre2).' %}
+
+<div class="btn-group">
+    <a href="cuttable_wood_v2.2.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v2.2.1</a>
+    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+</div>

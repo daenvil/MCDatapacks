@@ -103,13 +103,11 @@ defaults:
 sidebars:
 - home_sidebar
 
+plugins:
+  - jekyll-feed
+title: Daenvil's Minecraft Datapacks
 description: "Website destined to host documentation, links, and other info of Daenvil's Minecraft creations."
-# the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
-
+author: Daenvil
 
 github: [metadata]
 
