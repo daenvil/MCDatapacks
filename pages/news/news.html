@@ -11,7 +11,7 @@ folder: news
     {% include comments/warning.html content='Page under construction.' %}
 
     <div class="post-list">
-        {% for post in site.posts limit:10 %}
+        {% for post in site.posts limit:6 %}
 
 
     <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
@@ -25,10 +25,9 @@ folder: news
 
         {% endfor %}
 
-        <p><a href="feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS Subscribe{{tag}}</a></p>
-
 <hr />
-        <p>See more posts from the <a href="news_archive.html">News Archive</a>. </p>
+        <p>See more posts in the <a href="news_archive.html">News Archive</a>. </p>
+        <p><a href="feed.xml" class="btn btn-primary" role="button"><i class="fa fa-rss"></i> RSS Subscribe</a></p>
 
     </div>
 </div>
