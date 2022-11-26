@@ -20,8 +20,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 ---
 
 ## Downloads
-![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.19%2B-green?style=flat-square)
-![Tested versions](https://img.shields.io/badge/tested%20in-1.19.2-informational?style=flat-square)
+{% include dp_badges.html supports="1.19+" tested="1.19.2" %}
 
 {% include dp_download.html version="v1.0.1" mirror-url="http://adfoc.us/76840385808431" mirror-platform="AdFocus" rp-version="v1.0.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240461/" rp-dropbox-url="https://www.dropbox.com/s/tbjt6fo95beguk7/daenvils_baked_goods_RP_v1.0.1.zip?dl=1" %}
 
