@@ -4,7 +4,7 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 07/Nov/2022
+last_updated: 26/Nov/2022
 permalink: baked_goods.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/
@@ -23,7 +23,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 ![Minecraft supported versions](https://img.shields.io/badge/supported%20MC%20versions-1.19%2B-green?style=flat-square)
 ![Tested versions](https://img.shields.io/badge/tested%20in-1.19.2-informational?style=flat-square)
 
-{% include dp_download.html version="v1" mirror-url="http://adfoc.us/76840385287674" mirror-platform="AdFocus" rp-version="v1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240461/" rp-mirror-url="http://adfoc.us/76840385745425" rp-mirror-platform="AdFocus" %}
+{% include dp_download.html version="v1.0.1" mirror-url="http://adfoc.us/76840385808431" mirror-platform="AdFocus" rp-version="v1.0.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240461/" rp-dropbox-url="https://www.dropbox.com/s/tbjt6fo95beguk7/daenvils_baked_goods_RP_v1.0.1.zip?dl=1" %}
 
 {% include installation.html resourcepack=true %}
 
@@ -182,3 +182,7 @@ When eating a chorus fruit pie, you will be **teleported randomly within 32 bloc
 ### Vegancraft compatibility
 
 This datapack was made to be compatible with my _[Plant-based Foods](plant-based_foods.html)_ datapack. As such, **if _Plant-based Foods_ is also installed, you will be able to replace eggs with wheat or potato in any of the recipes**, and the custom naming and advancements of that datapack are also supported by the foods in this datapack. _None of this will affect you if you don't have that datapack installed_.
+
+### Other credits
+
+- Chinese translation by [Annijang](https://www.planetminecraft.com/member/annijang/){:target="_blank"}
