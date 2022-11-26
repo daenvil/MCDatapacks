@@ -2,7 +2,7 @@
 title:  "Daenvil's Baked Goods - v1.0.1 patch"
 published: true
 permalink: baked_goods_v1.0.1.html
-summary: "Added Chinese translation by Annijang"
+summary: "Added Chinese translation by Annijang and optimization changes."
 tags: [news,changelog]
 datapack: baked_goods
 changelog: v1.0.1
