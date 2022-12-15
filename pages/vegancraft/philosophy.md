@@ -4,7 +4,7 @@ keywords: vegan, veganism, plant-based, pacifist
 tags: [info, vegancraft]
 sidebar: home_sidebar
 toc: false
-last_updated: 05/Nov/2022
+last_updated: 15/Dec/2022
 permalink: vegancraft_philosophy.html
 published: true
 logo: vegancraft/pack.png
@@ -43,6 +43,6 @@ In general, the features introduced by Vegancraft aim to be as close as possible
 - _[Omnivorous Pets](omnivorous_pets.html)_ adds a way to make pets with any food items, instead of just bones and fish. I do not consider this a vegan datapack (that's why its logo has a red frame instead of a green one), but I thought it would be a coherent way of implementing this feature for vegan players. An ideal solution, but not possible to my knowledge, would be being able to make friends out of any passive animals, instead of just dogs and cats.
 - _[Acacia Gum](acacia_gum.html#reasoning)_ adds an alternative for slime, which is only obtainable through killing mobs.
 - _[Ethical Textiles](ethical_textiles.html#reasoning-for-the-recipes)_ solves the problem of leather, string, and wool being locked behind killing and/or using mobs, implementing alternatives that are realistic and giving more use to plants in the process. An additional solution that I wish the game implemented (I may do it in the future) is to add a new plant to the game that produces some textile material, such as cotton or linen, which then could be converted into (or could be used the same as) string/wool.
-- _Plant Wax_ (*to be released*) will offer an alternative for honeycomb by obtaining wax from certain plants, like in real life. This case is specially weird since the game already refers to "waxed" copper, but only offers honeycomb instead of waxes that are more commonly used in real life.
+- _[Plant Wax](plant_wax.html#reasoning-for-the-recipes)_ offers an alternative for honeycomb by obtaining wax from certain plants, like in real life. This case is specially weird since the game already refers to "waxed" copper, but only offers honeycomb instead of waxes that are more commonly used in real life.
 - _Copper Horns_ (*to be released*) will offer an alternative for goat horns, allowing to craft music horns with metal, as in real life.
 - Other future features --not yet designed-- will provide alternatives to the rest of game mechanics, such as certain building/decoration blocks and items being only obtainable from mobs, or the whole story progression of the game and its rewards being locked behind killing mobs (wither skeletons -> wither -> beacon, endermen -> end mobs -> elytra).

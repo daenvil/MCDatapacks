@@ -4,7 +4,7 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 06/Nov/2022
+last_updated: 15/Dec/2022
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -29,21 +29,21 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.19%2B" tested="1.19.2" %}
+            {% include dp_badges.html supports="1.19%2B" tested="1.19.3" %}
             <br/>
-            {% include dp_download.html version="v1d" github-url="https://github.com/daenvil/vegancraft/releases/download/v1d/vegancraft-DP_v1d.zip" rp-version="v1d" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1d/vegancraft-RP_v1d.zip" %}
+            {% include dp_download.html version="v1e" github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-DP_v1e.zip" rp-version="v1e" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         <p>
             {% include dp_badges.html supports="1.17--1.18.2" tested="1.17.1%2C%201.18.2" %}
             <br/>
-            {% include dp_download.html version="v1d-mc1.17-1.18.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-DP_v1d-mc1.17-1.18.2.zip" rp-version="v1d" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-RP_v1d.zip" %}
+            {% include dp_download.html version="v1d-mc1.17-1.18.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-DP_v1d-mc1.17-1.18.2.zip" rp-version="v1d" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-RP_v1d.zip" discontinued=true %}
         </p>
     </div>
 </div>
 
-{% include comments/note.html content="The resourcepack will give you a warning if you are not using 1.19, but it will work. Both datapack and resourcepack were tested on the mentioned versions; and also on multiplayer." %}
+{% include comments/note.html content="The resourcepack will give you a warning if you are not using 1.19.3, but it will work. Both datapack and resourcepack were tested on the mentioned versions; and also on multiplayer." %}
 {% include installation.html resourcepack=true %}
 
 ## Features
@@ -53,12 +53,12 @@ This datapack aims to make any vanilla feature available without hurting or usin
     <div class="col-lg-12">
         <h2 class="page-header">Included datapacks</h2>
     </div>
-    {% assign sorted_pages = site.pages | sort: 'priority' %}
+    {% assign sorted_pages = site.pages | sort: 'index' %}
     {% for page in sorted_pages %}
     {% if page.tags contains "vegancraft" %}
     {% if page.tags contains "datapack" %}
     {% if page.tags contains "standalone" %}
-    <div class="col-md-6 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 {% if page.thumbnail %}
@@ -100,10 +100,6 @@ Most of these datapacks contain custom textures and item names. The Vegancraft r
 
 ## Future Features
 Planned datapacks that are still in progress
-
-### Plant Wax
-
-Get wax from some plants, like in real life. A vegan alternative for honeycomb.
 
 ### Copper horns
 
