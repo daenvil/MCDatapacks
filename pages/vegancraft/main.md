@@ -114,3 +114,5 @@ You can also [create an issue](https://github.com/daenvil/vegancraft/issues/new/
 ### Translations
 
 If you wish to translate this datapack to your language(s) (or fix any already existing one), just use the "lang" files you can find inside the resorcepack as template, and send your version to me either via a pull request or an issue. I will credit you as translator on here, on the corresponding datapacks' PlanetMinecraft pages, and on the README file of the resourcepack.
+
+<a rel="me" href="https://veganism.social/@daenvil"></a>
