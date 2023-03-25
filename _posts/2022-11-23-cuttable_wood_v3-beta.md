@@ -16,5 +16,5 @@ It will be in beta version as I'm still open to make some small balance changes,
 
 <div class="btn-group">
     <a href="cuttable_wood_v2.2.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v2.2.1</a>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="cuttable_wood_v3-beta2.html" role="button" class="btn btn-primary">Next release: v3-beta2 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>

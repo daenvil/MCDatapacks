@@ -4,20 +4,20 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 15/Dec/2022
+last_updated: 26/Mar/2023
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
-last_release: ["23","Nov","2022"]
+last_release: ["26","Mar","2023"]
 logo: recyclecraft/cuttable_wood/pack.png
 thumbnail: recyclecraft/cuttable_wood/thumbnail-mc1.20.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
 index: 1
-downloads: 8888
-downloads_str: "&gt;8.8k"
+downloads: 9803
+downloads_str: "&gt;9.8k"
 gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140456-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140455-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140457-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140458-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 
@@ -27,7 +27,7 @@ Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a href="#current" data-toggle="tab">1.19.x</a></li>
-    <li><a href="#beta" data-toggle="tab">1.19.3+ (beta)</a></li>
+    <li><a href="#beta" data-toggle="tab">1.20+ (beta)</a></li>
     <li><a href="#legacy" data-toggle="tab">1.16–1.18.2</a></li>
     <li><a href="#legacy2" data-toggle="tab">1.14–1.15.2</a></li>
 </ul>
@@ -37,14 +37,14 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.19.x" tested="1.19" %}
             <br/>
-            {% include dp_download.html version="v2.2.1" dropbox-url="https://www.dropbox.com/s/t6artbztvqet562/cuttable_wood_v2.2.1.zip?dl=1" %}
+            {% include dp_download.html version="v2.2.1" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/download/file/16280630/" dropbox-url="https://www.dropbox.com/s/t6artbztvqet562/cuttable_wood_v2.2.1.zip?dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="beta">
         <p>
-            {% include dp_badges.html supports="1.19.3+" tested="1.19.3--pre2" %}
+            {% include dp_badges.html supports="1.20+" tested="1.19.4, snapshot 23w12a" %}
             <br/>
-            {% include dp_download.html version="v3-beta" mirror-url="http://adfoc.us/76840385749914" mirror-platform="AdFocus" %}
+            {% include dp_download.html version="v3-beta2" dropbox-url="https://www.dropbox.com/s/j0dh5z15lwgvtff/cuttable_wood_v3-beta2.zip?dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
