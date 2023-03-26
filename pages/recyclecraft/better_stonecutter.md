@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 15/Dec/2022
+last_updated: 27/Mar/2023
 permalink: better_stonecutter.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/
 first_release: ["05","Jan","2022"]
-last_release: ["17","Aug","2022"]
+last_release: ["27","Mar","2023"]
 logo: recyclecraft/better_stonecutter/pack.png
 intro: "A datapack that adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
@@ -33,9 +33,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.19%2B" tested="1.19.2" %}
+            {% include dp_badges.html supports="1.19%2B" tested="1.19.4, snapshot 23w12a" %}
             <br/>
-            {% include dp_download.html version="v1.1.1" mirror-url="http://adfoc.us/76840385065016" mirror-platform="AdFocus" %}
+            {% include dp_download.html version="v1.1.2" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/download/file/16628279/" dropbox-url="https://www.dropbox.com/s/llacu0cs85nwtkh/better_stonecutter_v1.1.2.zip?dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -71,7 +71,7 @@ Products of stonecutting are given recipes so they can be cut again into smaller
     - Prismarine &#x21D2; prismarine shards
     - Amethyst blocks or clusters &#x21D2; amethyst shards
   
-{% include comments/important.html content='Some of these recipes alter the vanilla balance by adding new ways to obtain certain items (for example, sand from sandstone or amethyst shards from blocks). I added them because I thought it made sense, but if you don\'t like it, it\'s possible to remove these recipes by simply going into the datapack\'s <code>data/dnv.recyclecraft/recipes/stonecutter/</code> folder and removing the recipes that you don\'t want (they are organized in subfolders, so it is easy to identify them and bulk-remove them.' %}
+{% include comments/important.html content='Some of these recipes alter the vanilla balance by adding new ways to obtain certain items (for example, sand from sandstone or amethyst shards from blocks). I added them because I thought it made sense, but if you don\'t like it, it\'s possible to remove these recipes by simply going into the datapack\'s <code>data/dnv.recyclecraft/recipes/stonecutter/</code> folder and removing the recipes that you don\'t want (they are organized in subfolders, so it is easy to identify them and bulk-remove them).' %}
 
 - You can switch between stone types (and their products) more easily:
     - Stone can be cut into: smooth stone, stone bricks, cobblestone
@@ -85,7 +85,7 @@ Products of stonecutting are given recipes so they can be cut again into smaller
 
 - To avoid flooding the stonecutter UI, some blocks with a lot of variants (deepslate, stone, blackstone) are not given all possible recipes directly. Instead, they are only given the recipes for the smaller blocks of the same variant and the equivalent blocks of other variants, which you can cut then into smaller blocks if desired.
 
-- Copper can be deoxidized and dewaxed with the stonecutter. Copper blocks can be cut into 6 stairs instead of 4, which makes more sense.
+- Copper can be deoxidized and dewaxed with the stonecutter. Copper blocks can be cut into 5 stairs instead of 4, which makes more sense.
 
 ## Considerations
 
