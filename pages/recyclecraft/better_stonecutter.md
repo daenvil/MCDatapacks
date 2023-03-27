@@ -17,7 +17,8 @@ priority: 3
 index: 4
 downloads: 2160
 downloads_str: "&gt;2.1k"
-gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262629-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262638-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262628-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262630-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262552-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262637-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262633-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262632-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262634-screenshot-at_l.webp]
+thumbnail: https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/526/16630318-thumbnail_l.webp
+gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/526/16630318-thumbnail_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262629-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262638-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262628-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/526/16630269_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262630-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262552-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262637-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262633-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262632-screenshot-at_l.webp]
 ---
 
 ## Downloads
@@ -70,6 +71,7 @@ Products of stonecutting are given recipes so they can be cut again into smaller
     - Gold &#x21D2; pressure plates, gold ingots
     - Prismarine &#x21D2; prismarine shards
     - Amethyst blocks or clusters &#x21D2; amethyst shards
+    - Mud bricks &#x21D2; Packed mud
   
 {% include comments/important.html content='Some of these recipes alter the vanilla balance by adding new ways to obtain certain items (for example, sand from sandstone or amethyst shards from blocks). I added them because I thought it made sense, but if you don\'t like it, it\'s possible to remove these recipes by simply going into the datapack\'s <code>data/dnv.recyclecraft/recipes/stonecutter/</code> folder and removing the recipes that you don\'t want (they are organized in subfolders, so it is easy to identify them and bulk-remove them).' %}
 
