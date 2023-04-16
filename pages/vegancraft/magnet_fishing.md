@@ -23,7 +23,7 @@ gallery: [images/vegancraft/magnet_fishing/thumbnail.png,images/vegancraft/magne
 ## Downloads
 {% include dp_badges.html supports="1.19.4+" tested="1.19.4%2C%20snapshot 23w14a" %}
 
-{% include dp_download.html version="v1" github-url="" pmc-url="" rp-version="v1, OPTIONAL" rp-github-url="" %}
+{% include dp_download.html version="v1" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" rp-version="v1, OPTIONAL" pmc-github-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" %}
 
 {% include comments/note.html content="This resourcepack is the same for all Vegancraft datapacks, meaning you don't need to download it if you are already using another Vegancraft datapack. Just make sure you are using the latest version." %}
 
