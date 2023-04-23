@@ -17,6 +17,7 @@ Unless stated otherwise, all my datapacks and resourcepacks follow these general
 - Download, use, and edit my datapacks **for personal use**.
 - Use my datapacks or variations of them in a Minecraft server.
 - Publish audiovisual content that uses my datapacks or variations of them (e.g. gameplay videos on online platforms), as long as you **acknowledge me (Daenvil) as the author of the datapack(s)** and provide a link either to their PlanetMinecraft page or to this website.
+- Share my datapacks or variations of them privately (e.g. transferring the files to friends), as long as there is no financial profit involved, the files are not publicly available, and these terms are included with the files you share in text format (these terms are already included in all my datapacks, just don't remove them).
 
 #### You are **not** allowed to:
 
