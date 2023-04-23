@@ -1,7 +1,7 @@
 ---
 title: Magnet Fishing
 keywords: minecraft, datapack, fishing, iron, junk, scrap, vegan, veganism, pacifist
-tags: [datapack, vegancraft, standalone]
+tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
 last_updated: 16/Apr/2023
