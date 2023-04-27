@@ -9,6 +9,6 @@ changelog: v2.0.3
 ---
 
 <div class="btn-group">
-    <a href="more_smeltable_items_v2.0.2.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v2.0.2</a>
+    <a href="more_smeltable_items_v2.0.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v2.0.2</a>
     <a href="more_smeltable_items_v2.0.4.html" role="button" class="btn btn-primary">Next release: v2.0.4 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>
