@@ -7,3 +7,8 @@ tags: [news,changelog,vegancraft]
 datapack: plant-based_foods
 changelog: v1-resourcepack_v1b
 ---
+
+<div class="btn-group">
+    <a href="plant-based_foods_v1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1</a>
+    <a href="plant-based_foods_v1.0.1.html" role="button" class="btn btn-primary">Next release: v1.0.1 &nbsp;<i class="fa fa-caret-right"></i></a>
+</div>

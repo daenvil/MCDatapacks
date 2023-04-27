@@ -7,3 +7,8 @@ tags: [news,changelog,recyclecraft]
 datapack: more_compostable_items
 changelog: v1
 ---
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default disabled"><i class="fa fa-caret-left"></i>&nbsp; Previous release: None</button>
+    <a href="more_compostable_items_v1.1.html" role="button" class="btn btn-primary">Next release: v1.1 &nbsp;<i class="fa fa-caret-right"></i></a>
+</div>

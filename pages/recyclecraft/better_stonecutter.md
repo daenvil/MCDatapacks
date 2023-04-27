@@ -27,7 +27,7 @@ Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a href="#current" data-toggle="tab">1.19+</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.17-1.18.2</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.18.2</a></li>
     <li><a href="#legacy2" data-toggle="tab">1.16.x</a></li>
 </ul>
 
@@ -41,7 +41,7 @@ Choose the option compatible with your Minecraft version:
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         <p>
-            {% include dp_badges.html supports="1.17--1.18.2" tested="1.17.1%2C%201.18.2" %}
+            {% include dp_badges.html supports="1.17–1.18.2" tested="1.17.1%2C%201.18.2" %}
             <br/>
             {% include dp_download.html version="v1.0.1-mc1.17-1.18.2" dropbox-url="https://www.dropbox.com/s/xk0alnifv4phlqj/better_stonecutter_v1.0.1-mc1.17-1.18.2.zip?dl=1" discontinued=true %}
         </p>
