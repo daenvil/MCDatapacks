@@ -16,7 +16,7 @@ abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamo
 priority: 4
 index: 2
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
-gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125174-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125175-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125177-screenshot-at_l.webp]
+gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
 ---
 
 ## Downloads
