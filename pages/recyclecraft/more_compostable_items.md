@@ -4,13 +4,13 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 15/Dec/2022
+last_updated: 26/Apr/2023
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
 pmc: https://www.planetminecraft.com/data-pack/more-compostable-items/
 first_release: ["18","Jan","2022"]
-last_release: ["08","Jun","2022"]
+last_release: ["26","Apr","2023"]
 logo: recyclecraft/more_compostable_items/pack.png
 intro: "This datapack aims to add composting mechanics to all vanilla items which <i>should</i> be compostable, while being as close as possible to vanilla mechanics."
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
@@ -18,13 +18,35 @@ priority: 1
 index: 6
 downloads: 2362
 downloads_str: "&gt;2.3k"
+thumbnail: recyclecraft/more_compostable_items/thumbnail.png
+gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---
 
 ## Downloads
 
-{% include dp_badges.html supports="1.16.2%2B" tested="1.16.5%2C%201.17.1%2C%201.18.1%2C%201.19" %}
+Choose the option compatible with your Minecraft version:
 
-{% include dp_download.html version="v1.1" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.1/more_compostable_items_v1.1.zip" mirror-url="http://adfoc.us/7684031" mirror-platform="AdFocus" %}
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.16.2–1.19.4</a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="current">
+        <p>
+            {% include dp_badges.html supports="1.20+" tested="snapshot 23w16a" %}
+            <br/>
+            {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" gh-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.2/more_compostable_items_v1.2.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy">
+        <p>
+            {% include dp_badges.html supports="1.16.2–1.19.4" tested="1.16.5, 1.17.1, 1.18.2, 1.19.3" %}
+            <br/>
+            {% include dp_download.html version="v1.1" gh-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.1/more_compostable_items_v1.1.zip" discontinued=true %}
+        </p>
+    </div>
+</div>
 
 {% include installation.html %}
 
@@ -105,7 +127,7 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 
 {% include collapsible.html title='100% chance' content='<ul><li>Mycelium
 </li><li>Sculk
-</li><li>Sculk catalyst/shrieker/sensor</li></ul>' id='100-chance' %}
+</li><li>Sculk catalyst/shrieker/sensor/calibrated sensor</li></ul>' id='100-chance' %}
 
 {% include comments/note.html content='This datapack aims to contain all vanilla items which should be compostable in a realistic way, so if you find any item that is missing or should be changed, please <a href="contact.html" target="_blank">contact me</a>.' %}
 
@@ -162,4 +184,4 @@ In vanilla, composting can be automated by placing hoppers on top and below the 
 
 Some extra details need to be taken into account, like hopper cooldown, stopping custom composting when the composter is full, different composting chances for each item, etc.
 
-In principle, this method should emulate perfectly the behaviour of vanilla composters with any item you want to add, the only short-coming it has right now is that vanilla items are still hardcoded, so it is impossible to change their random composting chances or make them non-compostable. They also have to be manually added to an item tag (<code>dnv.recyclecraft:vanilla-compostable</code>) in order to take them into account in the algorithm, so this could create conflicts with any mod which adds new items which are vanilla-compostable and are not added to that item tag. The effect of such conflict is making hoppered composters be able to process vanilla and custom-compostable items at the same time, though, so it doesn't break anything important, it just doubles the composting speed in the specific case where the hopper contains a custom-compostable item and a vanilla-compostable item which is not in the vanilla-compostable tag at the same time.
+In principle, this method should emulate perfectly the behaviour of vanilla composters with any item you want to add, the only short-coming it has right now is that vanilla items are still hardcoded, so it is impossible to change their random composting chances or make them non-compostable. They also have to be manually added to an item tag (<code>dnv.recyclecraft:vanilla-compostable</code>) in order to take them into account in the algorithm, so this could create conflicts with any mod which adds new items which are vanilla-compostable and are not added to that item tag (also, I have to manually add any new compostable item with each Minecraft major update). The effect of such conflict is making hoppered composters be able to process vanilla and custom-compostable items at the same time, though, so it doesn't break anything important, it just doubles the composting speed in the specific case where the hopper contains a custom-compostable item and a vanilla-compostable item which is not in the vanilla-compostable tag at the same time.
