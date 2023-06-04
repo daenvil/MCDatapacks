@@ -36,6 +36,14 @@ entries:
           url: /ethical_textiles.html
           output: web
 
+        - title: Plant Wax
+          url: /plant_wax.html
+          output: web
+
+        - title: Magnet Fishing
+          url: /magnet_fishing.html
+          output: web
+
     - title: Complementary datapacks
       url: /vegancraft_complementary_datapacks.html
       output: web

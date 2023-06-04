@@ -36,14 +36,14 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.20+" tested="snapshot 23w16a" %}
             <br/>
-            {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" gh-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.2/more_compostable_items_v1.2.zip" %}
+            {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.2/more_compostable_items_v1.2.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         <p>
             {% include dp_badges.html supports="1.16.2–1.19.4" tested="1.16.5, 1.17.1, 1.18.2, 1.19.3" %}
             <br/>
-            {% include dp_download.html version="v1.1" gh-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.1/more_compostable_items_v1.1.zip" discontinued=true %}
+            {% include dp_download.html version="v1.1" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.1/more_compostable_items_v1.1.zip" discontinued=true %}
         </p>
     </div>
 </div>

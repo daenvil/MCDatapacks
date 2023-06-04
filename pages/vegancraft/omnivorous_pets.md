@@ -4,13 +4,13 @@ keywords: minecraft, datapack, taming, food, vegan, veganism, plant-based, pacif
 tags: [datapack, vegancraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 07/Nov/2022
+last_updated: 05/Jun/2023
 permalink: omnivorous_pets.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/omnivorous-pets/
 first_release: ["22","Jul","2022"]
-last_release: ["22","Jul","2022"]
+last_release: ["05","Jun","2023"]
 logo: vegancraft/omni_pets/pack.png
 thumbnail: vegancraft/omni_pets/thumbnail.png
 intro: "A datapack that allows you to tame wolves and cats using any food."
@@ -33,7 +33,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="snapshot 23w16a" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
             <br/>
             {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/omnivorous-pets/" %}
         </p>
@@ -58,7 +58,7 @@ Choose the option compatible with your Minecraft version:
 
 ## Features
 
-- _[Youtube video showcasing all the features of this datapack:](https://youtu.be/V5IjyHmo3BI){:target="_blank"}_
+- _[Youtube video showcasing all the features of this datapack (older version, cats don't run away anymore now):](https://youtu.be/V5IjyHmo3BI){:target="_blank"}_
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V5IjyHmo3BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

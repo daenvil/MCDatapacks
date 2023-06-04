@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 30/Apr/2023
+last_updated: 05/Jun/2023
 permalink: plant-based_foods.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-based-foods/
 first_release: ["17","Jun","2022"]
-last_release: ["30","Apr","2023"]
+last_release: ["05","Jun","2023"]
 logo: vegancraft/vegan_food/pack.png
 thumbnail: vegancraft/vegan_food/thumbnail.png
 intro: "A datapack that adds vegan alternatives to dairy, eggs, honey, and meat."
@@ -31,16 +31,16 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="snapshot 23w16a" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
             <br/>
-            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" gh-url="TBR" rp-version="v1-beta" rp-github-url="TBR" %}
+            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="TBR" rp-version="v1.0" rp-github-url="TBR" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         <p>
             {% include dp_badges.html supports="1.16.2–1.19.4" tested="1.16.5, 1.17.1, 1.18.2, 1.19.2" %}
             <br/>
-            {% include dp_download.html version="v1.0.1" gh-url="https://github.com/daenvil/vegancraft/releases/download/v1c/plant-based_foods_v1.0.1.zip" rp-version="v1d" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1d/vegancraft-RP_v1d.zip" discontinued=true %}
+            {% include dp_download.html version="v1.0.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1c/plant-based_foods_v1.0.1.zip" rp-version="v1d" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1d/vegancraft-RP_v1d.zip" discontinued=true %}
         </p>
     </div>
 </div>

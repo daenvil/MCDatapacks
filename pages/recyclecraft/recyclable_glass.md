@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/May/2023
+last_updated: 02/Jun/2023
 permalink: recyclable_glass.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-glass/
 first_release: ["30","Jul","2022"]
-last_release: ["03","May","2023"]
+last_release: ["02","Jun","2023"]
 logo: recyclecraft/recyclable_glass/pack.png
 intro: "Ever dyed a bunch of glass and ended not using all of it? Ever crafted more panes or bottles than you needed? This datapack allows you to recycle all glass items by adding crafting and smelting recipes."
 abstract: "Allows you to recycle all glass items by adding new crafting and smelting recipes."
@@ -20,7 +20,7 @@ gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/202
 ---
 
 ## Downloads
-{% include dp_badges.html supports="1.17+" tested="1.19.4, snapshot 23w17a" %}
+{% include dp_badges.html supports="1.17+" tested="1.19.4, 1.20-rc1" %}
 
 {% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" %}
 

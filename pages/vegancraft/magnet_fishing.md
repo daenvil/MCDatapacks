@@ -4,13 +4,13 @@ keywords: minecraft, datapack, fishing, iron, junk, scrap, vegan, veganism, paci
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Apr/2023
+last_updated: 05/Jun/2023
 permalink: magnet_fishing.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/magnet-fishing/
 first_release: ["16","Apr","2023"]
-last_release: ["16","Apr","2023"]
+last_release: ["05","Jun","2023"]
 logo: vegancraft/magnet_fishing/pack.png
 thumbnail: vegancraft/magnet_fishing/thumbnail.png
 intro: "A datapack that adds a magnet fishing rod, with which you can fish iron and iron items."
@@ -21,9 +21,29 @@ gallery: [images/vegancraft/magnet_fishing/thumbnail.png,images/vegancraft/magne
 ---
 
 ## Downloads
-{% include dp_badges.html supports="1.19.4+" tested="1.19.4%2C%20snapshot 23w14a" %}
+Choose the option compatible with your Minecraft version:
 
-{% include dp_download.html version="v1" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" rp-version="v1, OPTIONAL" rp-pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" %}
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.19.4</a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="current">
+        <p>
+            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
+            <br/>
+            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="TBR" rp-version="v1.0, OPTIONAL" rp-github-url="TBR" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy">
+        <p>
+            {% include dp_badges.html supports="1.19.4" tested="1.19.4" %}
+            <br/>
+            {% include dp_download.html version="v1" github-url="TBR" rp-version="v1.0, OPTIONAL" rp-github-url="TBR" discontinued=true %}
+        </p>
+    </div>
+</div>
 
 {% include comments/note.html content="This resourcepack is the same for all Vegancraft datapacks, meaning you don't need to download it if you are already using another Vegancraft datapack. Just make sure you are using the latest version." %}
 
@@ -33,7 +53,7 @@ gallery: [images/vegancraft/magnet_fishing/thumbnail.png,images/vegancraft/magne
 
 ### Crafting a magnet fishing rod
 
-Craft a magnet rod with a regular **fishing rod**, an **iron ingot**, and **redstone dust**. The result will look like a knowledge book, just click on it and you will receive your magnet fishing rod.
+Craft a magnet rod with a regular **fishing rod**, an **iron ingot**, and **redstone dust**. The result will look like a knowledge book (or a question mark if you are using the resourcepack), just click on it and you will receive your magnet fishing rod.
 
 {% include comments/warning.html content="When crafting a magnet rod, <b>any enchantment that the regular fishing rod has will be lost!</b> A newly crafted magnet rod is always unenchanted." %}
 

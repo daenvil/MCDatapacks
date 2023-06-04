@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, bees, hon
 tags: [datapack, vegancraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 15/Dec/2022
+last_updated: 05/Jun/2023
 permalink: plant_wax.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-wax/
 first_release: ["15","Dec","2022"]
-last_release: ["15","Dec","2022"]
+last_release: ["05","Jun","2023"]
 logo: vegancraft/plant_wax/pack.png
 thumbnail: vegancraft/plant_wax/thumbnail.png
 intro: "A datapack that adds Plant Wax (a retextured honeycomb), obtainable by smelting dead bushes or jungle leaves."
@@ -21,9 +21,29 @@ gallery: [images/vegancraft/plant_wax/thumbnail.png]
 ---
 
 ## Downloads
-{% include dp_badges.html supports="1.18+" tested="1.18.2%2C%201.19.3" %}
+Choose the option compatible with your Minecraft version:
 
-{% include dp_download.html version="v1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/plant_wax_v1.zip" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/download/file/16336157/" rp-version="v1e" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip" %}
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.18–1.19.4</a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="current">
+        <p>
+            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
+            <br/>
+            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="TBR" rp-version="v1.0" rp-github-url="TBR" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy">
+        <p>
+            {% include dp_badges.html supports="1.18–1.19.4" tested="1.18.2, 1.19.3" %}
+            <br/>
+            {% include dp_download.html version="v1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/plant_wax_v1.zip" rp-version="v1e" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip" discontinued=true %}
+        </p>
+    </div>
+</div>
 
 {% include comments/note.html content="This resourcepack is the same for all Vegancraft datapacks, meaning you don't need to download it if you are already using another Vegancraft datapack. Just make sure you are using the latest version." %}
 
