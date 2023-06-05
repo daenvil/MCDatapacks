@@ -130,6 +130,7 @@ As part of its integration on Vegancraft, this datapack includes the following a
 </p>
 
 - Cats and wolves tamed with vegan food will have a green collar by default, instead of the usual red (check out my *[Omnivorous Pets](omnivorous_pets.html)* datapack if you want to tame wolves and cats with more kinds of foods).
+- Some xp will be awarded when crafting seitan steaks and not-fish fillets. The amount of xp is equivalent to that you would get by getting those items the "regular" way (breeding and killing cows/fishing cod).
 
 If, for any reason, you want to remove these features, you can use the command **<code>/function dnv.vegancraft:toggle</code>** to disable them. You can also use that command to turn them on again.
 
