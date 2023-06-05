@@ -35,7 +35,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
             <br/>
-            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/omnivorous-pets/" %}
+            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/omnivorous-pets/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/omnivorous_pets_v1.1.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane active" id="legacy">

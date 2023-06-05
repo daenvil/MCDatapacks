@@ -4,17 +4,17 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 15/Dec/2022
+last_updated: 05/Jun/2023
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["15","Oct","2022"]
+last_release: ["05","Jun","2023"]
 logo: vegancraft/pack.png
-intro: "Minecraft is a modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full collection in a single datapack or <a href=#features>download the individual datapacks as desired</a>."
-abstract: "A merged version of every Vegancraft datapack. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features. <i>Uncompleted</i>."
-index: 8
+intro: "Vegancraft is a modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full collection in a single datapack or <a href=#features>download the individual datapacks as desired</a>."
+abstract: "A merged version of every Vegancraft datapack. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
+index: 16
 ---
 
 ## Full datapack download
@@ -22,19 +22,27 @@ index: 8
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.19+</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.17-1.18.2</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
+    <li><a href="#legacy2" data-toggle="tab">1.17–1.18.2</a></li>
 </ul>
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.19%2B" tested="1.19.3" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
+            <br/>
+            {% include dp_download.html version="v1.0" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-DP_v1.0.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy">
+        <p>
+            {% include dp_badges.html supports="1.19.x" tested="1.19.3" %}
             <br/>
             {% include dp_download.html version="v1e" github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-DP_v1e.zip" rp-version="v1e" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="legacy">
+    <div role="tabpanel" class="tab-pane" id="legacy2">
         <p>
             {% include dp_badges.html supports="1.17--1.18.2" tested="1.17.1%2C%201.18.2" %}
             <br/>
@@ -43,7 +51,7 @@ Choose the option compatible with your Minecraft version:
     </div>
 </div>
 
-{% include comments/note.html content="The resourcepack will give you a warning if you are not using 1.19.3, but it will work. Both datapack and resourcepack were tested on the mentioned versions; and also on multiplayer." %}
+{% include comments/note.html content="The resourcepack will give you a warning if you are not using 1.20, but it will work. Both datapack and resourcepack were tested on the mentioned versions; and also on multiplayer." %}
 {% include installation.html resourcepack=true %}
 
 ## Features
@@ -90,7 +98,7 @@ This datapack aims to make any vanilla feature available without hurting or usin
 
 ### Resourcepack
 
-Most of these datapacks contain custom textures and item names. The Vegancraft resourcepack is needed in order to view them properly. For simplicity, this resourcepack is the same for all datapacks, and is available on the [Downloads](#full-datapack-download) section or in the PlanetMinecraft page of any single datapack that uses it.
+Most of these datapacks contain custom textures and item names. The Vegancraft resourcepack is needed in order to view them properly. For simplicity, this resourcepack is the same for all datapacks, and is available on the [Downloads](#full-datapack-download) section or in the page of any single datapack that uses it.
 
 ### Customization options
 
@@ -100,6 +108,10 @@ Most of these datapacks contain custom textures and item names. The Vegancraft r
 
 ## Future Features
 Planned datapacks that are still in progress
+
+### Vegan Brewing
+
+Vegan alternatives for brewing ingredients.
 
 ### Copper horns
 
@@ -114,5 +126,3 @@ You can also [create an issue](https://github.com/daenvil/vegancraft/issues/new/
 ### Translations
 
 If you wish to translate this datapack to your language(s) (or fix any already existing one), just use the "lang" files you can find inside the resorcepack as template, and send your version to me either via a pull request or an issue. I will credit you as translator on here, on the corresponding datapacks' PlanetMinecraft pages, and on the README file of the resourcepack.
-
-<a rel="me" href="https://veganism.social/@daenvil"></a>
