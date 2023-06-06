@@ -12,7 +12,7 @@ A small update integrating the new 1.20 items in the datapack (the only new one 
 
 The new `return` command has proved to be really helpful in datapack coding, so I implemented it and this new version of the datapack is only compatible with MC 1.20+.
 
-And nothing much more to say, everything should be ready for when 1.20 releases soon, if Mojang doesn't change anything. Enjoy it!
+And nothing much more to say, everything should be ready for when 1.20 releases, if Mojang doesn't change anything. Enjoy it!
 
 <div class="btn-group">
     <a href="more_compostable_items_v1.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1.1</a>
