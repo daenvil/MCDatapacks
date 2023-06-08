@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 25/Mar/2023
+last_updated: 08/Jun/2023
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
-last_release: ["25","Mar","2023"]
+last_release: ["08","Jun","2023"]
 logo: recyclecraft/cuttable_wood/pack.png
 thumbnail: recyclecraft/cuttable_wood/thumbnail-mc1.20-2.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
@@ -17,8 +17,8 @@ abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting o
 priority: 2
 index: 1
 downloads: 10370
-downloads_str: "&gt;10.3k"
-gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20-2.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140456-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140455-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140457-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140458-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
+downloads_str: "&gt;10.9k"
+gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20-2.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 
 ## Downloads
@@ -26,35 +26,43 @@ gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20-2.png,images/recycl
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.19.x</a></li>
-    <li><a href="#beta" data-toggle="tab">1.20+ (beta)</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.16–1.18.2</a></li>
-    <li><a href="#legacy2" data-toggle="tab">1.14–1.15.2</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20+ (OP version)</a></li>
+    <li><a href="#current2" data-toggle="tab">1.20+ (vanilla-balanced version)</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
+    <li><a href="#legacy2" data-toggle="tab">1.16–1.18.2</a></li>
+    <li><a href="#legacy3" data-toggle="tab">1.14–1.15.2</a></li>
 </ul>
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.19.x" tested="1.19" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20" %}
             <br/>
-            {% include dp_download.html version="v2.2.1" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/download/file/16280630/" dropbox-url="https://www.dropbox.com/s/t6artbztvqet562/cuttable_wood_v2.2.1.zip?dl=1" %}
+            {% include dp_download.html version="v3-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="beta">
+    <div role="tabpanel" class="tab-pane" id="current2">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.19.4, snapshot 23w12a" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20" %}
             <br/>
-            {% include dp_download.html version="v3-beta2" dropbox-url="https://www.dropbox.com/s/j0dh5z15lwgvtff/cuttable_wood_v3-beta2.zip?dl=1" %}
+            {% include dp_download.html version="v3-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
+        <p>
+            {% include dp_badges.html supports="1.19.x" tested="1.19" %}
+            <br/>
+            {% include dp_download.html version="v2.2.1" dropbox-url="https://www.dropbox.com/s/t6artbztvqet562/cuttable_wood_v2.2.1.zip?dl=1" discontinued=true %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy2">
         <p>
             {% include dp_badges.html supports="1.16–1.18.2" tested="1.16.5%2C%201.17.1%2C%201.18.2" %}
             <br/>
             {% include dp_download.html version="v2.1.2-mc1.16-1.18.2" dropbox-url="https://www.dropbox.com/s/s0q8vl3soahq38k/cuttable_wood_v2.1.2_mc1.16-1.18.2.zip?dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="legacy2">
+    <div role="tabpanel" class="tab-pane" id="legacy3">
         <p>
             {% include dp_badges.html supports="1.14–1.15.2" tested="1.14.4%2C%201.15.2" %}
             <br/>
@@ -67,39 +75,44 @@ Choose the option compatible with your Minecraft version:
 
 ## Features
 
+{% include comments/tip.html content="There are two versions of this datapack:<br/><br/>&nbsp;&#x2022;&nbsp;The **\"OP\" version**: adds recipes according to my own judgement of what is balanced, but may be considered to be over-powered by some.<br/>&nbsp;&#x2022;&nbsp;The **\"vanilla-balanced\" version**: adds recipes more accordingly to the conversion rates of the regular vanilla wood recipes, to make the datapack less exploitable to those that prefer a more restricted experience.<br/><br/>See the recipe summaries below for more details of each version." %}
+
 Some general things this datapack allows you to do:
 
-- Use less wood crafting wooden items.
-- Craft fences and signs directly from planks or logs, without having to craft sticks first.
-- Repurpose items, cutting them into smaller ones (for example, doors into trapdoors; stairs into slabs, etc.).
-- Convert fences into fence gates and viceversa.
+- Use less wood crafting some wooden items.
+- Craft **fences and signs directly from logs** (and planks, if using OP version), without having to craft sticks first.
+- **Repurpose items**, cutting them into smaller ones (e.g. doors into trapdoors; stairs into slabs, etc.).
+- Convert **fences into fence gates and viceversa**.
+- **Strip** huge amounts of wood faster than by hand.
 
-The number of recipes this datapack adds is too big to list all of them here. Here you have a summary (click to expand):
-{% include collapsible.html title="Shortened list of recipes" content='Wood/hyphae:
+### Recipe summaries
+
+The number of recipes this datapack adds is too big to list all of them here. Here you have a summary for each version (click to expand):
+{% include collapsible.html title="Shortened list of recipes (\"OP\" version)" content='<b>Wood/hyphae:</b>
 <ul><li>Stripped wood/hyphae
 </li><li>Log/stem
 </li><li>Stripped log/stem
 </li><li>4 planks and all of its subproducts</li></ul>
 
-Stripped wood/hyphae:
+<b>Stripped wood/hyphae:</b>
 <ul><li>Stripped log/stem
 </li><li>4 planks and all of its subproducts</li></ul>
 
-Log/stem/bamboo block:
+<b>Log/stem/bamboo block:</b>
 <ul><li>Stripped log/stem
 </li><li>4 planks and all of its subproducts (2 planks in the case of bamboo)</li></ul>
 
-Stripped log/stem/bamboo block:
+<b>Stripped log/stem/bamboo block:</b>
 <ul><li>4 planks and all of its subproducts (2 planks in the case of bamboo)</li></ul>
 
-Planks:
+<b>Planks:</b>
 <ul><li>1 door
-</li><li>2 trapdoors
+</li><li>1 trapdoor
 </li><li>1 stairs
 </li><li>2 slabs
 </li><li>2 signs
-</li><li>2 fences
-</li><li>2 fence gates
+</li><li>1 fence
+</li><li>1 fence gate
 </li><li>2 pressure plates
 </li><li>4 bowls
 </li><li>2 ladders
@@ -109,30 +122,86 @@ Planks:
 </li><li>1 chest
 </li><li>1 composter
 </li><li>1 chiseled bookshelf</li></ul>
-(all of this items have their own stonecutting recipes to cut them into smaller or equal-size items. For example, doors can be cut into trapdoors, signs, fences, fence gates, pressure plates, ladders, buttons, and sticks)
+(all of these items have their own stonecutting recipes to cut them into smaller or equal-size items. For example, doors can be cut into trapdoors, signs, fences, fence gates, pressure plates, buttons, ladders, bowls, and sticks)
 <br/><br/>
-Boat/raft (chest boat/raft):
+<b>Boat/raft (chest boat/raft):</b>
 
 <ul><li>2 doors
-</li><li>5 trapdoors
+</li><li>2 trapdoors
 </li><li>5 signs
-</li><li>5 fences
-</li><li>5 fence gates
+</li><li>2 fences
+</li><li>2 fence gates
 </li><li>5 pressure plates
 </li><li>10 (12) bowls
 </li><li>5 (6) ladders
 </li><li>10 buttons
 </li><li>10 (12) sticks</li></ul>
-Hanging signs:
+<b>Hanging signs:</b>
 
 <ul><li>1 sign
-</li><li>1 fence
-</li><li>1 fence gate
 </li><li>1 pressure plate
 </li><li>2 bowls
 </li><li>1 ladder
 </li><li>2 buttons
-</li><li>2 sticks</li></ul>' id='recipes-summary' %}
+</li><li>2 sticks</li></ul>' id='recipes-summary-op' %}
+
+
+
+{% include collapsible.html title="Shortened list of recipes (\"vanilla-balanced\" version)" content='<b>Wood/hyphae:</b>
+<ul><li>Stripped wood/hyphae and all of its subproducts
+</li><li>Log/stem and all of its subproducts</li></ul>
+
+<b>Stripped wood/hyphae:</b>
+<ul><li>Stripped log/stem and all of its subproducts</li></ul>
+
+<b>Log/stem/bamboo block:</b>
+<ul><li>Stripped log/stem and all of its subproducts</li></ul>
+
+<b>Stripped log/stem/bamboo block:</b>
+<ul><li>2 fences
+</li><li>2 fence gates
+</li><li>2 doors
+</li><li>2 trapdoors
+</li><li>2 pressure plates
+</li><li>2 signs
+</li><li>1 barrel
+</li><li>1 chest
+</li><li>1 composter
+</li><li>1 chiseled bookshelf
+</li><li>4 planks and all of its subproducts (2 planks in the case of bamboo)</li></ul>
+(all of this items have their own stonecutting recipes to cut them into smaller or equal-size items. For example, doors can be cut into trapdoors, signs, fences, fence gates, pressure plates, buttons, ladders, bowls, and sticks)
+<br/><br/>
+
+<b>Planks:</b>
+<ul><li>1 stairs
+</li><li>2 slabs
+</li><li>1 bowl
+</li><li>1 button
+</li><li>2 sticks</li></ul>
+
+<b>Boat/raft (chest boat/raft):</b>
+
+<ul><li>2 doors
+</li><li>2 trapdoors
+</li><li>2 signs
+</li><li>2 fences
+</li><li>2 fence gates
+</li><li>2 pressure plates
+</li><li>6 (8) bowls
+</li><li>4 (5) ladders
+</li><li>10 buttons
+</li><li>10 (12) sticks</li></ul>
+<b>Hanging signs:</b>
+
+<ul><li>1 sign
+</li><li>2 bowls
+</li><li>1 ladder
+</li><li>2 buttons
+</li><li>4 sticks</li></ul>' id='recipes-summary-vanilla-balanced' %}
+
+The main difference between the two versions are that fences/fence gates, doors/trapdoors, pressure plates, signs, and containers (chests, barrels, etc.) are much cheaper in the "OP" version and can be obtained from planks and subproducts, while in the "vanilla-balanced" version they are more expensive and can only be obtained from logs/wood.
+
+{% include image/basic.html src="recyclecraft/cuttable_wood/version_comparison.png" alt="Comparison of recipes between the two versions" align="center" width="720" %}
 
 ## Considerations
 
