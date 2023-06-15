@@ -4,12 +4,12 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 26/Nov/2022
+last_updated: 15/Jun/2023
 permalink: baked_goods.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/
 first_release: ["10","Nov","2022"]
-last_release: ["26","Nov","2022"]
+last_release: ["15","Jun","2023"]
 logo: baked_goods/pack.png
 thumbnail: baked_goods/thumbnail.png
 intro: A datapack which adds new pies, cakes, cookies, and other baked goods to Minecraft. Bake apple pies, chocolate cakes, glow berry cookies, and many more! See <a href="#new-recipes">below</a> for the full list of recipes. Foods with golden apples/carrots/melon, chorus fruit, and glow berries provide <a href="#special-effects">special effects</a> when eating them.
@@ -20,9 +20,28 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 ---
 
 ## Downloads
-{% include dp_badges.html supports="1.19.x" tested="1.19.2" %}
 
-{% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16336229/" dropbox-url="https://www.dropbox.com/s/wms2g0lvmtv39nj/daenvils_baked_goods_v1.0.1.zip?dl=1" rp-version="v1.0.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/download/file/16240461/" rp-dropbox-url="https://www.dropbox.com/s/tbjt6fo95beguk7/daenvils_baked_goods_RP_v1.0.1.zip?dl=1" %}
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="current">
+        <p>
+            {% include dp_badges.html supports="1.20+" tested="1.20.1" %}
+            <br/>
+            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-version="v1.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy">
+        <p>
+            {% include dp_badges.html supports="1.19.x" tested="1.9.2" %}
+            <br/>
+            {% include dp_download.html version="v1.0.1" dropbox-url="https://www.dropbox.com/s/wms2g0lvmtv39nj/daenvils_baked_goods_v1.0.1.zip?dl=1" rp-version="v1.0.1" rp-dropbox-url="https://www.dropbox.com/s/tbjt6fo95beguk7/daenvils_baked_goods_RP_v1.0.1.zip?dl=1" discontinued=true %}
+        </p>
+    </div>
+</div>
 
 {% include installation.html resourcepack=true %}
 
@@ -35,7 +54,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 
 ### New recipes
 
-{% include comments/important.html content="These recipes will output a knowledge book, the knowledge book will convert automatically into the desired item once you click on it. ***Not compatible with recipe unlockers***." %}
+{% include comments/important.html content="These recipes will output a knowledge book, the knowledge book will convert automatically into the desired item once you click on it." %}
 {% include comments/tip.html content="All these recipes are unshaped, you don't need to put the ingredients in the same order as shown here." %}
 
 #### <ins>Egg-based pies</ins>
