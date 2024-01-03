@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, standalone, simple, crafting, QoL]
 sidebar: home_sidebar
 toc: false
-last_updated: 03/May/2023
+last_updated: 03/Jan/2024
 permalink: easy_bone_blocks.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/easy-bone-blocks/
@@ -17,10 +17,12 @@ priority: 99
 index: 5
 ---
 
-## Download
-{% include dp_badges.html supports="1.13+" tested="1.19.4, snapshot 23w17a" %}
+***This datapack will no longer be mantained**. It should keep working since it's very simple, but I decided to discontinue due to the introduction of the crafter in 1.21, which will allow to automate the crafting process, making this datapack obsolete for its intended use case.*
 
-{% include dp_download.html version="v1.0.2" pmc-url="https://www.planetminecraft.com/data-pack/easy-bone-blocks/" %}
+## Download
+{% include dp_badges.html supports="1.13+" tested="1.19.4, 1.20" %}
+
+{% include dp_download.html version="v1.0.2" pmc-url="https://www.planetminecraft.com/data-pack/easy-bone-blocks/" discontinued=true %}
 
 {% include installation.html %}
 

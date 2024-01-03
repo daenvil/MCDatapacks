@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 08/Jun/2023
+last_updated: 03/Jan/2024
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
@@ -36,14 +36,14 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
             <br/>
             {% include dp_download.html version="v3-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="current2">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
             <br/>
             {% include dp_download.html version="v3-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" %}
         </p>
