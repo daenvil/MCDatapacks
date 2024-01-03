@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/May/2023
+last_updated: 03/Jan/2024
 permalink: scrap_leather.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-leather/
@@ -31,7 +31,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.16.2+" tested="1.16.5, 1.19.4, snapshot 23w17a" %}
+            {% include dp_badges.html supports="1.16.2+" tested="1.16.5, 1.19.4, 1.20.4" %}
             <br/>
             {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" %}
         </p>

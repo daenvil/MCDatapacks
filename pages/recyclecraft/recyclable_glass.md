@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 02/Jun/2023
+last_updated: 03/Jan/2024
 permalink: recyclable_glass.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-glass/
@@ -20,7 +20,7 @@ gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/202
 ---
 
 ## Downloads
-{% include dp_badges.html supports="1.17+" tested="1.19.4, 1.20-rc1" %}
+{% include dp_badges.html supports="1.17+" tested="1.19.4, 1.20, 1.20.4" %}
 
 {% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" %}
 

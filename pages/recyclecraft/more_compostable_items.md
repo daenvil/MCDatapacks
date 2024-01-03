@@ -34,7 +34,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20.4" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
             <br/>
             {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.2.1/more_compostable_items_v1.2.1.zip" %}
         </p>

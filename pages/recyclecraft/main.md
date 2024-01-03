@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [collection, info, recyclecraft]
 sidebar: home_sidebar
 toc: true
-last_updated: 04/Nov/2022
+last_updated: 03/Jan/2024
 permalink: recyclecraft.html
 published: true
 pmc-collection: https://www.planetminecraft.com/collection/133777/daenvil-s-recyclecraft-datapacks/

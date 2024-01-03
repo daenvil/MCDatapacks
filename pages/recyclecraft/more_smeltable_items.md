@@ -32,7 +32,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.17+" tested="1.17.1, 1.19.4, 1.20.4" %}
+            {% include dp_badges.html supports="1.17+" tested="1.17.1, 1.19.4, 1.20, 1.20.4" %}
             <br/>
             {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" %}
         </p>
