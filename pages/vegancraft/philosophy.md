@@ -4,7 +4,7 @@ keywords: vegan, veganism, plant-based, pacifist
 tags: [info, vegancraft]
 sidebar: home_sidebar
 toc: false
-last_updated: 15/Dec/2022
+last_updated: 03/Jan/2024
 permalink: vegancraft_philosophy.html
 published: true
 logo: vegancraft/pack.png
@@ -37,7 +37,7 @@ As I said, **these issues are just a mirror of how humanity sees animals in real
 
 ## Design choices
 
-In general, the features introduced by Vegancraft aim to be as close as possible to vanilla Minecraft, in a way that players can play with this datapack without feeling like they are playing a different game. These features also aim to be balanced with the vanilla mechanics they are an alternative to. These means that they shouldn't be overpowered, but they also shouldn't be underpowered. Each individual datapack has some reasonings for their desing on their own page. Here are just some general thoughts:
+In general, the features introduced by Vegancraft aim to be as close as possible to vanilla Minecraft, in a way that players can play with this datapack without feeling like they are playing a different game. These features also aim to be balanced with the vanilla mechanics they are an alternative to. These means that they shouldn't be overpowered, but they also shouldn't be underpowered. Each individual datapack has some reasonings for their design on their own page. Here are just some general thoughts:
 
 - _[Plant-based Foods](plant-based_foods.html#reasoning-for-the-recipes)_ adds alternatives for Minecraft's animal food products, which tend to be the best foods in the game, and also adds an alternative to cow milk, which for some reason is the only vanilla way of getting rid of certain effects, perpetuating the real-life myth that cow milk is some sort of essential food in our diet.
 - _[Omnivorous Pets](omnivorous_pets.html)_ adds a way to make pets with any food items, instead of just bones and fish. I do not consider this a vegan datapack (that's why its logo has a red frame instead of a green one), but I thought it would be a coherent way of implementing this feature for vegan players. An ideal solution, but not possible to my knowledge, would be being able to make friends out of any passive animals, instead of just dogs and cats.
