@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Jun/2023
+last_updated: 05/Jan/2024
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["05","Jun","2023"]
+last_release: ["05","Jan","2024"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full collection in a single datapack or <a href=#features>download the individual datapacks as desired</a>."
 abstract: "A merged version of every Vegancraft datapack. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
@@ -30,9 +30,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
             <br/>
-            {% include dp_download.html version="v1.0" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-DP_v1.0.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
+            {% include dp_download.html version="v1.0.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0.1/vegancraft-DP_v1.0.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">

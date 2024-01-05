@@ -33,7 +33,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
             <br/>
-            {% include dp_download.html version="v1.1.1" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
+            {% include dp_download.html version="v1.1.1" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0.1/ethical_textiles_v1.1.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
