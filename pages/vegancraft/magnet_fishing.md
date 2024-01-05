@@ -4,13 +4,13 @@ keywords: minecraft, datapack, fishing, iron, junk, scrap, vegan, veganism, paci
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Jun/2023
+last_updated: 05/Jan/2024
 permalink: magnet_fishing.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/magnet-fishing/
 first_release: ["16","Apr","2023"]
-last_release: ["05","Jun","2023"]
+last_release: ["05","Jan","2024"]
 logo: vegancraft/magnet_fishing/pack.png
 thumbnail: vegancraft/magnet_fishing/thumbnail.png
 intro: "A datapack that adds a magnet fishing rod, with which you can fish iron and iron items."
@@ -31,7 +31,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
             <br/>
             {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/magnet_fishing_v1.1.zip" rp-version="v1.0, OPTIONAL" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
         </p>
