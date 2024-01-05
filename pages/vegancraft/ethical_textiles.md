@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, clothes, 
 tags: [datapack, vegancraft, standalone, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Jun/2023
+last_updated: 05/Jan/2024
 permalink: ethical_textiles.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/
 first_release: ["15","Oct","2022"]
-last_release: ["05","Jun","2023"]
+last_release: ["05","Jan","2024"]
 logo: vegancraft/ethical_textiles/pack.png
 thumbnail: vegancraft/ethical_textiles/thumbnail.png
 intro: "A datapack that adds plant-based alternatives to leather, string, wool, and feathers.<br/><br/>You will need my <a href=acacia_gum.html>Acacia Gum datapack</a> in order to have a vegan leather option (but it's not required to use this datapack)."
@@ -31,9 +31,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20--rc1" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
             <br/>
-            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/ethical_textiles_v1.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
+            {% include dp_download.html version="v1.1.1" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">

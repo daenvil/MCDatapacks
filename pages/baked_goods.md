@@ -4,7 +4,7 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 15/Jun/2023
+last_updated: 05/Jan/2024
 permalink: baked_goods.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/
@@ -29,7 +29,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20.1" %}
+            {% include dp_badges.html supports="1.20+" tested="1.20.1, 1.20.4" %}
             <br/>
             {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-version="v1.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" %}
         </p>

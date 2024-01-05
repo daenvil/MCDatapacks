@@ -12,5 +12,5 @@ An update to adapt the datapack for Minecraft 1.20 and for [Vegancraft 1.0](vega
 
 <div class="btn-group">
     <a href="ethical_textiles_v1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1</a>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="ethical_textiles_v1.1.1.html" role="button" class="btn btn-primary">Next release: v1.1.1 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>
