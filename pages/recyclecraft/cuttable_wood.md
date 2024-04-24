@@ -4,21 +4,21 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Jan/2024
+last_updated: 24/Apr/2024
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
-last_release: ["08","Jun","2023"]
+last_release: ["24","Apr","2024"]
 logo: recyclecraft/cuttable_wood/pack.png
-thumbnail: recyclecraft/cuttable_wood/thumbnail-mc1.20-2.png
+thumbnail: recyclecraft/cuttable_wood/thumbnail-mc1.20.5.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
 index: 1
-downloads: 14200
-downloads_str: "&gt;14.2k"
-gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20-2.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
+downloads: 15100
+downloads_str: "&gt;15.1k"
+gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20.5.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 
 ## Downloads
@@ -26,8 +26,10 @@ gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20-2.png,images/recycl
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20+ (OP version)</a></li>
-    <li><a href="#current2" data-toggle="tab">1.20+ (vanilla-balanced version)</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20.5+ (vanilla-balanced version)</a></li>
+    <li><a href="#current2" data-toggle="tab">1.20.5+ (OP version)</a></li>
+    <li><a href="#legacy-1-20-4-balanced" data-toggle="tab">1.20–1.20.4 (vanilla-balanced version)</a></li>
+    <li><a href="#legacy-1-20-4-op" data-toggle="tab">1.20–1.20.4 (OP version)</a></li>
     <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
     <li><a href="#legacy2" data-toggle="tab">1.16–1.18.2</a></li>
     <li><a href="#legacy3" data-toggle="tab">1.14–1.15.2</a></li>
@@ -36,16 +38,30 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
+            {% include dp_badges.html supports="1.20.5+" tested="1.20.5" %}
             <br/>
-            {% include dp_download.html version="v3-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" %}
+            {% include dp_download.html version="v3-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/wg663bdpxrpsqa6mp6ess/cuttable_wood_v3.1-balanced.zip?rlkey=v9odgx9l75z22jt753av8vwzw&st=ddjzaaii&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="current2">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
+            {% include dp_badges.html supports="1.20.5+" tested="1.20.5" %}
             <br/>
-            {% include dp_download.html version="v3-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" %}
+            {% include dp_download.html version="v3-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/cz6jski6r38ycg9p3u1c5/cuttable_wood_v3.1-op.zip?rlkey=bjpjxkek44k2ey1q5r1mapd4s&st=2xi8etul&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy-1-20-4-balanced">
+        <p>
+            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
+            <br/>
+            {% include dp_download.html version="v3-op" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy-1-20-4-op">
+        <p>
+            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
+            <br/>
+            {% include dp_download.html version="v3-balanced" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -86,6 +102,8 @@ Some general things this datapack allows you to do:
 - **Strip** huge amounts of wood faster than by hand.
 
 ### Recipe summaries
+
+{% include comments/warning.html content="These summaries might be outdated" %}
 
 The number of recipes this datapack adds is too big to list all of them here. Here you have a summary for each version (click to expand):
 {% include collapsible.html title="Shortened list of recipes (\"OP\" version)" content='<b>Wood/hyphae:</b>
