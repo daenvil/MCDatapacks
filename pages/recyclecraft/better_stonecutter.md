@@ -82,15 +82,17 @@ Products of stonecutting are given recipes so they can be cut again into smaller
 - Some items can now be obtained through stonecutting:
     - Stone/blackstone &#x21D2; pressure plates, buttons
     - Nether Bricks &#x21D2; Nether Brick fence, Nether brick
-    - Quartz &#x21D2; Nether quartz ("OP" version only)
-    - Sandstone &#x21D2; sand ("OP" version only)
-    - Copper &#x21D2; copper ingots, copper grates, copper doors, etc.
-    - Iron &#x21D2; doors, pressure plates, iron bars, iron ingots, chains ("OP" version only)
+    - Quartz &#x21D2; Nether quartz\*
+    - Sandstone &#x21D2; sand\*
+    - Copper &#x21D2; copper ingots, copper grates, copper doors\*, etc.
+    - Iron &#x21D2; doors, pressure plates, iron bars, iron ingots, chains\*
     - Gold &#x21D2; pressure plates, gold ingots
-    - Prismarine &#x21D2; prismarine shards ("OP" version only)
-    - Amethyst blocks or clusters &#x21D2; amethyst shards ("OP" version only)
+    - Prismarine &#x21D2; prismarine shards\*
+    - Amethyst blocks or clusters &#x21D2; amethyst shards\*
     - Mud bricks &#x21D2; Packed mud
-  
+
+\* *These recipes marked with "\*" are only available on the "OP" version of the datapack.*
+
 {% include comments/important.html content='If you don\'t like some of the recipes, it\'s possible to remove them by simply going into the datapack\'s <code>data/dnv.better_stonecutter/recipes/</code> folder and removing the recipes that you don\'t want (they are organized in subfolders, so it is easy to identify them and bulk-remove them).' %}
 
 - You can switch between stone types (and their products) more easily:
