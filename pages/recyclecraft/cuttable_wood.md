@@ -54,14 +54,14 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
             <br/>
-            {% include dp_download.html version="v3-op" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" %}
+            {% include dp_download.html version="v3-op" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy-1-20-4-balanced">
         <p>
             {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
             <br/>
-            {% include dp_download.html version="v3-balanced" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" %}
+            {% include dp_download.html version="v3-balanced" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
