@@ -2,7 +2,7 @@
 title:  "Better Stonecutter 2.0 Release"
 published: true
 permalink: better_stonecutter_v2.0.html
-summary: "Improved copper recipes."
+summary: "Major rework, split in two differently balanced versions + 1.20.5 update"
 tags: [news,changelog,recyclecraft]
 datapack: better_stonecutter
 changelog: v2.0
