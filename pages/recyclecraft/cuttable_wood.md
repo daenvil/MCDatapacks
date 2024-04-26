@@ -17,7 +17,7 @@ abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting o
 priority: 2
 index: 1
 downloads: 15100
-downloads_str: "&gt;15.1k"
+downloads_str: "&gt;15k"
 gallery: [images/recyclecraft/cuttable_wood/thumbnail-mc1.20.5.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 

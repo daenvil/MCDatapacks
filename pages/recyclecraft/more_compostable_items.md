@@ -4,20 +4,20 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 02/Jan/2024
+last_updated: 26/Apr/2024
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
 pmc: https://www.planetminecraft.com/data-pack/more-compostable-items/
 first_release: ["18","Jan","2022"]
-last_release: ["02","Jan","2024"]
+last_release: ["26","Apr","2024"]
 logo: recyclecraft/more_compostable_items/pack.png
 intro: "This datapack aims to add composting mechanics to all vanilla items which <i>should</i> be compostable, while being as close as possible to vanilla mechanics."
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 3894
-downloads_str: "&gt;3.8k"
+downloads: 4500
+downloads_str: "&gt;4.5k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---
@@ -27,16 +27,24 @@ gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li><a href="#legacy-1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.16.2–1.19.4</a></li>
 </ul>
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
+            {% include dp_badges.html supports="1.20.5+" tested="1.20.5" %}
             <br/>
-            {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.2.1/more_compostable_items_v1.2.1.zip" %}
+            {% include dp_download.html version="v1.3" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3/more_compostable_items_v1.3.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy-1-20">
+        <p>
+            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
+            <br/>
+            {% include dp_download.html version="v1.2.1" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.2.1/more_compostable_items_v1.2.1.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -79,7 +87,7 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 </li><li>Spider eye
 </li><li>Fermented spider eye
 </li><li>Phantom membrane
-</li><li>Scute
+</li><li>Turtle and armadillo scutes
 </li><li>Rabbit hide
 </li><li>Bamboo
 </li><li>String
@@ -110,10 +118,7 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 </li><li>Goat horn
 </li><li>Muddy mangrove roots</li></ul>' id='30-chance' %}
  
-{% include collapsible.html title='50% chance:' content='<ul><li>Raw/cooked chicken, cod, mutton, porkchop, rabbit, beef, and salmon
-</li><li>Rabbit\'s foot
-</li><li>Pufferfish
-</li><li>Tropical fish
+{% include collapsible.html title='50% chance:' content='<ul><li>Cooked chicken, cod, mutton, porkchop, rabbit, beef, and salmon
 </li><li>Crimson/warped nylium</li></ul>' id='50-chance' %}
 
 {% include collapsible.html title='65% chance:' content='<ul><li>Poisonous potato
@@ -133,7 +138,7 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 
 ### Known issues (and solutions)
 
-- **Custom-composting only works with composters that are placed by players**. This means that it wont work with world-generated composters, with composters summoned via commands, or with composters placed *before* the datapack was installed. Simply **break a composter and place it again manually to make the datapack register it**.
+- **Custom-composting via hoppers only works with composters that are placed by players**. This means that it won't work with world-generated composters, with composters summoned via commands, or with composters placed *before* the datapack was installed. Simply **break a composter and place it again manually to make the datapack register it**.
 - The datapack might have trouble detecting a placed composter if you are moving very fast while placing it. This shouldn't be a problem as long as you are not MLG-360-no-scoping composters. If a composter is not working, just break it and place it again while not moving.
 - Some things are hardcoded in this datapack, which means that it can interact in unexpected ways with mods that alter vanilla mechanics:
   - Hopper-custom-composting uses the hopper built-in <code>TransferCooldown</code> variable, so it might conflict with any mod or datapack that changes the vanilla behaviour of hopper cooldowns.
@@ -141,7 +146,7 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 
 ### Adding new compostable items
 
-This datapack provides item tags for 10%, 30%, 50%, 65%, 85%, and 100% composting chances. You can find their .json files in <code>&lt;this datapack&gt;/data/dnv.recyclecraft/tags/items/</code>. If you want to customize the datapack for your own use, edit those files however you want.
+This datapack provides item tags for 10%, 30%, 50%, 65%, 85%, and 100% composting chances. You can find their .json files in <code>&lt;this datapack&gt;/data/dnv.compost/tags/items/</code>. If you want to customize the datapack for your own use, edit those files however you want.
 
 {% include comments/important.html content='There is another item tag for vanilla-compostable items, do not edit that one unless you know what you are doing. It is used to detect when a hopper is containing them as to not overlap vanilla-composting with custom-composting, otherwise, both mechanics would function at the same time, breaking the intended effect of this datapack.' %}
 
@@ -167,7 +172,7 @@ In vanilla, you right-click a composter with a compostable item to compost it. A
 
 So to mimic this, we have multiple options:
 - Right-click can be detected with food items, since it's the way you eat them. Theoretically, this could be used to detect when you press right-click with a food item in your hand while facing a composter, and use that to compost the item. However this has two short-comings: it's not an universal solution (we would have to find an alternative for non-food items), and would only work when the player is hungry.
-- Right-click *can* be detected by using more complex methods like invisible villagers, item frames, etc. However, these methods have their shortcomings and I do not wish to have to use something as complex as that for something so simple and common as composting items.
+- Right-click *can* be detected by using more complex methods like invisible villagers, item frames, etc. However, these methods have their shortcomings and I do not wish to have to use something as complex as that for something so simple and common as composting items. With the introduction of the interaction entity, I hoped that this would be fixed, but the interaction entity blocks any interactions through it, which means that you would not be able to place blocks against a composter, since the interaction entity would be blocking your right click.
 - Instead of right-clicking, dropping the items *inside* the composter. This can be easily detected and is the method already used by the other custom composting datapacks I found. It's not the same as the vanilla mechanic, but it's probably the best method we have. This was the chosen approach for this datapack, and I decided to also make vanilla-compostable items compostable this way, for consistency.
 
 ### Interacting with composters via hoppers
@@ -184,4 +189,4 @@ In vanilla, composting can be automated by placing hoppers on top and below the 
 
 Some extra details need to be taken into account, like hopper cooldown, stopping custom composting when the composter is full, different composting chances for each item, etc.
 
-In principle, this method should emulate perfectly the behaviour of vanilla composters with any item you want to add, the only short-coming it has right now is that vanilla items are still hardcoded, so it is impossible to change their random composting chances or make them non-compostable. They also have to be manually added to an item tag (<code>dnv.recyclecraft:vanilla-compostable</code>) in order to take them into account in the algorithm, so this could create conflicts with any mod which adds new items which are vanilla-compostable and are not added to that item tag (also, I have to manually add any new compostable item with each Minecraft major update). The effect of such conflict is making hoppered composters be able to process vanilla and custom-compostable items at the same time, though, so it doesn't break anything important, it just doubles the composting speed in the specific case where the hopper contains a custom-compostable item and a vanilla-compostable item which is not in the vanilla-compostable tag at the same time.
+In principle, this method should emulate perfectly the behaviour of vanilla composters with any item you want to add, the only short-coming it has right now is that vanilla items are still hardcoded, so it is impossible to change their random composting chances or make them non-compostable. They also have to be manually added to an item tag in order to take them into account in the algorithm, so this could create conflicts with any mod which adds new items which are vanilla-compostable and are not added to that item tag (also, I have to manually add any new compostable item with each Minecraft major update). The effect of such conflict is making hoppered composters be able to process vanilla and custom-compostable items at the same time, though, so it doesn't break anything important, it just doubles the composting speed in the specific case where the hopper contains a custom-compostable item and a vanilla-compostable item which is not in the vanilla-compostable tag at the same time.

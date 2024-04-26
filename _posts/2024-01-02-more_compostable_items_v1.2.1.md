@@ -11,6 +11,6 @@ changelog: v1.2.1
 Just a small update to fix compatibility issues with the latest updates. Also fixed a bug that I didn't catch until now.
 
 <div class="btn-group">
-    <a href="more_compostable_items_v1.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1.2</a>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="more_compostable_items_v1.2.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1.2</a>
+    <a href="more_compostable_items_v1.3.html" role="button" class="btn btn-primary">Next release: v1.3 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>
