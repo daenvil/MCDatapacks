@@ -1,5 +1,5 @@
 ---
-title:  "Better Stonecutter 2.0 Release"
+title:  "Better Stonecutter - v2.0 release"
 published: true
 permalink: better_stonecutter_v2.0.html
 summary: "Major rework, split in two differently balanced versions + 1.20.5 update"
