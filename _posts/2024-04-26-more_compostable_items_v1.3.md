@@ -5,7 +5,7 @@ permalink: more_compostable_items_v1.3.html
 summary: "Compatibility with MC1.20.5 + excluded raw meats + added armadillo scute + optimization"
 tags: [news,changelog,recyclecraft]
 datapack: more_compostable_items
-changelog: v3
+changelog: v1.3
 ---
 
 As I told you [on the 1.20.5 update post](update_MC1.20.5.html), Minecraft 1.20.5 introduced a lot of changes in the technical side of datapacks. I'm slowly getting everything up to date. [Cuttable wood](cuttable_wood.html) and [Better Stonecutter](better_stonecutter.html) were already updated. Now is the turn of *More Compostable Items*.
