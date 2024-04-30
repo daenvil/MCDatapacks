@@ -4,34 +4,44 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Jan/2024
+last_updated: 30/Apr/2024
 permalink: baked_goods.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/
 first_release: ["10","Nov","2022"]
-last_release: ["15","Jun","2023"]
+last_release: ["30","Apr","2023"]
 logo: baked_goods/pack.png
 thumbnail: baked_goods/thumbnail.png
 intro: A datapack which adds new pies, cakes, cookies, and other baked goods to Minecraft. Bake apple pies, chocolate cakes, glow berry cookies, and many more! See <a href="#new-recipes">below</a> for the full list of recipes. Foods with golden apples/carrots/melon, chorus fruit, and glow berries provide <a href="#special-effects">special effects</a> when eating them.
 abstract: "Adds 25 new baked goods to Minecraft, including apple pies, chocolate cakes, berry cookies, and many more."
 priority: 0
 index: 13
-gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot_cakes.png,images/baked_goods/screenshots/golden_carrot_cakes.png,images/baked_goods/screenshots/chocolate_cakes.png]
+downloads: 2600
+downloads_str: "&gt;2.6k"
+gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot_cakes.png,images/baked_goods/screenshots/recipe_book.png,images/baked_goods/screenshots/golden_carrot_cakes.png,images/baked_goods/screenshots/chocolate_cakes.png]
 ---
 
 ## Downloads
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
 </ul>
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20.1, 1.20.4" %}
+            {% include dp_badges.html supports="1.20.5+" tested="1.20.5, 1.20.6" %}
             <br/>
-            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-version="v1.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" %}
+            {% include dp_download.html version="v2.0" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-version="v2.0" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy1-20">
+        <p>
+            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20.1, 1.20.4" %}
+            <br/>
+            {% include dp_download.html version="v1.1" dropbox-url="https://www.dropbox.com/scl/fi/7ssntdk82uaguxu0ncm9n/daenvils_baked_goods_v1.1.zip?rlkey=e0vry5uj3ijafxwbx5yf0svet&st=p4x1rkz7&dl=1" rp-version="v1.1" rp-dropbox-url="https://www.dropbox.com/scl/fi/mmjkes59hlr22ihy4x5pb/daenvils_baked_goods_RP_v1.1.zip?rlkey=w1rcyowchnigwakfdv9doozol&st=pwzuu162&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -54,22 +64,20 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 
 ### New recipes
 
-{% include comments/important.html content="These recipes will output a knowledge book, the knowledge book will convert automatically into the desired item once you click on it." %}
-{% include comments/tip.html content="All these recipes are unshaped, you don't need to put the ingredients in the same order as shown here." %}
+{% include comments/tip.html content="All these recipes are unshaped, you don't need to put the ingredients in a specific order." %}
 
 #### <ins>Egg-based pies</ins>
 _<ins>Base ingredients: wheat + sugar + egg</ins>_
 
-All egg-based pies are crafted with the **base ingredients plus 2 of their main ingredient**, and provide the same hunger/saturation as a pumpkin pie, unless stated otherwise in the recipe list below.
+All egg-based pies are crafted with the **base ingredients plus their main ingredient**:
 
-- **Carrot pie**: _base ingredients + **2 carrots**_.
-- **Golden carrot pie**: _base ingredients + **2 golden carrots**_. Provides a total of 6.5 {% include image/drumstick.html %} drumsticks and 14.8 saturation, and [special effects\*](#golden-carrot-foods).
-- **Sweet berry pie**: _base ingredients + **2 sweet berries**_.
-- **Glow berry pie**: _base ingredients + **2 glow berries**_. Provides [special effects\*](#glow-berry-foods).
-- **Melon pie**: _base ingredients + **2 melon slices**_.
-- **Glistering melon pie**: _base ingredients + **2 glistering melon slices**_. Provides [special effects\*](#glistering-melon-pie).
-- **Cream pie**: _base ingredients + **2 milk buckets**_. Provides a total of 5 {% include image/drumstick.html %} drumsticks and 8.8 saturation.
-
+- **Carrot pie**: _base ingredients + **1 carrot**_.
+- **Golden carrot pie**: _base ingredients + **1 golden carrot**_. Provides [special effects\*](#golden-carrot-foods).
+- **Sweet berry pie**: _base ingredients + **1 sweet berry**_.
+- **Glow berry pie**: _base ingredients + **1 glow berry**_. Provides [special effects\*](#glow-berry-foods).
+- **Melon pie**: _base ingredients + **1 melon slice**_.
+- **Glistering melon pie**: _base ingredients + **1 glistering melon slice**_. Provides [special effects\*](#glistering-melon-pie).
+- **Cream pie**: _base ingredients + **1 milk bucket**_.
 
 <p align=center>
 {% include image/basic.html src='baked_goods/textures/carrot_pie.png' width='32' nn=true %}
@@ -86,14 +94,14 @@ All egg-based pies are crafted with the **base ingredients plus 2 of their main 
 #### <ins>Simple pies</ins>
 _<ins>Base ingredients: wheat + sugar</ins>_
 
-All simple pies, with the exception of the mushroom pie, are crafted with the **base ingredients plus 1 of their main ingredient**, and provide the same hunger/saturation as a pumpkin pie, unless stated otherwise in the recipe list below.
+All simple pies, with the exception of the mushroom pie, are crafted with the **base ingredients plus their main ingredient**.
 
 
 - **Apple pie**: _base ingredients + **1 apple**_. 
-- **Golden apple pie**: _base ingredients + **1 golden apple**_. Provides a total of 5 {% include image/drumstick.html %} drumsticks and 8.8 saturation, and [special effects\*](#golden-apple-pies).
-- **Enchanted golden apple pie**: _base ingredients + **1 enchanted golden apple**_. Provides a total of 5 {% include image/drumstick.html %} drumsticks and 8.8 saturation, and [special effects\*](#golden-apple-pies).
+- **Golden apple pie**: _base ingredients + **1 golden apple**_. Provides [special effects\*](#golden-apple-pies).
+- **Enchanted golden apple pie**: _base ingredients + **1 enchanted golden apple**_. Provides [special effects\*](#golden-apple-pies).
 - **Chorus fruit pie**: _base ingredients + **1 <ins>popped</ins> chorus fruit**_. Provides [special effects\*](#chorus-fruit-pie).
-- **Mushroom pie**: _**wheat** + **2 red or brown mushrooms**_. Provides a total of 5 {% include image/drumstick.html %} drumsticks and 8.8 saturation.
+- **Mushroom pie**: _**wheat** + **2 red or brown mushrooms**_.
 
 <p align=center>
 {% include image/basic.html src='baked_goods/textures/apple_pie.png' width='32' nn=true %}
@@ -126,13 +134,13 @@ All cakes are crafted with the **base ingredients plus 3 of their main ingredien
 
 #### <ins>Cookies and breads</ins>
 
-All cookies and breads are crafted with **2 wheat plus 1 of their main ingredient**, and provide the same hunger/saturation as regular cookies and bread, except stated otherwise in the recipe list below.
+All cookies and breads are crafted with **2 wheat plus 1 of their main ingredient**. The cookies take half of regular time to eat (0.8 seconds).
 
 - **Sugar cookies**: _2 wheat + **1 sugar**_.
-- **Sweet berry cookies**: _2 wheat + **1 sweet berries**_.
-- **Glow berry cookies**: _2 wheat + **1 glow berries**_. Provides [special effects\*](#glow-berry-foods).
+- **Sweet berry cookies**: _2 wheat + **1 sweet berry**_.
+- **Glow berry cookies**: _2 wheat + **1 glow berry**_. Provides [special effects\*](#glow-berry-foods).
 - **Carrot bread**: _2 wheat + **1 carrot**_.
-- **Golden carrot bread**: _2 wheat + **1 golden carrot**_. Provides a total of 4.5 {% include image/drumstick.html %} drumsticks and 14 saturation, and [special effects\*](#golden-carrot-foods).
+- **Golden carrot bread**: _2 wheat + **1 golden carrot**_. Provides [special effects\*](#golden-carrot-foods).
 - **Pumpkin bread**: _2 wheat + **1 pumpkin**_.
 
 <p align=center>
@@ -148,12 +156,10 @@ All cookies and breads are crafted with **2 wheat plus 1 of their main ingredien
 
 #### <ins>Others</ins>
 
-These other recipes all provide the same hunger/saturation as pumpkin pie, unless stated otherwise in the recipe list below.
-
-- **Sponge cake**: _wheat + sugar + 2 eggs_.
-- **Cocoa sponge cake**: _wheat + sugar + egg + cocoa beans_.
-- **Custard tart**: _wheat + sugar + egg + milk bucket_. Provides a total of 4.5 {% include image/drumstick.html %} drumsticks and 6.8 saturation.
-- **Mushroom quiche**: _wheat + egg + milk bucket + 2 red or brown mushrooms_. Provides a total of 5.5 {% include image/drumstick.html %} drumsticks and 10.8 saturation.
+- **Sponge cake**: _wheat + sugar + 2 eggs_. Takes half of regular time to eat (0.8 seconds).
+- **Cocoa sponge cake**: _wheat + sugar + egg + cocoa beans_. Takes half of regular time to eat (0.8 seconds).
+- **Custard tart**: _wheat + sugar + 2 eggs + milk bucket_. Takes half of regular time to eat (0.8 seconds).
+- **Mushroom quiche**: _wheat + egg + milk bucket + 2 red or brown mushrooms_.
 
 <p align=center>
 {% include image/basic.html src='baked_goods/textures/sponge_cake.png' width='32' nn=true %}
@@ -188,18 +194,50 @@ Eating a glistering melon pie provides **2 hearts of instant health** (same as a
 
 #### <ins>Glow berry foods</ins>
 
-Glow berry foods **end the Darkness effect** and provide **night vision** for a short time (5 seconds for cookies and 20 seconds for pies).
+Glow berry foods **end the Darkness effect** and provide **night vision** and the **glow effect** for a short time (5 seconds for cookies and 20 seconds for pies).
 
 #### <ins>Chorus fruit pie</ins>
 
-When eating a chorus fruit pie, you will be **teleported randomly within 32 blocks**, as if you just ate a chorus fruit (with four times more range). In addition, it has some interactions with endermen:
+When eating a chorus fruit pie, you will be **teleported randomly within 32 blocks**, as if you just ate a chorus fruit (with four times more range).
 
-- When holding a chorus fruit pie on any hand, nearby endermen are attracted to it, having a chance of teleporting near you.
-- When eating a chorus fruit pie near endermen (<64 blocks), they may become angry towards you.
+### Available commands
+
+All foods have their own "give" function, which can be used to give yourself the food if you have admin privileges or cheats turned on. The command is ``/function dnv.baking:give/<item_id>``.
+
+- E.g. ``/function dnv.baking:give/golden_carrot_pie`` will give you a golden carrot pie.
+
+### Food hunger and saturation values
+
+The following table contains the hunger restored and saturation given by each custom food (except cake slices). These are roughly calculated from their ingredients.
+
+| Food                     | Hunger restored | Saturation |
+|--------------------------|-----------|------------|
+| carrot pie               | 4.5 {% include image/drumstick.html %} drumsticks |       12.6 |
+| golden carrot pie        | 6 {% include image/drumstick.html %} drumsticks |       20.0 |
+| sweet berry pie          | 4 {% include image/drumstick.html %} drumsticks |        6.2 |
+| glow berry pie           | 4 {% include image/drumstick.html %} drumsticks |        6.2 |
+| melon pie                | 4 {% include image/drumstick.html %} drumsticks |        7.8 |
+| glistering melon pie     | 6 {% include image/drumstick.html %} drumsticks |       19.8 |
+| cream pie                | 3 {% include image/drumstick.html %} drumsticks |        0.4 |
+| apple pie                | 4 {% include image/drumstick.html %} drumsticks |        5.8 |
+| golden apple pie         | 4 {% include image/drumstick.html %} drumsticks |       13.0 |
+| enchanted apple pie      | 4 {% include image/drumstick.html %} drumsticks |       13.0 |
+| chorus fruit pie         | 4 {% include image/drumstick.html %} drumsticks |        5.8 |
+| mushroom pie             | 3.5 {% include image/drumstick.html %} drumsticks |        9.2 |
+| sponge cake              | 2 {% include image/drumstick.html %} drumsticks |        3.7 |
+| cocoa sponge cake        | 2.5 {% include image/drumstick.html %} drumsticks |        2.3 |
+| custard tart             | 2 {% include image/drumstick.html %} drumsticks |        2.4 |
+| mushroom quiche          | 4.5 {% include image/drumstick.html %} drumsticks |        8.5 |
+| sugar cookie             | 1 {% include image/drumstick.html %} drumstick |        2.2 |
+| sweet berry cookie       | 1 {% include image/drumstick.html %} drumstick |        2.1 |
+| glow berry cookie        | 1 {% include image/drumstick.html %} drumstick |        2.1 |
+| carrot bread             | 3 {% include image/drumstick.html %} drumsticks |        7.6 |
+| golden carrot bread      | 4.5 {% include image/drumstick.html %} drumsticks |       18.4 |
+| pumpkin bread            | 3.5 {% include image/drumstick.html %} drumsticks |        5.4 |
 
 ### Vegancraft compatibility
 
-This datapack was made to be compatible with my _[Plant-based Foods](plant-based_foods.html)_ datapack. As such, **if _Plant-based Foods_ is also installed, you will be able to replace eggs with wheat or potato in any of the recipes**, and the custom naming and advancements of that datapack are also supported by the foods in this datapack. _None of this will affect you if you don't have that datapack installed_.
+This datapack was made to be compatible with my _[Plant-based Foods](plant-based_foods.html)_ datapack. As such, **if _Plant-based Foods_ is also installed, you will be able to replace eggs with wheat or potato in any of the recipes**, and the custom advancements of that datapack are also supported by the foods in this datapack. _None of this will affect you if you don't have that datapack installed_.
 
 ## Other credits
 
