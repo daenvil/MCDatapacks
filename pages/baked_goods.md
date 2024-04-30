@@ -212,28 +212,28 @@ The following table contains the hunger restored and saturation given by each cu
 
 | Food                     | Hunger restored | Saturation |
 |--------------------------|-----------|------------|
-| carrot pie               | 4.5 {% include image/drumstick.html %} drumsticks |       12.6 |
-| golden carrot pie        | 6 {% include image/drumstick.html %} drumsticks |       20.0 |
-| sweet berry pie          | 4 {% include image/drumstick.html %} drumsticks |        6.2 |
-| glow berry pie           | 4 {% include image/drumstick.html %} drumsticks |        6.2 |
-| melon pie                | 4 {% include image/drumstick.html %} drumsticks |        7.8 |
-| glistering melon pie     | 6 {% include image/drumstick.html %} drumsticks |       19.8 |
-| cream pie                | 3 {% include image/drumstick.html %} drumsticks |        0.4 |
-| apple pie                | 4 {% include image/drumstick.html %} drumsticks |        5.8 |
-| golden apple pie         | 4 {% include image/drumstick.html %} drumsticks |       13.0 |
-| enchanted apple pie      | 4 {% include image/drumstick.html %} drumsticks |       13.0 |
-| chorus fruit pie         | 4 {% include image/drumstick.html %} drumsticks |        5.8 |
-| mushroom pie             | 3.5 {% include image/drumstick.html %} drumsticks |        9.2 |
-| sponge cake              | 2 {% include image/drumstick.html %} drumsticks |        3.7 |
-| cocoa sponge cake        | 2.5 {% include image/drumstick.html %} drumsticks |        2.3 |
-| custard tart             | 2 {% include image/drumstick.html %} drumsticks |        2.4 |
-| mushroom quiche          | 4.5 {% include image/drumstick.html %} drumsticks |        8.5 |
-| sugar cookie             | 1 {% include image/drumstick.html %} drumstick |        2.2 |
-| sweet berry cookie       | 1 {% include image/drumstick.html %} drumstick |        2.1 |
-| glow berry cookie        | 1 {% include image/drumstick.html %} drumstick |        2.1 |
-| carrot bread             | 3 {% include image/drumstick.html %} drumsticks |        7.6 |
-| golden carrot bread      | 4.5 {% include image/drumstick.html %} drumsticks |       18.4 |
-| pumpkin bread            | 3.5 {% include image/drumstick.html %} drumsticks |        5.4 |
+| carrot pie               | 4.5 {% include image/drumstick.html %}  |       12.6 |
+| golden carrot pie        | 6 {% include image/drumstick.html %}  |       20.0 |
+| sweet berry pie          | 4 {% include image/drumstick.html %}  |        6.2 |
+| glow berry pie           | 4 {% include image/drumstick.html %}  |        6.2 |
+| melon pie                | 4 {% include image/drumstick.html %}  |        7.8 |
+| glistering melon pie     | 6 {% include image/drumstick.html %}  |       19.8 |
+| cream pie                | 3 {% include image/drumstick.html %}  |        0.4 |
+| apple pie                | 4 {% include image/drumstick.html %}  |        5.8 |
+| golden apple pie         | 4 {% include image/drumstick.html %}  |       13.0 |
+| enchanted apple pie      | 4 {% include image/drumstick.html %}  |       13.0 |
+| chorus fruit pie         | 4 {% include image/drumstick.html %}  |        5.8 |
+| mushroom pie             | 3.5 {% include image/drumstick.html %}  |        9.2 |
+| sponge cake              | 2 {% include image/drumstick.html %}  |        3.7 |
+| cocoa sponge cake        | 2.5 {% include image/drumstick.html %}  |        2.3 |
+| custard tart             | 2 {% include image/drumstick.html %}  |        2.4 |
+| mushroom quiche          | 4.5 {% include image/drumstick.html %}  |        8.5 |
+| sugar cookie             | 1 {% include image/drumstick.html %} |        2.2 |
+| sweet berry cookie       | 1 {% include image/drumstick.html %} |        2.1 |
+| glow berry cookie        | 1 {% include image/drumstick.html %} |        2.1 |
+| carrot bread             | 3 {% include image/drumstick.html %}  |        7.6 |
+| golden carrot bread      | 4.5 {% include image/drumstick.html %}  |       18.4 |
+| pumpkin bread            | 3.5 {% include image/drumstick.html %}  |        5.4 |
 
 ### Vegancraft compatibility
 

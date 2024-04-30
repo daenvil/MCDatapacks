@@ -10,7 +10,7 @@ changelog: v2.0
 
 This one was a ton of work to update, but now this datapack is much better thanks to the new 1.20.5 components. For me, the main improvement is just being able to see all recipes in the in-game recipe book:
 
-{% include image/basic.html src='baked_goods/screenshots/recipe_book.png' alt='Screenshot of the in-game recipe book, where all recipes are visible' align='center' width='300' nn=true %}
+{% include image/basic.html src='baked_goods/screenshots/recipe_book.png' alt='Screenshot of the in-game recipe book, where all recipes are visible' align='center' width='480' nn=true %}
 
 See below for a detailed log of changes. Bon appetit!
 
