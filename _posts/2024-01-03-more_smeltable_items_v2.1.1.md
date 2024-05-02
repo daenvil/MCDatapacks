@@ -12,5 +12,5 @@ A quick patch that changes the recipes for cut copper to provide ingots instead 
 
 <div class="btn-group">
     <a href="more_smeltable_items_v2.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v2.1</a>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="more_smeltable_items_v3.0.html" role="button" class="btn btn-primary">Next release: v3.0 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>
