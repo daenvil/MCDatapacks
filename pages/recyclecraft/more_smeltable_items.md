@@ -24,7 +24,7 @@ gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.17+</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.17–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.16.x</a></li>
     <li><a href="#legacy2" data-toggle="tab">1.14–1.15.2</a></li>
