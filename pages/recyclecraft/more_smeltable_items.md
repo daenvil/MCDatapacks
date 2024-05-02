@@ -73,7 +73,7 @@ Here are the full lists of smelting recipes added to the furnace and to the blas
 
 {% include collapsible.html id='to-gold-nuggets' title='Items smeltable to gold nuggets' content='<ul><li>Bell</li><li>Clock</li><li>Gold pressure plate</li><li>Powered rail</li><li>Golden apple, carrot, and melon slice</li></ul>' %}
 
-{% include collapsible.html id='to-copper-ingots' title='Items smeltable to copper ingots' content='<ul><li>Brush</li><li>Lightning rod</li><li>Spyglass</li><li>Any cut copper block, slab or stairs</li><li>Chiseled copper</li><li>Copper bulb</li></ul>' %}
+{% include collapsible.html id='to-copper-ingots' title='Items smeltable to copper ingots' content='<ul><li>Brush</li><li>Lightning rod</li><li>Spyglass</li><li>Any cut copper block, slab or stairs</li><li>Chiseled copper</li><li>Copper bulb</li><li>Copper grate</li></ul>' %}
 
 {% include collapsible.html id='to-copper-blocks' title='Items smeltable to copper blocks' content='<ul><li>Any copper block</li><li>Copper doors and trapdoors</li></ul>' %}
 
