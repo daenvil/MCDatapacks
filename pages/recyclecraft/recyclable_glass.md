@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Jan/2024
+last_updated: 03/May/2024
 permalink: recyclable_glass.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-glass/
 first_release: ["30","Jul","2022"]
-last_release: ["02","Jun","2023"]
+last_release: ["03","May","2024"]
 logo: recyclecraft/recyclable_glass/pack.png
 intro: "Ever dyed a bunch of glass and ended not using all of it? Ever crafted more panes or bottles than you needed? This datapack allows you to recycle all glass items by adding crafting and smelting recipes."
 abstract: "Allows you to recycle all glass items by adding new crafting and smelting recipes."
@@ -20,9 +20,30 @@ gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/202
 ---
 
 ## Downloads
-{% include dp_badges.html supports="1.17+" tested="1.19.4, 1.20, 1.20.4" %}
 
-{% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" %}
+Choose the option compatible with your Minecraft version:
+
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.20.4</a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="current">
+        <p>
+            {% include dp_badges.html supports="1.20.5+" tested="1.20.6" %}
+            <br/>
+            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy">
+        <p>
+            {% include dp_badges.html supports="1.17–1.20.4" tested="1.19.4, 1.20, 1.20.4" %}
+            <br/>
+            {% include dp_download.html version="v1.0.1" dropbox-url="https://www.dropbox.com/scl/fi/lhjoqv8va28w333oa52fa/recyclable_glass_v1.0.1.zip?rlkey=f6is7034pk2lnzso0tjm13lhl&st=bjgnvb3u&dl=1" discontinued=true %}
+        </p>
+    </div>
+</div>
 
 {% include installation.html %}
 

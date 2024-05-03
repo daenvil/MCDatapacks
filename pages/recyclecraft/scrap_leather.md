@@ -41,7 +41,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.16.2–1.20.4" tested="1.16.5, 1.19.4, 1.20.4" %}
             <br/>
-            {% include dp_download.html version="v2.0.1" dropbox-url="https://www.dropbox.com/s/vsp42vrdlvdynzg/scrap_leather_v2.0.1.zip?st=7xkdf24y&dl=1" %}
+            {% include dp_download.html version="v2.0.1" dropbox-url="https://www.dropbox.com/s/vsp42vrdlvdynzg/scrap_leather_v2.0.1.zip?st=7xkdf24y&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
