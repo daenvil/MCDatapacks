@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Jan/2024
+last_updated: 03/May/2024
 permalink: scrap_leather.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-leather/
@@ -24,16 +24,24 @@ gallery: [images/recyclecraft/scrap_leather/thumbnail.png,https://static.planetm
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.16.2+</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li><a href="#legacy1-20" data-toggle="tab">1.16.2–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.14–1.16.5</a></li>
 </ul>
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.16.2+" tested="1.16.5, 1.19.4, 1.20.4" %}
+            {% include dp_badges.html supports="1.20.5+" tested="1.20.6" %}
             <br/>
             {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy1-20">
+        <p>
+            {% include dp_badges.html supports="1.16.2–1.20.4" tested="1.16.5, 1.19.4, 1.20.4" %}
+            <br/>
+            {% include dp_download.html version="v2.0.1" dropbox-url="https://www.dropbox.com/s/vsp42vrdlvdynzg/scrap_leather_v2.0.1.zip?st=7xkdf24y&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">

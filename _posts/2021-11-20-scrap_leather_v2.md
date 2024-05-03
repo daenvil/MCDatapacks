@@ -7,3 +7,8 @@ tags: [news,changelog,recyclecraft]
 datapack: scrap_leather
 changelog: v2
 ---
+
+<div class="btn-group">
+    <a href="scrap_leather_v1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1</a>
+    <a href="scrap_leather_v2.0.1.html" role="button" class="btn btn-primary">Next release: v2.0.1 &nbsp;<i class="fa fa-caret-right"></i></a>
+</div>
