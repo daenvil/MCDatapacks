@@ -10,7 +10,7 @@ published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-based-foods/
 first_release: ["17","Jun","2022"]
-last_release: ["20","May","2023"]
+last_release: ["20","May","2024"]
 logo: vegancraft/vegan_food/pack.png
 thumbnail: vegancraft/vegan_food/thumbnail.png
 intro: "A datapack that adds vegan alternatives to dairy, eggs, honey, and meat."
@@ -70,7 +70,7 @@ Choose the option compatible with your Minecraft version:
 #### Plant-based milk
 Crafted with a water bucket, an empty bucket, and 6 wheat seeds, pumpkin seeds, potatoes, or sunflowers. *Behaves as a milk bucket*.
 
-{% include image/basic.html src="vegancraft/vegan_food/screenshots/recipes/milk.gif" alt="Plant milk recipe" align="center" width="300" %}
+{% include image/basic.html src="vegancraft/vegan_food/screenshots/recipes/plant_milk.png" alt="Plant milk recipe" align="center" width="300" %}
 
 #### Egg baking alternatives
 **Pumpkin pies** and **cakes** can be crafted by replacing the egg in the vanilla recipe with wheat or a potato.
@@ -126,11 +126,11 @@ Crafted with a carrot, kelp, and a (vegan) honey bottle. *Behaves as raw salmon 
 
 From Minecraft 1.20.5 and later versions, the custom items will appear in the in-game recipe book like any other recipe, and you can filter them using the name of this datapack:
 
-{% include image/basic.html src='vegancraft/vegan_food/screenshots/recipe_book.png' alt='All custom items showing up in the in-game recipe book' align='center' width='480' nn=true %}
+{% include image/basic.html src='vegancraft/vegan_food/screenshots/recipe_book.png' alt='All custom items showing up in the in-game recipe book' align='center' width='600' nn=true %}
 
 However, there's a limitation which is kind of annoying, which is that custom items are not automatically recognized as ingredients, so you will still need to put them manually in the crafting grid. This the case only for the recipes that require a custom item as ingredient, which are: not-fish fillet (requires a seitan steak), not-salmon fillet (requires a vegan honey bottle), and seitan stew (requires a seitan steak). These recipes are shapeless to help with this issue.
 
-{% include comments/important.html content="Prior to Minecraft 1.20.5, the datapack worked differently, with the custom recipes outputting a knowledge book. I recommend playing on Minecraft 1.20.5 or superior, which is much better due to this." %}
+{% include comments/important.html content="Prior to Minecraft 1.20.5, the datapack worked differently, with the custom recipes outputting a knowledge book. I recommend playing on Minecraft 1.20.5 or superior, which is much better due to this change." %}
 
 ### Vegan ingredients detection
 
