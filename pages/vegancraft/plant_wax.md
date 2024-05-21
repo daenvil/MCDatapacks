@@ -34,7 +34,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.20.5+" tested="1.20.6" %}
             <br/>
-            {% include dp_download.html version="v2.0" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/plant_wax_v2.0.zip" rp-version="v1.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0-pre2/vegancraft-RP_v1.1.zip" %}
+            {% include dp_download.html version="v2.0" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/plant_wax_v2.0.zip" rp-version="v1.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/vegancraft-RP_v1.1.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy1-20">

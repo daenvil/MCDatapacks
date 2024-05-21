@@ -34,7 +34,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
             <br/>
-            {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0-pre2/acacia_gum_v1.2.zip" rp-version="v1.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0-pre2/vegancraft-RP_v1.1.zip" %}
+            {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/acacia_gum_v1.2.zip" rp-version="v1.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/vegancraft-RP_v1.1.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy1-20">
