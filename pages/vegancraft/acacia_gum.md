@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, slime
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 05/Jan/2024
+last_updated: 21/May/2024
 permalink: acacia_gum.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/
 first_release: ["25","Aug","2022"]
-last_release: ["05","Jun","2023"]
+last_release: ["21","May","2024"]
 logo: vegancraft/acacia_gum/pack.png
 thumbnail: vegancraft/acacia_gum/thumbnail.png
 intro: "This datapack adds the item \"Acacia Gumball\" (a retextured Slimeball), which is obtained by stripping acacia logs."
@@ -24,16 +24,24 @@ gallery: [images/vegancraft/acacia_gum/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20.5–1.20.6</a></li>
+    <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.17–1.19.4</a></li>
 </ul>
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.20+" tested="1.20, 1.20.4" %}
+            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
             <br/>
-            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/acacia_gum_v1.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" %}
+            {% include dp_download.html version="v1.2" pmc-url="https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0-pre2/acacia_gum_v1.2.zip" rp-version="v1.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0-pre2/vegancraft-RP_v1.1.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="legacy1-20">
+        <p>
+            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
+            <br/>
+            {% include dp_download.html version="v1.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/acacia_gum_v1.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -57,16 +65,16 @@ Choose the option compatible with your Minecraft version:
 
 {% include image/basic.html src="vegancraft/acacia_gum/screenshots/example.gif" alt="Example of stripping an acacia tree and how the gumballs drop from it" align="center" width="360" %}
 
+{% include comments/tip.html content="In conjunction with my <a href='ethical_textiles.html'>Ethical Textiles</a> datapack, this datapack allows you to craft vegan leather." %}
+
 ### Vegancraft
 
 This is a standalone datapack, but it is designed as a part of [Vegancraft](vegancraft.html), a collection of datapacks with the goal of making a vegan gamestyle possible in a vanilla-like way without missing any game features.
 
-As part of its integration in Vegancraft, this datapack includes the following additional features:
-- Two custom advancements.
-- Some xp will be awarded each time you get an acacia gumball. If using a Fortune III axe, the amount of xp per gumball is equivalent to that you would get by getting slimeballs by killing slimes.
-- In conjunction with my *[Ethical Textiles](ethical_textiles.html)* datapack, this datapack allows you to craft vegan leather.
+When playing using the full Vegancraft datapack instead of the standalone Plant-based Foods datapack, the following features are enabled:
 
-If, for any reason, you want to remove these features, you can use the command **<code>/function dnv.vegancraft:toggle</code>** to disable them. You can also use that command to turn them on again.
+- Custom advancements.
+- Some xp will be awarded each time you get an acacia gumball. If using a Fortune III axe, the amount of xp per gumball is equivalent to that you would get by getting slimeballs by killing slimes.
 
 ## Reasoning
 
