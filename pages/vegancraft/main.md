@@ -67,7 +67,7 @@ This datapack aims to make any vanilla feature available without hurting or usin
 
 <div class="row">
     <div class="col-lg-12">
-        <h3 class="page-header">Included datapacks</h2>
+        <h3 class="page-header">Included datapacks</h3>
     </div>
     {% assign sorted_pages = site.pages | sort: 'index' %}
     {% for page in sorted_pages %}
