@@ -1,23 +1,22 @@
 ---
 title: Omnivorous Pets
-keywords: minecraft, datapack, taming, food, vegan, veganism, plant-based, pacifist
-tags: [datapack, vegancraft, standalone, QoL]
+keywords: minecraft, datapack, taming, food, pacifist
+tags: [datapack, standalone, QoL]
 sidebar: home_sidebar
 toc: true
 last_updated: 05/Jan/2024
 permalink: omnivorous_pets.html
 published: true
-github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/omnivorous-pets/
 first_release: ["22","Jul","2022"]
 last_release: ["05","Jun","2023"]
-logo: vegancraft/omni_pets/pack.png
-thumbnail: vegancraft/omni_pets/thumbnail.png
+logo: omni_pets/pack.png
+thumbnail: omni_pets/thumbnail.png
 intro: "A datapack that allows you to tame wolves and cats using any food."
-abstract: "Tame cats and wolves using any food. You don't need meat anymore to make animal friends!"
+abstract: "Tame cats and wolves using any food."
 priority: 2
 index: 9
-gallery: [images/vegancraft/omni_pets/thumbnail.png]
+gallery: [images/omni_pets/thumbnail.png]
 ---
 
 ## Downloads
