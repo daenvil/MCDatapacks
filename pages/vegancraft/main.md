@@ -144,6 +144,8 @@ A new feature that rewards players with experience for farming crops. Just as ki
 - XP is NOT dropped from player-placed blocks. Some plants, like kelp or chorus flowers, are planted by placing the block, but they will only drop XP after they have grown. In summary: **you can't farm XP by repeteadly placing and breaking the same block**, you will have to at least wait for the plant to grow.
 - To prevent exploiting this mechanic by using fast semi-automatic farms or spamming bone meal, **if a player gains a lot of XP in a small period of time, the chances for XP to drop will decrease for that player** until enough time has passed. The chances start decreasing at 200 gained XP and will drop to zero at 600 XP; from there, it will take ~6 minutes for the chances to recover their regular values. This system would cap at 64 XP/minute in an ideal ultra-fast farm (probably lower in a real case), which is still lower than most mob farms.
 
+{% include image/figure.html src='vegancraft/xp_per_crop.png' align='center' style='max-width:100%;' caption='How much XP each crop yields. Note that XP is only dropped when a block is directly broken by a player.'%}
+
 #### Copper Horns
 
 Same as the goat horn, just a different texture and way of obtaining.
