@@ -63,7 +63,7 @@ Choose the option compatible with your Minecraft version:
 {% include installation.html resourcepack=true %}
 
 ## Features
-This datapack aims to make any vanilla feature available without hurting or using any mob. Some of the features are also available as individual datapacks, and are listed below.
+This datapack aims to make any vanilla feature available without hurting or using any mob. Some of the features are also available as individual datapacks, which are listed below. Check their individual pages to see their features.
 
 <div class="row">
     <div class="col-lg-12">
@@ -144,7 +144,7 @@ A new feature that rewards players with experience for farming crops. Just as ki
 - XP is NOT dropped from player-placed blocks. Some plants, like kelp or chorus flowers, are planted by placing the block, but they will only drop XP after they have grown. In summary: **you can't farm XP by repeteadly placing and breaking the same block**, you will have to at least wait for the plant to grow.
 - To prevent exploiting this mechanic by using fast semi-automatic farms or spamming bone meal, **if a player gains a lot of XP in a small period of time, the chances for XP to drop will decrease for that player** until enough time has passed. The chances start decreasing at 200 gained XP and will drop to zero at 600 XP; from there, it will take ~6 minutes for the chances to recover their regular values. This system would cap at 64 XP/minute in an ideal ultra-fast farm (probably lower in a real case), which is still lower than most mob farms.
 
-{% include image/figure.html src='vegancraft/xp_per_crop.png' align='center' style='max-width:100%;' caption='How much XP each crop yields. Note that XP is only dropped when a block is directly broken by a player.'%}
+{% include image/figure.html src='vegancraft/xp_per_crop.png' align='center' style='max-width:100%;' caption='Chance that each crop has to drop 1 XP. Note that XP is only dropped when a block is directly broken by a player.'%}
 
 #### Copper Horns
 
@@ -161,7 +161,7 @@ Same as the goat horn, just a different texture and way of obtaining.
   - "yearn": from trim template: "snout"
   - "dream": from trim template: "rib"
 
-#### Inks and Dyes:
+#### Inks and Dyes
 
 Some dyes are usually obtained from mobs, this adds alternative sources for them. Ink sacs are the only way of making signs glow/not glow, so alternative recipes for them were also added.
 
@@ -172,7 +172,7 @@ Some dyes are usually obtained from mobs, this adds alternative sources for them
 - **Glow ink sacs** are craftable from glowstone dust, glow berries, or glow lichen.
 - **Glow item frames** are craftable by using glowstone dust, glow berries, or glow lichen instead of a glow ink sac.
 
-#### Mob heads:
+#### Mob heads
 
 Some heads, like creeper and wither skeleton heads are used for banner patterns and for fireworks, so alternatives for them were needed. Since there also are more mob heads which can be used on note block, I added all of them:
 
@@ -184,7 +184,7 @@ Some heads, like creeper and wither skeleton heads are used for banner patterns 
   - **Piglin head**: carved pumpkin + pink dye + nether gold ore + either the "snout" trim smithing template or the piglin banner pattern.
   - **Wither skeleton skull**: skeleton skull + black dye + netherite ingot + "rib" trim smithing template
 
-#### Froglights:
+#### Froglights
 
 Froglights are craftable with a shroomlight block, prismarine crystals, and a dye related to the froglight color:
 
@@ -194,7 +194,7 @@ Froglights are craftable with a shroomlight block, prismarine crystals, and a dy
 
 A shroomlight is used due to it being an organic glowing block like the froglight and also being obtained in the nether. Prismarine crystals are used because of their relation to water and the more crystaline look of froglights.
 
-#### New banner patterns:
+#### New banner patterns
 
 There are two new banner patterns available in the loom:
 
@@ -214,10 +214,10 @@ These do not replace any vanilla patterns, they are just extras.
 
 ### Resourcepack
 
-Most of these datapacks contain custom textures and item names. The Vegancraft resourcepack is needed in order to view them properly. For simplicity, this resourcepack is the same for all datapacks, and is available on the [Downloads](#full-datapack-download) section or in the page of any single datapack that uses it.
+Most of these features contain custom textures and item names. The Vegancraft resourcepack is needed in order to view them properly. For simplicity, this resourcepack is also the same for all sub-datapacks, and is available on the [Downloads](#full-datapack-download) section or in the page of any single datapack that uses it.
 
 ## Future Features
-Planned datapacks that are still in progress
+Planned features that may arrive in future versions...
 
 ### Pacifist story progression
 
@@ -225,7 +225,7 @@ In the future, non-violent ways to progress in the "story" of Minecraft (i.e. be
 
 ## Contributing
 
-If you wish to contribute in any way to the development of Vegancraft, you can [contact me](#contact) on any platform, I will gladly welcome feature suggestions or even collaborators.
+If you wish to contribute in any way to the development of Vegancraft, you can [contact me](contact.html) on any platform, I will gladly welcome feature suggestions or even collaborators.
 
 You can also [create an issue](https://github.com/daenvil/vegancraft/issues/new/choose){:target="_blank"} on this project's GitHub repository for bug reports, feature requests, contributions, or any question you may have.
 
