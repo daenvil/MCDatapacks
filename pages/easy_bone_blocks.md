@@ -17,10 +17,10 @@ priority: 99
 index: 5
 ---
 
-***This datapack will no longer be mantained**. It should keep working since it's very simple, but I decided to discontinue due to the introduction of the crafter in 1.21, which will allow to automate the crafting process, making this datapack obsolete for its intended use case.*
+{% include comments/important.html content="<b>This datapack will no longer be mantained.</b> I decided to discontinue it due to the introduction of the crafter in 1.21, which allows to automate the crafting process, making this datapack obsolete for its intended use case." %}
 
 ## Download
-{% include dp_badges.html supports="1.13+" tested="1.19.4, 1.20" %}
+{% include dp_badges.html supports="1.13–1.20.4" tested="1.19.4, 1.20" %}
 
 {% include dp_download.html version="v1.0.2" pmc-url="https://www.planetminecraft.com/data-pack/easy-bone-blocks/" discontinued=true %}
 

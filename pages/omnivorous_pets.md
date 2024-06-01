@@ -24,7 +24,7 @@ gallery: [images/omni_pets/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20+</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
     <li><a href="#legacy2" data-toggle="tab">1.16.2–1.18.2</a></li>
 </ul>
