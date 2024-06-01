@@ -24,10 +24,6 @@ entries:
           url: /plant-based_foods.html
           output: web
 
-        - title: Omnivorous Pets
-          url: /omnivorous_pets.html
-          output: web
-
         - title: Acacia Gum
           url: /acacia_gum.html
           output: web
@@ -94,4 +90,8 @@ entries:
 
     - title: Baked Goods 
       url: /baked_goods.html
+      output: web
+
+    - title: Omnivorous Pets
+      url: /omnivorous_pets.html
       output: web
