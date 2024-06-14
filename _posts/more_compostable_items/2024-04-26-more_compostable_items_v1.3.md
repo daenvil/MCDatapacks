@@ -14,5 +14,5 @@ This is a mostly technical update, fixing compatibility with the new Minecraft u
 
 <div class="btn-group">
     <a href="more_compostable_items_v1.2.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1.2.1</a>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="more_compostable_items_v1.3.1.html" role="button" class="btn btn-primary">Next release: v1.3.1 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>

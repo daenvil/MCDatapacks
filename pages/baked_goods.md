@@ -4,37 +4,45 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 30/Apr/2024
+last_updated: 14/Jun/2024
 permalink: baked_goods.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/
 first_release: ["10","Nov","2022"]
-last_release: ["30","Apr","2023"]
+last_release: ["14","Jun","2024"]
 logo: baked_goods/pack.png
 thumbnail: baked_goods/thumbnail.png
 intro: A datapack which adds new pies, cakes, cookies, and other baked goods to Minecraft. Bake apple pies, chocolate cakes, glow berry cookies, and many more! See <a href="#new-recipes">below</a> for the full list of recipes. Foods with golden apples/carrots/melon, chorus fruit, and glow berries provide <a href="#special-effects">special effects</a> when eating them.
 abstract: "Adds 25 new baked goods to Minecraft, including apple pies, chocolate cakes, berry cookies, and many more."
 priority: 0
 index: 13
-downloads: 2600
-downloads_str: "&gt;2.6k"
+downloads: 2900
+downloads_str: "&gt;2.9k"
 gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot_cakes.png,images/baked_goods/screenshots/recipe_book.png,images/baked_goods/screenshots/golden_carrot_cakes.png,images/baked_goods/screenshots/chocolate_cakes.png]
 ---
 
 ## Downloads
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
+    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="current">
+    <div role="tabpanel" class="tab-pane active" id="1-21">
         <p>
-            {% include dp_badges.html supports="1.20.5+" tested="1.20.5, 1.20.6" %}
+            {% include dp_badges.html supports="1.21+" tested="1.21" %}
             <br/>
-            {% include dp_download.html version="v2.0" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-version="v2.0" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" %}
+            {% include dp_download.html version="v2.0.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" dropbox-url="https://www.dropbox.com/scl/fi/6vltw7pjigte6g9v7q2ir/daenvils_baked_goods_v2.0.1.zip?rlkey=urrsh3vv0oxz07tpncj28gxhm&st=r8gcs8ko&dl=1" rp-version="v2.0.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-dropbox-url="https://www.dropbox.com/scl/fi/wyopyiqbv0q8p38duuo1v/daenvils_baked_goods-RP_v2.0.1.zip?rlkey=efnoid75976przo762cjwrba7&st=7b3ij1y0&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-20-5">
+        <p>
+            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.5, 1.20.6" %}
+            <br/>
+            {% include dp_download.html version="v2.0" dropbox-url="https://www.dropbox.com/scl/fi/x5kdjhyrvabvvmkydmyij/daenvils_baked_goods_v2.0.zip?rlkey=xdy4edep5wbdwrdfyx37eutus&st=gx8ip5kd&dl=1" rp-version="v2.0" rp-dropbox-url="https://www.dropbox.com/scl/fi/ykvj1ax87y7tkmkwwmss4/daenvils_baked_goods-RP_v2.0.zip?rlkey=hw8g388u4smjdfovnc449p56t&st=dyhgc96a&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy1-20">

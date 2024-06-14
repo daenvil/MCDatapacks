@@ -16,8 +16,8 @@ intro: "This datapack aims to add composting mechanics to all vanilla items whic
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 4500
-downloads_str: "&gt;4.5k"
+downloads: 4700
+downloads_str: "&gt;4.7k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---
@@ -27,17 +27,25 @@ gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
+    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy-1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.16.2–1.19.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="current">
+    <div role="tabpanel" class="tab-pane active" id="1-21">
         <p>
-            {% include dp_badges.html supports="1.20.5+" tested="1.20.5" %}
+            {% include dp_badges.html supports="1.21+" tested="1.21" %}
             <br/>
-            {% include dp_download.html version="v1.3" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3/more_compostable_items_v1.3.zip" %}
+            {% include dp_download.html version="v1.3.1" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3.1/more_compostable_items_v1.3.1.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-20-5">
+        <p>
+            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
+            <br/>
+            {% include dp_download.html version="v1.3" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3/more_compostable_items_v1.3.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy-1-20">

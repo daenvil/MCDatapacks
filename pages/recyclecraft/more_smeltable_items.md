@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 02/May/2024
+last_updated: 14/Jun/2024
 permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
 first_release: ["18","Aug","2020"]
-last_release: ["02","May","2024"]
+last_release: ["14","Jun","2024"]
 logo: recyclecraft/more_smeltable_items/pack.png
 intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz (and the lodestone). Now you can recycle things you will never use for minerals."
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz (and the lodestone)."
@@ -24,18 +24,26 @@ gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
+    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.17–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.16.x</a></li>
     <li><a href="#legacy2" data-toggle="tab">1.14–1.15.2</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="current">
+    <div role="tabpanel" class="tab-pane active" id="1-21">
         <p>
-            {% include dp_badges.html supports="1.20.5+" tested="1.20.6" %}
+            {% include dp_badges.html supports="1.21+" tested="1.21" %}
             <br/>
-            {% include dp_download.html version="v3.0" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" %}
+            {% include dp_download.html version="v3.1" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/5ttaew6p33rqqvtifmah3/more_smeltable_items_v3.1.zip?rlkey=in1bkmpqpfmisdw56d2mg5n50&st=5xdjzagt&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-20-5">
+        <p>
+            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
+            <br/>
+            {% include dp_download.html version="v3.0" dropbox-url="https://www.dropbox.com/scl/fi/22vlct9vamf205khosrx2/more_smeltable_items_v3.0.zip?rlkey=57nyyb4nbhfxzgu59tz4euroi&st=qy64b7zk&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy1-20">
@@ -73,9 +81,9 @@ Here are the full lists of smelting recipes added to the furnace and to the blas
 
 {% include collapsible.html id='to-gold-nuggets' title='Items smeltable to gold nuggets' content='<ul><li>Bell</li><li>Clock</li><li>Gold pressure plate</li><li>Powered rail</li><li>Golden apple, carrot, and melon slice</li></ul>' %}
 
-{% include collapsible.html id='to-copper-ingots' title='Items smeltable to copper ingots' content='<ul><li>Brush</li><li>Lightning rod</li><li>Spyglass</li><li>Any cut copper block, slab or stairs</li><li>Chiseled copper</li><li>Copper bulb</li><li>Copper grate</li></ul>' %}
+{% include collapsible.html id='to-copper-ingots' title='Items smeltable to copper ingots' content='<ul><li>Brush</li><li>Lightning rod</li><li>Spyglass</li><li>Any cut copper block, slab or stairs</li><li>Chiseled copper</li><li>Copper bulb</li><li>Copper grate</li><li>Copper doors and trapdoors</li><li>Vault keys</li></ul>' %}
 
-{% include collapsible.html id='to-copper-blocks' title='Items smeltable to copper blocks' content='<ul><li>Any copper block</li><li>Copper doors and trapdoors</li></ul>' %}
+{% include collapsible.html id='to-copper-blocks' title='Items smeltable to copper blocks' content='<ul><li>Any copper block</li></ul>' %}
 
 {% include collapsible.html id='to-nether-quartz' title='Items smeltable to nether quartz' content='<ul><li>
 Daylight detector</li><li>

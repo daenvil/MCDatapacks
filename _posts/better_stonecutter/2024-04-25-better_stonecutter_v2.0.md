@@ -14,5 +14,5 @@ This update introduces a lot of changes in Better Stonecutter. The main one bein
 
 <div class="btn-group">
     <a href="better_stonecutter_v1.1.2.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1.1.2</a>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="better_stonecutter_v2.0.1.html" role="button" class="btn btn-primary">Next release: v2.0.1 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>
