@@ -24,7 +24,7 @@ gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/202
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21" data-toggle="tab">1.20.5+</a></li>
+    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy" data-toggle="tab">1.17–1.20.4</a></li>
 </ul>
