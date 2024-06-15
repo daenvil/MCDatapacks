@@ -2,7 +2,7 @@
 title:  "Recyclable Glass - v1.0.1 patch"
 published: true
 permalink: recyclable_glass_v1.0.1.html
-summary: "Updated for Minecraft 1.20."
+summary: "Updated for MC 1.20"
 tags: [news,changelog,recyclecraft]
 datapack: recyclable_glass
 changelog: v1.0.1

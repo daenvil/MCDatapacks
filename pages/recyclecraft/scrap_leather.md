@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/May/2024
+last_updated: 15/Jun/2024
 permalink: scrap_leather.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-leather/
 first_release: ["28","Aug","2020"]
-last_release: ["03","May","2023"]
+last_release: ["15","Jun","2024"]
 logo: recyclecraft/scrap_leather/pack.png
 intro: "Tired of hoarding saddles and leather armor pieces and never using them? This datapack adds recipes to craft leather from leather armor pieces, saddles, and other leather items, allowing you to give some use to often undesired loot."
 abstract: "Adds recipes to craft leather from leather armor pieces, saddles, and other leather items, allowing you to give some use to often undesired loot."
@@ -24,17 +24,25 @@ gallery: [images/recyclecraft/scrap_leather/thumbnail.png,https://static.planetm
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.20.5+</a></li>
+    <li class="active"><a href="#1.21" data-toggle="tab">1.21+</a></li>
+    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.16.2–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.14–1.16.5</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="current">
+    <div role="tabpanel" class="tab-pane active" id="1-21">
+        <p>
+            {% include dp_badges.html supports="1.21+" tested="1.21" %}
+            <br/>
+            {% include dp_download.html version="v2.1.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" dropbox-url="https://www.dropbox.com/scl/fi/p27x3q7gonojf9hkiip96/scrap_leather_v2.1.1.zip?rlkey=5cytrn2nbnytq0wm6d7k9pjjp&st=bqwlx3f0&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-20-5">
         <p>
             {% include dp_badges.html supports="1.20.5+" tested="1.20.6" %}
             <br/>
-            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" %}
+            {% include dp_download.html version="v2.1" dropbox-url="https://www.dropbox.com/scl/fi/tnwpm8me2ivkrl18020vs/scrap_leather_v2.1.zip?rlkey=ps3nx5liia00sj70k5z3yw3sb&st=l8bv5t6e&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy1-20">
