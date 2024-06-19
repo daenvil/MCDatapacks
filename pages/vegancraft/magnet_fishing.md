@@ -38,7 +38,7 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v2.0.1" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/magnet_fishing_v2.0.1.zip" rp-version="v1.2, OPTIONAL" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane active" id="1-20-5">
+    <div role="tabpanel" class="tab-pane" id="1-20-5">
         <p>
             {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
             <br/>
