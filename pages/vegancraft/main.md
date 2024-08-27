@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 19/Jun/2024
+last_updated: 27/Aug/2024
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["19","Jun","2024"]
+last_release: ["27","Aug","2024"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
@@ -22,7 +22,7 @@ index: 16
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
+    <li class="active"><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
@@ -32,9 +32,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21">
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21" %}
+            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21.1" %}
             <br/>
-            {% include dp_download.html version="v1.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-DP_v1.2.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" %}
+            {% include dp_download.html version="v1.2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/vegancraft-DP_v1.2.1.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-20-5">
@@ -127,7 +127,7 @@ A ton of new items are added as alternatives for animal-based brewing ingredient
 - **Poisonous Sprout**: an alternative to spider eyes. Crafted from poisonous potatoes.
 - **Fermented Sprout**: an alternative to fermented spider eyes. Crafted in the same way but from poisonous sprouts.
 - **Hardened Seagrass**: an alternative to turtle scutes. Crafted from seagrass and wax.
-- **End's Mist**: an alternative to dragon's breath. Crafted from a bottle o' enchanting, blazing powder, and a chorus flower.
+- **End's Mist**: an alternative to dragon's breath. Crafted from a glass bottle, blazing powder, and a chorus flower.
 - **Bouncy Boot**: an alternative to rabbit's feet. Crafted from leather boots surrounded by slimeballs (or acacia gum).
 - **Puffer Bubble**: an alternative to pufferfish. Crafted from a heart of the sea and soul sand.
 - **Feathery Membrane**: an alternative to phantom membranes. Crafted from feathers and wax.
@@ -229,9 +229,17 @@ The following recipes are experimental and some of them will probably change in 
 - Trident: 3 diamonds swords, a blaze rod, and 3 prismarine crystals
 - Totem of undying: 1 gold block, 2 emeralds, and 1 echo shard
 - Wither rose: 4 wither roses from a rose bush, a netherite ingot, and a soul sand or soil block
-- Nether star: a netherite block surrounded by 4 diamonds and 4 blaze powder
+- Nether star: a single blaze powder surrounded by 4 diamonds and 4 netherite ingots
+- Ender eye: compass, blaze powder, and crying obsidian
 - Ender pearl: a chorus fruit + an emerald
 - Shulker box: a chest surrounded by 4 ender pearls and 4 popped chorus fruits
+
+#### Other loot table changes
+
+- Nautilus shells can be found in buried treasures and in ocean ruins chests
+- Tide armor trims can be found in ocean ruins chests
+- Sponges can be obtained by brushing suspicous sand/gravel in ocean ruins
+- Nether stars can be rarely found in ancient ruins chests
 
 ### Resourcepack
 
@@ -242,7 +250,7 @@ Planned features that may arrive in future versions...
 
 ### Pacifist story progression
 
-In the future, non-violent ways to progress in the "story" of Minecraft (i.e. beating the bosses and going to the End) will be added. Or at least alternatives for their related items will be added, like nether stars, wither roses, shulker shells, etc.
+In the future, I would like to implement non-violent ways to progress in the "story" of Minecraft (i.e. beating the bosses and going to the End). Meanwhile, simple alternatives for their related items were added, like nether stars, wither roses, shulker shells, etc.
 
 ## Contributing
 
@@ -253,3 +261,7 @@ You can also [create an issue](https://github.com/daenvil/vegancraft/issues/new/
 ### Translations
 
 If you wish to translate this datapack to your language(s) (or fix any already existing one), just use the "lang" files you can find inside the resorcepack as template, and send your version to me either via a pull request or an issue. I will credit you as translator on here, on the corresponding datapacks' PlanetMinecraft pages, and on the README file of the resourcepack.
+
+## Vegan Minecraft server
+
+The [Vegan Minecraft server](veganminecraft.com) is currently using this datapack, and its players helped give feedback to shape the datapack as it is right now. Don't doubt to join if you want to play vegan Minecraft with fellow vegans!
