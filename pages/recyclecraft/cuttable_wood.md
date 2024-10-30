@@ -40,12 +40,10 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3.2-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/89i5l52869mpnlk9p18i8/cuttable_wood_v3.2-balanced.zip?rlkey=iy2bhy0r8gl0a6rhfliflwwy3&st=awhhj2js&dl=1" %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3.2-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/dgmav9a9rk2bv1uk695hw/cuttable_wood_v3.2-op.zip?rlkey=mst7433a2sjqb79rhvuh7yqvl&st=fbaavjmi&dl=1" %}
         </p>
     </div>
@@ -53,12 +51,10 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3.1.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/rs446ixrus8crxpazkqh4/cuttable_wood_v3.1.1-balanced.zip?rlkey=qslzpcfnitol4bkrm4bh5vlx0&st=c2t6j1y3&dl=1" discontinued=true %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3.1.1-op" dropbox-url="https://www.dropbox.com/scl/fi/4td9003prbnzenzfd7w4l/cuttable_wood_v3.1.1-op.zip?rlkey=f9u33j0kg705kpotktldcxwgb&st=3ffd3su2&dl=1" discontinued=true %}
         </p>
     </div>
@@ -66,12 +62,10 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/wg663bdpxrpsqa6mp6ess/cuttable_wood_v3.1-balanced.zip?rlkey=v9odgx9l75z22jt753av8vwzw&st=ddjzaaii&dl=1" discontinued=true %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3.1-op" dropbox-url="https://www.dropbox.com/scl/fi/cz6jski6r38ycg9p3u1c5/cuttable_wood_v3.1-op.zip?rlkey=bjpjxkek44k2ey1q5r1mapd4s&st=2xi8etul&dl=1" discontinued=true %}
         </p>
     </div>
@@ -79,12 +73,10 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3-balanced" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" discontinued=true %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            <br/>
             {% include dp_download.html version="v3-op" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" discontinued=true %}
         </p>
     </div>
