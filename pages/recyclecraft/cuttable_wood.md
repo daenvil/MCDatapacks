@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 13/Jun/2024
+last_updated: 30/Oct/2024
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
-last_release: ["13","Jun","2024"]
+last_release: ["30","Oct","2024"]
 logo: recyclecraft/cuttable_wood/pack.png
 thumbnail: recyclecraft/cuttable_wood/thumbnail.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
@@ -26,8 +26,10 @@ gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cu
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.21+ (vanilla-balanced version)</a></li>
-    <li><a href="#current2" data-toggle="tab">1.21+ (OP version)</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.21.2+ (vanilla-balanced version)</a></li>
+    <li><a href="#current2" data-toggle="tab">1.21.2+ (OP version)</a></li>
+    <li><a href="#legacy-1-21-balanced" data-toggle="tab">1.21–1.21.1 (vanilla-balanced version)</a></li>
+    <li><a href="#legacy-1-21-op" data-toggle="tab">1.21–1.21.1 (OP version)</a></li>
     <li><a href="#legacy-1-20-5-balanced" data-toggle="tab">1.20.5–1.20.6 (vanilla-balanced version)</a></li>
     <li><a href="#legacy-1-20-5-op" data-toggle="tab">1.20.5–1.20.6 (OP version)</a></li>
     <li><a href="#legacy-1-20-4-balanced" data-toggle="tab">1.20–1.20.4 (vanilla-balanced version)</a></li>
@@ -40,16 +42,30 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21" %}
+            {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
             <br/>
-            {% include dp_download.html version="v3.1.1-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/rs446ixrus8crxpazkqh4/cuttable_wood_v3.1.1-balanced.zip?rlkey=qslzpcfnitol4bkrm4bh5vlx0&st=c2t6j1y3&dl=1" %}
+            {% include dp_download.html version="v3.2-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/89i5l52869mpnlk9p18i8/cuttable_wood_v3.2-balanced.zip?rlkey=iy2bhy0r8gl0a6rhfliflwwy3&st=awhhj2js&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="current2">
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21" %}
+            {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
             <br/>
-            {% include dp_download.html version="v3.1.1-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/4td9003prbnzenzfd7w4l/cuttable_wood_v3.1.1-op.zip?rlkey=f9u33j0kg705kpotktldcxwgb&st=3ffd3su2&dl=1" %}
+            {% include dp_download.html version="v3.2-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/dgmav9a9rk2bv1uk695hw/cuttable_wood_v3.2-op.zip?rlkey=mst7433a2sjqb79rhvuh7yqvl&st=fbaavjmi&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane active" id="current">
+        <p>
+            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
+            <br/>
+            {% include dp_download.html version="v3.1.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/rs446ixrus8crxpazkqh4/cuttable_wood_v3.1.1-balanced.zip?rlkey=qslzpcfnitol4bkrm4bh5vlx0&st=c2t6j1y3&dl=1" discontinued=true %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="current2">
+        <p>
+            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
+            <br/>
+            {% include dp_download.html version="v3.1.1-op" dropbox-url="https://www.dropbox.com/scl/fi/4td9003prbnzenzfd7w4l/cuttable_wood_v3.1.1-op.zip?rlkey=f9u33j0kg705kpotktldcxwgb&st=3ffd3su2&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy-1-20-5-balanced">
