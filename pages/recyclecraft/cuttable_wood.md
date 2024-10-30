@@ -16,8 +16,8 @@ intro: "A datapack that adds new recipes for the stonecutter, to make the crafti
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
 index: 1
-downloads: 15800
-downloads_str: "&gt;15k"
+downloads: 16500
+downloads_str: "&gt;16k"
 gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 
@@ -26,8 +26,7 @@ gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cu
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.21.2+ (vanilla-balanced version)</a></li>
-    <li><a href="#current2" data-toggle="tab">1.21.2+ (OP version)</a></li>
+    <li class="active"><a href="#current" data-toggle="tab">1.21.2+</a></li>
     <li><a href="#legacy-1-21-balanced" data-toggle="tab">1.21–1.21.1 (vanilla-balanced version)</a></li>
     <li><a href="#legacy-1-21-op" data-toggle="tab">1.21–1.21.1 (OP version)</a></li>
     <li><a href="#legacy-1-20-5-balanced" data-toggle="tab">1.20.5–1.20.6 (vanilla-balanced version)</a></li>
@@ -41,13 +40,13 @@ Choose the option compatible with your Minecraft version:
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="current">
+        <h5>Vanilla-balanced version</h5>
         <p>
             {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
             <br/>
             {% include dp_download.html version="v3.2-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/89i5l52869mpnlk9p18i8/cuttable_wood_v3.2-balanced.zip?rlkey=iy2bhy0r8gl0a6rhfliflwwy3&st=awhhj2js&dl=1" %}
         </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="current2">
+        <h5>OP version</h5>
         <p>
             {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
             <br/>
