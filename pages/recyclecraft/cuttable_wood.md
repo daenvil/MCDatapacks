@@ -54,14 +54,14 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v3.2-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/dgmav9a9rk2bv1uk695hw/cuttable_wood_v3.2-op.zip?rlkey=mst7433a2sjqb79rhvuh7yqvl&st=fbaavjmi&dl=1" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane active" id="current">
+    <div role="tabpanel" class="tab-pane" id="legacy-1-21-balanced">
         <p>
             {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
             <br/>
             {% include dp_download.html version="v3.1.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/rs446ixrus8crxpazkqh4/cuttable_wood_v3.1.1-balanced.zip?rlkey=qslzpcfnitol4bkrm4bh5vlx0&st=c2t6j1y3&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="current2">
+    <div role="tabpanel" class="tab-pane" id="legacy-1-21-op">
         <p>
             {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
             <br/>
