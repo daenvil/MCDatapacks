@@ -16,8 +16,8 @@ intro: A datapack which adds new pies, cakes, cookies, and other baked goods to 
 abstract: "Adds 25 new baked goods to Minecraft, including apple pies, chocolate cakes, berry cookies, and many more."
 priority: 0
 index: 13
-downloads: 2900
-downloads_str: "&gt;2.9k"
+downloads: 3000
+downloads_str: "&gt;3.0k"
 gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot_cakes.png,images/baked_goods/screenshots/recipe_book.png,images/baked_goods/screenshots/golden_carrot_cakes.png,images/baked_goods/screenshots/chocolate_cakes.png]
 ---
 
