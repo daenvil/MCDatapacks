@@ -4,17 +4,19 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 14/Jun/2024
+last_updated: 31/Oct/2024
 permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
 first_release: ["18","Aug","2020"]
-last_release: ["14","Jun","2024"]
+last_release: ["31","Oct","2024"]
 logo: recyclecraft/more_smeltable_items/pack.png
 intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz (and the lodestone). Now you can recycle things you will never use for minerals."
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz (and the lodestone)."
 priority: 4
 index: 2
+downloads: 3000
+downloads_str: "&gt;3.0k"
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
 gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
 ---
@@ -24,7 +26,8 @@ gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
+    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2+</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.17–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.16.x</a></li>
@@ -32,11 +35,18 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21">
+    <div role="tabpanel" class="tab-pane active" id="1-21-2">
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21" %}
+            {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
             <br/>
-            {% include dp_download.html version="v3.1" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/5ttaew6p33rqqvtifmah3/more_smeltable_items_v3.1.zip?rlkey=in1bkmpqpfmisdw56d2mg5n50&st=5xdjzagt&dl=1" %}
+            {% include dp_download.html version="v3.1.1" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/3viwakx3c9r6cwlr8wcj1/more_smeltable_items_v3.1.1.zip?rlkey=w69i3pxwjc3r9ztdkzshsc8hv&st=9j1k1oaa&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21">
+        <p>
+            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
+            <br/>
+            {% include dp_download.html version="v3.1" dropbox-url="https://www.dropbox.com/scl/fi/5ttaew6p33rqqvtifmah3/more_smeltable_items_v3.1.zip?rlkey=in1bkmpqpfmisdw56d2mg5n50&st=5xdjzagt&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-20-5">

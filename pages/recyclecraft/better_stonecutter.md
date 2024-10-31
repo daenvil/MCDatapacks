@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 14/Jun/2024
+last_updated: 31/Oct/2024
 permalink: better_stonecutter.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/
 first_release: ["05","Jan","2022"]
-last_release: ["14","Jun","2024"]
+last_release: ["31","Oct","2024"]
 logo: recyclecraft/better_stonecutter/pack.png
 intro: "A datapack that adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
@@ -26,41 +26,45 @@ gallery: [images/recyclecraft/better_stonecutter/thumbnail.png,https://static.pl
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-balanced" data-toggle="tab">1.21+ (vanilla-balanced version)</a></li>
-    <li><a href="#1-21-op" data-toggle="tab">1.21+ ("OP" version)</a></li>
-    <li><a href="#1-20-5-balanced" data-toggle="tab">1.20.5–1.20.6 (vanilla-balanced version)</a></li>
-    <li><a href="#1-20-5-op" data-toggle="tab">1.20.5–1.20.6 ("OP" version)</a></li>
+    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2+</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
+    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.19–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.17–1.18.2</a></li>
     <li><a href="#legacy2" data-toggle="tab">1.16.x</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-balanced">
+    <div role="tabpanel" class="tab-pane active" id="1-21-2">
+        {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
+        <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21" %}
-            <br/>
-            {% include dp_download.html version="v2.0.1-balanced" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/ie4i07fuvij8udaetyrkk/better_stonecutter_v2.0.1-balanced.zip?rlkey=shf2f7pecaywrfhqdtp346kpb&st=s3aflicj&dl=1" %}
+            {% include dp_download.html version="v2.0.2-balanced" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/6q2j1whytwsv2w5njqfo3/better_stonecutter_v2.0.2-balanced.zip?rlkey=o5fv1ydho3nq8cmvo1p8xosvt&st=vapwq9ij&dl=1" %}
+        </p>
+        <p><b>OP version:</b></p>
+        <p>
+            {% include dp_download.html version="v2.0.2-op" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/cdcw6jf0wrmcmxfwkr1n5/better_stonecutter_v2.0.2-op.zip?rlkey=gxhwuf7a71g7pwj0nmfxx17b3&st=5i0wkdgt&dl=1" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-op">
+    <div role="tabpanel" class="tab-pane" id="1-21">
+        {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
+        <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21" %}
-            <br/>
-            {% include dp_download.html version="v2.0.1-op" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/opul2cy4l4vjzrw6cqkj9/better_stonecutter_v2.0.1-op.zip?rlkey=cmn4le0juymbd9sf4hxyxngaf&st=u4d4wj98&dl=1" %}
+            {% include dp_download.html version="v2.0.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/ie4i07fuvij8udaetyrkk/better_stonecutter_v2.0.1-balanced.zip?rlkey=shf2f7pecaywrfhqdtp346kpb&st=s3aflicj&dl=1" discontinued=true %}
+        </p>
+        <p><b>OP version:</b></p>
+        <p>
+            {% include dp_download.html version="v2.0.1-op" dropbox-url="https://www.dropbox.com/scl/fi/opul2cy4l4vjzrw6cqkj9/better_stonecutter_v2.0.1-op.zip?rlkey=cmn4le0juymbd9sf4hxyxngaf&st=u4d4wj98&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-20-5-balanced">
+    <div role="tabpanel" class="tab-pane" id="1-20-5">
+        {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
+        <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
-            <br/>
             {% include dp_download.html version="v2.0-balanced" dropbox-url="https://www.dropbox.com/scl/fi/ldw406fm8ejd5mfv5dco5/better_stonecutter_v2.0-balanced.zip?rlkey=r3m4me1fm3ijz53mezs8j82ji&st=yn4yhzaz&dl=1" discontinued=true %}
         </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-20-5-op">
+        <p><b>OP version:</b></p>
         <p>
-            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
-            <br/>
             {% include dp_download.html version="v2.0-op" dropbox-url="https://www.dropbox.com/scl/fi/6zu9wrmg2wa5j1v5hxrnr/better_stonecutter_v2.0-op.zip?rlkey=1t70u99ivu0kbxk6zw39cq8h2&st=vma6jd4x&dl=1" discontinued=true %}
         </p>
     </div>
