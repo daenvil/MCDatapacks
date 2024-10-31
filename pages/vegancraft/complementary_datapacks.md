@@ -12,7 +12,4 @@ intro: The following is a list of datapacks that are not part of the Vegancraft 
 ---
 
 - [**_Daenvil's Baked Goods_**](../baked_goods.html). Adds 25 new foods to the game, all of them with their vegan version integrating the mechanics from the [_Plant-based Foods_](plant-based_foods.html) datapack.
-- The following datapacks from [Vanilla Tweak's crafting tweaks](https://vanillatweaks.net/picker/crafting-tweaks/){:target="_blank"}:
-  - **_Charcoal to Black Dye_** and **_Coal to Black Dye_**. Will allow you to get black dye without killing squids.
-  - **_Craftable Bundles (Leather)_**. Used in conjunction with [_Ethical Textiles_](ethical_textiles.html), it will allow you to craft vegan bundles.
-- Not a datapack, but the **[Vegan Minecraft server](https://veganminecraft.com/)** is a nice SMP server that promotes veganism and uses custom datapacks similar to mine (and maybe some of mine too, in the future).
+- Not a datapack, but the **[Vegan Minecraft server](https://veganminecraft.com/)** is a nice SMP server that promotes veganism and uses my datapacks.
