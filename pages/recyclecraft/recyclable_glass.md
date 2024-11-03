@@ -42,7 +42,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
             <br/>
-            {% include dp_download.html version="v1.1.1" dropbox-url="https://www.dropbox.com/scl/fi/2o79ey4wpmcc2qxhvv1dk/recyclable_glass_v1.1.1.zip?rlkey=0zvaukfcsw0g3ytdkm1qca6i5&st=ill7u2et&dl=1" %}
+            {% include dp_download.html version="v1.1.1" dropbox-url="https://www.dropbox.com/scl/fi/2o79ey4wpmcc2qxhvv1dk/recyclable_glass_v1.1.1.zip?rlkey=0zvaukfcsw0g3ytdkm1qca6i5&st=ill7u2et&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-20-5">
