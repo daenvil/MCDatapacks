@@ -24,8 +24,8 @@ gallery: [images/recyclecraft/scrap_leather/thumbnail.png,https://static.planetm
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1.21-2" data-toggle="tab">1.21.2+</a></li>
-    <li><a href="#1.21" data-toggle="tab">1.21–1.21.1</a></li>
+    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2+</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.16.2–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.14–1.16.5</a></li>
