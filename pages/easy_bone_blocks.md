@@ -19,6 +19,8 @@ index: 5
 
 {% include comments/important.html content="<b>This datapack will no longer be mantained.</b> I decided to discontinue it due to the introduction of the crafter in 1.21, which allows to automate the crafting process, making this datapack obsolete for its intended use case." %}
 
+{% include comments/tip.html content="PlanetMinecraft user CaptainNumbat uploaded <a href='https://www.planetminecraft.com/data-pack/easy-bone-block-crafting-1-21-2-1-21-3/'>an updated version for Minecraft 1.21.2+</a> %}
+
 ## Download
 {% include dp_badges.html supports="1.13–1.20.4" tested="1.19.4, 1.20" %}
 
