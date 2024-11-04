@@ -15,7 +15,7 @@ intro: "Do you have tons of items that you will never use hanging around? This d
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz (and the lodestone)."
 priority: 4
 index: 2
-downloads: 3000
+downloads: 3060
 downloads_str: "&gt;3.0k"
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
 gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]

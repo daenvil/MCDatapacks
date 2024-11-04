@@ -75,8 +75,12 @@ entries:
     - title: Recyclable Glass
       url: /recyclable_glass.html
       output: web
+
+  - title: Baked Goods 
+    url: /baked_goods.html
+    output: web
       
-  - title: Other Datapacks
+  - title: Old Datapacks
     output: web
     folderitems:
 
@@ -86,10 +90,6 @@ entries:
 
     - title: Easy Bone Blocks
       url: /easy_bone_blocks.html
-      output: web
-
-    - title: Baked Goods 
-      url: /baked_goods.html
       output: web
 
     - title: Omnivorous Pets
