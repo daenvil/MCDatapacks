@@ -52,7 +52,7 @@
             </ul>
           {% else %}
             <!-- If folder has no folderitems, treat it as a simple link -->
-            <a href="{{ folder.url }}" title="{{ folder.title }}">{{ folder.title }}</a>
+            <a title="{{ folder.title }}" href="{{ folder.url | remove: "/" }}">{{ folder.title }}</a>
           {% endif %}
         </li>
       {% endif %}
