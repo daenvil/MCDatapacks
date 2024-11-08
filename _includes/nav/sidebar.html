@@ -1,67 +1,80 @@
 {% assign sidebar = site.data.sidebars[page.sidebar].entries %}
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
+  <li class="sidebarTitle">{{ sidebar[0].product }} {{ sidebar[0].version }}</li>
+
   {% for entry in sidebar %}
-  {% for folder in entry.folders %}
-  {% if folder.output contains "web" %}
-  <li>
-      <a title="{{folder.title}}" href="#">{{folder.title}}</a>
-      <ul>
-          {% for folderitem in folder.folderitems %}
-          {% if folderitem.output contains "web" %}
-          {% if folderitem.external_url %}
-          <li><a title="{{folderitem.title}}" href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a></li>
-          {% elsif page.url == folderitem.url %}
-          <li class="active"><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
-          {% elsif folderitem.type == "empty" %}
-          <li><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+    {% for folder in entry.folders %}
+      {% if folder.output contains "web" %}
+        <li>
+          <a title="{{ folder.title }}" href="#">{{ folder.title }}</a>
 
+          {% if folder.folderitems %}
+            <ul>
+              {% for folderitem in folder.folderitems %}
+                {% if folderitem.output contains "web" %}
+                  <li>
+                    {% if folderitem.external_url %}
+                      <a title="{{ folderitem.title }}" href="{{ folderitem.external_url }}" target="_blank" rel="noopener">{{ folderitem.title }}</a>
+                    {% elsif page.url == folderitem.url %}
+                      <a class="active" title="{{ folderitem.title }}" href="{{ folderitem.url | remove: "/" }}">{{ folderitem.title }}</a>
+                    {% elsif folderitem.type == "empty" %}
+                      <a title="{{ folderitem.title }}" href="{{ folderitem.url | remove: "/" }}">{{ folderitem.title }}</a>
+                    {% else %}
+                      <a title="{{ folderitem.title }}" href="{{ folderitem.url | remove: "/" }}">{{ folderitem.title }}</a>
+                    {% endif %}
+
+                    {% for subfolders in folderitem.subfolders %}
+                      {% if subfolders.output contains "web" %}
+                        <li class="subfolders">
+                          <a title="{{ subfolders.title }}" href="#">{{ subfolders.title }}</a>
+                          <ul>
+                            {% for subfolderitem in subfolders.subfolderitems %}
+                              {% if subfolderitem.output contains "web" %}
+                                <li>
+                                  {% if subfolderitem.external_url %}
+                                    <a title="{{ subfolderitem.title }}" href="{{ subfolderitem.external_url }}" target="_blank" rel="noopener">{{ subfolderitem.title }}</a>
+                                  {% elsif page.url == subfolderitem.url %}
+                                    <a class="active" title="{{ subfolderitem.title }}" href="{{ subfolderitem.url | remove: "/" }}">{{ subfolderitem.title }}</a>
+                                  {% else %}
+                                    <a title="{{ subfolderitem.title }}" href="{{ subfolderitem.url | remove: "/" }}">{{ subfolderitem.title }}</a>
+                                  {% endif %}
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
           {% else %}
-          <li><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+            <!-- If folder has no folderitems, treat it as a simple link -->
+            <a href="{{ folder.url }}" title="{{ folder.title }}">{{ folder.title }}</a>
           {% endif %}
-          {% for subfolders in folderitem.subfolders %}
-          {% if subfolders.output contains "web" %}
-          <li class="subfolders">
-              <a title="{{subfolders.title}}" href="#">{{ subfolders.title }}</a>
-              <ul>
-                  {% for subfolderitem in subfolders.subfolderitems %}
-                  {% if subfolderitem.output contains "web" %}
-                  {% if subfolderitem.external_url %}
-                  <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.external_url}}" target="_blank" rel="noopener">{{subfolderitem.title}}</a></li>
-                  {% elsif page.url == subfolderitem.url %}
-                  <li class="active"><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a></li>
-                  {% else %}
-                  <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a></li>
-                  {% endif %}
-                  {% endif %}
-                  {% endfor %}
-              </ul>
-          </li>
-          {% endif %}
-          {% endfor %}
-          {% endif %}
-          {% endfor %}
-      </ul>
-   </li>
-     {% endif %}
-      {% endfor %}
-      {% endfor %}
-    <p class="external">
-        <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
-    </p>
-    
-    <li class="sidebarTitle"><i class="fa fa-rss"></i> Latest news:</li>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 
-    <div class="post-list">
-        {% for post in site.posts limit:3 %}
-        <a href="{{post.permalink}}" class="btn btn-info btn-block" style="white-space: normal;text-align:left;">
-            <p style="size:20px;"><b>{{ post.title }}</b>
-            <span class="post-meta">- {{ post.date | date: "%-d/%b/%Y" }}</span></p>
-            <p>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncatewords: 20 }} {% else %} {{ post.content | truncatewords: 20 | strip_html | strip_newlines }} {% endif %}</p>
-        </a>
-        {% endfor %}
-    </div>
+  <p class="external">
+    <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+  </p>
+
+  <li class="sidebarTitle"><i class="fa fa-rss"></i> Latest news:</li>
+
+  <div class="post-list">
+    {% for post in site.posts limit: 3 %}
+      <a href="{{ post.permalink }}" class="btn btn-info btn-block" style="white-space: normal; text-align:left;">
+        <p style="size:20px;"><b>{{ post.title }}</b>
+          <span class="post-meta">- {{ post.date | date: "%-d/%b/%Y" }}</span>
+        </p>
+        <p>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncatewords: 20 }} {% else %} {{ post.content | truncatewords: 20 | strip_html | strip_newlines }} {% endif %}</p>
+      </a>
+    {% endfor %}
+  </div>
 </ul>
 
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->

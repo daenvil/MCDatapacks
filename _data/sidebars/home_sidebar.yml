@@ -84,10 +84,6 @@ entries:
     output: web
     folderitems:
 
-    - title: Full list of datapacks
-      url: /datapacks.html
-      output: web
-
     - title: Easy Bone Blocks
       url: /easy_bone_blocks.html
       output: web
@@ -95,3 +91,7 @@ entries:
     - title: Omnivorous Pets
       url: /omnivorous_pets.html
       output: web
+
+  - title: Full list of datapacks
+    url: /datapacks.html
+    output: web
