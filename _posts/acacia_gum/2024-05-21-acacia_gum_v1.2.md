@@ -2,7 +2,7 @@
 title:  "Acacia Gum - v1.2 update"
 published: true
 permalink: acacia_gum_v1.2.html
-summary: "Adapted for MC1.20.5 + removed XP and advancements"
+summary: "Updated for MC1.20.5 + removed XP and advancements"
 tags: [news,changelog,vegancraft]
 datapack: acacia_gum
 changelog: v1.2

@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, clothes, 
 tags: [datapack, vegancraft, standalone, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 27/Aug/2024
+last_updated: 08/Nov/2024
 permalink: ethical_textiles.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/
 first_release: ["15","Oct","2022"]
-last_release: ["27","Aug","2024"]
+last_release: ["08","Nov","2024"]
 logo: vegancraft/ethical_textiles/pack.png
 thumbnail: vegancraft/ethical_textiles/thumbnail.png
 intro: "A datapack that adds plant-based alternatives to leather, string, wool, feathers, and armadillo scute.<br/><br/>You will need my <a href=acacia_gum.html>Acacia Gum datapack</a> in order to have a vegan leather option (but it's not required to use this datapack)."
@@ -24,18 +24,26 @@ gallery: [images/vegancraft/ethical_textiles/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
+    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.17–1.19.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21">
+    <div role="tabpanel" class="tab-pane active" id="1-21-2">
+        <p>
+            {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
+            <br/>
+            {% include dp_download.html version="v2.0.3" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/ethical_textiles_v2.0.3.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21">
         <p>
             {% include dp_badges.html supports="1.21–1.21.1" tested="1.21.1" %}
             <br/>
-            {% include dp_download.html version="v2.0.2" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/ethical_textiles_v2.0.2.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" %}
+            {% include dp_download.html version="v2.0.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/ethical_textiles_v2.0.2.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-20-5">

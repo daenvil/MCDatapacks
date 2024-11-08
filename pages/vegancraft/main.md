@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 27/Aug/2024
+last_updated: 08/Nov/2024
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["27","Aug","2024"]
+last_release: ["08","Nov","2024"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
@@ -22,7 +22,8 @@ index: 16
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
+    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
     <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
@@ -30,11 +31,18 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21">
+    <div role="tabpanel" class="tab-pane active" id="1-21-2">
+        <p>
+            {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
+            <br/>
+            {% include dp_download.html version="v1.2.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-DP_v1.2.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21">
         <p>
             {% include dp_badges.html supports="1.21–1.21.1" tested="1.21.1" %}
             <br/>
-            {% include dp_download.html version="v1.2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/vegancraft-DP_v1.2.1.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" %}
+            {% include dp_download.html version="v1.2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/vegancraft-DP_v1.2.1.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-20-5">
@@ -122,7 +130,6 @@ A ton of new items are added as alternatives for animal-based brewing ingredient
 
 - **Blazing Powder**: an alternative to blaze powder. Crafted using a magma block and 4 glowstone dust.
 - **Blazing Rod**: an alternative to blaze rods. Crafted using a lightning rod and 2 blazing powder.
-- **Breezy Rod**: an alternative to breeze rods. Crafted using a blaze rod and dragon's breath.
 - **Gunpowder** is craftable from any coal + redstone + glowstone dust.
 - **Poisonous Sprout**: an alternative to spider eyes. Crafted from poisonous potatoes.
 - **Fermented Sprout**: an alternative to fermented spider eyes. Crafted in the same way but from poisonous sprouts.
@@ -131,6 +138,7 @@ A ton of new items are added as alternatives for animal-based brewing ingredient
 - **Bouncy Boot**: an alternative to rabbit's feet. Crafted from leather boots surrounded by slimeballs (or acacia gum).
 - **Puffer Bubble**: an alternative to pufferfish. Crafted from a heart of the sea and soul sand.
 - **Feathery Membrane**: an alternative to phantom membranes. Crafted from feathers and wax.
+- **Breezy Rod**: an alternative to breeze rods. Crafted using a blaze rod and dragon's breath.
 
 Sniffer plants also drop some brewing ingredients, including a ghast tear alternative, see [Sniffer Plants](#sniffer-plants) for details.
 
@@ -233,6 +241,8 @@ The following recipes are experimental and some of them will probably change in 
 - Ender eye: compass, blaze powder, and crying obsidian
 - Ender pearl: a chorus fruit + an emerald
 - Shulker box: a chest surrounded by 4 ender pearls and 4 popped chorus fruits
+- Trial key: polished tuff, lightning rod, and obsidian
+- Ominous trial key: polished tuff, blaze rod, and crying obsidian
 
 #### Other loot table changes
 
