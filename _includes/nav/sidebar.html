@@ -50,7 +50,11 @@
               {% endfor %}
             </ul>
           {% else %}
-            <a title="{{ folder.title }}" href="{{ folder.url | remove: "/" }}">{{ folder.title }}</a>
+            {% if page.url == folderitem.url %}
+                <a class="active" title="{{ folder.title }}" href="{{ folder.url | remove: "/" }}">{{ folder.title }}</a>
+            {% else %}
+                <a title="{{ folder.title }}" href="{{ folder.url | remove: "/" }}">{{ folder.title }}</a>
+            {% endif %}
           {% endif %}
         </li>
       {% endif %}
