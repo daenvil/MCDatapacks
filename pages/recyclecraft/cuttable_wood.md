@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 30/Oct/2024
+last_updated: 03/Jan/2025
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
@@ -26,7 +26,7 @@ gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cu
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#current" data-toggle="tab">1.21.2+</a></li>
+    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2+</a></li>
     <li><a href="#legacy-1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#legacy-1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy-1-20-4" data-toggle="tab">1.20–1.20.4</a></li>
@@ -36,8 +36,8 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="current">
-        {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
+    <div role="tabpanel" class="tab-pane active" id="1-21-2">
+        {% include dp_badges.html supports="1.21.2+" tested="1.21.3, 1.21.4" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
             {% include dp_download.html version="v3.2-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/89i5l52869mpnlk9p18i8/cuttable_wood_v3.2-balanced.zip?rlkey=iy2bhy0r8gl0a6rhfliflwwy3&st=awhhj2js&dl=1" %}

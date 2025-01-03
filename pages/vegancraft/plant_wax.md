@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, bees, hon
 tags: [datapack, vegancraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 08/Nov/2024
+last_updated: 03/Jan/2025
 permalink: plant_wax.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-wax/
 first_release: ["15","Dec","2022"]
-last_release: ["08","Nov","2024"]
+last_release: ["03","Jan","2025"]
 logo: vegancraft/plant_wax/pack.png
 thumbnail: vegancraft/plant_wax/thumbnail.png
 intro: "A datapack that adds Plant Wax (a retextured honeycomb), obtainable by smelting dead bushes or jungle leaves."
@@ -24,6 +24,7 @@ gallery: [images/vegancraft/plant_wax/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li class="active"><a href="#1-21" data-toggle="tab">1.21–1.21.3</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
@@ -31,6 +32,13 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="1-21-4">
+        <p>
+            {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
+            <br/>
+            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/plant_wax_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" %}
+        </p>
+    </div>
     <div role="tabpanel" class="tab-pane active" id="1-21">
         <p>
             {% include dp_badges.html supports="1.21–1.21.3" tested="1.21.3" %}

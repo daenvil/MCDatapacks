@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 08/Nov/2024
+last_updated: 03/Jan/2025
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["08","Nov","2024"]
+last_release: ["03","Jan","2025"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
@@ -22,7 +22,8 @@ index: 16
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
+    <li class="active"><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
+    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
     <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
@@ -31,7 +32,14 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-2">
+    <div role="tabpanel" class="tab-pane active" id="1-21-4">
+        <p>
+            {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
+            <br/>
+            {% include dp_download.html version="v1.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-DP_v1.3.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-2">
         <p>
             {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
             <br/>
@@ -181,10 +189,10 @@ Same as the goat horn, just a different texture and way of obtaining.
 
 Some dyes are usually obtained from mobs, this adds alternative sources for them. Ink sacs are the only way of making signs glow/not glow, so alternative recipes for them were also added.
 
-- **Black dye** is craftable from any coal.
+- **Black dye** is craftable from any coal (crafting table) or from dark oak logs/wood (stonecutter, this simulates grinding their bark).
 - **Ink sacs** are craftable from black dye.
 - A **book and pencil** (same as a "book and quill") is craftable using a book, a stick, and any coal.
-- **Black and white dyes** are craftable from dark oak and birch logs/wood, respectively, by using the stonecutter (this simulates grinding their bark).
+- **White dye** is craftable from birch or pale oak logs/wood. Stripped pale oak also works.
 - **Glow ink sacs** are craftable from glowstone dust, glow berries, or glow lichen.
 - **Glow item frames** are craftable by using glowstone dust, glow berries, or glow lichen instead of a glow ink sac.
 
