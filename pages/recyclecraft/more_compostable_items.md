@@ -4,20 +4,20 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 30/Oct/2024
+last_updated: 04/Jan/2025
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
 pmc: https://www.planetminecraft.com/data-pack/more-compostable-items/
 first_release: ["18","Jan","2022"]
-last_release: ["30","Oct","2024"]
+last_release: ["04","Jan","2025"]
 logo: recyclecraft/more_compostable_items/pack.png
 intro: "This datapack aims to add composting mechanics to all vanilla items which <i>should</i> be compostable, while being as close as possible to vanilla mechanics."
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 5670
-downloads_str: "&gt;5.6k"
+downloads: 5930
+downloads_str: "&gt;5.9k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---
@@ -36,9 +36,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21">
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21.1, 1.21.3" %}
+            {% include dp_badges.html supports="1.21+" tested="1.21.4" %}
             <br/>
-            {% include dp_download.html version="v1.3.2" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3.2/more_compostable_items_v1.3.2.zip" %}
+            {% include dp_download.html version="v1.3.3" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3.3/more_compostable_items_v1.3.3.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-20-5">
