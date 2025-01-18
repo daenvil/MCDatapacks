@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 31/Oct/2024
+last_updated: 18/Jan/2025
 permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
 first_release: ["18","Aug","2020"]
-last_release: ["31","Oct","2024"]
+last_release: ["18","Jan","2025"]
 logo: recyclecraft/more_smeltable_items/pack.png
 intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz (and the lodestone). Now you can recycle things you will never use for minerals."
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz (and the lodestone)."
@@ -37,9 +37,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-2">
         <p>
-            {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
+            {% include dp_badges.html supports="1.21.2+" tested="1.21.3, 1.21.4" %}
             <br/>
-            {% include dp_download.html version="v3.1.1" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/3viwakx3c9r6cwlr8wcj1/more_smeltable_items_v3.1.1.zip?rlkey=w69i3pxwjc3r9ztdkzshsc8hv&st=9j1k1oaa&dl=1" %}
+            {% include dp_download.html version="v3.1.2" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/gtppvteony050wg68zb1o/more_smeltable_items_v3.1.2.zip?rlkey=1lgwr2af99t5dmwg1bh7k3131&st=dr24uqov&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21">
