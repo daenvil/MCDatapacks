@@ -79,6 +79,10 @@ entries:
   - title: Baked Goods 
     url: /baked_goods.html
     output: web
+
+  - title: Better Trial Loot
+    url: /better_trial_loot.html
+    output: web
       
   - title: Old Datapacks
     output: web
