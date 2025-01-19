@@ -4,12 +4,12 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Jan/2024
+last_updated: 18/Jan/2025
 permalink: baked_goods.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/
 first_release: ["10","Nov","2022"]
-last_release: ["18","Jan","2024"]
+last_release: ["18","Jan","2025"]
 logo: baked_goods/pack.png
 thumbnail: baked_goods/thumbnail.png
 intro: A datapack which adds new pies, cakes, cookies, and other baked goods to Minecraft. Bake apple pies, chocolate cakes, glow berry cookies, and many more! See <a href="#new-recipes">below</a> for the full list of recipes. Foods with golden apples/carrots/melon, chorus fruit, and glow berries provide <a href="#special-effects">special effects</a> when eating them.
