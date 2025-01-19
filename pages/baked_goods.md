@@ -33,7 +33,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-2">
+    <div role="tabpanel" class="tab-pane active" id="1-21-4">
         <p>
             {% include dp_badges.html supports="1.21.4+" tested="1.21.4" %}
             <br/>

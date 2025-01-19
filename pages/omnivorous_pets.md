@@ -14,7 +14,7 @@ logo: omni_pets/pack.png
 thumbnail: omni_pets/thumbnail.png
 intro: "A datapack that allows you to tame wolves and cats using any food."
 abstract: "Tame cats and wolves using any food."
-priority: 2
+priority: 99
 index: 9
 gallery: [images/omni_pets/thumbnail.png]
 ---
