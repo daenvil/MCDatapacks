@@ -14,7 +14,7 @@ logo: better_trial_loot/pack.png
 thumbnail: better_trial_loot/thumbnail.png
 abstract: "A datapack which improves the loot found at trial chambers, making it less underwhelming."
 priority: 0
-index: 14
+index: 17
 downloads: 1
 downloads_str: "&gt;1"
 gallery: [images/better_trial_loot/thumbnail.png]
@@ -36,7 +36,7 @@ gallery: [images/better_trial_loot/thumbnail.png]
     </div>
 </div>
 
-{% include installation.html resourcepack=true %}
+{% include installation.html resourcepack=false %}
 
 ## Features
 

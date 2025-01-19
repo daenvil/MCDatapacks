@@ -14,7 +14,7 @@ logo: lead_tweaks/pack.png
 intro: "A datapack that adds some new optional features/fixes to leads, with the purpose of making them easier to use. Summarized, this functionalities will:<br/><ul><li>Warn you when a lead is broken.</li><li>Make leads drop by your side when they break, instead of at the mob's position.</li>"
 abstract: "Small tweaks that make leads easier to use. Get notified when a lead breaks and make broken leads drop besides you! Entirely customizable settings."
 priority: 0
-index: 15
+index: 18
 ---
 
 {% include comments/note.html content="Under construction" %}
