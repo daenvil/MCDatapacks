@@ -29,11 +29,7 @@ Choose the option compatible with your Minecraft version:
     <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
     <li><a href="#legacy-1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#legacy-1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
-    <li><a href="#legacy-1-20-4" data-toggle="tab">1.20–1.20.4</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
-    <li><a href="#legacy2" data-toggle="tab">1.16–1.18.2</a></li>
-    <li><a href="#legacy3" data-toggle="tab">1.14–1.15.2</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.14–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
@@ -70,48 +66,48 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v3.1.1-op" dropbox-url="https://www.dropbox.com/scl/fi/4td9003prbnzenzfd7w4l/cuttable_wood_v3.1.1-op.zip?rlkey=f9u33j0kg705kpotktldcxwgb&st=3ffd3su2&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="legacy-1-20-5">
-        {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
-        <p><b>Vanilla-balanced version:</b></p>
-        <p>
-            {% include dp_download.html version="v3.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/wg663bdpxrpsqa6mp6ess/cuttable_wood_v3.1-balanced.zip?rlkey=v9odgx9l75z22jt753av8vwzw&st=ddjzaaii&dl=1" discontinued=true %}
-        </p>
-        <p><b>OP version:</b></p>
-        <p>
-            {% include dp_download.html version="v3.1-op" dropbox-url="https://www.dropbox.com/scl/fi/cz6jski6r38ycg9p3u1c5/cuttable_wood_v3.1-op.zip?rlkey=bjpjxkek44k2ey1q5r1mapd4s&st=2xi8etul&dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy-1-20-4">
-        {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
-        <p><b>Vanilla-balanced version:</b></p>
-        <p>
-            {% include dp_download.html version="v3-balanced" dropbox-url="https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1" discontinued=true %}
-        </p>
-        <p><b>OP version:</b></p>
-        <p>
-            {% include dp_download.html version="v3-op" dropbox-url="https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
-        <p>
-            {% include dp_badges.html supports="1.19.x" tested="1.19" %}
-            <br/>
-            {% include dp_download.html version="v2.2.1" dropbox-url="https://www.dropbox.com/s/t6artbztvqet562/cuttable_wood_v2.2.1.zip?dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy2">
-        <p>
-            {% include dp_badges.html supports="1.16–1.18.2" tested="1.16.5%2C%201.17.1%2C%201.18.2" %}
-            <br/>
-            {% include dp_download.html version="v2.1.2-mc1.16-1.18.2" dropbox-url="https://www.dropbox.com/s/s0q8vl3soahq38k/cuttable_wood_v2.1.2_mc1.16-1.18.2.zip?dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy3">
-        <p>
-            {% include dp_badges.html supports="1.14–1.15.2" tested="1.14.4%2C%201.15.2" %}
-            <br/>
-            {% include dp_download.html version="v2-mc1.14-1.15.x" dropbox-url="https://www.dropbox.com/s/kvo9angmef6db2p/dnv_cuttable_wood_v2_mc1.14-1.15.x.zip?dl=1" discontinued=true %}
-        </p>
+        For older Minecraft versions (no longer maintained):
+        <table><thead>
+            <tr>
+                <th>Supported Minecraft versions</th>
+                <th>Datapack version</th>
+                <th>Tested in</th>
+                <th>Download links</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td>1.20.5–1.20.6</td>
+                <td>3.1</td>
+                <td>1.20.6</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/cz6jski6r38ycg9p3u1c5/cuttable_wood_v3.1-op.zip?rlkey=bjpjxkek44k2ey1q5r1mapd4s&st=2xi8etul&dl=1'>"OP" version</a> | <a href='https://www.dropbox.com/scl/fi/wg663bdpxrpsqa6mp6ess/cuttable_wood_v3.1-balanced.zip?rlkey=v9odgx9l75z22jt753av8vwzw&st=ddjzaaii&dl=1'>"balanced" version</a></td>
+            </tr>
+            <tr>
+                <td>1.20–1.20.4</td>
+                <td>3.0</td>
+                <td>1.20, 1.20.4</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/s/oyhstnuwpyaf7as/cuttable_wood_v3-op.zip?dl=1'>"OP" version</a> | <a href='https://www.dropbox.com/s/zfjk4lc711ri67d/cuttable_wood_v3-balanced.zip?dl=1'>"balanced" version</a></td>
+            </tr>
+            <tr>
+                <td>1.19.x</td>
+                <td>2.2.1</td>
+                <td>1.19</td>
+                <td><a href='https://www.dropbox.com/s/t6artbztvqet562/cuttable_wood_v2.2.1.zip?dl=1'>Dropbox</a></td>
+            </tr>
+            <tr>
+                <td>1.16–1.18.2</td>
+                <td>2.1.2</td>
+                <td>1.16.5, 1.17.1, 1.18.2</td>
+                <td><a href='https://www.dropbox.com/s/s0q8vl3soahq38k/cuttable_wood_v2.1.2_mc1.16-1.18.2.zip?dl=1'>Dropbox</a></td>
+            </tr>
+            <tr>
+                <td>1.14–1.15.2</td>
+                <td>2.0</td>
+                <td>1.14.4, 1.15.2</td>
+                <td><a href='https://www.dropbox.com/s/kvo9angmef6db2p/dnv_cuttable_wood_v2_mc1.14-1.15.x.zip?dl=1'>Dropbox</a></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 
