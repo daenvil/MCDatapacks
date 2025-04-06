@@ -67,7 +67,7 @@ Choose the option compatible with your Minecraft version:
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
-        For older Minecraft versions (no longer maintained):
+        For older Minecraft versions (no longer maintained, recipes may be different than described in this page):
         <table><thead>
             <tr>
                 <th>Supported Minecraft versions</th>
