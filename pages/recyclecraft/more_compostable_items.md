@@ -4,20 +4,20 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 04/Jan/2025
+last_updated: 07/Apr/2025
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
 pmc: https://www.planetminecraft.com/data-pack/more-compostable-items/
 first_release: ["18","Jan","2022"]
-last_release: ["04","Jan","2025"]
+last_updated: ["07","Apr","2025"]
 logo: recyclecraft/more_compostable_items/pack.png
 intro: "This datapack aims to add composting mechanics to all vanilla items which <i>should</i> be compostable, while being as close as possible to vanilla mechanics."
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 5930
-downloads_str: "&gt;5.9k"
+downloads: 6400
+downloads_str: "&gt;6.4k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---
@@ -27,40 +27,56 @@ gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
-    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
-    <li><a href="#legacy-1-20" data-toggle="tab">1.20–1.20.4</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.16.2–1.19.4</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.4</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.16.2–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21">
+    <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21.4" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
             <br/>
-            {% include dp_download.html version="v1.3.3" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3.3/more_compostable_items_v1.3.3.zip" %}
+            {% include dp_download.html version="v1.4" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4/more_compostable_items_v1.4.zip" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-20-5">
+    <div role="tabpanel" class="tab-pane" id="1-21">
         <p>
-            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
+            {% include dp_badges.html supports="1.21–1.21.4" tested="1.21.4" %}
             <br/>
-            {% include dp_download.html version="v1.3" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3/more_compostable_items_v1.3.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy-1-20">
-        <p>
-            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
-            <br/>
-            {% include dp_download.html version="v1.2.1" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.2.1/more_compostable_items_v1.2.1.zip" discontinued=true %}
+            {% include dp_download.html version="v1.3.3" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3.3/more_compostable_items_v1.3.3.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
-        <p>
-            {% include dp_badges.html supports="1.16.2–1.19.4" tested="1.16.5, 1.17.1, 1.18.2, 1.19.3" %}
-            <br/>
-            {% include dp_download.html version="v1.1" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.1/more_compostable_items_v1.1.zip" discontinued=true %}
-        </p>
+        For older Minecraft versions (no longer maintained, features may be different than described in this page):
+        <table><thead>
+            <tr>
+                <th>Supported Minecraft versions</th>
+                <th>Datapack version</th>
+                <th>Tested in</th>
+                <th>Download links</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td>1.20.5–1.20.6</td>
+                <td>1.3</td>
+                <td>1.20.6</td>
+                <td><a href='https://github.com/daenvil/more_compostable_items/releases/download/v1.3/more_compostable_items_v1.3.zip'>Github</a></td>
+            </tr>
+            <tr>
+                <td>1.20–1.20.4</td>
+                <td>1.2.1</td>
+                <td>1.20, 1.20.4</td>
+                <td><a href='https://github.com/daenvil/more_compostable_items/releases/download/v1.2.1/more_compostable_items_v1.2.1.zip'>Github</a></td>
+            </tr>
+            <tr>
+                <td>1.16.2–1.19.4</td>
+                <td>1.1</td>
+                <td>1.16.5, 1.17.1, 1.18.2, 1.19.3</td>
+                <td><a href='https://github.com/daenvil/more_compostable_items/releases/download/v1.1/more_compostable_items_v1.1.zip'>Github</a></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 

@@ -3,7 +3,7 @@ title:  "Better Stonecutter - 2.1.1 update"
 published: true
 permalink: better_stonecutter_v2.1.1.html
 summary: "Updated for MC 1.21.5"
-tags: [news,changelog]
+tags: [news,changelog,recyclecraft]
 datapack: better_stonecutter
 changelog: v2.1.1
 ---
