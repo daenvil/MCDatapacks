@@ -129,7 +129,7 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 </li><li>Honey block
 </li><li>Honeycomb block
 </li><li>Rotten flesh
-</li><li>Egg
+</li><li>Chicken eggs
 </li><li>Turtle egg
 </li><li>Leather
 </li><li>Dead bush
@@ -140,7 +140,14 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 </li><li>Paper
 </li><li>Cobweb
 </li><li>Goat horn
-</li><li>Muddy mangrove roots</li></ul>' id='30-chance' %}
+</li><li>Muddy mangrove roots</li>
+</li><li>Pale moss carpet</li>
+</li><li>Pale hanging moss</li>
+</li><li>Bush and firefly bush</li>
+</li><li>Cactus flower</li>
+</li><li>Dry grass</li>
+</li><li>Leaf litter</li>
+</li><li>Wildflowers</li></ul>' id='30-chance' %}
  
 {% include collapsible.html title='50% chance:' content='<ul><li>Cooked chicken, cod, mutton, porkchop, rabbit, beef, and salmon
 </li><li>Crimson/warped nylium</li></ul>' id='50-chance' %}
