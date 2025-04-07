@@ -10,7 +10,7 @@ published: true
 github: https://github.com/daenvil/more_compostable_items/
 pmc: https://www.planetminecraft.com/data-pack/more-compostable-items/
 first_release: ["18","Jan","2022"]
-last_updated: ["07","Apr","2025"]
+last_release: ["07","Apr","2025"]
 logo: recyclecraft/more_compostable_items/pack.png
 intro: "This datapack aims to add composting mechanics to all vanilla items which <i>should</i> be compostable, while being as close as possible to vanilla mechanics."
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."

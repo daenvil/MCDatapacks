@@ -9,7 +9,7 @@ permalink: better_stonecutter.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/
 first_release: ["05","Jan","2022"]
-last_updated: ["06","Apr","2025"]
+last_release: ["06","Apr","2025"]
 logo: recyclecraft/better_stonecutter/pack.png
 intro: "A datapack that adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
