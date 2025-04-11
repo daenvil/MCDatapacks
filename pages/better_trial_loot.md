@@ -4,34 +4,42 @@ keywords: minecraft, datapack, loot, trial, chambers
 tags: [datapack, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 19/Jan/2024
+last_updated: 11/Apr/2025
 permalink: better_trial_loot.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/better_trial_loot/
 first_release: ["19","Jan","2025"]
-last_release: ["19","Jan","2025"]
+last_release: ["11","Apr","2025"]
 logo: better_trial_loot/pack.png
 thumbnail: better_trial_loot/thumbnail.png
 abstract: "A datapack which improves the loot found at trial chambers, making it less underwhelming."
 priority: 0
 index: 17
-downloads: 1
-downloads_str: "&gt;1"
+downloads: 300
+downloads_str: "&gt;300"
 gallery: [images/better_trial_loot/thumbnail.png]
 ---
 
 ## Downloads
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21" data-toggle="tab">1.21+</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21">
+    <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21+" tested="1.21.4" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
             <br/>
-            {% include dp_download.html version="v1.0" pmc-url="https://www.planetminecraft.com/data-pack/better-trial-loot/" dropbox-url="https://www.dropbox.com/scl/fi/79383j4ikc421zeoi371h/better_trial_loot_v1.0.zip?rlkey=x9i1tsktauhmzlr81ogr9v4cy&st=p9wqayj6&dl=1" %}
+            {% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/better-trial-loot/" dropbox-url="https://www.dropbox.com/scl/fi/t7gcjhjemfi7ctlbg3p0h/better_trial_loot_v1.0.1.zip?rlkey=dgrswids15inh37808kmtaw0x&st=8m7eb9di&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21">
+        <p>
+            {% include dp_badges.html supports="1.21–1.21.4" tested="1.21.4" %}
+            <br/>
+            {% include dp_download.html version="v1.0" dropbox-url="https://www.dropbox.com/scl/fi/79383j4ikc421zeoi371h/better_trial_loot_v1.0.zip?rlkey=x9i1tsktauhmzlr81ogr9v4cy&st=p9wqayj6&dl=1" %}
         </p>
     </div>
 </div>
