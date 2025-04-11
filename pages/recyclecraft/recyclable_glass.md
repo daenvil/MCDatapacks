@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Nov/2024
+last_updated: 11/Apr/2025
 permalink: recyclable_glass.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-glass/
 first_release: ["30","Jul","2022"]
-last_release: ["03","Nov","2024"]
+last_updated: ["11","Apr","2025"]
 logo: recyclecraft/recyclable_glass/pack.png
 intro: "Ever dyed a bunch of glass and ended not using all of it? Ever crafted more panes or bottles than you needed? This datapack allows you to recycle all glass items by adding crafting and smelting recipes."
 abstract: "Allows you to recycle all glass items by adding new crafting and smelting recipes."
@@ -24,18 +24,25 @@ gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/202
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-2" data-toggle="tab">1.21.2+</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.17–1.20.4</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-2">
+    <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.2+" tested="1.21.3" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
             <br/>
-            {% include dp_download.html version="v1.1.2" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" dropbox-url="https://www.dropbox.com/scl/fi/bvzlwr2q6t78g734zouwg/recyclable_glass_v1.1.2.zip?rlkey=4azbb5w6o9es2lxu4taox4u5q&st=8w5r4tp3&dl=1" %}
+            {% include dp_download.html version="v1.1.3" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" dropbox-url="https://www.dropbox.com/scl/fi/xyvffa0c9hf1hshm5ipu9/recyclable_glass_v1.1.3.zip?rlkey=vt3jfou2j8qqccmct43cm9xvc&st=0ycg2e5m&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-2">
+        <p>
+            {% include dp_badges.html supports="1.21.2–1.21.4" tested="1.21.3" %}
+            <br/>
+            {% include dp_download.html version="v1.1.2" dropbox-url="https://www.dropbox.com/scl/fi/bvzlwr2q6t78g734zouwg/recyclable_glass_v1.1.2.zip?rlkey=4azbb5w6o9es2lxu4taox4u5q&st=8w5r4tp3&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21">
@@ -45,19 +52,30 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v1.1.1" dropbox-url="https://www.dropbox.com/scl/fi/2o79ey4wpmcc2qxhvv1dk/recyclable_glass_v1.1.1.zip?rlkey=0zvaukfcsw0g3ytdkm1qca6i5&st=ill7u2et&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-20-5">
-        <p>
-            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
-            <br/>
-            {% include dp_download.html version="v1.1" dropbox-url="https://www.dropbox.com/scl/fi/vmuc2c4wra8s2xd9ognm0/recyclable_glass_v1.1.zip?rlkey=eqmrwb34jb0wnpo2z06p4qww0&st=47he21lh&dl=1" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
-        <p>
-            {% include dp_badges.html supports="1.17–1.20.4" tested="1.19.4, 1.20, 1.20.4" %}
-            <br/>
-            {% include dp_download.html version="v1.0.1" dropbox-url="https://www.dropbox.com/scl/fi/lhjoqv8va28w333oa52fa/recyclable_glass_v1.0.1.zip?rlkey=f6is7034pk2lnzso0tjm13lhl&st=bjgnvb3u&dl=1" discontinued=true %}
-        </p>
+        For older Minecraft versions (no longer maintained, recipes may be different than described in this page):
+        <table><thead>
+            <tr>
+                <th>Supported Minecraft versions</th>
+                <th>Datapack version</th>
+                <th>Tested in</th>
+                <th>Download links</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td>1.20.5–1.20.6</td>
+                <td>1.1</td>
+                <td>1.20.6</td>
+                <td><a href='https://www.dropbox.com/scl/fi/vmuc2c4wra8s2xd9ognm0/recyclable_glass_v1.1.zip?rlkey=eqmrwb34jb0wnpo2z06p4qww0&st=47he21lh&dl=1'>Dropbox</a></td>
+            </tr>
+            <tr>
+                <td>1.17–1.20.4</td>
+                <td>1.0.1</td>
+                <td>1.19.4, 1.20, 1.20.4</td>
+                <td><a href='https://www.dropbox.com/scl/fi/lhjoqv8va28w333oa52fa/recyclable_glass_v1.0.1.zip?rlkey=f6is7034pk2lnzso0tjm13lhl&st=bjgnvb3u&dl=1'>Dropbox</a></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 
