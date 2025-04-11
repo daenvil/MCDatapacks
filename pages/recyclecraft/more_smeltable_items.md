@@ -9,7 +9,7 @@ permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
 first_release: ["18","Aug","2020"]
-last_updated: ["11","Apr","2025"]
+last_release: ["11","Apr","2025"]
 logo: recyclecraft/more_smeltable_items/pack.png
 intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz (and the lodestone). Now you can recycle things you will never use for minerals."
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz (and the lodestone)."
