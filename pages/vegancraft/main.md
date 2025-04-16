@@ -282,187 +282,198 @@ Villagers and wandering traders have new trades related to the custom items of t
 
 Here's a summary of the new trades:
 
-<table><thead>
-  <tr>
-    <th>Profession</th>
-    <th>Level</th>
-    <th>Item wanted</th>
-    <th>Item given</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td rowspan="6">Butcher</td>
-    <td rowspan="2">Novice</td>
-    <td>1 emerald</td>
-    <td>1 seitan stew</td>
-  </tr>
-  <tr>
-    <td>20 wheat</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Apprentice</td>
-    <td>1 emerald</td>
-    <td>5 veggie burgers</td>
-  </tr>
-  <tr>
-    <td>15 beetroot</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Journeyman</td>
-    <td>1 emerald</td>
-    <td>8 seitan steaks</td>
-  </tr>
-  <tr>
-    <td>7 brown mushrooms</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Cleric</td>
-    <td>Novice</td>
-    <td>8 feathery membranes</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>Journeyman</td>
-    <td>16 blazing powder</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>Expert</td>
-    <td>8 pitcher fluid</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Farmer</td>
-    <td>Apprentice</td>
-    <td>1 emerald</td>
-    <td>4 vegan pumpkin pies</td>
-  </tr>
-  <tr>
-    <td>Expert</td>
-    <td>1 emerald</td>
-    <td>1 vegan cake</td>
-  </tr>
-  <tr>
-    <td rowspan="9">Fisherman</td>
-    <td rowspan="2">Novice</td>
-    <td>20 plant strings</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>6 iron ingots</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Apprentice</td>
-    <td>32 kelp</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>1 vegan honey bottle + 2 emeralds</td>
-    <td>6 not-salmon filllets</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Journeyman</td>
-    <td>16 seagrass</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>15 emeralds</td>
-    <td>1 magnet fishing rod</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Expert</td>
-    <td>6 seitan steaks</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>16 soul sand</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>48 emeralds</td>
-    <td>1 heart of the sea</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Fletcher</td>
-    <td>Journeyman</td>
-    <td>14 plant strings</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>Expert</td>
-    <td>12 faux feathers</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Leatherworker</td>
-    <td>Novice</td>
-    <td>6 faux leather</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>Journeyman</td>
-    <td>16 acacia gum balls</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>Expert</td>
-    <td>16 cacti</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td>Librarian</td>
-    <td>Journeyman</td>
-    <td>5 black dye</td>
-    <td>1 emerald</td>
-  </tr>
-  <tr>
-    <td colspan="2" rowspan="10">Wandering trader</td>
-    <td>4 emeralds</td>
-    <td>1 acacia gum ball</td>
-  </tr>
-  <tr>
-    <td>5 emeralds</td>
-    <td>1 heart of the sea</td>
-  </tr>
-  <tr>
-    <td>5 emeralds</td>
-    <td>1 ender pearl</td>
-  </tr>
-  <tr>
-    <td>15 emeralds</td>
-    <td>1 trial key</td>
-  </tr>
-  <tr>
-    <td>5 emeralds</td>
-    <td>1 blazing powder</td>
-  </tr>
-  <tr>
-    <td>5 emeralds</td>
-    <td>1 pitcher fluid</td>
-  </tr>
-  <tr>
-    <td>4 emeralds</td>
-    <td>1 hardened seagrass</td>
-  </tr>
-  <tr>
-    <td>4 emeralds</td>
-    <td>1 bouncy boot</td>
-  </tr>
-  <tr>
-    <td>4 emeralds</td>
-    <td>1 puffer bubble</td>
-  </tr>
-  <tr>
-    <td>4 emeralds</td>
-    <td>1 feathery membrane</td>
-  </tr>
-</tbody></table>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#changelog-collapsible">Click to show <i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <div id="changelog-collapsible" class="panel-collapse collapse noCrossRef">
+        <div class="panel-body">
+            <table><thead>
+            <tr>
+                <th>Profession</th>
+                <th>Level</th>
+                <th>Item wanted</th>
+                <th>Item given</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td rowspan="6">Butcher</td>
+                <td rowspan="2">Novice</td>
+                <td>1 emerald</td>
+                <td>1 seitan stew</td>
+            </tr>
+            <tr>
+                <td>20 wheat</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Apprentice</td>
+                <td>1 emerald</td>
+                <td>5 veggie burgers</td>
+            </tr>
+            <tr>
+                <td>15 beetroot</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Journeyman</td>
+                <td>1 emerald</td>
+                <td>8 seitan steaks</td>
+            </tr>
+            <tr>
+                <td>7 brown mushrooms</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Cleric</td>
+                <td>Novice</td>
+                <td>8 feathery membranes</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>Journeyman</td>
+                <td>16 blazing powder</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>Expert</td>
+                <td>8 pitcher fluid</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Farmer</td>
+                <td>Apprentice</td>
+                <td>1 emerald</td>
+                <td>4 vegan pumpkin pies</td>
+            </tr>
+            <tr>
+                <td>Expert</td>
+                <td>1 emerald</td>
+                <td>1 vegan cake</td>
+            </tr>
+            <tr>
+                <td rowspan="9">Fisherman</td>
+                <td rowspan="2">Novice</td>
+                <td>20 plant strings</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>6 iron ingots</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Apprentice</td>
+                <td>32 kelp</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>1 vegan honey bottle + 2 emeralds</td>
+                <td>6 not-salmon filllets</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Journeyman</td>
+                <td>16 seagrass</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>15 emeralds</td>
+                <td>1 magnet fishing rod</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Expert</td>
+                <td>6 seitan steaks</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>16 soul sand</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>48 emeralds</td>
+                <td>1 heart of the sea</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Fletcher</td>
+                <td>Journeyman</td>
+                <td>14 plant strings</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>Expert</td>
+                <td>12 faux feathers</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Leatherworker</td>
+                <td>Novice</td>
+                <td>6 faux leather</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>Journeyman</td>
+                <td>16 acacia gum balls</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>Expert</td>
+                <td>16 cacti</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>Librarian</td>
+                <td>Journeyman</td>
+                <td>5 black dye</td>
+                <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="10">Wandering trader</td>
+                <td>4 emeralds</td>
+                <td>1 acacia gum ball</td>
+            </tr>
+            <tr>
+                <td>5 emeralds</td>
+                <td>1 heart of the sea</td>
+            </tr>
+            <tr>
+                <td>5 emeralds</td>
+                <td>1 ender pearl</td>
+            </tr>
+            <tr>
+                <td>15 emeralds</td>
+                <td>1 trial key</td>
+            </tr>
+            <tr>
+                <td>5 emeralds</td>
+                <td>1 blazing powder</td>
+            </tr>
+            <tr>
+                <td>5 emeralds</td>
+                <td>1 pitcher fluid</td>
+            </tr>
+            <tr>
+                <td>4 emeralds</td>
+                <td>1 hardened seagrass</td>
+            </tr>
+            <tr>
+                <td>4 emeralds</td>
+                <td>1 bouncy boot</td>
+            </tr>
+            <tr>
+                <td>4 emeralds</td>
+                <td>1 puffer bubble</td>
+            </tr>
+            <tr>
+                <td>4 emeralds</td>
+                <td>1 feathery membrane</td>
+            </tr>
+            </tbody></table>
 
-{% include comments/note.html content="All the wandering trader's custom trades have a certain percent chance of being available or not (around 10–20%). In average, 2 custom trades will appear, but it's also possible that no custom trades are available." %}
+            {% include comments/note.html content="All the wandering trader's custom trades have a certain percent chance of being available or not (around 10–20%). In average, 2 custom trades will appear, but it's also possible that no custom trades are available." %}
+        </div>
+    </div>
+</div>
 
 There might be a bug where some villagers don't seem to have the custom trades at first, but they should fix themselves after some time passes (~5s). This is a necessary tradeoff to improve performance of the datapack (otherwise villagers would need to be checked multiple times every second). This will not improve until Mojang adds proper customizable trades.
 
