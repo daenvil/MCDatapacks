@@ -32,7 +32,7 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane" id="1-21-5">
+    <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5" tested="1.21.5" %}
             <br/>
