@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, bees, hon
 tags: [datapack, vegancraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Jan/2025
+last_updated: 16/Apr/2025
 permalink: plant_wax.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-wax/
 first_release: ["15","Dec","2022"]
-last_release: ["03","Jan","2025"]
+last_release: ["16","Apr","2025"]
 logo: vegancraft/plant_wax/pack.png
 thumbnail: vegancraft/plant_wax/thumbnail.png
 intro: "A datapack that adds Plant Wax (a retextured honeycomb), obtainable by smelting dead bushes or jungle leaves."
@@ -24,48 +24,64 @@ gallery: [images/vegancraft/plant_wax/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
-    <li class="active"><a href="#1-21" data-toggle="tab">1.21–1.21.3</a></li>
-    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
-    <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.18–1.19.4</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
+    <li><a href="#1-21" data-toggle="tab">1.21–1.21.3</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.18–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-4">
+    <div role="tabpanel" class="tab-pane active" id="1-21-5">
+        <p>
+            {% include dp_badges.html supports="1.21.5" tested="1.21.5" %}
+            <br/>
+            {% include dp_download.html version="v2.2" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/plant_wax_v2.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-4">
         <p>
             {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
             <br/>
-            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/plant_wax_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" %}
+            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/plant_wax_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane active" id="1-21">
         <p>
             {% include dp_badges.html supports="1.21–1.21.3" tested="1.21.3" %}
             <br/>
-            {% include dp_download.html version="v2.0.2" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/plant_wax_v2.0.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-20-5">
-        <p>
-            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
-            <br/>
-            {% include dp_download.html version="v2.0" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/plant_wax_v2.0.zip" rp-version="v1.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/vegancraft-RP_v1.1.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy1-20">
-        <p>
-            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
-            <br/>
-            {% include dp_download.html version="v1.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/plant_wax_v1.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" discontinued=true %}
+            {% include dp_download.html version="v2.0.2" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/plant_wax_v2.0.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
-        <p>
-            {% include dp_badges.html supports="1.18–1.19.4" tested="1.18.2, 1.19.3" %}
-            <br/>
-            {% include dp_download.html version="v1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/plant_wax_v1.zip" rp-version="v1e" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip" discontinued=true %}
-        </p>
+        For older Minecraft versions (no longer maintained, features may be different than described in this page):
+        <table><thead>
+            <tr>
+                <th>Supported Minecraft versions</th>
+                <th>Datapack version</th>
+                <th>Tested in</th>
+                <th>Download links</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td>1.20.5–1.20.6</td>
+                <td>2.0</td>
+                <td>1.20.6</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/plant_wax_v2.0.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.1-pre2/vegancraft-RP_v1.1.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.20–1.20.4</td>
+                <td>1.1</td>
+                <td>1.20, 1.20.4</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.0/plant_wax_v1.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.18–1.19.4</td>
+                <td>1.0</td>
+                <td>1.18.2, 1.19.3</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1e/plant_wax_v1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip'>resourcepack</a></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 
@@ -77,9 +93,11 @@ Choose the option compatible with your Minecraft version:
 
 ### New smelting recipe: Plant Wax
 
-You can obtain Plant Wax by smelting **Jungle Leaves** or **Dead Bushes** in a regular furnace (does not work in blast furnaces and smokers).
+You can obtain Plant Wax by smelting **Jungle Saplings**\* or **Dead Bushes** in a regular furnace (does not work in blast furnaces and smokers).
 
 This recipe needs 10 seconds to cook (same as any other furnace recipe), and provides 0.1 xp.
+
+\* Older versions of the datapack (pre v2.2) used Jungle Leaves instead of saplings.
 
 <p align=center>
 {% include image/basic.html src="vegancraft/plant_wax/screenshots/jungle_wax.png" alt="Wax from jungle leaves" width="280" %}
@@ -99,5 +117,5 @@ When playing using the full Vegancraft datapack instead of the standalone Plant-
 
 - In general, I tried to find recipes that have an analogue in real life and that I think are balanced in the game. Both recipes need shears to obtain the needed ingredient, same as to obtain honeycomb, and they force you to find certain biomes in order to get wax.
 - The dead bush recipe is based on certain real-life bushes found in hot biomes –mainly [candelilla wax](https://en.wikipedia.org/wiki/Candelilla_wax)– whose leaves produce wax. Since dead bushes are not renewable and primarily appear in deserts, I thought this was appropiate and balanced.
-- The jungle leaves recipe is based on certain real-life tropical trees –mainly [palm wax](https://en.wikipedia.org/wiki/Carnauba_wax)– whose leaves produce wax. Jungle leaves are renewable, but they are quite a pain to farm, so I thought they are still balanced.
+- The jungle saplings recipe is based on certain real-life tropical trees –mainly [palm wax](https://en.wikipedia.org/wiki/Carnauba_wax)– whose leaves produce wax. Jungle saplings are renewable, but they are the most difficult sapling to get, so I think they are still balanced. Originally, this recipe used jungle leaves instead of saplings, but in Minecraft 1.21.5 they added leaf litter, which can be obtained by smelting leaves in a furnance, which conflicted with that recipe. Since saplings are obtained from leaves, I just replaced the leaves by saplings.
 - In both these cases, as far as I know, the wax is extracted heating the leaves (either drying them or boiling them), hence why I implemented them as furnace recipes.

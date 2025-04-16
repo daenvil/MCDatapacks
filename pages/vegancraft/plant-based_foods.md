@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Jan/2025
+last_updated: 16/Apr/2025
 permalink: plant-based_foods.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-based-foods/
 first_release: ["17","Jun","2022"]
-last_release: ["03","Jan","2025"]
+last_updated: ["16","Apr","2025"]
 logo: vegancraft/vegan_food/pack.png
 thumbnail: vegancraft/vegan_food/thumbnail.png
 intro: "A datapack that adds vegan alternatives to dairy, eggs, honey, and meat."
@@ -24,27 +24,33 @@ gallery: [images/vegancraft/vegan_food/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5</a></li>
+    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
-    <li><a href="#legacy-1-20" data-toggle="tab">1.20–1.20.4</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.16.2–1.19.4</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.16.2–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-4">
+    <div role="tabpanel" class="tab-pane active" id="1-21-5">
+        <p>
+            {% include dp_badges.html supports="1.21.5" tested="1.21.5" %}
+            <br/>
+            {% include dp_download.html version="v2.1.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/plant-based_foods_v2.1.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-4">
         <p>
             {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
             <br/>
-            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/plant-based_foods_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" %}
+            {% include dp_download.html version="v2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/plant-based_foods_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
         <p>
             {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
             <br/>
-            {% include dp_download.html version="v2.0.2" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/plant-based_foods_v2.0.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" %}
+            {% include dp_download.html version="v2.0.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/plant-based_foods_v2.0.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21">
@@ -54,26 +60,36 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v2.0.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/plant-based_foods_v2.0.1.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-20-5">
-        <p>
-            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
-            <br/>
-            {% include dp_download.html version="v2.0" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre1/plant-based_foods_v2.0.zip" rp-version="v1.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.1-pre1/vegancraft-RP_v1.1.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy-1-20">
-        <p>
-            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
-            <br/>
-            {% include dp_download.html version="v1.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/plant-based_foods_v1.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
-        <p>
-            {% include dp_badges.html supports="1.16.2–1.19.4" tested="1.16.5, 1.17.1, 1.18.2, 1.19.2" %}
-            <br/>
-            {% include dp_download.html version="v1.0.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1c/plant-based_foods_v1.0.1.zip" rp-version="v1d" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1d/vegancraft-RP_v1d.zip" discontinued=true %}
-        </p>
+        For older Minecraft versions (no longer maintained, features may be different than described in this page):
+        <table><thead>
+            <tr>
+                <th>Supported Minecraft versions</th>
+                <th>Datapack version</th>
+                <th>Tested in</th>
+                <th>Download links</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td>1.20.5–1.20.6</td>
+                <td>2.0</td>
+                <td>1.20.6</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.1-pre1/plant-based_foods_v2.0.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.1-pre1/vegancraft-RP_v1.1.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.20–1.20.4</td>
+                <td>1.1</td>
+                <td>1.20, 1.20.4</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.0/plant-based_foods_v1.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.16.2–1.19.4</td>
+                <td>1.0.1</td>
+                <td>1.16.5, 1.17.1, 1.18.2, 1.19.2</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1c/plant-based_foods_v1.0.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1d/vegancraft-RP_v1d.zip'>resourcepack</a></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 

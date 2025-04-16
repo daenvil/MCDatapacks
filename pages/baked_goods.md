@@ -43,14 +43,14 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
         <p>
             {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
             <br/>
-            {% include dp_download.html version="v2.2" dropbox-url="https://www.dropbox.com/scl/fi/m2s1b4ci31el9t35uayrk/daenvils_baked_goods_v2.2.zip?rlkey=n4gcj3o1qkp5gb73tuoj1y629&st=g5795cn6&dl=1" rp-version="v2.2" rp-dropbox-url="https://www.dropbox.com/scl/fi/c0p7ymuihevsvapjytgj6/daenvils_baked_goods-RP_v2.2.zip?rlkey=d0iojz0hkh9fmf6qskhlu3ia7&st=9urouz75&dl=1" %}
+            {% include dp_download.html version="v2.2" dropbox-url="https://www.dropbox.com/scl/fi/m2s1b4ci31el9t35uayrk/daenvils_baked_goods_v2.2.zip?rlkey=n4gcj3o1qkp5gb73tuoj1y629&st=g5795cn6&dl=1" rp-version="v2.2" rp-dropbox-url="https://www.dropbox.com/scl/fi/c0p7ymuihevsvapjytgj6/daenvils_baked_goods-RP_v2.2.zip?rlkey=d0iojz0hkh9fmf6qskhlu3ia7&st=9urouz75&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
         <p>
             {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
             <br/>
-            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" dropbox-url="https://www.dropbox.com/scl/fi/z4jfmm52els548b59j96i/daenvils_baked_goods_v2.1.zip?rlkey=fzqoz9lu1dya592zj7ndhhdv8&st=5v3ehe6g&dl=1" rp-version="v2.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-dropbox-url="https://www.dropbox.com/scl/fi/c3xixk3agmqn1dxa0yday/daenvils_baked_goods-RP_v2.1.zip?rlkey=0q1942ry8i6r8gsru0p7nvr8x&st=59zbhxnv&dl=1" %}
+            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" dropbox-url="https://www.dropbox.com/scl/fi/z4jfmm52els548b59j96i/daenvils_baked_goods_v2.1.zip?rlkey=fzqoz9lu1dya592zj7ndhhdv8&st=5v3ehe6g&dl=1" rp-version="v2.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-dropbox-url="https://www.dropbox.com/scl/fi/c3xixk3agmqn1dxa0yday/daenvils_baked_goods-RP_v2.1.zip?rlkey=0q1942ry8i6r8gsru0p7nvr8x&st=59zbhxnv&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21">

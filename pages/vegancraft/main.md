@@ -4,17 +4,19 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Jan/2025
+last_updated: 16/Apr/2025
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["03","Jan","2025"]
+last_release: ["16","Apr","2025"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
 index: 16
+downloads: 2830
+downloads_str: "&gt;2.8k"
 ---
 
 ## Full datapack download
@@ -22,28 +24,33 @@ index: 16
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5</a></li>
+    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#1-20-5" data-toggle="tab">1.20.5–1.20.6</a></li>
-    <li><a href="#legacy1-20" data-toggle="tab">1.20–1.20.4</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.19.x</a></li>
-    <li><a href="#legacy2" data-toggle="tab">1.17–1.18.2</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-4">
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
+        <p>
+            {% include dp_badges.html supports="1.21.5" tested="1.21.5" %}
+            <br/>
+            {% include dp_download.html version="v1.4" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-DP_v1.4.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-4">
         <p>
             {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
             <br/>
-            {% include dp_download.html version="v1.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-DP_v1.3.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" %}
+            {% include dp_download.html version="v1.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-DP_v1.3.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
         <p>
             {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
             <br/>
-            {% include dp_download.html version="v1.2.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-DP_v1.2.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" %}
+            {% include dp_download.html version="v1.2.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-DP_v1.2.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21">
@@ -53,33 +60,42 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v1.2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/vegancraft-DP_v1.2.1.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-20-5">
-        <p>
-            {% include dp_badges.html supports="1.20.5–1.20.6" tested="1.20.6" %}
-            <br/>
-            {% include dp_download.html version="v1.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-DP_v1.2-MC1.20.5-1.20.6.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy1-20">
-        <p>
-            {% include dp_badges.html supports="1.20–1.20.4" tested="1.20, 1.20.4" %}
-            <br/>
-            {% include dp_download.html version="v1.0.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0.1/vegancraft-DP_v1.0.1.zip" rp-version="v1.0" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
-        <p>
-            {% include dp_badges.html supports="1.19.x" tested="1.19.3" %}
-            <br/>
-            {% include dp_download.html version="v1e" github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-DP_v1e.zip" rp-version="v1e" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy2">
-        <p>
-            {% include dp_badges.html supports="1.17--1.18.2" tested="1.17.1%2C%201.18.2" %}
-            <br/>
-            {% include dp_download.html version="v1d-mc1.17-1.18.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-DP_v1d-mc1.17-1.18.2.zip" rp-version="v1d" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-RP_v1d.zip" discontinued=true %}
-        </p>
+        For older Minecraft versions (no longer maintained, features may be different than described in this page):
+        <table><thead>
+            <tr>
+                <th>Supported Minecraft versions</th>
+                <th>Datapack version</th>
+                <th>Tested in</th>
+                <th>Download links</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td>1.20.5–1.20.6</td>
+                <td>1.2</td>
+                <td>1.20.6</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-DP_v1.2-MC1.20.5-1.20.6.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.20–1.20.4</td>
+                <td>1.0.1</td>
+                <td>1.20, 1.20.4</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.0.1/vegancraft-DP_v1.0.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.0/vegancraft-RP_v1.0.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.19.x</td>
+                <td>1e</td>
+                <td>1.19.3</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-DP_v1e.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1e/vegancraft-RP_v1e.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.17–1.18.2</td>
+                <td>1d</td>
+                <td>1.17.1, 1.18.2</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-DP_v1d-mc1.17-1.18.2.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1d-mc1.17-1.18.2/vegancraft-RP_v1d.zip'>resourcepack</a></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 
@@ -242,13 +258,13 @@ The following recipes are experimental and some of them will probably change in 
 
 - Prismarine shard: from smelting amethyst shards
 - Prismarine crystals: from smelting prismarine shards
-- Trident: 3 diamonds swords, a blaze rod, and 3 prismarine crystals
+- Trident: heart of the sea, 2 prismarine crystals, blaze rod, and 3 diamond swords
 - Totem of undying: 1 gold block, 2 emeralds, and 1 echo shard
 - Wither rose: 4 wither roses from a rose bush, a netherite ingot, and a soul sand or soil block
 - Nether star: a single blaze powder surrounded by 4 diamonds and 4 netherite ingots
-- Ender eye: compass, blaze powder, and crying obsidian
+- Ender compass (ender eye alternative): compass, blaze powder, and crying obsidian
 - Ender pearl: a chorus fruit + an emerald
-- Shulker box: a chest surrounded by 4 ender pearls and 4 popped chorus fruits
+- Chorus box (shulker box alternative): a chest surrounded by 4 ender pearls and 4 popped chorus fruits
 - Trial key: polished tuff, lightning rod, and obsidian
 - Ominous trial key: polished tuff, blaze rod, and crying obsidian
 
@@ -258,6 +274,197 @@ The following recipes are experimental and some of them will probably change in 
 - Tide armor trims can be found in ocean ruins chests
 - Sponges can be obtained by brushing suspicous sand/gravel in ocean ruins
 - Nether stars can be rarely found in ancient ruins chests
+- Trial keys can be rarely found in chests in ancient ruins and strongholds
+
+#### Villager trades
+
+Villagers and wandering traders have new trades related to the custom items of this datapack. These trades **don't replace any vanilla trades**, they are just appended onto the existing trades of the villagers.
+
+Here's a summary of the new trades:
+
+<table><thead>
+  <tr>
+    <th>Profession</th>
+    <th>Level</th>
+    <th>Item wanted</th>
+    <th>Item given</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="6">Butcher</td>
+    <td rowspan="2">Novice</td>
+    <td>1 emerald</td>
+    <td>1 seitan stew</td>
+  </tr>
+  <tr>
+    <td>20 wheat</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Apprentice</td>
+    <td>1 emerald</td>
+    <td>5 veggie burgers</td>
+  </tr>
+  <tr>
+    <td>15 beetroot</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Journeyman</td>
+    <td>1 emerald</td>
+    <td>8 seitan steaks</td>
+  </tr>
+  <tr>
+    <td>7 brown mushrooms</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Cleric</td>
+    <td>Novice</td>
+    <td>8 feathery membranes</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>Journeyman</td>
+    <td>16 blazing powder</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>Expert</td>
+    <td>8 pitcher fluid</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Farmer</td>
+    <td>Apprentice</td>
+    <td>1 emerald</td>
+    <td>4 vegan pumpkin pies</td>
+  </tr>
+  <tr>
+    <td>Expert</td>
+    <td>1 emerald</td>
+    <td>1 vegan cake</td>
+  </tr>
+  <tr>
+    <td rowspan="9">Fisherman</td>
+    <td rowspan="2">Novice</td>
+    <td>20 plant strings</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>6 iron ingots</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Apprentice</td>
+    <td>32 kelp</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>1 vegan honey bottle + 2 emeralds</td>
+    <td>6 not-salmon filllets</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Journeyman</td>
+    <td>16 seagrass</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>15 emeralds</td>
+    <td>1 magnet fishing rod</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Expert</td>
+    <td>6 seitan steaks</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>16 soul sand</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>48 emeralds</td>
+    <td>1 heart of the sea</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Fletcher</td>
+    <td>Journeyman</td>
+    <td>14 plant strings</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>Expert</td>
+    <td>12 faux feathers</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Leatherworker</td>
+    <td>Novice</td>
+    <td>6 faux leather</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>Journeyman</td>
+    <td>16 acacia gum balls</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>Expert</td>
+    <td>16 cacti</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td>Librarian</td>
+    <td>Journeyman</td>
+    <td>5 black dye</td>
+    <td>1 emerald</td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="10">Wandering trader</td>
+    <td>4 emeralds</td>
+    <td>1 acacia gum ball</td>
+  </tr>
+  <tr>
+    <td>5 emeralds</td>
+    <td>1 heart of the sea</td>
+  </tr>
+  <tr>
+    <td>5 emeralds</td>
+    <td>1 ender pearl</td>
+  </tr>
+  <tr>
+    <td>15 emeralds</td>
+    <td>1 trial key</td>
+  </tr>
+  <tr>
+    <td>5 emeralds</td>
+    <td>1 blazing powder</td>
+  </tr>
+  <tr>
+    <td>5 emeralds</td>
+    <td>1 pitcher fluid</td>
+  </tr>
+  <tr>
+    <td>4 emeralds</td>
+    <td>1 hardened seagrass</td>
+  </tr>
+  <tr>
+    <td>4 emeralds</td>
+    <td>1 bouncy boot</td>
+  </tr>
+  <tr>
+    <td>4 emeralds</td>
+    <td>1 puffer bubble</td>
+  </tr>
+  <tr>
+    <td>4 emeralds</td>
+    <td>1 feathery membrane</td>
+  </tr>
+</tbody></table>
+
+{% include comments/note.html content="All the wandering trader's custom trades have a certain percent chance of being available or not (around 10–20%). In average, 2 custom trades will appear, but it's also possible that no custom trades are available." %}
+
+There might be a bug where some villagers don't seem to have the custom trades at first, but they should fix themselves after some time passes (~5s). This is a necessary tradeoff to improve performance of the datapack (otherwise villagers would need to be checked multiple times every second). This will not improve until Mojang adds proper customizable trades.
 
 ### Resourcepack
 
