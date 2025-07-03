@@ -16,7 +16,7 @@ intro: "A datapack that adds new recipes for the stonecutter, to make the crafti
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
 index: 1
-downloads: 16900
+downloads: 17100
 downloads_str: "&gt;17k"
 gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
@@ -34,7 +34,7 @@ Choose the option compatible with your Minecraft version:
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
-        {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
+        {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
             {% include dp_download.html version="v3.3.1-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/daeaqsxlxg1kax6kvxlm0/cuttable_wood_v3.3.1-balanced.zip?rlkey=m76d0pwdwxsib3zdqpgfjukd9&st=xr0q53z9&dl=1" %}

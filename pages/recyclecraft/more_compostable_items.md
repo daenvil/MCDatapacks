@@ -16,8 +16,8 @@ intro: "This datapack aims to add composting mechanics to all vanilla items whic
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 6400
-downloads_str: "&gt;6.4k"
+downloads: 6780
+downloads_str: "&gt;6.7k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---
@@ -35,7 +35,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
             <br/>
             {% include dp_download.html version="v1.4" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4/more_compostable_items_v1.4.zip" %}
         </p>
