@@ -33,7 +33,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
             <br/>
             {% include dp_download.html version="v1.1.3" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" dropbox-url="https://www.dropbox.com/scl/fi/xyvffa0c9hf1hshm5ipu9/recyclable_glass_v1.1.3.zip?rlkey=vt3jfou2j8qqccmct43cm9xvc&st=0ycg2e5m&dl=1" %}
         </p>
