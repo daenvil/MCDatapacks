@@ -30,7 +30,7 @@ gallery: [images/better_trial_loot/thumbnail.png]
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
             <br/>
             {% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/better-trial-loot/" dropbox-url="https://www.dropbox.com/scl/fi/t7gcjhjemfi7ctlbg3p0h/better_trial_loot_v1.0.1.zip?rlkey=dgrswids15inh37808kmtaw0x&st=8m7eb9di&dl=1" %}
         </p>

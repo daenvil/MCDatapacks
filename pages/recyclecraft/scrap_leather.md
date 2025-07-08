@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 11/Apr/2025
+last_updated: 08/Jul/2025
 permalink: scrap_leather.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-leather/
 first_release: ["28","Aug","2020"]
-last_release: ["11","Apr","2025"]
+last_release: ["08","Jul","2025"]
 logo: recyclecraft/scrap_leather/pack.png
 intro: "Tired of hoarding saddles and leather armor pieces and never using them? This datapack adds recipes to craft leather from leather armor pieces, saddles, and other leather items, allowing you to give some use to often undesired loot."
 abstract: "Adds recipes to craft leather from leather armor pieces, saddles, and other leather items, allowing you to give some use to often undesired loot."
@@ -33,9 +33,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
             <br/>
-            {% include dp_download.html version="v2.1.3" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" dropbox-url="https://www.dropbox.com/scl/fi/db6kuac6h7z87fbpmqxor/scrap_leather_v2.1.3.zip?rlkey=xraobql5zmh973seyddjta6wh&st=q54acwa6&dl=1" %}
+            {% include dp_download.html version="v2.2" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" dropbox-url="https://www.dropbox.com/scl/fi/y34bnick0jqnz892x2r21/scrap_leather_v2.2.zip?rlkey=9043iokyxte0ikxsaq1u2giw4&st=nu8djprf&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
