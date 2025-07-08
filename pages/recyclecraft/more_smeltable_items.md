@@ -41,7 +41,7 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v3.3" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/811qlz86ng1jaxej6mmx8/more_smeltable_items_v3.3.zip?rlkey=yr0ifc6lj3tqiconlsnq0esjx&st=bsvrez0t&dl=1" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane active" id="1-21-5">
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5" tested="1.21.5" %}
             <br/>
