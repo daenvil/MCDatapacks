@@ -32,7 +32,7 @@ Choose the option compatible with your Minecraft version:
 		<p>
 			{% include dp_badges.html supports="1.21.5–1.21.7" tested="1.21.5, 1.21.7" %}
 			<br/>
-			{% include dp_download.html version="v1" pmc-url="https://www.planetminecraft.com/data-pack/resin-from-stripping-pale-oak/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/resin_from_stripping_v1.zip" %}
+			{% include dp_download.html version="v1" pmc-url="https://www.planetminecraft.com/data-pack/resin-from-stripping-pale-oak/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/resin_from_stripping_v1.0.zip" %}
 		</p>
 	</div>
 </div>
