@@ -1,7 +1,7 @@
 ---
 title: Better Hoe Enchantments
 keywords: minecraft, datapack, hoe, farming, enchantments
-tags: [datapack, vegancraft, standalone, simple]
+tags: [datapack, standalone, simple, qol]
 sidebar: home_sidebar
 toc: true
 last_updated: 16/Jul/2025
