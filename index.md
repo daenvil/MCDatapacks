@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 keywords: homepage
 sidebar: home_sidebar
-last_updated: 06/Nov/2022
+last_updated: 16/Jul/2025
 toc: true
 intro: "Welcome to my website, where I document all the info of my Minecraft creations. In this page you have a summary of my content. Use the sidebar and the top bar to navigate through all the site's pages."
 ---
@@ -25,17 +25,20 @@ intro: "Welcome to my website, where I document all the info of my Minecraft cre
                 {% capture var_thumbnail %}
                 images/{{page.thumbnail}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' %}
+                {% capture var_url %}
+                {{page.permalink}}
+                {% endcapture %}
+                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' url=var_url %}
                 {% elsif page.logo %}
                 {% capture var_logo %}
                 images/{{page.logo}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true %}
+                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true url=var_url %}
                 {% endif %}
                 <img src="https://img.shields.io/badge/downloads-{{page.downloads_str}}-72ac4a?style=flat-square">
             </div>
             <div class="panel-body">
-                <p style="font-size:18px;color:#587545;"><b><i>{{pos}}. {{page.title}}</i></b></p>
+                <p style="font-size:18px;color:#587545;"><a href="{{page.permalink}}"><b><i>{{pos}}. {{page.title}}</i></b></a></p>
                 <p>{{page.abstract}}</p>
                 <a href="{{page.permalink}}" class="btn btn-primary">Learn More</a>
             </div>
@@ -61,17 +64,20 @@ intro: "Welcome to my website, where I document all the info of my Minecraft cre
                 {% capture var_thumbnail %}
                 images/{{page.thumbnail}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' %}
+                {% capture var_url %}
+                {{page.permalink}}
+                {% endcapture %}
+                {% include image/basic.html full-src=var_thumbnail align='center' style='max-width:100%;' url=var_url %}
                 {% elsif page.logo %}
                 {% capture var_logo %}
                 images/{{page.logo}}
                 {% endcapture %}
-                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true %}
+                {% include image/basic.html full-src=var_logo align='center' style='max-width:100%;' nn=true url=var_url %}
                 {% endif %}
                 <p style="text-align:center;"><img src="https://img.shields.io/badge/released%20on-{{page.first_release[0]}}%2F{{page.first_release[1]}}%2F{{page.first_release[2]}}-72ac4a?style=flat-square"></p>
             </div>
             <div class="panel-body">
-                <p style="font-size:18px;color:#587545;"><b><i>{{page.title}}</i></b></p>
+                <p style="font-size:18px;color:#587545;"><a href="{{page.permalink}}"><b><i>{{page.title}}</i></b></a></p>
                 <p>
                     {{page.abstract}}
                 </p>

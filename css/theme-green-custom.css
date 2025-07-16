@@ -4,6 +4,11 @@
     font-size:16px;
 }
 
+@media (min-width: 1300px) {
+    .container {
+        width: 1250px !important;
+    }
+}/* increases width for bigger screens (defaults are at bootstrap.min.css) */
 
 h3 {color: #406b23; }
 h4 {color: #587545; }

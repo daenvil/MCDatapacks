@@ -24,7 +24,7 @@ gallery: [images/vegancraft/ethical_textiles/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.7</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
     <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
@@ -34,7 +34,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5–1.21.7" tested="1.21.5, 1.21.7" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
             <br/>
             {% include dp_download.html version="v2.1.1" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/ethical_textiles_v2.1.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
         </p>

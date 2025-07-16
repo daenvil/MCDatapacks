@@ -40,6 +40,10 @@ entries:
           url: /magnet_fishing.html
           output: web
 
+        - title: Resin from Stripping Pale Oak
+          url: /resin_from_stripping.html
+          output: web
+
     - title: Complementary datapacks
       url: /vegancraft_complementary_datapacks.html
       output: web
@@ -82,6 +86,10 @@ entries:
 
   - title: Better Trial Loot
     url: /better_trial_loot.html
+    output: web
+
+  - title: Better Hoe Enchantments
+    url: /better_hoe.html
     output: web
       
   - title: Old Datapacks
