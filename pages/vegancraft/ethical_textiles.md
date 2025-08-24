@@ -105,7 +105,7 @@ Choose the option compatible with your Minecraft version:
 
 #### Faux Leather
 
-Crafted with 3 slime balls and either 3 of the following ingredients:
+Crafted with 3 slime balls or resin clumps and either 3 of the following ingredients:
 - Cactus
 - Dark oak log or wood
 - Bamboo block
@@ -156,17 +156,7 @@ From Minecraft 1.20.5 and later versions, the custom items will appear in the in
 
 {% include image/basic.html src='vegancraft/ethical_textiles/screenshots/recipe_book.png' alt='All custom items showing up in the in-game recipe book' align='center' width='600' nn=true %}
 
-However, there's a limitation which is kind of annoying, which is that custom items are not automatically recognized as ingredients, so you will still need to put them manually in the crafting grid. This will be the case with any recipe that uses string, leather, or feathers.
-
 {% include comments/important.html content="Prior to Minecraft 1.20.5, the datapack worked differently, with the custom recipes outputting a knowledge book. I recommend playing on Minecraft 1.20.5 or superior, which is much better due to this change." %}
-
-### Vegan ingredients detection
-
-Since some items can be crafted using regular slime balls (instead of the vegan alternative, [acacia gum](acacia_gum.html)), the datapack will detect if you are using vegan slime balls or not when crafting these items, labelling them if they are not vegan. Vegan and non-vegan items do not stack.
-
-Hopefully, Minecraft will add proper ingredient detection in the future so this can be improved.
-
-Strings and other items are not treated this way, though, since it would be too complex and pointless to track where they came from.
 
 ### Vegancraft
 
@@ -180,15 +170,11 @@ When playing using the full Vegancraft datapack instead of the standalone Plant-
 
 ## Reasoning for the recipes
 
-- Faux leather is based on real-world alternatives for leather, dark oak representing tree bark. Slime represents the plastic substances which are often used in their manufacture.
+- Faux leather is based on real-world alternatives for leather, dark oak representing tree bark. Slime/resin represents the plastic substances which are often used in their manufacture.
 - Rudimentary beds: I just found it weird how in the early game you need to find sheep in order to sleep, and thought it would make sense to be able to craft beds with more rudimentary materials.
 - String: since the most common real-world plants that produce fibers are not in the game (cotton, linen, flax...) I just decided to take the vanilla plants that looked more "stringy" and also sugar cane, because in-game it is already implied that it produces fiber since you make paper from it.
 - Faux feathers can be crafted in real life using cloth or leaves. I decided to use leaves for this recipe since they already have a similar shape and can be used to craft arrows, while using wool would make them very easy to get (since you can craft wool from string). The recipe represents leaves sewn together to a small stick in a feather-like shape.
 - Since cobweb is rarely used in the game, I just added a simple recipe which represents strings covered in slime to make them sticky.
 - Armor scale represents the obvious. It uses a diamond since the wolf armor's protection is similar to that of diamond horse armor, and the strings and slime represent how these scales connect to one another to form an armor.
 - The alternative brush recipe is just to have an easier way to obtain a brush without killing birds. Otherwise, you would have to first craft faux feathers, which can be a bit of a pain when you are out exploring.
-- I considered adding a recipe for rabbit hides but, since they are only used to craft bundles, which are not yet officially in the game, I didn't do it. If you want to craft bundles without killing rabbits, I suggest using [Vanilla Tweaks' Craftable Bundles (Leather)](https://vanillatweaks.net/picker/crafting-tweaks/){:target="_blank"} or my own [Scrap Leather](scrap_leather.html), which allows you to convert leather to rabbit hides.
 - I didn't create a "vegan wool" item because of how many color variants there are and the difficult/cumbersome it would be to have a vegan variant for each one of them.
-
-## Known issues and solutions
-- As mentioned before, custom ingredients aren't automatically filled when clicking on a recipe in the recipe book. You will have to manually put them in the grid.

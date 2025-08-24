@@ -93,7 +93,7 @@ Choose the option compatible with your Minecraft version:
 
 ### New smelting recipe: Plant Wax
 
-You can obtain Plant Wax by smelting **Jungle Saplings**\* or **Dead Bushes** in a regular furnace (does not work in blast furnaces and smokers).
+You can obtain Plant Wax by smelting **Bushes**, **Jungle Saplings**\*, or **Dead Bushes** in a regular furnace (does not work in blast furnaces and smokers).
 
 This recipe needs 10 seconds to cook (same as any other furnace recipe), and provides 0.1 xp.
 
@@ -115,7 +115,8 @@ When playing using the full Vegancraft datapack instead of the standalone Plant-
 
 ## Reasoning for the recipes
 
-- In general, I tried to find recipes that have an analogue in real life and that I think are balanced in the game. Both recipes need shears to obtain the needed ingredient, same as to obtain honeycomb, and they force you to find certain biomes in order to get wax.
+- In general, I tried to find recipes that have an analogue in real life and that I think are balanced in the game. All recipes need shears to obtain the required ingredient, same as to obtain honeycomb, and they force you to find certain biomes in order to get wax.
 - The dead bush recipe is based on certain real-life bushes found in hot biomes –mainly [candelilla wax](https://en.wikipedia.org/wiki/Candelilla_wax)– whose leaves produce wax. Since dead bushes are not renewable and primarily appear in deserts, I thought this was appropiate and balanced.
 - The jungle saplings recipe is based on certain real-life tropical trees –mainly [palm wax](https://en.wikipedia.org/wiki/Carnauba_wax)– whose leaves produce wax. Jungle saplings are renewable, but they are the most difficult sapling to get, so I think they are still balanced. Originally, this recipe used jungle leaves instead of saplings, but in Minecraft 1.21.5 they added leaf litter, which can be obtained by smelting leaves in a furnance, which conflicted with that recipe. Since saplings are obtained from leaves, I just replaced the leaves by saplings.
 - In both these cases, as far as I know, the wax is extracted heating the leaves (either drying them or boiling them), hence why I implemented them as furnace recipes.
+- Since Minecraft 1.21.5, plant wax was too difficult to farm in a renewable way, since jungle saplings have a very low drop rate, so I added the recipe with regular bushes.
