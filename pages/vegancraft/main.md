@@ -174,7 +174,7 @@ Other animal brewing ingredients can already be obtained in a vegan way through 
 
 A new feature that rewards players with experience for farming crops. Just as killing and breeding animals gives XP, this datapack makes it so harvesting plants also drops XP.
 
-{% include comments/tip.html content='This feature can be toggled off/on by using the command <b>/function dnv.vegancraft:toggle_xp_from_crops</b>'. Turning it off is recommended if the server is laggy. %}
+{% include comments/tip.html content='This feature can be toggled off/on by using the command "<b>/function dnv.vegancraft:toggle_xp_from_crops</b>". Turning it off is recommended if the server is laggy.' %}
 
 - Each plant has a certain chance to drop 1 XP. This chance is calculated based on how hard it is to reproduce and grow the plant and was balanced to be as equivalent as possible to farming animals.
   - Certain plants do not drop any XP, either because of how easy they are to produce & harvest or because of other balance concerns. These are: bamboo, flowers, dripleaves, seagrass, vines, melons, and pumpkins. Mushrooms also are also not included for this reason. As for trees, breaking their leaves manually is the only way to obtain XP from them.
