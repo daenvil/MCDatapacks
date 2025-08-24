@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, bees, hon
 tags: [datapack, vegancraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Apr/2025
+last_updated: 24/Aug/2025
 permalink: plant_wax.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-wax/
 first_release: ["15","Dec","2022"]
-last_release: ["16","Apr","2025"]
+last_release: ["24","Aug","2025"]
 logo: vegancraft/plant_wax/pack.png
 thumbnail: vegancraft/plant_wax/thumbnail.png
 intro: "A datapack that adds Plant Wax (a retextured honeycomb), obtainable by smelting dead bushes or jungle leaves."
@@ -24,7 +24,7 @@ gallery: [images/vegancraft/plant_wax/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
     <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.3</a></li>
     <li><a href="#legacy" data-toggle="tab">1.18–1.20.6</a></li>
@@ -33,9 +33,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.8" %}
             <br/>
-            {% include dp_download.html version="v2.2" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/plant_wax_v2.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
+            {% include dp_download.html version="v2.3" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/plant_wax_v2.3.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-4">

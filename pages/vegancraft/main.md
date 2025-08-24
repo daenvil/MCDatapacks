@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 07/Jul/2025
+last_updated: 24/Aug/2025
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["07","Jul","2025"]
+last_release: ["24","Aug","2025"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
@@ -34,9 +34,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
+            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.8" %}
             <br/>
-            {% include dp_download.html version="v1.4.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.1/vegancraft-DP_v1.4.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
+            {% include dp_download.html version="v1.4.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/vegancraft-DP_v1.4.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-4">
@@ -173,6 +173,8 @@ Other animal brewing ingredients can already be obtained in a vegan way through 
 #### XP from farming plants
 
 A new feature that rewards players with experience for farming crops. Just as killing and breeding animals gives XP, this datapack makes it so harvesting plants also drops XP.
+
+{% include comments/tip.html content='This feature can be toggled off/on by using the command "/function dnv.vegancraft:toggle_xp_from_crops"'. Turning it off is recommended if the server is laggy. %}
 
 - Each plant has a certain chance to drop 1 XP. This chance is calculated based on how hard it is to reproduce and grow the plant and was balanced to be as equivalent as possible to farming animals.
   - Certain plants do not drop any XP, either because of how easy they are to produce & harvest or because of other balance concerns. These are: bamboo, flowers, dripleaves, seagrass, vines, melons, and pumpkins. Mushrooms also are also not included for this reason. As for trees, breaking their leaves manually is the only way to obtain XP from them.
