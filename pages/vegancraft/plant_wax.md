@@ -45,7 +45,7 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/plant_wax_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane active" id="1-21">
+    <div role="tabpanel" class="tab-pane" id="1-21">
         <p>
             {% include dp_badges.html supports="1.21–1.21.3" tested="1.21.3" %}
             <br/>
