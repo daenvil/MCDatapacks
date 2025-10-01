@@ -16,5 +16,5 @@ I wanted to do a datapack like this for a long time, as I feel enchantments are 
 
 <div class="btn-group">
 	<button type="button" class="btn btn-default disabled"><i class="fa fa-caret-left"></i>&nbsp; Previous release: None</button>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="better_hoe_v1.0.1.html" role="button" class="btn btn-primary">Next release: v1.0.1 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>
