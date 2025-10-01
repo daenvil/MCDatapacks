@@ -525,7 +525,7 @@ Craftable hot air balloons, **an alternative to happy ghast riding!**
 - If destroyed, the original balloon item will drop.
 - For everything else, it behaves exactly the same as a happy ghast, so you can ride it with the same controls and even attach boats to it (which makes them look more like irl balloons).
 
-{% include comments/tip.html content="There's 16 kinds of balloons, one for each color, plus an additional sort-of-hidden one. %}
+{% include comments/tip.html content="There's 16 kinds of balloons, one for each color, plus an additional sort-of-hidden one." %}
 
 ### Resourcepack
 
