@@ -4,19 +4,19 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 24/Aug/2025
+last_updated: 01/Oct/2025
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["24","Aug","2025"]
+last_release: ["01","Oct","2025"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
 index: 16
-downloads: 2830
-downloads_str: "&gt;2.8k"
+downloads: 4229
+downloads_str: "&gt;4.2k"
 ---
 
 ## Full datapack download
@@ -24,7 +24,8 @@ downloads_str: "&gt;2.8k"
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li class="active"><a href="#1-21-8" data-toggle="tab">1.21.7–1.21.8</a></li>
+    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
@@ -34,9 +35,16 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.8" %}
+            {% include dp_badges.html supports="1.21.7–1.21.8" tested="1.21.8" %}
             <br/>
-            {% include dp_download.html version="v1.4.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/vegancraft-DP_v1.4.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
+            {% include dp_download.html version="v1.5" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-DP_v1.5.zip" rp-version="v1.5" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-RP_v1.5.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
+        <p>
+            {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.8" %}
+            <br/>
+            {% include dp_download.html version="v1.4.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/vegancraft-DP_v1.4.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-4">
@@ -214,7 +222,7 @@ Some dyes are usually obtained from mobs, this adds alternative sources for them
 - **Glow ink sacs** are craftable from glowstone dust, glow berries, or glow lichen.
 - **Glow item frames** are craftable by using glowstone dust, glow berries, or glow lichen instead of a glow ink sac.
 
-#### Mob heads
+#### Mob Heads
 
 Some heads, like creeper and wither skeleton heads are used for banner patterns and for fireworks, so alternatives for them were needed. Since there also are more mob heads which can be used on note block, I added all of them:
 
@@ -236,7 +244,7 @@ Froglights are craftable with a shroomlight block, prismarine crystals, and a dy
 
 A shroomlight is used due to it being an organic glowing block like the froglight and also being obtained in the nether. Prismarine crystals are used because of their relation to water and the more crystaline look of froglights.
 
-#### New banner patterns
+#### New Banner Patterns
 
 There are two new banner patterns available in the loom:
 
@@ -248,13 +256,14 @@ These do not replace any vanilla patterns, they are just extras.
 #### Sniffer Plants
 
 - Torchflower and pitcher seeds are obtainable in ocean ruins from brushing suspicious sand and gravel, respectively. These replace the wooden hoe in these blocks' loot tables so, whenever you would get a wooden hoe (2/15 chance), you get a sniffer seed instead.
+ - Torchflower seeds are only found in warm ocean ruins (the ones with sand), while pitcher pods are only found in cold ocean ruins (the ones with gravel).
  - Sniffer seeds are also farmable: when breaking a fully grown torchflower or pitcher plant, they will drop 1–2 of their seeds instead of dropping themselves (increased with Fortune enchantment). You can still collect the plant itself by using shears or any tool with silk touch*. In addition:
    - Torchflowers have a small chance to drop **blazing powder** (see brewing section).
-   - Pitcher plants have a small chance to drop "**pitcher fluid drops**" (a ghast tear alternative). 
+   - Pitcher plants have a small chance to drop "**pitcher fluid drops**" (a ghast tear alternative), and a smaller chance to drop the ***Tears* music disc**.
 
 {% include comments/warning.html content="due to how pitcher plants are made, you will need to break the <b>lower half of the plant</b> with shears or silk touch in order to obtain the plant itself. Breaking the upper half of the plant will result in the regular drops (seeds)." %}
 
-#### Other recipes
+#### Other Recipes
 
 The following recipes are experimental and some of them will probably change in future updates due to balance concerns:
 
@@ -270,15 +279,16 @@ The following recipes are experimental and some of them will probably change in 
 - Trial key: polished tuff, lightning rod, and obsidian
 - Ominous trial key: polished tuff, blaze rod, and crying obsidian
 
-#### Other loot table changes
+#### Other Loot Table Changes
 
 - Nautilus shells can be found in buried treasures and in ocean ruins chests
 - Tide armor trims can be found in ocean ruins chests
 - Sponges can be obtained by brushing suspicous sand/gravel in ocean ruins
-- Nether stars can be rarely found in ancient ruins chests
-- Trial keys can be rarely found in chests in ancient ruins and strongholds
+- Nether stars can be rarely found in ancient city chests
+- Trial keys can be rarely found in chests in ancient cities and strongholds
+- Music discs can be obtained in several places (see [How to Obtain Music Discs](#how-to-obtain-music-discs))
 
-#### Villager trades
+#### Villager Trades
 
 Villagers and wandering traders have new trades related to the custom items of this datapack. These trades **don't replace any vanilla trades**, they are just appended onto the existing trades of the villagers.
 
@@ -338,6 +348,11 @@ Here's a summary of the new trades:
                 <td>Journeyman</td>
                 <td>16 blazing powder</td>
                 <td>1 emerald</td>
+            </tr>
+            <tr>
+                <td>Journeyman</td>
+                <td>1 ominous bottle</td>
+                <td>12 emeralds</td>
             </tr>
             <tr>
                 <td>Expert</td>
@@ -470,6 +485,10 @@ Here's a summary of the new trades:
                 <td>4 emeralds</td>
                 <td>1 feathery membrane</td>
             </tr>
+            <tr>
+                <td>7 diamonds</td>
+                <td>1 Lava Chicken disc</td>
+            </tr>
             </tbody></table>
 
             {% include comments/note.html content="All the wandering trader's custom trades have a certain percent chance of being available or not (around 10–20%). In average, 2 custom trades will appear, but it's also possible that no custom trades are available." %}
@@ -478,6 +497,35 @@ Here's a summary of the new trades:
 </div>
 
 There might be a bug where some villagers don't seem to have the custom trades at first, but they should fix themselves after some time passes (~5s). This is a necessary tradeoff to improve performance of the datapack (otherwise villagers would need to be checked multiple times every second). This will not improve until Mojang adds proper customizable trades.
+
+#### How to Obtain Music Discs
+
+The following list contains how to obtain the music discs that are not obtainable in vegan ways in vanilla:
+
+- ***11:*** from **abandoned mineshaft** chests (20%)
+- ***Blocks:*** from **village house** chests (10% chance)
+- ***Chirp:*** from **jungle temple** chests (33.3%)
+- ***Far:*** from **stronghold library** chests (100%)
+- ***Mall:*** from **shipwreck** map chests (20%)
+- ***Stal:*** from **village weaponsmith, toolsmith, armorer, or temple** chests (33.3%)
+- ***Strad:*** from brushing suspicious gravel in **trail ruins** (8.8%)
+- ***Ward:*** from **ancient city** chests (15%)
+- ***Tears:*** from breaking **pitcher plants** (1%) *(the plant has to break and drop seeds. The disc can't drop if you harvest it with shears/silk touch)*
+- ***Lava Chicken:*** from **wandering traders** (12%) or from getting the ***Hail Seitan*** advancement (crafting 666 seitan steaks).
+
+#### Hot Air Balloons (New!)
+
+{% include comments/note.html content="This is a very new feature, it will be better documented and developed in the future." %}
+
+Craftable hot air balloons, **an alternative to happy ghast riding!**
+
+- Craft a balloon using wool, leather, strings, blaze powder, and a ghast tear.
+- Right-click on the ground with it. A balloon will spawn, which can be ridden by right-clicking on it.
+- When not ridden, it will slowly wander around, so I recommend to attach it somewhere using a leash.
+- If destroyed, the original balloon item will drop.
+- For everything else, it behaves exactly the same as a happy ghast, so you can ride it with the same controls and even attach boats to it (which makes them look more like irl balloons).
+
+{% include comments/tip.html content="There's 16 kinds of balloons, one for each color, plus an additional sort-of-hidden one. %}
 
 ### Resourcepack
 
