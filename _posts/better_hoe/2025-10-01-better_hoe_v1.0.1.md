@@ -1,5 +1,5 @@
 ---
-title:  "Better Hoe - 1.0.1 update"
+title:  "Better Hoe Enchantments - 1.0.1 update"
 published: true
 permalink: better_hoe_v1.0.1.html
 summary: "Updated to MC 1.21.9"
