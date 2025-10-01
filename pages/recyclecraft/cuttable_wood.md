@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 06/Apr/2025
+last_updated: 01/Oct/2025
 permalink: cuttable_wood.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
-last_release: ["06","Apr","2025"]
+last_release: ["01","Oct","2025"]
 logo: recyclecraft/cuttable_wood/pack.png
 thumbnail: recyclecraft/cuttable_wood/thumbnail.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
@@ -26,22 +26,34 @@ gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cu
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
     <li><a href="#legacy-1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#legacy" data-toggle="tab">1.14–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-5">
-        {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
+    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+        {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_download.html version="v3.3.1-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/daeaqsxlxg1kax6kvxlm0/cuttable_wood_v3.3.1-balanced.zip?rlkey=m76d0pwdwxsib3zdqpgfjukd9&st=xr0q53z9&dl=1" %}
+            {% include dp_download.html version="v3.4-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/3bnbtgz11ykb6csq491ds/cuttable_wood_v3.4-balanced.zip?rlkey=h3531ty3one7owv0jzq4d53dj&st=1udqkb71&dl=1" %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            {% include dp_download.html version="v3.3.1-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/nh4hbdm7v54dat20lcsb9/cuttable_wood_v3.3.1-op.zip?rlkey=4kretpy4m80erfcqavawgajxp&st=tijoufmo&dl=1" %}
+            {% include dp_download.html version="v3.4-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/ywt63ki7wmatvy0tuplmt/cuttable_wood_v3.4-op.zip?rlkey=fsv117jkl37czgmh6azyvnv2o&st=i37l4wns&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
+        {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
+        <p><b>Vanilla-balanced version:</b></p>
+        <p>
+            {% include dp_download.html version="v3.3.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/daeaqsxlxg1kax6kvxlm0/cuttable_wood_v3.3.1-balanced.zip?rlkey=m76d0pwdwxsib3zdqpgfjukd9&st=xr0q53z9&dl=1" discontinued=true %}
+        </p>
+        <p><b>OP version:</b></p>
+        <p>
+            {% include dp_download.html version="v3.3.1-op" dropbox-url="https://www.dropbox.com/scl/fi/nh4hbdm7v54dat20lcsb9/cuttable_wood_v3.3.1-op.zip?rlkey=4kretpy4m80erfcqavawgajxp&st=tijoufmo&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
@@ -131,21 +143,18 @@ Some general things this datapack allows you to do:
 
 The number of recipes this datapack adds is too big to list all of them here. Here you have a summary for each version (click to expand):
 {% include collapsible.html title="Shortened list of recipes (\"OP\" version)" content='<b>Wood/hyphae:</b>
-<ul><li>Stripped wood/hyphae
-</li><li>Log/stem
-</li><li>Stripped log/stem
-</li><li>4 planks and all of its subproducts</li></ul>
+<ul><li>Stripped wood/hyphae and all of its subproducts
+</li><li>Log/stem and all of its subproducts</li></ul>
 
 <b>Stripped wood/hyphae:</b>
-<ul><li>Stripped log/stem
-</li><li>4 planks and all of its subproducts</li></ul>
+<ul><li>Stripped log/stem and all of its subproducts</li></ul>
 
 <b>Log/stem/bamboo block:</b>
-<ul><li>Stripped log/stem
-</li><li>4 planks and all of its subproducts (2 planks in the case of bamboo)</li></ul>
+<ul><li>Stripped log/stem and all of its subproducts (2 planks in the case of bamboo)</li></ul>
 
 <b>Stripped log/stem/bamboo block:</b>
-<ul><li>4 planks and all of its subproducts (2 planks in the case of bamboo)</li></ul>
+<ul><li>2 shelves
+</li><li>4 planks and all of its subproducts (2 planks in the case of bamboo)</li></ul>
 
 <b>Planks:</b>
 <ul><li>1 door
@@ -185,19 +194,35 @@ The number of recipes this datapack adds is too big to list all of them here. He
 </li><li>2 bowls
 </li><li>1 ladder
 </li><li>2 buttons
-</li><li>2 sticks</li></ul>' id='recipes-summary-op' %}
+</li><li>2 sticks</li></ul>
+
+<b>Shelves:</b>
+<ul><li>1 door
+</li><li>1 trapdoor
+</li><li>1 slab
+</li><li>4 signs
+</li><li>1 fence / fence gate
+</li><li>4 pressure plates
+</li><li>8 buttons
+</li><li>8 bowls
+</li><li>4 ladders
+</li><li>8 sticks
+</li><li>(bamboo selves give fewer items than these)
+</li></ul>' id='recipes-summary-op' %}
 
 
 
 {% include collapsible.html title="Shortened list of recipes (\"vanilla-balanced\" version)" content='<b>Wood/hyphae:</b>
 <ul><li>Stripped wood/hyphae and all of its subproducts
-</li><li>Log/stem and all of its subproducts</li></ul>
+</li><li>Log/stem and all of its subproducts
+</li></ul>
 
 <b>Stripped wood/hyphae:</b>
 <ul><li>Stripped log/stem and all of its subproducts</li></ul>
 
 <b>Log/stem/bamboo block:</b>
-<ul><li>Stripped log/stem and all of its subproducts</li></ul>
+<ul><li>Stripped log/stem and all of its subproducts
+</li></ul>
 
 <b>Stripped log/stem/bamboo block:</b>
 <ul><li>2 fences
@@ -210,6 +235,7 @@ The number of recipes this datapack adds is too big to list all of them here. He
 </li><li>1 chest
 </li><li>1 composter
 </li><li>1 chiseled bookshelf
+</li><li>1 shelf
 </li><li>4 planks and all of its subproducts (2 planks in the case of bamboo)</li></ul>
 (all of this items have their own stonecutting recipes to cut them into smaller or equal-size items. For example, doors can be cut into trapdoors, signs, fences, fence gates, pressure plates, buttons, ladders, bowls, and sticks)
 <br/><br/>
@@ -239,7 +265,21 @@ The number of recipes this datapack adds is too big to list all of them here. He
 </li><li>2 bowls
 </li><li>1 ladder
 </li><li>2 buttons
-</li><li>4 sticks</li></ul>' id='recipes-summary-vanilla-balanced' %}
+</li><li>4 sticks</li></ul>
+
+<b>Shelves:</b>
+<ul><li>1 door
+</li><li>1 trapdoor
+</li><li>1 slab
+</li><li>2 signs
+</li><li>1 fence / fence gate
+</li><li>2 pressure plates
+</li><li>4 buttons
+</li><li>5 bowls
+</li><li>3 ladders
+</li><li>6 sticks
+</li><li>(bamboo selves give fewer items than these)
+</li></ul>' id='recipes-summary-vanilla-balanced' %}
 
 The main difference between the two versions are that fences/fence gates, doors/trapdoors, pressure plates, signs, and containers (chests, barrels, etc.) are much cheaper in the "OP" version and can be obtained from planks and subproducts, while in the "vanilla-balanced" version they are more expensive and can only be obtained from logs/wood.
 
