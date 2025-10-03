@@ -4,7 +4,7 @@ published: true
 permalink: omnivorous_pets_v1.1.html
 summary: "MC1.20 update + minor fixes + added readme."
 tags: [news,changelog,vegancraft]
-datapack: plant-based_foods
+datapack: omnivorous_pets
 changelog: v1.1
 ---
 
