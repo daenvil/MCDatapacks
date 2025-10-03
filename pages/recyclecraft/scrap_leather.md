@@ -24,7 +24,7 @@ gallery: [images/recyclecraft/scrap_leather/thumbnail.png,https://static.planetm
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#legacy" data-toggle="tab">1.14–1.20.6</a></li>
@@ -33,7 +33,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
+            {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
             {% include dp_download.html version="v2.2" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" dropbox-url="https://www.dropbox.com/scl/fi/y34bnick0jqnz892x2r21/scrap_leather_v2.2.zip?rlkey=9043iokyxte0ikxsaq1u2giw4&st=nu8djprf&dl=1" %}
         </p>

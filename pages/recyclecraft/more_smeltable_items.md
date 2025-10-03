@@ -115,15 +115,17 @@ Choose the option compatible with your Minecraft version:
 
 Here are the full lists of smelting recipes added to the furnace and to the blast furnace (click to expand):
 
-{% include collapsible.html id='to-iron-nuggets' title='Items smeltable to iron nuggets' content='<ul><li>Any rails made of iron</li><li>Blast furnace</li><li>Bucket</li><li>Chain</li><li>Compass and recovery compass</li><li>Crossbow</li><li>Flint and steel</li><li>Iron pressure plate</li><li>Iron bars</li><li>Iron door and trapdoor</li><li>Lanterns</li><li>Pistons</li><li>Shears</li><li>Shield</li><li>Smithing table</li><li>Stonecutter</li><li>Tripwire hook</li><li>Hanging sign</li></ul>' %}
+{% include collapsible.html id='to-iron-nuggets' title='Items smeltable to iron nuggets' content='<ul><li>Any rails made of iron</li><li>Blast furnace</li><li>Bucket</li><li>Chain</li><li>Compass and recovery compass</li><li>Crossbow</li><li>Flint and steel</li><li>Iron bars</li><li>Lanterns</li><li>Pistons</li><li>Shears</li><li>Shield</li><li>Smithing table</li><li>Stonecutter</li><li>Tripwire hook</li><li>Hanging sign</li></ul>' %}
 
-{% include collapsible.html id='to-iron-ingots' title='Items smeltable to iron ingots' content='<ul><li>Anvil</li><li>Cauldron</li><li>Crafter</li><li>Hopper</li><li>Any minecart</li></ul>' %}
+{% include collapsible.html id='to-iron-ingots' title='Items smeltable to iron ingots' content='<ul><li>Anvil</li><li>Cauldron</li><li>Crafter</li><li>Hopper</li><li>Iron door and trapdoor</li><li>Iron pressure plate</li><li>Any minecart</li></ul>' %}
 
 {% include collapsible.html id='to-gold-nuggets' title='Items smeltable to gold nuggets' content='<ul><li>Bell</li><li>Clock</li><li>Gold pressure plate</li><li>Powered rail</li><li>Golden apple, carrot, and melon slice</li></ul>' %}
 
-{% include collapsible.html id='to-copper-ingots' title='Items smeltable to copper ingots' content='<ul><li>Brush</li><li>Lightning rod</li><li>Spyglass</li><li>Any cut copper block, slab or stairs</li><li>Chiseled copper</li><li>Copper bulb</li><li>Copper grate</li><li>Copper doors and trapdoors</li><li>Vault keys</li></ul>' %}
+{% include collapsible.html id='to-copper-nuggets' title='Items smeltable to copper nuggets' content='<ul><li>Brush</li><li>Copper bars</li><li>Copper chain</li><li>Copper lantern</li><li>Spyglass</li><li>Trial keys</li></ul>' %}
 
-{% include collapsible.html id='to-copper-blocks' title='Items smeltable to copper blocks' content='<ul><li>Any copper block</li></ul>' %}
+{% include collapsible.html id='to-copper-ingots' title='Items smeltable to copper ingots' content='<ul><li>Lightning rod</li><li>Any cut copper block, slab or stairs</li><li>Chiseled copper</li><li>Copper bulb</li><li>Copper grate</li><li>Copper doors and trapdoors</li><li>Copper chest</li><li>Copper golem statue</li></ul>' %}
+
+{% include collapsible.html id='to-copper-blocks' title='Items smeltable to copper blocks' content='<ul><li>Any waxed/oxidized copper block</li></ul>' %}
 
 {% include collapsible.html id='to-nether-quartz' title='Items smeltable to nether quartz' content='<ul><li>
 Daylight detector</li><li>

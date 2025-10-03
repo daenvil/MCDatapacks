@@ -24,7 +24,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 ## Downloads
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
@@ -34,7 +34,7 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
+            {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
             {% include dp_download.html version="v2.3" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" dropbox-url="https://www.dropbox.com/scl/fi/06xhbz5i1uugj04ariv60/daenvils_baked_goods_v2.3.zip?rlkey=iol1arrvoiz9c9kzdg8sptbps&st=09xkv0vb&dl=1" rp-version="v2.3" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-dropbox-url="https://www.dropbox.com/scl/fi/smjkhhs7na0z6jw6mc783/daenvils_baked_goods-RP_v2.3.zip?rlkey=d0eaygj6g3uhc74luyufb6v5v&st=gc0921im&dl=1" %}
         </p>

@@ -24,13 +24,13 @@ gallery: [images/vegancraft/resin_from_stripping/thumbnail.png, images/vegancraf
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-	<li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5+</a></li>
+	<li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
 </ul>
 
 <div class="tab-content">
 	<div role="tabpanel" class="tab-pane active" id="1-21-5">
 		<p>
-			{% include dp_badges.html supports="1.21.5+" tested="1.21.5, 1.21.7" %}
+			{% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
 			<br/>
 			{% include dp_download.html version="v1" pmc-url="https://www.planetminecraft.com/data-pack/resin-from-stripping-pale-oak/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/resin_from_stripping_v1.0.zip" %}
 		</p>
