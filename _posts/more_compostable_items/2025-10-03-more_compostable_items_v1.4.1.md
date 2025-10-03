@@ -3,7 +3,7 @@ title:  "More Compostable Items - 1.4.1 update"
 published: true
 permalink: more_compostable_items_v1.4.1.html
 summary: "- Adapted for MC 1.21.9"
-tags: [news,changelog]
+tags: [news,changelog,recyclecraft]
 datapack: more_compostable_items
 changelog: v1.4.1
 ---

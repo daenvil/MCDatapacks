@@ -4,19 +4,19 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 08/Jul/2025
+last_updated: 03/Oct/2025
 permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
 first_release: ["18","Aug","2020"]
-last_release: ["08","Jul","2025"]
+last_release: ["03","Oct","2025"]
 logo: recyclecraft/more_smeltable_items/pack.png
 intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz (and the lodestone). Now you can recycle things you will never use for minerals."
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz (and the lodestone)."
 priority: 4
 index: 2
-downloads: 3510
-downloads_str: "&gt;3.5k"
+downloads: 3610
+downloads_str: "&gt;3.6k"
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
 gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
 ---
@@ -26,7 +26,8 @@ gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-7" data-toggle="tab">1.21.7+</a></li>
+    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-7" data-toggle="tab">1.21.7–1.21.8</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
@@ -34,18 +35,25 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-7">
+    <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.7+" tested="1.21.7" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
             <br/>
-            {% include dp_download.html version="v3.3" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/811qlz86ng1jaxej6mmx8/more_smeltable_items_v3.3.zip?rlkey=yr0ifc6lj3tqiconlsnq0esjx&st=bsvrez0t&dl=1" %}
+            {% include dp_download.html version="v3.4" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/bgyrvz6r7zq5ah0j2sxb3/more_smeltable_items_v3.4.zip?rlkey=78ozh8yppbukxu0gjv92bgnjm&st=oq7ue7dk&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-7">
+        <p>
+            {% include dp_badges.html supports="1.21.7–1.21.8" tested="1.21.7" %}
+            <br/>
+            {% include dp_download.html version="v3.3" dropbox-url="https://www.dropbox.com/scl/fi/811qlz86ng1jaxej6mmx8/more_smeltable_items_v3.3.zip?rlkey=yr0ifc6lj3tqiconlsnq0esjx&st=bsvrez0t&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5" tested="1.21.5" %}
             <br/>
-            {% include dp_download.html version="v3.2" dropbox-url="https://www.dropbox.com/scl/fi/xz43hght6o2rar5lpltox/more_smeltable_items_v3.2.zip?rlkey=6ey5ouk89loqbcothv9nvivwf&st=s9tz5qjb&dl=1" %}
+            {% include dp_download.html version="v3.2" dropbox-url="https://www.dropbox.com/scl/fi/xz43hght6o2rar5lpltox/more_smeltable_items_v3.2.zip?rlkey=6ey5ouk89loqbcothv9nvivwf&st=s9tz5qjb&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
