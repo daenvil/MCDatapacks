@@ -445,7 +445,7 @@ Here's a summary of the new trades:
                 <td>1 emerald</td>
             </tr>
             <tr>
-                <td colspan="2" rowspan="10">Wandering trader</td>
+                <td colspan="2" rowspan="11">Wandering trader</td>
                 <td>4 emeralds</td>
                 <td>1 acacia gum ball</td>
             </tr>
