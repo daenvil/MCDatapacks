@@ -4,12 +4,12 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 11/Apr/2025
+last_updated: 05/Oct/2025
 permalink: recyclable_glass.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-glass/
 first_release: ["30","Jul","2022"]
-last_release: ["11","Apr","2025"]
+last_release: ["05","Oct","2025"]
 logo: recyclecraft/recyclable_glass/pack.png
 intro: "Ever dyed a bunch of glass and ended not using all of it? Ever crafted more panes or bottles than you needed? This datapack allows you to recycle all glass items by adding crafting and smelting recipes."
 abstract: "Allows you to recycle all glass items by adding new crafting and smelting recipes."
@@ -24,7 +24,8 @@ gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/202
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
+    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#legacy" data-toggle="tab">1.17–1.20.6</a></li>
@@ -33,9 +34,16 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            <br/>
+            {% include dp_download.html version="v1.1.4" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" dropbox-url="https://www.dropbox.com/scl/fi/95cgic63755cvldkqrpqa/recyclable_glass_v1.1.4.zip?rlkey=kq44ijl2zjb34kcbid6yu3i5k&st=bbj9nq11&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
+        <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
-            {% include dp_download.html version="v1.1.3" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" dropbox-url="https://www.dropbox.com/scl/fi/xyvffa0c9hf1hshm5ipu9/recyclable_glass_v1.1.3.zip?rlkey=vt3jfou2j8qqccmct43cm9xvc&st=0ycg2e5m&dl=1" %}
+            {% include dp_download.html version="v1.1.3" dropbox-url="https://www.dropbox.com/scl/fi/xyvffa0c9hf1hshm5ipu9/recyclable_glass_v1.1.3.zip?rlkey=vt3jfou2j8qqccmct43cm9xvc&st=0ycg2e5m&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
