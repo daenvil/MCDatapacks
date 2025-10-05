@@ -36,7 +36,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
             <br/>
-            {% include dp_download.html version="v2.2.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" dropbox-url="https://www.dropbox.com/scl/fi/z48hztvuv459ybnjb8hfg/scrap_leather_v2.2.1.zip?rlkey=gy1a1ia71i6i5kidsxkplgxgj&st=cy4pssqz&dl=0" %}
+            {% include dp_download.html version="v2.2.1" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-leather/" dropbox-url="https://www.dropbox.com/scl/fi/z48hztvuv459ybnjb8hfg/scrap_leather_v2.2.1.zip?rlkey=gy1a1ia71i6i5kidsxkplgxgj&st=cy4pssqz&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
