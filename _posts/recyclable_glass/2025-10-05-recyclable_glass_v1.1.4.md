@@ -3,7 +3,7 @@ title:  "Recyclable Glass - 1.1.4 update"
 published: true
 permalink: recyclable_glass_v1.1.4.html
 summary: "Updated for MC 1.21.9"
-tags: [news,changelog]
+tags: [news,changelog,recyclecraft]
 datapack: recyclable_glass
 changelog: v1.1.4
 ---
