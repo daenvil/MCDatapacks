@@ -4,10 +4,11 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Oct/2025
+last_updated: 06/Oct/2025
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
+modrinth: https://modrinth.com/datapack/more-compostable-items
 pmc: https://www.planetminecraft.com/data-pack/more-compostable-items/
 first_release: ["18","Jan","2022"]
 last_release: ["03","Oct","2025"]
@@ -38,21 +39,21 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
             <br/>
-            {% include dp_download.html version="v1.4.1" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4.1/more_compostable_items_v1.4.1.zip" %}
+            {% include dp_download.html version="v1.4.1" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/t7Cjjf4l/more_compostable_items_v1.4.1.zip" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4.1/more_compostable_items_v1.4.1.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
-            {% include dp_download.html version="v1.4" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4/more_compostable_items_v1.4.zip" discontinued=true %}
+            {% include dp_download.html version="v1.4" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/VmYTTPlq/more_compostable_items_v1.4.zip" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4/more_compostable_items_v1.4.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21">
         <p>
             {% include dp_badges.html supports="1.21–1.21.4" tested="1.21.4" %}
             <br/>
-            {% include dp_download.html version="v1.3.3" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3.3/more_compostable_items_v1.3.3.zip" discontinued=true %}
+            {% include dp_download.html version="v1.3.3" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/tkE72oj5/more_compostable_items_v1.3.3.zip" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.3.3/more_compostable_items_v1.3.3.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">

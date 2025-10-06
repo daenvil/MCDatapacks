@@ -5,7 +5,19 @@
     <li><b>Latest release ({{include.version}}):</b><br/>
     {% endif %}
         {% if include.github-url %}
-            <a href="{{include.github-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-github fa-lg"></i> Download datapack (GitHub)</a>
+            <a href="{{include.github-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-github fa-lg"></i> Download Datapack (GitHub)</a>
+            {% if include.pmc-url %}
+                <b>|</b>
+            {% elsif include.modrinth-url %}
+                <b>|</b>
+            {% elsif include.dropbox-url %}
+                <b>|</b>
+            {% elsif include.mirror-url %}
+                <b>|</b>
+            {% endif %}
+        {% endif %}
+        {% if include.modrinth-url %}
+            <a href="{{include.modrinth-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-modrinth-logo" style="font-size:17px;position:relative; top:2px;"></span> Download Datapack (Modrinth)</a>
             {% if include.pmc-url %}
                 <b>|</b>
             {% elsif include.dropbox-url %}
@@ -15,7 +27,7 @@
             {% endif %}
         {% endif %}
         {% if include.pmc-url %}
-            <a href="{{include.pmc-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> Download datapack (PlanetMinecraft)</a>
+            <a href="{{include.pmc-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> Download Datapack (PlanetMinecraft)</a>
             {% if include.dropbox-url %}
                 <b>|</b>
             {% elsif include.mirror-url %}
@@ -23,19 +35,31 @@
             {% endif %}
         {% endif %}
         {% if include.dropbox-url %}
-            <a href="{{include.dropbox-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-dropbox fa-lg"></i> Download datapack (Dropbox)</a>
+            <a href="{{include.dropbox-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-dropbox fa-lg"></i> Download Datapack (Dropbox)</a>
             {% if include.mirror-url %}
                 <b>|</b>
             {% endif %}
         {% endif %}
         {% if include.mirror-url %}
-            <a href="{{include.mirror-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-download fa-lg"></i> Download datapack ({{include.mirror-platform}})</a>
+            <a href="{{include.mirror-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-download fa-lg"></i> Download Datapack ({{include.mirror-platform}})</a>
         {% endif %}
     </li>
     {% if include.rp-version %}
         <li><b>Required resourcepack ({{include.rp-version}}):</b><br/>
             {% if include.rp-github-url %}
-                <a href="{{include.rp-github-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-github fa-lg"></i> Download resourcepack (GitHub)</a>
+                <a href="{{include.rp-github-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-github fa-lg"></i> Download Resourcepack (GitHub)</a>
+                {% if include.rp-pmc-url %}
+                    <b>|</b>
+                {% elsif include.rp-modrinth-url %}
+                    <b>|</b>
+                {% elsif include.rp-dropbox-url %}
+                    <b>|</b>
+                {% elsif include.rp-mirror-url %}
+                    <b>|</b>
+                {% endif %}
+            {% endif %}
+            {% if include.rp-modrinth-url %}
+                <a href="{{include.rp-modrinth-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-modrinth-logo" style="font-size:17px;position:relative; top:2px;"></span> Download Resourcepack (Modrinth)</a>
                 {% if include.rp-pmc-url %}
                     <b>|</b>
                 {% elsif include.rp-dropbox-url %}
@@ -45,7 +69,7 @@
                 {% endif %}
             {% endif %}
             {% if include.rp-pmc-url %}
-                <a href="{{include.rp-pmc-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> Download resourcepack (PlanetMinecraft)</a>
+                <a href="{{include.rp-pmc-url}}" target="_blank" class="btn btn-primary" role="button"><span class="icon-pmc-logo" style="font-size:17px;position:relative; top:2px;"></span> Download Resourcepack (PlanetMinecraft)</a>
                 {% if include.rp-dropbox-url %}
                     <b>|</b>
                 {% elsif include.rp-mirror-url %}
@@ -53,13 +77,13 @@
                 {% endif %}
             {% endif %}
             {% if include.rp-dropbox-url %}
-                <a href="{{include.rp-dropbox-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-dropbox fa-lg"></i> Download resourcepack (Dropbox)</a>
+                <a href="{{include.rp-dropbox-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-dropbox fa-lg"></i> Download Resourcepack (Dropbox)</a>
                 {% if include.rp-mirror-url %}
                     <b>|</b>
                 {% endif %}
             {% endif %}
             {% if include.rp-mirror-url %}
-                <a href="{{include.rp-mirror-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-download fa-lg"></i> Download resourcepack ({{include.rp-mirror-platform}})</a>
+                <a href="{{include.rp-mirror-url}}" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-download fa-lg"></i> Download Resourcepack ({{include.rp-mirror-platform}})</a>
             {% endif %}
         </li>
     {% endif %}

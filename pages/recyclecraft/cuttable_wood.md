@@ -4,9 +4,10 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 01/Oct/2025
+last_updated: 06/Oct/2025
 permalink: cuttable_wood.html
 published: true
+modrinth: https://modrinth.com/datapack/cuttable-wood
 pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
 last_release: ["01","Oct","2025"]
@@ -16,7 +17,7 @@ intro: "A datapack that adds new recipes for the stonecutter, to make the crafti
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
 index: 1
-downloads: 17300
+downloads: 17300 # 17300 on pmc before redirecting to modrinth
 downloads_str: "&gt;17k"
 gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
@@ -38,7 +39,7 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_download.html version="v3.4-balanced" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/3bnbtgz11ykb6csq491ds/cuttable_wood_v3.4-balanced.zip?rlkey=h3531ty3one7owv0jzq4d53dj&st=1udqkb71&dl=1" %}
+            {% include dp_download.html version="v3.4-balanced" modrinth-url="https://cdn.modrinth.com/data/8R3aHRI9/versions/Cku5lN04/cuttable_wood_v3.4-balanced.zip" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/3bnbtgz11ykb6csq491ds/cuttable_wood_v3.4-balanced.zip?rlkey=h3531ty3one7owv0jzq4d53dj&st=1udqkb71&dl=1" %}
         </p>
         <p><b>OP version:</b></p>
         <p>
@@ -49,7 +50,7 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_download.html version="v3.3.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/daeaqsxlxg1kax6kvxlm0/cuttable_wood_v3.3.1-balanced.zip?rlkey=m76d0pwdwxsib3zdqpgfjukd9&st=xr0q53z9&dl=1" discontinued=true %}
+            {% include dp_download.html version="v3.3.1-balanced" modrinth-url="https://cdn.modrinth.com/data/8R3aHRI9/versions/s5AuGwOZ/cuttable_wood_v3.3.1-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/daeaqsxlxg1kax6kvxlm0/cuttable_wood_v3.3.1-balanced.zip?rlkey=m76d0pwdwxsib3zdqpgfjukd9&st=xr0q53z9&dl=1" discontinued=true %}
         </p>
         <p><b>OP version:</b></p>
         <p>

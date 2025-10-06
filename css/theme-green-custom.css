@@ -169,3 +169,7 @@ li.sidebarTitle {
     content: "\e900";
   }
   
+  .icon-modrinth-logo:before {
+    content: "\e901";
+  }
+  
