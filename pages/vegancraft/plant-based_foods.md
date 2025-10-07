@@ -41,7 +41,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
-            {% include dp_download.html version="v2.1.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/plant-based_foods_v2.1.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %%}
+            {% include dp_download.html version="v2.1.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/plant-based_foods_v2.1.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
