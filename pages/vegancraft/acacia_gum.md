@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, slime
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Apr/2025
+last_updated: 07/Oct/2025
 permalink: acacia_gum.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/
 first_release: ["25","Aug","2022"]
-last_release: ["16","Apr","2025"]
+last_release: ["06","Oct","2025"]
 logo: vegancraft/acacia_gum/pack.png
 thumbnail: vegancraft/acacia_gum/thumbnail.png
 intro: "This datapack adds the item \"Acacia Gumball\" (a retextured Slimeball), which is obtained by stripping acacia logs."
@@ -24,32 +24,24 @@ gallery: [images/vegancraft/acacia_gum/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
-    <li><a href="#1-21" data-toggle="tab">1.21–1.21.3</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.17–1.20.6</a></li>
+    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-5">
+    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+        <p>
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            <br/>
+            {% include dp_download.html version="v1.4.1" pmc-url="https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/acacia_gum_v1.4.1.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
-            {% include dp_download.html version="v1.4" pmc-url="https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/acacia_gum_v1.4.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-4">
-        <p>
-            {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
-            <br/>
-            {% include dp_download.html version="v1.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/acacia_gum_v1.3.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21">
-        <p>
-            {% include dp_badges.html supports="1.21–1.21.3" tested="1.21.3" %}
-            <br/>
-            {% include dp_download.html version="v1.2.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/acacia_gum_v1.2.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" discontinued=true %}
+            {% include dp_download.html version="v1.4" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/acacia_gum_v1.4.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -62,6 +54,18 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.4</td>
+                <td>1.3</td>
+                <td>1.21.4</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/acacia_gum_v1.3.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21–1.21.3</td>
+                <td>1.2.2</td>
+                <td>1.21.3</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/acacia_gum_v1.2.2.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip'>resourcepack</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>1.2</td>

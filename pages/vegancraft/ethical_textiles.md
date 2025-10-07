@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, clothes, 
 tags: [datapack, vegancraft, standalone, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 24/Aug/2025
+last_updated: 07/Oct/2025
 permalink: ethical_textiles.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/
 first_release: ["15","Oct","2022"]
-last_release: ["24","Aug","2025"]
+last_release: ["06","Oct","2025"]
 logo: vegancraft/ethical_textiles/pack.png
 thumbnail: vegancraft/ethical_textiles/thumbnail.png
 intro: "A datapack that adds plant-based alternatives to leather, string, wool, feathers, and armadillo scute.<br/><br/>You will need my <a href=acacia_gum.html>Acacia Gum datapack</a> in order to have a vegan leather option (but it's not required to use this datapack)."
@@ -24,40 +24,24 @@ gallery: [images/vegancraft/ethical_textiles/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
-    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
-    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.17–1.20.6</a></li>
+    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-5">
+    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+        <p>
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            <br/>
+            {% include dp_download.html version="v2.2.1" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/ethical_textiles_v2.2.1.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.8" %}
             <br/>
-            {% include dp_download.html version="v2.2" pmc-url="https://www.planetminecraft.com/data-pack/ethical-textiles-plant-string-and-leather/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/ethical_textiles_v2.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-4">
-        <p>
-            {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
-            <br/>
-            {% include dp_download.html version="v2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/ethical_textiles_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-2">
-        <p>
-            {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
-            <br/>
-            {% include dp_download.html version="v2.0.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/ethical_textiles_v2.0.3.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21">
-        <p>
-            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21.1" %}
-            <br/>
-            {% include dp_download.html version="v2.0.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/ethical_textiles_v2.0.2.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" discontinued=true %}
+            {% include dp_download.html version="v2.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/ethical_textiles_v2.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -70,6 +54,24 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.4</td>
+                <td>2.1</td>
+                <td>1.21.4</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/ethical_textiles_v2.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21.2–1.21.3</td>
+                <td>2.0.3</td>
+                <td>1.21.3</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/ethical_textiles_v2.0.3.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21–1.21.1</td>
+                <td>2.0.2</td>
+                <td>1.21.1</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.1/ethical_textiles_v2.0.2.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip'>resourcepack</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>2.0</td>

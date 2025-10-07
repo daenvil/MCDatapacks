@@ -4,13 +4,13 @@ keywords: minecraft, datapack, fishing, iron, junk, scrap, vegan, veganism, paci
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 24/Aug/2025
+last_updated: 07/Oct/2025
 permalink: magnet_fishing.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/magnet-fishing/
 first_release: ["16","Apr","2023"]
-last_release: ["24","Aug","2025"]
+last_release: ["06","Oct","2025"]
 logo: vegancraft/magnet_fishing/pack.png
 thumbnail: vegancraft/magnet_fishing/thumbnail.png
 intro: "A datapack that adds a magnet fishing rod, with which you can fish iron and iron items."
@@ -24,32 +24,24 @@ gallery: [images/vegancraft/magnet_fishing/thumbnail.png,images/vegancraft/magne
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
-    <li><a href="#1-21" data-toggle="tab">1.21–1.21.3</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.19.4–1.20.6</a></li>
+    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.19.4–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-5">
+    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+        <p>
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            <br/>
+            {% include dp_download.html version="v2.2.2" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/magnet_fishing_v2.2.2.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.8" %}
             <br/>
-            {% include dp_download.html version="v2.2.1" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/magnet_fishing_v2.2.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-4">
-        <p>
-            {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
-            <br/>
-            {% include dp_download.html version="v2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/magnet_fishing_v2.1.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21">
-        <p>
-            {% include dp_badges.html supports="1.21–1.21.3" tested="1.21.3" %}
-            <br/>
-            {% include dp_download.html version="v2.0.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/magnet_fishing_v2.0.2.zip" rp-version="v1.2.2, OPTIONAL" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" discontinued=true %}
+            {% include dp_download.html version="v2.2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/magnet_fishing_v2.2.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -62,6 +54,18 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.4</td>
+                <td>2.1</td>
+                <td>1.21.4</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/magnet_fishing_v2.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip'>resourcepack (optional)</a></td>
+            </tr>
+            <tr>
+                <td>1.21–1.21.3</td>
+                <td>2.0.2</td>
+                <td>1.21.3</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/magnet_fishing_v2.0.2.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip'>resourcepack (optional)</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>2.0</td>

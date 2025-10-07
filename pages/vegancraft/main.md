@@ -4,13 +4,13 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 01/Oct/2025
+last_updated: 07/Oct/2025
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["01","Oct","2025"]
+last_release: ["06","Oct","2025"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
@@ -24,20 +24,25 @@ downloads_str: "&gt;4.2k"
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-8" data-toggle="tab">1.21.7–1.21.8</a></li>
+    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-8" data-toggle="tab">1.21.7–1.21.8</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
-    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
-    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.17–1.20.6</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-5">
+    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+        <p>
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            <br/>
+            {% include dp_download.html version="v1.5.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-DP_v1.5.1.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-8">
         <p>
             {% include dp_badges.html supports="1.21.7–1.21.8" tested="1.21.8" %}
             <br/>
-            {% include dp_download.html version="v1.5" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-DP_v1.5.zip" rp-version="v1.5" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-RP_v1.5.zip" %}
+            {% include dp_download.html version="v1.5" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-DP_v1.5.zip" rp-version="v1.5" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-RP_v1.5.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
@@ -45,27 +50,6 @@ Choose the option compatible with your Minecraft version:
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.8" %}
             <br/>
             {% include dp_download.html version="v1.4.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/vegancraft-DP_v1.4.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-4">
-        <p>
-            {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
-            <br/>
-            {% include dp_download.html version="v1.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-DP_v1.3.zip" rp-version="v1.3" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-2">
-        <p>
-            {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
-            <br/>
-            {% include dp_download.html version="v1.2.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-DP_v1.2.2.zip" rp-version="v1.2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21">
-        <p>
-            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21.1" %}
-            <br/>
-            {% include dp_download.html version="v1.2.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2.1/vegancraft-DP_v1.2.1.zip" rp-version="v1.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -78,6 +62,24 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.4</td>
+                <td>1.3</td>
+                <td>1.21.4</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-DP_v1.3.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.3/vegancraft-RP_v1.3.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21.2–1.21.3</td>
+                <td>1.2.2</td>
+                <td>1.21.3</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-DP_v1.2.2.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.2/vegancraft-RP_v1.2.2.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21–1.21.1</td>
+                <td>1.2.1</td>
+                <td>1.21.1</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2.1/vegancraft-DP_v1.2.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.2/vegancraft-RP_v1.2.zip'>resourcepack</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>1.2</td>

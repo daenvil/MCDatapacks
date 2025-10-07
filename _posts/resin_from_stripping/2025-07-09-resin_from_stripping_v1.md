@@ -12,5 +12,5 @@ This datapack was already included in the [Vegancraft 1.4](vegancraft_v1.4.html)
 
 <div class="btn-group">
 	<button type="button" class="btn btn-default disabled"><i class="fa fa-caret-left"></i>&nbsp; Previous release: None</button>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="resin_from_stripping_v1.0.1.html" role="button" class="btn btn-primary">Next release: v1.0.1 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>
