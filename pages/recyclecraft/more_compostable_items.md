@@ -17,8 +17,8 @@ intro: "This datapack aims to add composting mechanics to all vanilla items whic
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 6960
-downloads_str: "&gt;6.9k"
+downloads: 7050 # 7000 on pmc before redirecting to modrinth
+downloads_str: "&gt;7k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---

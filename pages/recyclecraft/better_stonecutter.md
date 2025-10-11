@@ -15,8 +15,8 @@ intro: "A datapack that adds more recipes to the stonecutter, allowing you to ch
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 priority: 3
 index: 4
-downloads: 6950
-downloads_str: "&gt;6.9k"
+downloads: 7000
+downloads_str: "&gt;7k"
 thumbnail: recyclecraft/better_stonecutter/thumbnail.png
 gallery: [images/recyclecraft/better_stonecutter/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262629-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262638-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262628-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/526/16630269_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262630-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262552-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262637-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262633-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262632-screenshot-at_l.webp]
 ---

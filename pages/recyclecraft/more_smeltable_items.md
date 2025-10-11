@@ -4,18 +4,19 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Oct/2025
+last_updated: 11/Oct/2025
 permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
+modrinth: https://modrinth.com/datapack/more-smeltable-items
 first_release: ["18","Aug","2020"]
 last_release: ["03","Oct","2025"]
 logo: recyclecraft/more_smeltable_items/pack.png
-intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz (and the lodestone). Now you can recycle things you will never use for minerals."
-abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz (and the lodestone)."
+intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz. Now you can recycle things you will never use for minerals."
+abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz."
 priority: 4
 index: 2
-downloads: 3610
+downloads: 3670 # ~3680 before redirecting to modrinth
 downloads_str: "&gt;3.6k"
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
 gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
@@ -39,21 +40,21 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
             <br/>
-            {% include dp_download.html version="v3.4" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" dropbox-url="https://www.dropbox.com/scl/fi/bgyrvz6r7zq5ah0j2sxb3/more_smeltable_items_v3.4.zip?rlkey=78ozh8yppbukxu0gjv92bgnjm&st=oq7ue7dk&dl=1" %}
+            {% include dp_download.html version="v3.4" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/5dBLkZWk/more_smeltable_items_v3.4.zip" dropbox-url="https://www.dropbox.com/scl/fi/bgyrvz6r7zq5ah0j2sxb3/more_smeltable_items_v3.4.zip?rlkey=78ozh8yppbukxu0gjv92bgnjm&st=oq7ue7dk&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-7">
         <p>
             {% include dp_badges.html supports="1.21.7–1.21.8" tested="1.21.7" %}
             <br/>
-            {% include dp_download.html version="v3.3" dropbox-url="https://www.dropbox.com/scl/fi/811qlz86ng1jaxej6mmx8/more_smeltable_items_v3.3.zip?rlkey=yr0ifc6lj3tqiconlsnq0esjx&st=bsvrez0t&dl=1" discontinued=true %}
+            {% include dp_download.html version="v3.3" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/U1533rhZ/more_smeltable_items_v3.3.zip" dropbox-url="https://www.dropbox.com/scl/fi/811qlz86ng1jaxej6mmx8/more_smeltable_items_v3.3.zip?rlkey=yr0ifc6lj3tqiconlsnq0esjx&st=bsvrez0t&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5" tested="1.21.5" %}
             <br/>
-            {% include dp_download.html version="v3.2" dropbox-url="https://www.dropbox.com/scl/fi/xz43hght6o2rar5lpltox/more_smeltable_items_v3.2.zip?rlkey=6ey5ouk89loqbcothv9nvivwf&st=s9tz5qjb&dl=1" discontinued=true %}
+            {% include dp_download.html version="v3.2" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/uN2I49tS/more_smeltable_items_v3.2.zip" dropbox-url="https://www.dropbox.com/scl/fi/xz43hght6o2rar5lpltox/more_smeltable_items_v3.2.zip?rlkey=6ey5ouk89loqbcothv9nvivwf&st=s9tz5qjb&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-2">
@@ -115,9 +116,9 @@ Choose the option compatible with your Minecraft version:
 
 Here are the full lists of smelting recipes added to the furnace and to the blast furnace (click to expand):
 
-{% include collapsible.html id='to-iron-nuggets' title='Items smeltable to iron nuggets' content='<ul><li>Any rails made of iron</li><li>Blast furnace</li><li>Bucket</li><li>Chain</li><li>Compass and recovery compass</li><li>Crossbow</li><li>Flint and steel</li><li>Iron bars</li><li>Lanterns</li><li>Pistons</li><li>Shears</li><li>Shield</li><li>Smithing table</li><li>Stonecutter</li><li>Tripwire hook</li><li>Hanging sign</li></ul>' %}
+{% include collapsible.html id='to-iron-nuggets' title='Items smeltable to iron nuggets' content='<ul><li>Any rails made of iron</li><li>Blast furnace</li><li>Bucket</li><li>Chain</li><li>Compass and recovery compass</li><li>Crossbow</li><li>Flint and steel</li><li>Iron bars</li><li>Lanterns</li><li>Pistons</li><li>Shears</li><li>Shield</li><li>Smithing table</li><li>Stonecutter</li><li>Tripwire hook</li><li>Hanging sign</li><li>Saddles</li></ul>' %}
 
-{% include collapsible.html id='to-iron-ingots' title='Items smeltable to iron ingots' content='<ul><li>Anvil</li><li>Cauldron</li><li>Crafter</li><li>Hopper</li><li>Iron door and trapdoor</li><li>Iron pressure plate</li><li>Any minecart</li></ul>' %}
+{% include collapsible.html id='to-iron-ingots' title='Items smeltable to iron ingots' content='<ul><li>Anvil</li><li>Cauldron</li><li>Crafter</li><li>Hopper</li><li>Iron door and trapdoor</li><li>Iron pressure plate</li><li>Any minecart</li><li>Lodestone</li></ul>' %}
 
 {% include collapsible.html id='to-gold-nuggets' title='Items smeltable to gold nuggets' content='<ul><li>Bell</li><li>Clock</li><li>Gold pressure plate</li><li>Powered rail</li><li>Golden apple, carrot, and melon slice</li></ul>' %}
 
@@ -133,5 +134,3 @@ Observer</li><li>
 Comparator</li></ul>' %}
 
 {% include collapsible.html id='to-diamonds' title='Items smeltable to diamonds' content='<ul><li>Jukebox</li><li>Enchanting table</li><li>Any smithing template</li></ul>' %}
-
-{% include collapsible.html id='to-netherite-scrap' title='Items smeltable to netherite scrap' content='<ul><li>Lodestone</li></ul>' %}
