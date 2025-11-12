@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 06/Oct/2025
+last_updated: 12/Nov/2025
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
@@ -17,8 +17,8 @@ intro: "This datapack aims to add composting mechanics to all vanilla items whic
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 7050 # 7000 on pmc before redirecting to modrinth
-downloads_str: "&gt;7k"
+downloads: 7681 # 7000 on pmc before redirecting to modrinth
+downloads_str: "&gt;7.6k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---

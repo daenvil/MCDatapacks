@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 06/Oct/2025
+last_updated: 12/Nov/2025
 permalink: cuttable_wood.html
 published: true
 modrinth: https://modrinth.com/datapack/cuttable-wood
@@ -17,8 +17,8 @@ intro: "A datapack that adds new recipes for the stonecutter, to make the crafti
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
 index: 1
-downloads: 17300 # 17300 on pmc before redirecting to modrinth
-downloads_str: "&gt;17k"
+downloads: 18150 # 17300 on pmc before redirecting to modrinth
+downloads_str: "&gt;18k"
 gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 

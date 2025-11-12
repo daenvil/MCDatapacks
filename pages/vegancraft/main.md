@@ -4,19 +4,19 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 07/Oct/2025
+last_updated: 12/Nov/2025
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["06","Oct","2025"]
+last_release: ["12","Nov","2025"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
 index: 16
-downloads: 4229
-downloads_str: "&gt;4.2k"
+downloads: 4400
+downloads_str: "&gt;4.4k"
 ---
 
 ## Full datapack download
@@ -33,9 +33,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.10" %}
             <br/>
-            {% include dp_download.html version="v1.5.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-DP_v1.5.1.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
+            {% include dp_download.html version="v1.5.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.2/vegancraft-DP_v1.5.2.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-8">
@@ -186,17 +186,21 @@ A new feature that rewards players with experience for farming crops. Just as ki
 
 {% include comments/tip.html content='This feature can be toggled off/on by using the command "<b>/function dnv.vegancraft:toggle_xp_from_crops</b>". Turning it off is recommended if the server is laggy.' %}
 
-- Each plant has a certain chance to drop 1 XP. This chance is calculated based on how hard it is to reproduce and grow the plant and was balanced to be as equivalent as possible to farming animals.
-  - Certain plants do not drop any XP, either because of how easy they are to produce & harvest or because of other balance concerns. These are: bamboo, flowers, dripleaves, seagrass, vines, melons, and pumpkins. Mushrooms also are also not included for this reason. As for trees, breaking their leaves manually is the only way to obtain XP from them.
-- XP is only dropped when a player breaks the block. It's not dropped if the block is broken by explosions, pistons, etc.
+- Each plant has a certain chance to drop XP. This chance is calculated based on how hard it is to reproduce and grow the plant and was balanced to be as equivalent as possible to farming animals.
+  - Certain plants do not drop any XP, either because of how easy they are to produce & harvest or because of other balance concerns. These are: bamboo, flowers, dripleaves, seagrass, vines, and mushrooms. As for trees, they drop XP when their leaves break.
+- XP is dropped when the plant is broken, either by the player or by any other cause.
   - In the case of sweet and glow berries, XP is also obtained by harvesting them with right click.
-  - Only the block mentioned above drops XP, not any other block in the plant. For example, breaking a chorus plant does not drop XP, only directly breaking the flower does so.
   - Cactus and sugar cane do not currently drop any XP because of a bug in the game related to their block states. They will work correctly when Mojang fixes that bug.
-  - (Vegancraft only) In the case of sniffer plants (torchflower and pitcher plant), they will not drop XP from harvesting the plant with silk touch or shears. They will only do so if broken with any other tool.
+  - In the case of sniffer plants (torchflower and pitcher plant), they will not drop XP from harvesting the plant with silk touch or shears.
+
+{% include comments/tip.html content='The following command can be used to toggle on or off dropping XP from non-player interactions "<b>/function dnv.vegancraft:toggle_xp_from_crops_require_player</b>". Turning it on will require players to directly break the plants in order for them to drop xp. This is recommended if the server is laggy.' %}
+
 - XP is NOT dropped from player-placed blocks. Some plants, like kelp or chorus flowers, are planted by placing the block, but they will only drop XP after they have grown. In summary: **you can't farm XP by repeteadly placing and breaking the same block**, you will have to at least wait for the plant to grow.
-- To prevent exploiting this mechanic by using fast semi-automatic farms or spamming bone meal, **if a player gains a lot of XP in a small period of time, the chances for XP to drop will decrease for that player** until enough time has passed. The chances start decreasing at 200 gained XP and will drop to zero at 600 XP; from there, it will take ~6 minutes for the chances to recover their regular values. This system would cap at 64 XP/minute in an ideal ultra-fast farm (probably lower in a real case), which is still lower than most mob farms.
+- To prevent exploiting this mechanic by using fast semi-automatic farms or spamming bone meal, **if a player gains a lot of XP in a small period of time, the chances for XP to drop will decrease for that player** until enough time has passed. The chances start decreasing at 200 gained XP and will drop to zero at 600 XP; from there, it will take ~6 minutes for the chances to recover their regular values.
 
 {% include image/figure.html src='vegancraft/xp_per_crop.png' align='center' style='max-width:100%;' caption='Chance that each crop has to drop 1 XP. Note that XP is only dropped when a block is directly broken by a player.'%}
+
+{% include comments/tip.html content='Server admins can customize the XP output by a certain multiplier. Use the command "<b>/scoreboard players set #dnv dnv.xp_from_crops_multiplier &lt;X&gt;", replacing &lt;X&gt; by an integer number between 1 and 50, to apply that number as a multiplier to all XP given by this mechanic.' %}
 
 #### Copper Horns
 
