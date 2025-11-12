@@ -198,7 +198,7 @@ A new feature that rewards players with experience for farming crops. Just as ki
 - XP is NOT dropped from player-placed blocks. Some plants, like kelp or chorus flowers, are planted by placing the block, but they will only drop XP after they have grown. In summary: **you can't farm XP by repeteadly placing and breaking the same block**, you will have to at least wait for the plant to grow.
 - To prevent exploiting this mechanic by using fast semi-automatic farms or spamming bone meal, **if a player gains a lot of XP in a small period of time, the chances for XP to drop will decrease for that player** until enough time has passed. The chances start decreasing at 200 gained XP and will drop to zero at 600 XP; from there, it will take ~6 minutes for the chances to recover their regular values.
 
-{% include image/figure.html src='vegancraft/xp_per_crop.png' align='center' style='max-width:100%;' caption='Chance that each crop has to drop 1 XP. Note that XP is only dropped when a block is directly broken by a player.'%}
+{% include image/figure.html src='vegancraft/xp_per_crop.png' align='center' style='max-width:100%;' caption='Average experience points gained from each plant.'%}
 
 {% include comments/tip.html content='Server admins can customize the XP output by a certain multiplier. Use the command "<b>/scoreboard players set #dnv dnv.xp_from_crops_multiplier &lt;X&gt;", replacing &lt;X&gt; by an integer number between 1 and 50, to apply that number as a multiplier to all XP given by this mechanic.' %}
 
