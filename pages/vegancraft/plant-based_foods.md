@@ -4,7 +4,7 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 07/Oct/2025
+last_updated: 18/Dec/2025
 permalink: plant-based_foods.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -32,7 +32,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v2.1.2" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/plant-based_foods_v2.1.2.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
         </p>

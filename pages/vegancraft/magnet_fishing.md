@@ -4,7 +4,7 @@ keywords: minecraft, datapack, fishing, iron, junk, scrap, vegan, veganism, paci
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 12/Nov/2025
+last_updated: 18/Dec/2025
 permalink: magnet_fishing.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -32,7 +32,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v2.2.3" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.2/magnet_fishing_v2.2.3.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
         </p>

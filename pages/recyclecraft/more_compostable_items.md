@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 12/Nov/2025
+last_updated: 18/Dec/2025
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
@@ -17,8 +17,8 @@ intro: "This datapack aims to add composting mechanics to all vanilla items whic
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 7681 # 7000 on pmc before redirecting to modrinth
-downloads_str: "&gt;7.6k"
+downloads: 8300 # 7000 on pmc before redirecting to modrinth
+downloads_str: "&gt;8.3k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 ---
@@ -37,7 +37,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v1.4.1" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/t7Cjjf4l/more_compostable_items_v1.4.1.zip" pmc-url="https://www.planetminecraft.com/data-pack/more-compostable-items/" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4.1/more_compostable_items_v1.4.1.zip" %}
         </p>

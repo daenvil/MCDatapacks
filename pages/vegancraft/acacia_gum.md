@@ -4,7 +4,7 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, slime
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 07/Oct/2025
+last_updated: 18/Dec/2025
 permalink: acacia_gum.html
 published: true
 github: https://github.com/daenvil/vegancraft
@@ -32,7 +32,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v1.4.1" pmc-url="https://www.planetminecraft.com/data-pack/acacia-gum-slime-from-stripping-acacias/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/acacia_gum_v1.4.1.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
         </p>

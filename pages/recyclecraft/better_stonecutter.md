@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 03/Oct/2025
+last_updated: 18/Dec/2025
 permalink: better_stonecutter.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/
@@ -36,7 +36,7 @@ Choose the option compatible with your Minecraft version:
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
-        {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+        {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
             {% include dp_download.html version="v2.2-balanced" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/513wll98ehnjm99qc5ngn/better_stonecutter_v2.2-balanced.zip?rlkey=4275649rpusj861k3lo3g9vo5&st=9wj47epd&dl=1" %}

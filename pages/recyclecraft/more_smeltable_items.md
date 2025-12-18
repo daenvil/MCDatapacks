@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 12/Nov/2025
+last_updated: 18/Dec/2025
 permalink: more_smeltable_items.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
@@ -16,8 +16,8 @@ intro: "Do you have tons of items that you will never use hanging around? This d
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz."
 priority: 4
 index: 2
-downloads: 3800 # ~3680 before redirecting to modrinth
-downloads_str: "&gt;3.8k"
+downloads: 4100 # ~3680 before redirecting to modrinth
+downloads_str: "&gt;4.1k"
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
 gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
 ---
@@ -38,7 +38,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v3.4" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/5dBLkZWk/more_smeltable_items_v3.4.zip" dropbox-url="https://www.dropbox.com/scl/fi/bgyrvz6r7zq5ah0j2sxb3/more_smeltable_items_v3.4.zip?rlkey=78ozh8yppbukxu0gjv92bgnjm&st=oq7ue7dk&dl=1" %}
         </p>

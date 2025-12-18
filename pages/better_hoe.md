@@ -4,7 +4,7 @@ keywords: minecraft, datapack, hoe, farming, enchantments
 tags: [datapack, standalone, simple, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 01/Oct/2025
+last_updated: 18/Dec/2025
 permalink: better_hoe.html
 published: true
 # github:
@@ -33,7 +33,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
 	<div role="tabpanel" class="tab-pane active" id="1-21-9">
 		<p>
-			{% include dp_badges.html supports="1.21.9+" tested="1.21.9" %}
+			{% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
 			<br/>
 			{% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/better-hoe-enchantments/" dropbox-url="https://www.dropbox.com/scl/fi/e59okjzjbzsomywyj7fkf/better_hoe_enchantments_v1.0.1.zip?rlkey=iorztsd27yjir9qdsqna7kvam&st=qgnx0djh&dl=1" %}
 		</p>
