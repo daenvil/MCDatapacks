@@ -28,12 +28,11 @@ Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a href="#26-1" data-toggle="tab">26.1+</a></li>
-    <li><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–1.21.11</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
     <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
-    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.16–1.20.6</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.16–1.21.1</a></li>
 </ul>
 
 <div class="tab-content">
@@ -52,11 +51,11 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_download.html version="v2.2-balanced" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/kRNyVgy0/better_stonecutter_v2.2-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/513wll98ehnjm99qc5ngn/better_stonecutter_v2.2-balanced.zip?rlkey=4275649rpusj861k3lo3g9vo5&st=9wj47epd&dl=1" %}
+            {% include dp_download.html version="v2.2-balanced" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/kRNyVgy0/better_stonecutter_v2.2-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/513wll98ehnjm99qc5ngn/better_stonecutter_v2.2-balanced.zip?rlkey=4275649rpusj861k3lo3g9vo5&st=9wj47epd&dl=1" discontinued=true %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            {% include dp_download.html version="v2.2-op" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/6xylnk2xh6qvvrdc3hemm/better_stonecutter_v2.2-op.zip?rlkey=zfkdxeuc2n0s6k6760daup08i&st=o2o6r6c1&dl=1" %}
+            {% include dp_download.html version="v2.2-op" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/6xylnk2xh6qvvrdc3hemm/better_stonecutter_v2.2-op.zip?rlkey=zfkdxeuc2n0s6k6760daup08i&st=o2o6r6c1&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
@@ -92,17 +91,6 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v2.0.2-op" dropbox-url="https://www.dropbox.com/scl/fi/cdcw6jf0wrmcmxfwkr1n5/better_stonecutter_v2.0.2-op.zip?rlkey=gxhwuf7a71g7pwj0nmfxx17b3&st=5i0wkdgt&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-21">
-        {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
-        <p><b>Vanilla-balanced version:</b></p>
-        <p>
-            {% include dp_download.html version="v2.0.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/ie4i07fuvij8udaetyrkk/better_stonecutter_v2.0.1-balanced.zip?rlkey=shf2f7pecaywrfhqdtp346kpb&st=s3aflicj&dl=1" discontinued=true %}
-        </p>
-        <p><b>OP version:</b></p>
-        <p>
-            {% include dp_download.html version="v2.0.1-op" dropbox-url="https://www.dropbox.com/scl/fi/opul2cy4l4vjzrw6cqkj9/better_stonecutter_v2.0.1-op.zip?rlkey=cmn4le0juymbd9sf4hxyxngaf&st=u4d4wj98&dl=1" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         For older Minecraft versions (no longer maintained, recipes may be different than described in this page):
         <table><thead>
@@ -113,6 +101,12 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21–1.21.1</td>
+                <td>2.0.1</td>
+                <td>1.21</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/ie4i07fuvij8udaetyrkk/better_stonecutter_v2.0.1-balanced.zip?rlkey=shf2f7pecaywrfhqdtp346kpb&st=s3aflicj&dl=1'>"OP" version</a> | <a href='https://www.dropbox.com/scl/fi/opul2cy4l4vjzrw6cqkj9/better_stonecutter_v2.0.1-op.zip?rlkey=cmn4le0juymbd9sf4hxyxngaf&st=u4d4wj98&dl=1'>"balanced" version</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>2.0</td>
