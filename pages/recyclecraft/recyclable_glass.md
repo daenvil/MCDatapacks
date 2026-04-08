@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 08/Apr/2026
 permalink: recyclable_glass.html
 published: true
 pmc: https://www.planetminecraft.com/data-pack/recyclable-glass/
@@ -15,6 +15,8 @@ intro: "Ever dyed a bunch of glass and ended not using all of it? Ever crafted m
 abstract: "Allows you to recycle all glass items by adding new crafting and smelting recipes."
 priority: 6
 index: 10
+downloads: 400
+downloads_str: "&gt;400"
 thumbnail: recyclecraft/recyclable_glass/thumbnail.png
 gallery: [https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925993-captura_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925995-captura_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925996-captura_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925997-captura_l.webp]
 ---
@@ -34,7 +36,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-5">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1" %}
             <br/>
             {% include dp_download.html version="v1.1.4" pmc-url="https://www.planetminecraft.com/data-pack/recyclable-glass/" dropbox-url="https://www.dropbox.com/scl/fi/95cgic63755cvldkqrpqa/recyclable_glass_v1.1.4.zip?rlkey=kq44ijl2zjb34kcbid6yu3i5k&st=bbj9nq11&dl=1" %}
         </p>

@@ -4,10 +4,10 @@ keywords: minecraft, datapack, loot, trial, chambers
 tags: [datapack, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 08/Apr/2026
 permalink: better_trial_loot.html
 published: true
-pmc: https://www.planetminecraft.com/data-pack/better_trial_loot/
+pmc: https://www.planetminecraft.com/data-pack/better-trial-loot/
 first_release: ["19","Jan","2025"]
 last_release: ["01","Oct","2025"]
 logo: better_trial_loot/pack.png
@@ -15,8 +15,8 @@ thumbnail: better_trial_loot/thumbnail.png
 abstract: "A datapack which improves the loot found at trial chambers, making it less underwhelming."
 priority: 0
 index: 17
-downloads: 688
-downloads_str: "&gt;600"
+downloads: 933
+downloads_str: "&gt;900"
 gallery: [images/better_trial_loot/thumbnail.png]
 ---
 
@@ -31,7 +31,7 @@ gallery: [images/better_trial_loot/thumbnail.png]
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
+            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1" %}
             <br/>
             {% include dp_download.html version="v1.0.2" pmc-url="https://www.planetminecraft.com/data-pack/better-trial-loot/" dropbox-url="https://www.dropbox.com/scl/fi/17s977p0w8sfp1eqjuvbs/better_trial_loot_v1.0.2.zip?rlkey=kbyufedcjslvpnilf5jl3ob04&st=q16qvwyy&dl=1" %}
         </p>

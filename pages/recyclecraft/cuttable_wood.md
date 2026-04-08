@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 07/Apr/2026
 permalink: cuttable_wood.html
 published: true
 modrinth: https://modrinth.com/datapack/cuttable-wood

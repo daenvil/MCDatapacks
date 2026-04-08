@@ -4,7 +4,7 @@ keywords: minecraft, datapack, hoe, farming, enchantments
 tags: [datapack, standalone, simple, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 08/Apr/2026
 permalink: better_hoe.html
 published: true
 # github:
@@ -17,8 +17,8 @@ intro: "This datapack adds new effects to some vanilla hoe enchantments, includi
 abstract: "Make farming more efficient with improved vanilla enchantments."
 priority: 1
 index: 19
-downloads: 199
-downloads_str: "&gt;100"
+downloads: 260
+downloads_str: "&gt;200"
 gallery: [images/better_hoe/thumbnail.png, images/better_hoe/cutting_grass.gif, images/better_hoe/tiling.gif, images/better_hoe/harvesting.gif, images/better_hoe/silk_touch.gif]
 ---
 
@@ -33,7 +33,7 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
 	<div role="tabpanel" class="tab-pane active" id="1-21-9">
 		<p>
-			{% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
+			{% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1" %}
 			<br/>
 			{% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/better-hoe-enchantments/" dropbox-url="https://www.dropbox.com/scl/fi/e59okjzjbzsomywyj7fkf/better_hoe_enchantments_v1.0.1.zip?rlkey=iorztsd27yjir9qdsqna7kvam&st=qgnx0djh&dl=1" %}
 		</p>

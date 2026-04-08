@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 07/Apr/2026
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
