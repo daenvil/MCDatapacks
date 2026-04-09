@@ -304,7 +304,7 @@ The following recipes are experimental and some of them will probably change in 
 
 #### Villager Trades
 
-Villagers and wandering traders have new trades related to the custom items of this datapack. These trades **don't replace any vanilla trades**, they are just appended onto the existing trades of the villagers.
+Villagers and wandering traders have new trades related to the custom items of this datapack. These trades are added to the pool of available trades, which means that whether the villagers have vanilla trades or custom ones is random. Certain profession levels will have an increased number of trades in order to make more room for the new trades.
 
 Here's a summary of the new trades:
 
@@ -505,24 +505,24 @@ Here's a summary of the new trades:
             </tr>
             </tbody></table>
 
-            {% include comments/note.html content="All the wandering trader's custom trades have a certain percent chance of being available or not (around 10–20%). In average, 2 custom trades will appear, but it's also possible that no custom trades are available." %}
+            {% include comments/note.html content="The wandering trader's custom trades are added to their vanilla pools, so it's random whether they will appear or not." %}
         </div>
     </div>
 </div>
-
-There might be a bug where some villagers don't seem to have the custom trades at first, but they should fix themselves after some time passes (~5s). This is a necessary tradeoff to improve performance of the datapack (otherwise villagers would need to be checked multiple times every second). This will not improve until Mojang adds proper customizable trades.
 
 #### How to Obtain Music Discs
 
 The following list contains how to obtain the music discs that are not obtainable in vegan ways in vanilla:
 
-- ***11:*** from **abandoned mineshaft** chests (20%)
-- ***Blocks:*** from **village house** chests (10% chance)
+- ***11:*** from **abandoned mineshaft** chests (20% chance)
+- ***Blocks:*** from **village house** chests (10%)
 - ***Chirp:*** from **jungle temple** chests (33.3%)
 - ***Far:*** from **stronghold library** chests (100%)
 - ***Mall:*** from **shipwreck** map chests (20%)
+- ***Mellohi:*** from **woodland mansion** chests (20%)
 - ***Stal:*** from **village weaponsmith, toolsmith, armorer, or temple** chests (33.3%)
 - ***Strad:*** from brushing suspicious gravel in **trail ruins** (8.8%)
+- ***Wait:*** from **desert pyramid** chests (25%)
 - ***Ward:*** from **ancient city** chests (15%)
 - ***Tears:*** from breaking **pitcher plants** (1%) *(the plant has to break and drop seeds. The disc can't drop if you harvest it with shears/silk touch)*
 - ***Lava Chicken:*** from **wandering traders** (12%) or from getting the ***Hail Seitan*** advancement (crafting 666 seitan steaks).
