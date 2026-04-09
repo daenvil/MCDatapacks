@@ -4,16 +4,16 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, bees, hon
 tags: [datapack, vegancraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 09/Apr/2026
 permalink: plant_wax.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-wax/
 first_release: ["15","Dec","2022"]
-last_release: ["06","Oct","2025"]
+last_release: ["09","Apr","2026"]
 logo: vegancraft/plant_wax/pack.png
 thumbnail: vegancraft/plant_wax/thumbnail.png
-intro: "A datapack that adds Plant Wax (a retextured honeycomb), obtainable by smelting dead bushes or jungle leaves."
+intro: "A datapack that adds plant wax (a retextured honeycomb), obtainable by smelting bushes or jungle saplings."
 abstract: "A plant-based alternative for honeycomb. Wax copper and craft candles without using bees!"
 priority: 3
 index: 14
@@ -24,24 +24,32 @@ gallery: [images/vegancraft/plant_wax/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li class="active"><a href="#26-1" data-toggle="tab">26.1+</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–1.21.11</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#legacy" data-toggle="tab">1.18–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+    <div role="tabpanel" class="tab-pane active" id="26-1">
+        <p>
+            {% include dp_badges.html supports="26.1+" tested="26.1" %}
+            <br/>
+            {% include dp_download.html version="v2.4" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/plant_wax_v2.4.zip" rp-version="v2.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/vegancraft-RP_v1.6.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
             {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
             <br/>
-            {% include dp_download.html version="v2.3.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/plant_wax_v2.3.1.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
+            {% include dp_download.html version="v2.3.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/plant_wax_v2.3.1.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
         <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.8" %}
             <br/>
-            {% include dp_download.html version="v2.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/plant_wax_v2.3.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" %}
+            {% include dp_download.html version="v2.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/plant_wax_v2.3.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -101,6 +109,9 @@ You can obtain Plant Wax by smelting **Bushes**, **Jungle Saplings**\*, or **Dea
 
 This recipe needs 10 seconds to cook (same as any other furnace recipe), and provides 0.1 xp.
 
+Jungle Saplings output 8 wax, Dead Bushes output 4 wax, Bushes output just 1 wax.
+
+\* Older versions of the datapack (pre v2.4) had just 1 wax as output for all ingredients.
 \* Older versions of the datapack (pre v2.2) used Jungle Leaves instead of saplings.
 
 <p align=center>

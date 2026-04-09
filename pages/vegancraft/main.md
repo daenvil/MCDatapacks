@@ -4,19 +4,19 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 09/Apr/2026
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["12","Nov","2025"]
+last_release: ["09","Apr","2026"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
 index: 16
-downloads: 4400
-downloads_str: "&gt;4.4k"
+downloads: 5900
+downloads_str: "&gt;5.9k"
 ---
 
 ## Full datapack download
@@ -24,14 +24,22 @@ downloads_str: "&gt;4.4k"
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li class="active"><a href="#26-1" data-toggle="tab">26.1+</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
     <li><a href="#1-21-8" data-toggle="tab">1.21.7–1.21.8</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#legacy" data-toggle="tab">1.17–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+    <div role="tabpanel" class="tab-pane active" id="26-1">
+        <p>
+            {% include dp_badges.html supports="26.1+" tested="26.1" %}
+            <br/>
+            {% include dp_download.html version="v1.6" github-url="TODO" rp-version="v1.6" rp-github-url="TODO" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
             {% include dp_badges.html supports="1.21.9+" tested="1.21.10, 1.21.11" %}
             <br/>
