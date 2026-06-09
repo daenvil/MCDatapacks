@@ -34,9 +34,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="26-1">
         <p>
-            {% include dp_badges.html supports="26.1+" tested="26.1" %}
+            {% include dp_badges.html supports="26.1+" tested="26.1.2" %}
             <br/>
-            {% include dp_download.html version="v1.6" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/vegancraft-DP_v1.6.zip" rp-version="v1.6" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/vegancraft-RP_v1.6.zip" %}
+            {% include dp_download.html version="v1.6.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6.1/vegancraft-DP_v1.6.1.zip" rp-version="v1.6" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/vegancraft-RP_v1.6.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
