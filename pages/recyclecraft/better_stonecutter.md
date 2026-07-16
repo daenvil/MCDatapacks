@@ -4,7 +4,7 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 31/Mar/2026
+last_updated: 16/Jul/2026
 permalink: better_stonecutter.html
 published: true
 modrinth: https://modrinth.com/datapack/better-stonecutter
@@ -16,8 +16,8 @@ intro: "A datapack that adds more recipes to the stonecutter, allowing you to ch
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 priority: 3
 index: 4
-downloads: 8500 # 7100 on pmc before redirecting to modrinth
-downloads_str: "&gt;8.5k"
+downloads: 11100 # 7100 on pmc before redirecting to modrinth
+downloads_str: "&gt;11k"
 thumbnail: recyclecraft/better_stonecutter/thumbnail.png
 gallery: [images/recyclecraft/better_stonecutter/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262629-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262638-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262628-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/526/16630269_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262630-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262552-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262637-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262633-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262632-screenshot-at_l.webp]
 ---
@@ -37,7 +37,7 @@ Choose the option compatible with your Minecraft version:
 
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="26-1">
-        {% include dp_badges.html supports="26.1+" tested="26.1" %}
+        {% include dp_badges.html supports="26.1+" tested="26.1, 26.2" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
             {% include dp_download.html version="v2.3-balanced" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/9Qzl4RxA/better_stonecutter_v2.3-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/83tt0wyvdw95kgyt1ir4f/better_stonecutter_v2.3-balanced.zip?rlkey=kt0f4fr18g8o9qt116e2jupbg&st=cpcq09dr&dl=1" %}
