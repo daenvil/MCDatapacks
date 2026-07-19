@@ -4,13 +4,13 @@ keywords: minecraft, datapack, fishing, iron, junk, scrap, vegan, veganism, paci
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 18/Dec/2025
+last_updated: 19/Jul/2026
 permalink: magnet_fishing.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/magnet-fishing/
 first_release: ["16","Apr","2023"]
-last_release: ["12","Nov","2025"]
+last_release: ["19","Jul","2026"]
 logo: vegancraft/magnet_fishing/pack.png
 thumbnail: vegancraft/magnet_fishing/thumbnail.png
 intro: "A datapack that adds a magnet fishing rod, with which you can fish iron and iron items."
@@ -24,17 +24,25 @@ gallery: [images/vegancraft/magnet_fishing/thumbnail.png,images/vegancraft/magne
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li class="active"><a href="#26-2" data-toggle="tab">26.2+</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.1.2</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#legacy" data-toggle="tab">1.19.4–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+    <div role="tabpanel" class="tab-pane active" id="26-2">
+        <p>
+            {% include dp_badges.html supports="26.2+" tested="26.2" %}
+            <br/>
+            {% include dp_download.html version="v2.2.5" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/magnet_fishing_v2.2.5.zip" rp-version="v2.2.5" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-RP_v1.7.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
             {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
             <br/>
-            {% include dp_download.html version="v2.2.3" pmc-url="https://www.planetminecraft.com/data-pack/magnet-fishing/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.2/magnet_fishing_v2.2.3.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
+            {% include dp_download.html version="v2.2.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.2/magnet_fishing_v2.2.3.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
@@ -123,4 +131,4 @@ This is a standalone datapack, but was originally designed as a part of [Vegancr
 
 ## Special thanks
 
-This datapack was originally created as a commission for Nora from the [Vegan Minecraft Server](https://veganminecraft.com/){:target="_blank"}.
+This datapack was originally created as a commission for Nora from the [Vegan Minecraft Server](https://veganminecraft.org/){:target="_blank"}.

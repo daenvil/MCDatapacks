@@ -4,19 +4,19 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 09/Apr/2026
+last_updated: 19/Jul/2026
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["09","Apr","2026"]
+last_release: ["19","Jul","2026"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
 index: 16
-downloads: 5900
-downloads_str: "&gt;5.9k"
+downloads: 8400
+downloads_str: "&gt;8.4k"
 ---
 
 ## Full datapack download
@@ -24,7 +24,8 @@ downloads_str: "&gt;5.9k"
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-1" data-toggle="tab">26.1+</a></li>
+    <li class="active"><a href="#26-2" data-toggle="tab">26.2+</a></li>
+    <li><a href="#26-1" data-toggle="tab">26.1+</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
     <li><a href="#1-21-8" data-toggle="tab">1.21.7–1.21.8</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
@@ -32,9 +33,16 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26-1">
+    <div role="tabpanel" class="tab-pane active" id="26-2">
         <p>
-            {% include dp_badges.html supports="26.1+" tested="26.1.2" %}
+            {% include dp_badges.html supports="26.2+" tested="26.2" %}
+            <br/>
+            {% include dp_download.html version="v1.7" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-DP_v1.7.zip" rp-version="v1.7" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-RP_v1.7.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="26-1">
+        <p>
+            {% include dp_badges.html supports="26.1.x" tested="26.1.2" %}
             <br/>
             {% include dp_download.html version="v1.6.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6.1/vegancraft-DP_v1.6.1.zip" rp-version="v1.6" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/vegancraft-RP_v1.6.zip" %}
         </p>
@@ -564,4 +572,4 @@ If you wish to translate this datapack to your language(s) (or fix any already e
 
 ## Vegan Minecraft server
 
-The [Vegan Minecraft server](veganminecraft.com) is currently using this datapack, and its players helped give feedback to shape the datapack as it is right now. Don't doubt to join if you want to play vegan Minecraft with fellow vegans!
+The [Vegan Minecraft server](veganminecraft.org) is currently using this datapack, and its players helped give feedback to shape the datapack as it is right now. Don't doubt to join if you want to play vegan Minecraft with fellow vegans!

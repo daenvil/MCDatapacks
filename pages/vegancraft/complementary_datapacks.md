@@ -12,4 +12,4 @@ intro: The following is a list of datapacks that are not part of the Vegancraft 
 ---
 
 - [**_Daenvil's Baked Goods_**](../baked_goods.html). Adds 25 new foods to the game, all of them with their vegan version integrating the mechanics from the [_Plant-based Foods_](plant-based_foods.html) datapack.
-- Not a datapack, but the **[Vegan Minecraft server](https://veganminecraft.com/)** is a nice SMP server that promotes veganism and uses my datapacks.
+- Not a datapack, but the **[Vegan Minecraft server](https://veganminecraft.org/)** is a nice SMP server that promotes veganism and uses my datapacks.

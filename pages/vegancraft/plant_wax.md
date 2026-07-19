@@ -4,13 +4,13 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, bees, hon
 tags: [datapack, vegancraft, standalone, crafting, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 09/Apr/2026
+last_updated: 19/Jul/2026
 permalink: plant_wax.html
 published: true
 github: https://github.com/daenvil/vegancraft
 pmc: https://www.planetminecraft.com/data-pack/plant-wax/
 first_release: ["15","Dec","2022"]
-last_release: ["09","Apr","2026"]
+last_release: ["19","Jul","2026"]
 logo: vegancraft/plant_wax/pack.png
 thumbnail: vegancraft/plant_wax/thumbnail.png
 intro: "A datapack that adds plant wax (a retextured honeycomb), obtainable by smelting bushes or jungle saplings."
@@ -24,18 +24,26 @@ gallery: [images/vegancraft/plant_wax/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-1" data-toggle="tab">26.1+</a></li>
+    <li class="active"><a href="#26-2" data-toggle="tab">26.2+</a></li>
+    <li><a href="#26-1" data-toggle="tab">26.1.x</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9–1.21.11</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#legacy" data-toggle="tab">1.18–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26-1">
+    <div role="tabpanel" class="tab-pane active" id="26-2">
+        <p>
+            {% include dp_badges.html supports="26.2+" tested="26.2" %}
+            <br/>
+            {% include dp_download.html version="v2.4.1" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/plant_wax_v2.4.1.zip" rp-version="v2.4.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-RP_v1.7.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="26-1">
         <p>
             {% include dp_badges.html supports="26.1+" tested="26.1" %}
             <br/>
-            {% include dp_download.html version="v2.4" pmc-url="https://www.planetminecraft.com/data-pack/plant-wax/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/plant_wax_v2.4.zip" rp-version="v2.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/vegancraft-RP_v1.6.zip" %}
+            {% include dp_download.html version="v2.4" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/plant_wax_v2.4.zip" rp-version="v2.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.6/vegancraft-RP_v1.6.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
