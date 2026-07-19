@@ -180,7 +180,7 @@ A ton of new items are added as alternatives for animal-based brewing ingredient
 
 - **Blazing Powder**: an alternative to blaze powder. Crafted using a magma block and 4 glowstone dust.
 - **Blazing Rod**: an alternative to blaze rods. Crafted using a lightning rod and 2 blazing powder.
-- **Gunpowder** is craftable from any coal + redstone + glowstone dust.
+- **Gunpowder** is craftable from any coal + redstone + either glowstone dust or sulfur.
 - **Poisonous Sprout**: an alternative to spider eyes. Crafted from poisonous potatoes.
 - **Fermented Sprout**: an alternative to fermented spider eyes. Crafted in the same way but from poisonous sprouts.
 - **Hardened Seagrass**: an alternative to turtle scutes. Crafted from seagrass and wax.
@@ -535,9 +535,7 @@ The following list contains how to obtain the music discs that are not obtainabl
 - ***Tears:*** from breaking **pitcher plants** (1%) *(the plant has to break and drop seeds. The disc can't drop if you harvest it with shears/silk touch)*
 - ***Lava Chicken:*** from **wandering traders** (12%) or from getting the ***Hail Seitan*** advancement (crafting 666 seitan steaks).
 
-#### Hot Air Balloons (New!)
-
-{% include comments/note.html content="This is a very new feature, it will be better documented and developed in the future." %}
+#### Hot Air Balloons
 
 Craftable hot air balloons, **an alternative to happy ghast riding!**
 
@@ -548,6 +546,18 @@ Craftable hot air balloons, **an alternative to happy ghast riding!**
 - For everything else, it behaves exactly the same as a happy ghast, so you can ride it with the same controls and even attach boats to it (which makes them look more like irl balloons).
 
 {% include comments/tip.html content="There's 16 kinds of balloons, one for each color, plus an additional sort-of-hidden one." %}
+
+### Inanimate Sulfur Cubes (New!)
+
+{% include comments/note.html content="This is a very new feature, it will be better documented and developed in the future." %}
+
+Craftable and inanimate sulfur cubes, **an alternative to using sulfur cube mobs as entertainment"
+
+- Craft a sulfur cube using 4 sulfur and 4 acacia gum / slime balls.
+- Right-click on the ground with it. An inanimate sulfur cube will spawn.
+- When empty, they can't move nor pick up items from the ground.
+- If destroyed, the original sulfur cube item will drop.
+- For everything else, they behave exactly the same way as vanilla sulfur cubes, so you can put blocks inside them and throw them around as you like. 
 
 ### Resourcepack
 
