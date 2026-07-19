@@ -319,10 +319,10 @@ Here's a summary of the new trades:
 <div class="panel panel-default">
     <div class="panel-heading">
         <div class="panel-title">
-            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#changelog-collapsible">Click to show <i class="fa fa-chevron-down"></i></a>
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#trades-collapsible">Click to show <i class="fa fa-chevron-down"></i></a>
         </div>
     </div>
-    <div id="changelog-collapsible" class="panel-collapse collapse noCrossRef">
+    <div id="trades-collapsible" class="panel-collapse collapse noCrossRef">
         <div class="panel-body">
             <table><thead>
             <tr>
