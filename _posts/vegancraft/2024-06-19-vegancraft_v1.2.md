@@ -8,7 +8,7 @@ datapack: vegancraft
 changelog: v1.2
 ---
 
-This is an update mainly to adapt the datapack for the new Minecraft 1.21 update, but I also took the opportunity to add recipes for all the non-vegan items that were missing from this datapack. See below for the recipes. Thanks to the people from the [Vegan Minecraft server](veganminecraft.org) for their feedback!
+This is an update mainly to adapt the datapack for the new Minecraft 1.21 update, but I also took the opportunity to add recipes for all the non-vegan items that were missing from this datapack. See below for the recipes. Thanks to the people from the [Vegan Minecraft server](https://veganminecraft.org) for their feedback!
 
 <div class="btn-group">
     <a href="vegancraft_v1.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1.1</a>

@@ -51,4 +51,4 @@ In general, the features introduced by Vegancraft aim to be as close as possible
 
 ## Vegan Minecraft server
 
-The [Vegan Minecraft server](veganminecraft.org) is currently using Vegancraft, and its players helped give feedback to shape the datapack as it is right now. Don't doubt to join if you want to play vegan Minecraft with fellow vegans!
+The [Vegan Minecraft server](https://veganminecraft.org) is currently using Vegancraft, and its players helped give feedback to shape the datapack as it is right now. Don't doubt to join if you want to play vegan Minecraft with fellow vegans!
