@@ -4,22 +4,21 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Jul/2026
+last_updated: 16/Sep/2026
 permalink: cuttable_wood.html
 published: true
 modrinth: https://modrinth.com/datapack/cuttable-wood
-pmc: https://www.planetminecraft.com/data-pack/cuttable-wood/
 first_release: ["22","Jul","2020"]
-last_release: ["01","Oct","2025"]
+last_release: ["16","Sep","2026"]
 logo: recyclecraft/cuttable_wood/pack.png
 thumbnail: recyclecraft/cuttable_wood/thumbnail.png
 intro: "A datapack that adds new recipes for the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 abstract: "Makes wood blocks cuttable in the stonecutter, to make the crafting of wooden items more comfortable and sensible."
 priority: 2
 index: 1
-downloads: 25800 # 17300 on pmc before redirecting to modrinth
-downloads_str: "&gt;25k"
-gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cuttable_wood/thumbnail-mc1.20.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
+downloads: 29200 # 17300 on pmc before redirecting to modrinth
+downloads_str: "&gt;29k"
+gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842581_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842582_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/836/16842585_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/836/15140459-screenshot-at_l.webp]
 ---
 
 ## Downloads
@@ -27,23 +26,33 @@ gallery: [images/recyclecraft/cuttable_wood/thumbnail.png,images/recyclecraft/cu
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.2</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
-    <li><a href="#legacy-1-21" data-toggle="tab">1.21–1.21.1</a></li>
     <li><a href="#legacy" data-toggle="tab">1.14–1.20.6</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-9">
-        {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1, 26.2" %}
+    <div role="tabpanel" class="tab-pane active" id="26-3">
+        {% include dp_badges.html supports="26.3+" tested="26.3" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_download.html version="v3.4-balanced" modrinth-url="https://cdn.modrinth.com/data/8R3aHRI9/versions/Cku5lN04/cuttable_wood_v3.4-balanced.zip" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/3bnbtgz11ykb6csq491ds/cuttable_wood_v3.4-balanced.zip?rlkey=h3531ty3one7owv0jzq4d53dj&st=1udqkb71&dl=1" %}
+            {% include dp_download.html version="v3.5-balanced" modrinth-url="https://cdn.modrinth.com/data/8R3aHRI9/versions/9UdTCN06/cuttable_wood_v3.5-balanced.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/cqj3q5ymsnd0mmqeezy1z/cuttable_wood_v3.5-balanced.zip?rlkey=w4joyxqxpx5c3bmamo9o6c7s4&st=tdc6tfrq&dl=1" %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            {% include dp_download.html version="v3.4-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/ywt63ki7wmatvy0tuplmt/cuttable_wood_v3.4-op.zip?rlkey=fsv117jkl37czgmh6azyvnv2o&st=i37l4wns&dl=1" %}
+            {% include dp_download.html version="v3.5-op" dropbox-url="https://www.dropbox.com/scl/fi/lvyr9nuzkgfikxahupi3t/cuttable_wood_v3.5-op.zip?rlkey=db9cylp732o9nbro0bwswsd5m&st=2dxghp2i&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-9">
+        {% include dp_badges.html supports="1.21.9–26.2" tested="1.21.9, 1.21.11, 26.1.1, 26.2" %}
+        <p><b>Vanilla-balanced version:</b></p>
+        <p>
+            {% include dp_download.html version="v3.4-balanced" modrinth-url="https://cdn.modrinth.com/data/8R3aHRI9/versions/Cku5lN04/cuttable_wood_v3.4-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/3bnbtgz11ykb6csq491ds/cuttable_wood_v3.4-balanced.zip?rlkey=h3531ty3one7owv0jzq4d53dj&st=1udqkb71&dl=1" discontinued=true %}
+        </p>
+        <p><b>OP version:</b></p>
+        <p>
+            {% include dp_download.html version="v3.4-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/ywt63ki7wmatvy0tuplmt/cuttable_wood_v3.4-op.zip?rlkey=fsv117jkl37czgmh6azyvnv2o&st=i37l4wns&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
@@ -57,28 +66,6 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v3.3.1-op" dropbox-url="https://www.dropbox.com/scl/fi/nh4hbdm7v54dat20lcsb9/cuttable_wood_v3.3.1-op.zip?rlkey=4kretpy4m80erfcqavawgajxp&st=tijoufmo&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-2">
-        {% include dp_badges.html supports="1.21.2–1.21.4" tested="1.21.3, 1.21.4" %}
-        <p><b>Vanilla-balanced version:</b></p>
-        <p>
-            {% include dp_download.html version="v3.2-balanced" dropbox-url="https://www.dropbox.com/scl/fi/89i5l52869mpnlk9p18i8/cuttable_wood_v3.2-balanced.zip?rlkey=iy2bhy0r8gl0a6rhfliflwwy3&st=awhhj2js&dl=1" discontinued=true %}
-        </p>
-        <p><b>OP version:</b></p>
-        <p>
-            {% include dp_download.html version="v3.2-op" dropbox-url="https://www.dropbox.com/scl/fi/dgmav9a9rk2bv1uk695hw/cuttable_wood_v3.2-op.zip?rlkey=mst7433a2sjqb79rhvuh7yqvl&st=fbaavjmi&dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="legacy-1-21">
-        {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
-        <p><b>Vanilla-balanced version:</b></p>
-        <p>
-            {% include dp_download.html version="v3.1.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/rs446ixrus8crxpazkqh4/cuttable_wood_v3.1.1-balanced.zip?rlkey=qslzpcfnitol4bkrm4bh5vlx0&st=c2t6j1y3&dl=1" discontinued=true %}
-        </p>
-        <p><b>OP version:</b></p>
-        <p>
-            {% include dp_download.html version="v3.1.1-op" dropbox-url="https://www.dropbox.com/scl/fi/4td9003prbnzenzfd7w4l/cuttable_wood_v3.1.1-op.zip?rlkey=f9u33j0kg705kpotktldcxwgb&st=3ffd3su2&dl=1" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         For older Minecraft versions (no longer maintained, recipes may be different than described in this page):
         <table><thead>
@@ -89,6 +76,18 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.2–1.21.4</td>
+                <td>3.2</td>
+                <td>1.21.3, 1.21.4</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/dgmav9a9rk2bv1uk695hw/cuttable_wood_v3.2-op.zip?rlkey=mst7433a2sjqb79rhvuh7yqvl&st=fbaavjmi&dl=1'>"OP" version</a> | <a href='https://www.dropbox.com/scl/fi/89i5l52869mpnlk9p18i8/cuttable_wood_v3.2-balanced.zip?rlkey=iy2bhy0r8gl0a6rhfliflwwy3&st=awhhj2js&dl=1'>"balanced" version</a></td>
+            </tr>
+            <tr>
+                <td>1.21–1.21.1</td>
+                <td>3.1.1</td>
+                <td>1.21</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/4td9003prbnzenzfd7w4l/cuttable_wood_v3.1.1-op.zip?rlkey=f9u33j0kg705kpotktldcxwgb&st=3ffd3su2&dl=1'>"OP" version</a> | <a href='https://www.dropbox.com/scl/fi/rs446ixrus8crxpazkqh4/cuttable_wood_v3.1.1-balanced.zip?rlkey=qslzpcfnitol4bkrm4bh5vlx0&st=c2t6j1y3&dl=1'>"balanced" version</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>3.1</td>

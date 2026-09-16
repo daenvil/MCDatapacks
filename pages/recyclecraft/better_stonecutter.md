@@ -38,7 +38,7 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="26.3+" tested="26.3" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_download.html version="v2.4" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/f183h7HY/better_stonecutter_v2.4-balanced.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/ex230njq036ybxgjenn1h/better_stonecutter_v2.4-balanced.zip?rlkey=7agplt5nlpolv0wc2x1apfz2n&st=cwtymw1o&dl=1" %}
+            {% include dp_download.html version="v2.4-balanced" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/f183h7HY/better_stonecutter_v2.4-balanced.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/ex230njq036ybxgjenn1h/better_stonecutter_v2.4-balanced.zip?rlkey=7agplt5nlpolv0wc2x1apfz2n&st=cwtymw1o&dl=1" %}
         </p>
         <p><b>OP version:</b></p>
         <p>
