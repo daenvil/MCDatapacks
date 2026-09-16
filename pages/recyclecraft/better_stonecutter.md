@@ -44,7 +44,7 @@ Choose the option compatible with your Minecraft version:
         </p>
         <p><b>OP version:</b></p>
         <p>
-            {% include dp_download.html version="v2.3-op" dropbox-url="https://www.dropbox.com/scl/fi/7v0459uqr78u0mqtwodf4/better_stonecutter_v2.4-op.zip?rlkey=zl3r94ltfdgub2o59905lq7f7&st=lthyp225&dl=1" %}
+            {% include dp_download.html version="v2.4-op" dropbox-url="https://www.dropbox.com/scl/fi/7v0459uqr78u0mqtwodf4/better_stonecutter_v2.4-op.zip?rlkey=zl3r94ltfdgub2o59905lq7f7&st=lthyp225&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="26-1">
@@ -80,28 +80,6 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v2.1.1-op" dropbox-url="https://www.dropbox.com/scl/fi/iz44uddktdk3ubtdvkhir/better_stonecutter_v2.1.1-op.zip?rlkey=k55xktn8w8ayq4pzrs5uk03rq&st=iwy47uyx&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-4">
-        {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
-        <p><b>Vanilla-balanced version:</b></p>
-        <p>
-            {% include dp_download.html version="v2.1-balanced" dropbox-url="https://www.dropbox.com/scl/fi/i4vp1uwpzzng6vyxtqi98/better_stonecutter_v2.1-balanced.zip?rlkey=cbj5f05vo90j5uy18lpuda5qu&st=yjwtlfg8&dl=1" discontinued=true %}
-        </p>
-        <p><b>OP version:</b></p>
-        <p>
-            {% include dp_download.html version="v2.1-op" dropbox-url="https://www.dropbox.com/scl/fi/j9miwqt7betn5naxvo7sv/better_stonecutter_v2.1-op.zip?rlkey=vhbz7mdvssc9976cgh71n5p0t&st=1hzylynp&dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-2">
-        {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
-        <p><b>Vanilla-balanced version:</b></p>
-        <p>
-            {% include dp_download.html version="v2.0.2-balanced" dropbox-url="https://www.dropbox.com/scl/fi/6q2j1whytwsv2w5njqfo3/better_stonecutter_v2.0.2-balanced.zip?rlkey=o5fv1ydho3nq8cmvo1p8xosvt&st=vapwq9ij&dl=1" discontinued=true %}
-        </p>
-        <p><b>OP version:</b></p>
-        <p>
-            {% include dp_download.html version="v2.0.2-op" dropbox-url="https://www.dropbox.com/scl/fi/cdcw6jf0wrmcmxfwkr1n5/better_stonecutter_v2.0.2-op.zip?rlkey=gxhwuf7a71g7pwj0nmfxx17b3&st=5i0wkdgt&dl=1" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         For older Minecraft versions (no longer maintained, recipes may be different than described in this page):
         <table><thead>
@@ -112,6 +90,18 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.4</td>
+                <td>2.1</td>
+                <td>1.21.4</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/j9miwqt7betn5naxvo7sv/better_stonecutter_v2.1-op.zip?rlkey=vhbz7mdvssc9976cgh71n5p0t&st=1hzylynp&dl=1'>"OP" version</a> | <a href='https://www.dropbox.com/scl/fi/i4vp1uwpzzng6vyxtqi98/better_stonecutter_v2.1-balanced.zip?rlkey=cbj5f05vo90j5uy18lpuda5qu&st=yjwtlfg8&dl=1'>"balanced" version</a></td>
+            </tr>
+            <tr>
+                <td>1.21.2–1.21.3</td>
+                <td>2.0.2</td>
+                <td>1.21.3</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/cdcw6jf0wrmcmxfwkr1n5/better_stonecutter_v2.0.2-op.zip?rlkey=gxhwuf7a71g7pwj0nmfxx17b3&st=5i0wkdgt&dl=1'>"OP" version</a> | <a href='https://www.dropbox.com/scl/fi/6q2j1whytwsv2w5njqfo3/better_stonecutter_v2.0.2-balanced.zip?rlkey=o5fv1ydho3nq8cmvo1p8xosvt&st=vapwq9ij&dl=1'>"balanced" version</a></td>
+            </tr>
             <tr>
                 <td>1.21–1.21.1</td>
                 <td>2.0.1</td>
@@ -166,6 +156,7 @@ Products of stonecutting are given recipes so they can be cut again into smaller
     - Prismarine &#x21D2; prismarine shards\*
     - Amethyst blocks or clusters &#x21D2; amethyst shards\*
     - Mud bricks &#x21D2; Packed mud
+    - Wool &#x21D2; wool stairs\*, slabs\*, carpets\*, string\*
 
 \* *These recipes marked with "\*" are only available on the "OP" version of the datapack.*
 
@@ -191,6 +182,7 @@ Products of stonecutting are given recipes so they can be cut again into smaller
   - Amethyst shards, sand, red sand, quartz, and prismarine shards
   - Copper doors/trapdoors
   - Chains
+  - String and wool stairs/slabs
 
 - Things that are more expensive:
   - Lightning rods
