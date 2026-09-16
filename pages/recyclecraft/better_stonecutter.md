@@ -4,20 +4,19 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, crafting]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Jul/2026
+last_updated: 16/Sep/2026
 permalink: better_stonecutter.html
 published: true
 modrinth: https://modrinth.com/datapack/better-stonecutter
-pmc: https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/
 first_release: ["05","Jan","2022"]
-last_release: ["31","Mar","2026"]
+last_release: ["16","Sep","2026"]
 logo: recyclecraft/better_stonecutter/pack.png
 intro: "A datapack that adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 abstract: "Adds more recipes to the stonecutter, allowing you to change more easily between block variants and waste less resources."
 priority: 3
 index: 4
-downloads: 11100 # 7100 on pmc before redirecting to modrinth
-downloads_str: "&gt;11k"
+downloads: 12900 # 7100 on pmc before redirecting to modrinth
+downloads_str: "&gt;12k"
 thumbnail: recyclecraft/better_stonecutter/thumbnail.png
 gallery: [images/recyclecraft/better_stonecutter/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262629-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262638-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262628-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2023/526/16630269_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262630-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262552-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262637-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262633-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/526/15262632-screenshot-at_l.webp]
 ---
@@ -27,7 +26,8 @@ gallery: [images/recyclecraft/better_stonecutter/thumbnail.png,https://static.pl
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-1" data-toggle="tab">26.1+</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#26-1" data-toggle="tab">26.1–26.2</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9–1.21.11</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
@@ -36,8 +36,19 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26-1">
-        {% include dp_badges.html supports="26.1+" tested="26.1, 26.2" %}
+    <div role="tabpanel" class="tab-pane active" id="26-3">
+        {% include dp_badges.html supports="26.3+" tested="26.3" %}
+        <p><b>Vanilla-balanced version:</b></p>
+        <p>
+            {% include dp_download.html version="v2.4" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/f183h7HY/better_stonecutter_v2.4-balanced.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/ex230njq036ybxgjenn1h/better_stonecutter_v2.4-balanced.zip?rlkey=7agplt5nlpolv0wc2x1apfz2n&st=cwtymw1o&dl=1" %}
+        </p>
+        <p><b>OP version:</b></p>
+        <p>
+            {% include dp_download.html version="v2.3-op" dropbox-url="https://www.dropbox.com/scl/fi/7v0459uqr78u0mqtwodf4/better_stonecutter_v2.4-op.zip?rlkey=zl3r94ltfdgub2o59905lq7f7&st=lthyp225&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="26-1">
+        {% include dp_badges.html supports="26.1–26.2" tested="26.1, 26.2" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
             {% include dp_download.html version="v2.3-balanced" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/9Qzl4RxA/better_stonecutter_v2.3-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/83tt0wyvdw95kgyt1ir4f/better_stonecutter_v2.3-balanced.zip?rlkey=kt0f4fr18g8o9qt116e2jupbg&st=cpcq09dr&dl=1" %}
@@ -55,7 +66,7 @@ Choose the option compatible with your Minecraft version:
         </p>
         <p><b>OP version:</b></p>
         <p>
-            {% include dp_download.html version="v2.2-op" pmc-url="https://www.planetminecraft.com/data-pack/better-stonecutter-5432526/" dropbox-url="https://www.dropbox.com/scl/fi/6xylnk2xh6qvvrdc3hemm/better_stonecutter_v2.2-op.zip?rlkey=zfkdxeuc2n0s6k6760daup08i&st=o2o6r6c1&dl=1" discontinued=true %}
+            {% include dp_download.html version="v2.2-op" dropbox-url="https://www.dropbox.com/scl/fi/6xylnk2xh6qvvrdc3hemm/better_stonecutter_v2.2-op.zip?rlkey=zfkdxeuc2n0s6k6760daup08i&st=o2o6r6c1&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
