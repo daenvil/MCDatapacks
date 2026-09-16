@@ -30,9 +30,7 @@ Choose the option compatible with your Minecraft version:
     <li><a href="#26-1" data-toggle="tab">26.1–26.2</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9–1.21.11</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
-    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.16–1.21.1</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.16–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
