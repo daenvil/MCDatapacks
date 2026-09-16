@@ -49,11 +49,11 @@ Choose the option compatible with your Minecraft version:
         {% include dp_badges.html supports="26.1–26.2" tested="26.1, 26.2" %}
         <p><b>Vanilla-balanced version:</b></p>
         <p>
-            {% include dp_download.html version="v2.3-balanced" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/9Qzl4RxA/better_stonecutter_v2.3-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/83tt0wyvdw95kgyt1ir4f/better_stonecutter_v2.3-balanced.zip?rlkey=kt0f4fr18g8o9qt116e2jupbg&st=cpcq09dr&dl=1" %}
+            {% include dp_download.html version="v2.3-balanced" modrinth-url="https://cdn.modrinth.com/data/F633jSZ5/versions/9Qzl4RxA/better_stonecutter_v2.3-balanced.zip" dropbox-url="https://www.dropbox.com/scl/fi/83tt0wyvdw95kgyt1ir4f/better_stonecutter_v2.3-balanced.zip?rlkey=kt0f4fr18g8o9qt116e2jupbg&st=cpcq09dr&dl=1" discontinued=true %}
         </p>
         <p><b>OP version:</b></p>
         <p>
-            {% include dp_download.html version="v2.3-op" dropbox-url="https://www.dropbox.com/scl/fi/0ezat0tlbefnyw9sr5a0v/better_stonecutter_v2.3-op.zip?rlkey=0n9zdm5yspgbrbxi8ypoila90&st=6x779fh4&dl=1" %}
+            {% include dp_download.html version="v2.3-op" dropbox-url="https://www.dropbox.com/scl/fi/0ezat0tlbefnyw9sr5a0v/better_stonecutter_v2.3-op.zip?rlkey=0n9zdm5yspgbrbxi8ypoila90&st=6x779fh4&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
