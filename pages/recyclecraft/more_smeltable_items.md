@@ -18,7 +18,7 @@ index: 2
 downloads: 5700 # ~3700 before redirecting to modrinth
 downloads_str: "&gt;5.7k"
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
-gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
+gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
 ---
 
 ## Downloads
