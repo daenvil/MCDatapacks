@@ -4,20 +4,19 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Jul/2026
+last_updated: 17/Sep/2026
 permalink: more_smeltable_items.html
 published: true
-pmc: https://www.planetminecraft.com/data-pack/more-smeltable-items/
 modrinth: https://modrinth.com/datapack/more-smeltable-items
 first_release: ["18","Aug","2020"]
-last_release: ["03","Oct","2025"]
+last_release: ["17","Sep","2026"]
 logo: recyclecraft/more_smeltable_items/pack.png
 intro: "Do you have tons of items that you will never use hanging around? This datapack adds smelting recipes (for the furnace and the blast furnace) to every item made of gold, iron, copper, diamond, or quartz. Now you can recycle things you will never use for minerals."
 abstract: "Adds smelting recipes to every item made of gold, iron, copper, diamond, or quartz."
 priority: 4
 index: 2
-downloads: 5100 # ~3700 before redirecting to modrinth
-downloads_str: "&gt;5.1k"
+downloads: 5700 # ~3700 before redirecting to modrinth
+downloads_str: "&gt;5.7k"
 thumbnail: recyclecraft/more_smeltable_items/thumbnail.png
 gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125173-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125167-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125169-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125170-screenshot-at_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/775/15125176-screenshot-at_l.webp]
 ---
@@ -27,20 +26,26 @@ gallery: [images/recyclecraft/more_smeltable_items/thumbnail.png,https://static.
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.2</a></li>
     <li><a href="#1-21-7" data-toggle="tab">1.21.7–1.21.8</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5</a></li>
-    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.4</a></li>
-    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.14–1.20.6</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.14–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+    <div role="tabpanel" class="tab-pane active" id="26-3">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1, 26.2" %}
+            {% include dp_badges.html supports="26.3+" tested="26.3" %}
             <br/>
-            {% include dp_download.html version="v3.4" pmc-url="https://www.planetminecraft.com/data-pack/more-smeltable-items/" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/5dBLkZWk/more_smeltable_items_v3.4.zip" dropbox-url="https://www.dropbox.com/scl/fi/bgyrvz6r7zq5ah0j2sxb3/more_smeltable_items_v3.4.zip?rlkey=78ozh8yppbukxu0gjv92bgnjm&st=oq7ue7dk&dl=1" %}
+            {% include dp_download.html version="v3.4.1" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/Tvd7yIOg/more_smeltable_items_v3.4.1.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/nmpef0t1d039l212xbkg1/more_smeltable_items_v3.4.1.zip?rlkey=dk6otps1d6r1qjtgxq1r96e5i&st=ldr0kreh&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-9">
+        <p>
+            {% include dp_badges.html supports="1.21.9–26.2" tested="1.21.9, 1.21.11, 26.1.1, 26.2" %}
+            <br/>
+            {% include dp_download.html version="v3.4" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/5dBLkZWk/more_smeltable_items_v3.4.zip" dropbox-url="https://www.dropbox.com/scl/fi/bgyrvz6r7zq5ah0j2sxb3/more_smeltable_items_v3.4.zip?rlkey=78ozh8yppbukxu0gjv92bgnjm&st=oq7ue7dk&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-7">
@@ -57,20 +62,6 @@ Choose the option compatible with your Minecraft version:
             {% include dp_download.html version="v3.2" modrinth-url="https://cdn.modrinth.com/data/RxQ58h5H/versions/uN2I49tS/more_smeltable_items_v3.2.zip" dropbox-url="https://www.dropbox.com/scl/fi/xz43hght6o2rar5lpltox/more_smeltable_items_v3.2.zip?rlkey=6ey5ouk89loqbcothv9nvivwf&st=s9tz5qjb&dl=1" discontinued=true %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-2">
-        <p>
-            {% include dp_badges.html supports="1.21.2–1.21.4" tested="1.21.3, 1.21.4" %}
-            <br/>
-            {% include dp_download.html version="v3.1.2" dropbox-url="https://www.dropbox.com/scl/fi/gtppvteony050wg68zb1o/more_smeltable_items_v3.1.2.zip?rlkey=1lgwr2af99t5dmwg1bh7k3131&st=dr24uqov&dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21">
-        <p>
-            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
-            <br/>
-            {% include dp_download.html version="v3.1" dropbox-url="https://www.dropbox.com/scl/fi/5ttaew6p33rqqvtifmah3/more_smeltable_items_v3.1.zip?rlkey=in1bkmpqpfmisdw56d2mg5n50&st=5xdjzagt&dl=1" discontinued=true %}
-        </p>
-    </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
         For older Minecraft versions (no longer maintained, recipes may be different than described in this page):
         <table><thead>
@@ -81,6 +72,18 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.2–1.21.4</td>
+                <td>3.1.2</td>
+                <td>1.21.3, 1.21.4</td>
+                <td><a href='https://www.dropbox.com/scl/fi/gtppvteony050wg68zb1o/more_smeltable_items_v3.1.2.zip?rlkey=1lgwr2af99t5dmwg1bh7k3131&st=dr24uqov&dl=1'>Dropbox</a></td>
+            </tr>
+            <tr>
+                <td>1.21–1.21.1</td>
+                <td>3.1</td>
+                <td>1.21</td>
+                <td><a href='https://www.dropbox.com/scl/fi/5ttaew6p33rqqvtifmah3/more_smeltable_items_v3.1.zip?rlkey=in1bkmpqpfmisdw56d2mg5n50&st=5xdjzagt&dl=1'>Dropbox</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>3.0</td>

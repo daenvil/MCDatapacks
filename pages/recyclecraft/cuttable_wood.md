@@ -29,7 +29,7 @@ Choose the option compatible with your Minecraft version:
     <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.2</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.14–1.20.6</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.14–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
