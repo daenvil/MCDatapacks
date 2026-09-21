@@ -7,6 +7,7 @@ toc: true
 last_updated: 17/Sep/2026
 permalink: recyclable_glass.html
 published: true
+modrinth: https://modrinth.com/datapack/recyclable-glass
 first_release: ["30","Jul","2022"]
 last_release: ["17","Sep","2026"]
 logo: recyclecraft/recyclable_glass/pack.png
@@ -14,7 +15,7 @@ intro: "Ever dyed a bunch of glass and ended not using all of it? Ever crafted m
 abstract: "Allows you to recycle all glass items by adding new crafting and smelting recipes."
 priority: 6
 index: 10
-downloads: 400
+downloads: 400 # 400 in pmc before migrating to modrinth
 downloads_str: "&gt;400"
 thumbnail: recyclecraft/recyclable_glass/thumbnail.png
 gallery: [images/recyclecraft/recyclable_glass/thumbnail.png,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925993-captura_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925995-captura_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925996-captura_l.webp,https://static.planetminecraft.com/files/image/minecraft/data-pack/2022/525/15925997-captura_l.webp]
@@ -36,7 +37,7 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="26.3+" tested="26.3" %}
             <br/>
-            {% include dp_download.html version="v1.1.5" dropbox-url="https://www.dropbox.com/scl/fi/yn4hi4vzjdhahrzq7wv5j/recyclable_glass_v1.1.5.zip?rlkey=2dvyx0erxxb26z6dawvh3hu8a&st=a1qn57h3&dl=1" %}
+            {% include dp_download.html version="v1.1.5" modrinth-url="https://cdn.modrinth.com/data/KhMoOidE/versions/1BzQv3KX/recyclable_glass_v1.1.5.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/yn4hi4vzjdhahrzq7wv5j/recyclable_glass_v1.1.5.zip?rlkey=2dvyx0erxxb26z6dawvh3hu8a&st=a1qn57h3&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
