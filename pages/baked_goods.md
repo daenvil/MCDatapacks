@@ -4,47 +4,51 @@ keywords: minecraft, datapack, baking, cooking, food
 tags: [datapack, resourcepacks, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Jul/2026
+last_updated: 21/Sep/2026
 permalink: baked_goods.html
 published: true
 modrinth: https://modrinth.com/datapack/daenvils-baked-goods
-pmc: https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/
 first_release: ["10","Nov","2022"]
-last_release: ["16","Jul","2026"]
+last_release: ["21","Sep","2026"]
 logo: baked_goods/pack.png
 thumbnail: baked_goods/thumbnail.png
 intro: A datapack which adds new pies, cakes, cookies, and other baked goods to Minecraft. Bake apple pies, chocolate cakes, glow berry cookies, and many more! See <a href="#new-recipes">below</a> for the full list of recipes. Foods with golden apples/carrots/melon, chorus fruit, and glow berries provide <a href="#special-effects">special effects</a> when eating them.
 abstract: "Adds 25 new baked goods to Minecraft, including apple pies, chocolate cakes, berry cookies, and many more."
 priority: 0
 index: 13
-downloads: 3320 # 3.3k on PMC before redirecting to modrinth
-downloads_str: "&gt;3.3k"
+downloads: 3580 # 3.3k on PMC before redirecting to modrinth
+downloads_str: "&gt;3.5k"
 gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot_cakes.png,images/baked_goods/screenshots/recipe_book.png,images/baked_goods/screenshots/golden_carrot_cakes.png,images/baked_goods/screenshots/chocolate_cakes.png]
 ---
 
 ## Downloads
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-2" data-toggle="tab">26.2+</a></li>
-    <li><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#26-2" data-toggle="tab">26.2</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.1.2</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#1-21-4" data-toggle="tab">1.21.4</a></li>
-    <li><a href="#1-21-2" data-toggle="tab">1.21.2–1.21.3</a></li>
-    <li><a href="#1-21" data-toggle="tab">1.21–1.21.1</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.19–1.20.6</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.19–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26-2">
+    <div role="tabpanel" class="tab-pane active" id="26-3">
         <p>
-            {% include dp_badges.html supports="26.2+" tested="26.2" %}
+            {% include dp_badges.html supports="26.3+" tested="26.3" %}
             <br/>
-            {% include dp_download.html version="v2.3.2" modrinth-url="https://cdn.modrinth.com/data/AWdklI5X/versions/zoxdvOPy/daenvils_baked_goods_v2.3.2.zip?mr_download_reason=standalone" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" dropbox-url="https://www.dropbox.com/scl/fi/516g6uomfa0bz3lyjcj00/daenvils_baked_goods_v2.3.2.zip?rlkey=u5kwfn9h6havd7uwvfefgafdg&st=s42h5zzo&dl=1" rp-version="v2.3.2" rp-modrinth-url="https://cdn.modrinth.com/data/AWdklI5X/versions/zoxdvOPy/daenvils_baked_goods-RP_v2.3.2.zip?mr_download_reason=standalone" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-dropbox-url="https://www.dropbox.com/scl/fi/69dlk8ql6tguj1ixp1h5v/daenvils_baked_goods-RP_v2.3.2.zip?rlkey=846znlo6vmj030f0y1cgru58m&st=79stb02r&dl=1" %}
+            {% include dp_download.html version="v2.4" modrinth-url="https://cdn.modrinth.com/data/AWdklI5X/versions/dxyGu3KV/daenvils_baked_goods_v2.4.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/7war37khixfjngz79rrdp/daenvils_baked_goods_v2.4.zip?rlkey=aqhlic3pyw8qgzp4d9xmgkwut&st=nl4layju&dl=1" rp-version="v2.4" rp-modrinth-url="https://cdn.modrinth.com/data/AWdklI5X/versions/dxyGu3KV/daenvils_baked_goods-RP_v2.4.zip?mr_download_reason=standalone" rp-dropbox-url="https://www.dropbox.com/scl/fi/g3giqo3pw8ckpmjedaqkx/daenvils_baked_goods-RP_v2.4.zip?rlkey=wfgabfk9bu0rw5a682vcamag6&st=n8fr3zea&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="26-2">
+        <p>
+            {% include dp_badges.html supports="26.2" tested="26.2" %}
+            <br/>
+            {% include dp_download.html version="v2.3.2" modrinth-url="https://cdn.modrinth.com/data/AWdklI5X/versions/zoxdvOPy/daenvils_baked_goods_v2.3.2.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/516g6uomfa0bz3lyjcj00/daenvils_baked_goods_v2.3.2.zip?rlkey=u5kwfn9h6havd7uwvfefgafdg&st=s42h5zzo&dl=1" rp-version="v2.3.2" rp-modrinth-url="https://cdn.modrinth.com/data/AWdklI5X/versions/zoxdvOPy/daenvils_baked_goods-RP_v2.3.2.zip?mr_download_reason=standalone" rp-dropbox-url="https://www.dropbox.com/scl/fi/69dlk8ql6tguj1ixp1h5v/daenvils_baked_goods-RP_v2.3.2.zip?rlkey=846znlo6vmj030f0y1cgru58m&st=79stb02r&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1" %}
+            {% include dp_badges.html supports="1.21.9–26.1.2" tested="1.21.9, 1.21.11, 26.1.1" %}
             <br/>
             {% include dp_download.html version="v2.3.1" dropbox-url="https://www.dropbox.com/scl/fi/icvsdef3oggqfixn94fq7/daenvils_baked_goods_v2.3.1.zip?rlkey=1jf23z1nft0wmq1oj519ibb13&st=vae4inf0&dl=1" rp-version="v2.3.1" rp-dropbox-url="https://www.dropbox.com/scl/fi/9w854kerraywf469m8l2t/daenvils_baked_goods-RP_v2.3.1.zip?rlkey=m3457os93kqcyztkjuqzg5g6f&st=frmvaau3&dl=1" %}
         </p>
@@ -54,27 +58,6 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
             {% include dp_download.html version="v2.3" dropbox-url="https://www.dropbox.com/scl/fi/06xhbz5i1uugj04ariv60/daenvils_baked_goods_v2.3.zip?rlkey=iol1arrvoiz9c9kzdg8sptbps&st=09xkv0vb&dl=1" rp-version="v2.3" rp-dropbox-url="https://www.dropbox.com/scl/fi/smjkhhs7na0z6jw6mc783/daenvils_baked_goods-RP_v2.3.zip?rlkey=d0eaygj6g3uhc74luyufb6v5v&st=gc0921im&dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-4">
-        <p>
-            {% include dp_badges.html supports="1.21.4" tested="1.21.4" %}
-            <br/>
-            {% include dp_download.html version="v2.2" dropbox-url="https://www.dropbox.com/scl/fi/m2s1b4ci31el9t35uayrk/daenvils_baked_goods_v2.2.zip?rlkey=n4gcj3o1qkp5gb73tuoj1y629&st=g5795cn6&dl=1" rp-version="v2.2" rp-dropbox-url="https://www.dropbox.com/scl/fi/c0p7ymuihevsvapjytgj6/daenvils_baked_goods-RP_v2.2.zip?rlkey=d0iojz0hkh9fmf6qskhlu3ia7&st=9urouz75&dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-2">
-        <p>
-            {% include dp_badges.html supports="1.21.2–1.21.3" tested="1.21.3" %}
-            <br/>
-            {% include dp_download.html version="v2.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" dropbox-url="https://www.dropbox.com/scl/fi/z4jfmm52els548b59j96i/daenvils_baked_goods_v2.1.zip?rlkey=fzqoz9lu1dya592zj7ndhhdv8&st=5v3ehe6g&dl=1" rp-version="v2.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-dropbox-url="https://www.dropbox.com/scl/fi/c3xixk3agmqn1dxa0yday/daenvils_baked_goods-RP_v2.1.zip?rlkey=0q1942ry8i6r8gsru0p7nvr8x&st=59zbhxnv&dl=1" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21">
-        <p>
-            {% include dp_badges.html supports="1.21–1.21.1" tested="1.21" %}
-            <br/>
-            {% include dp_download.html version="v2.0.1" pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" dropbox-url="https://www.dropbox.com/scl/fi/6vltw7pjigte6g9v7q2ir/daenvils_baked_goods_v2.0.1.zip?rlkey=urrsh3vv0oxz07tpncj28gxhm&st=r8gcs8ko&dl=1" rp-version="v2.0.1" rp-pmc-url="https://www.planetminecraft.com/data-pack/daenvil-s-baked-goods/" rp-dropbox-url="https://www.dropbox.com/scl/fi/wyopyiqbv0q8p38duuo1v/daenvils_baked_goods-RP_v2.0.1.zip?rlkey=efnoid75976przo762cjwrba7&st=7b3ij1y0&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -87,6 +70,24 @@ gallery: [images/baked_goods/thumbnail.png,images/baked_goods/screenshots/carrot
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.4</td>
+                <td>2.2</td>
+                <td>1.21.4</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/m2s1b4ci31el9t35uayrk/daenvils_baked_goods_v2.2.zip?rlkey=n4gcj3o1qkp5gb73tuoj1y629&st=g5795cn6&dl=1'>datapack</a> | <a href='https://www.dropbox.com/scl/fi/c0p7ymuihevsvapjytgj6/daenvils_baked_goods-RP_v2.2.zip?rlkey=d0iojz0hkh9fmf6qskhlu3ia7&st=9urouz75&dl=1'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21.2–1.21.3</td>
+                <td>2.1</td>
+                <td>1.21.3</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/z4jfmm52els548b59j96i/daenvils_baked_goods_v2.1.zip?rlkey=fzqoz9lu1dya592zj7ndhhdv8&st=5v3ehe6g&dl=1'>datapack</a> | <a href='https://www.dropbox.com/scl/fi/c3xixk3agmqn1dxa0yday/daenvils_baked_goods-RP_v2.1.zip?rlkey=0q1942ry8i6r8gsru0p7nvr8x&st=59zbhxnv&dl=1'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21–1.21.1</td>
+                <td>2.0.1</td>
+                <td>1.21</td>
+                <td>Dropbox: <a href='https://www.dropbox.com/scl/fi/6vltw7pjigte6g9v7q2ir/daenvils_baked_goods_v2.0.1.zip?rlkey=urrsh3vv0oxz07tpncj28gxhm&st=r8gcs8ko&dl=1'>datapack</a> | <a href='https://www.dropbox.com/scl/fi/wyopyiqbv0q8p38duuo1v/daenvils_baked_goods-RP_v2.0.1.zip?rlkey=efnoid75976przo762cjwrba7&st=7b3ij1y0&dl=1'>resourcepack</a></td>
+            </tr>
             <tr>
                 <td>1.20.5–1.20.6</td>
                 <td>2.0</td>
