@@ -4,21 +4,20 @@ keywords: minecraft, datapack, hoe, farming, enchantments
 tags: [datapack, standalone, simple, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 08/Apr/2026
+last_updated: 23/Sep/2026
 permalink: better_hoe.html
 published: true
-# github:
-pmc: https://www.planetminecraft.com/data-pack/better-hoe-enchantments/
+# modrinth:
 first_release: ["16","Jul","2025"]
-last_release: ["01","Oct","2025"]
+last_release: ["23","Sep","2026"]
 logo: better_hoe/pack.png
 thumbnail: better_hoe/thumbnail.png
 intro: "This datapack adds new effects to some vanilla hoe enchantments, including auto-seeding and harvesting multiple blocks simultaneously."
 abstract: "Make farming more efficient with improved vanilla enchantments."
 priority: 1
 index: 19
-downloads: 260
-downloads_str: "&gt;200"
+downloads: 300 # ~300 on pmc before migrating to modrinth
+downloads_str: "&gt;300"
 gallery: [images/better_hoe/thumbnail.png, images/better_hoe/cutting_grass.gif, images/better_hoe/tiling.gif, images/better_hoe/harvesting.gif, images/better_hoe/silk_touch.gif]
 ---
 
@@ -26,16 +25,24 @@ gallery: [images/better_hoe/thumbnail.png, images/better_hoe/cutting_grass.gif, 
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-	<li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+	<li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+	<li><a href="#1-21-9" data-toggle="tab">1.21.9–26.2</a></li>
 	<li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
 </ul>
 
 <div class="tab-content">
-	<div role="tabpanel" class="tab-pane active" id="1-21-9">
+	<div role="tabpanel" class="tab-pane active" id="26-3">
 		<p>
-			{% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1" %}
+			{% include dp_badges.html supports="26.3+" tested="26.3" %}
 			<br/>
-			{% include dp_download.html version="v1.0.1" pmc-url="https://www.planetminecraft.com/data-pack/better-hoe-enchantments/" dropbox-url="https://www.dropbox.com/scl/fi/e59okjzjbzsomywyj7fkf/better_hoe_enchantments_v1.0.1.zip?rlkey=iorztsd27yjir9qdsqna7kvam&st=qgnx0djh&dl=1" %}
+			{% include dp_download.html version="v1.0.2" dropbox-url="https://www.dropbox.com/scl/fi/i0e3obli3g7olvgs9ju3j/better_hoe_enchantments_v1.0.2.zip?rlkey=502plj74irewalq29isjo13bv&st=7spj2t4c&dl=1" %}
+		</p>
+	</div>
+	<div role="tabpanel" class="tab-pane" id="1-21-9">
+		<p>
+			{% include dp_badges.html supports="1.21.9–26.2" tested="1.21.9, 1.21.11, 26.1.1" %}
+			<br/>
+			{% include dp_download.html version="v1.0.1" dropbox-url="https://www.dropbox.com/scl/fi/e59okjzjbzsomywyj7fkf/better_hoe_enchantments_v1.0.1.zip?rlkey=iorztsd27yjir9qdsqna7kvam&st=qgnx0djh&dl=1" %}
 		</p>
 	</div>
 	<div role="tabpanel" class="tab-pane" id="1-21-5">
