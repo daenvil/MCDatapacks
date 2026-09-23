@@ -7,7 +7,7 @@ toc: true
 last_updated: 23/Sep/2026
 permalink: better_hoe.html
 published: true
-# modrinth:
+modrinth: https://modrinth.com/datapack/better-hoe-enchantments
 first_release: ["16","Jul","2025"]
 last_release: ["23","Sep","2026"]
 logo: better_hoe/pack.png
@@ -35,14 +35,14 @@ Choose the option compatible with your Minecraft version:
 		<p>
 			{% include dp_badges.html supports="26.3+" tested="26.3" %}
 			<br/>
-			{% include dp_download.html version="v1.0.2" dropbox-url="https://www.dropbox.com/scl/fi/i0e3obli3g7olvgs9ju3j/better_hoe_enchantments_v1.0.2.zip?rlkey=502plj74irewalq29isjo13bv&st=7spj2t4c&dl=1" %}
+			{% include dp_download.html version="v1.0.2" modrinth-url="https://cdn.modrinth.com/data/SrVZNyu0/versions/z5FXqFMp/better_hoe_enchantments_v1.0.2.zip?mr_download_reason=standalone" dropbox-url="https://www.dropbox.com/scl/fi/i0e3obli3g7olvgs9ju3j/better_hoe_enchantments_v1.0.2.zip?rlkey=502plj74irewalq29isjo13bv&st=7spj2t4c&dl=1" %}
 		</p>
 	</div>
 	<div role="tabpanel" class="tab-pane" id="1-21-9">
 		<p>
 			{% include dp_badges.html supports="1.21.9–26.2" tested="1.21.9, 1.21.11, 26.1.1" %}
 			<br/>
-			{% include dp_download.html version="v1.0.1" dropbox-url="https://www.dropbox.com/scl/fi/e59okjzjbzsomywyj7fkf/better_hoe_enchantments_v1.0.1.zip?rlkey=iorztsd27yjir9qdsqna7kvam&st=qgnx0djh&dl=1" %}
+			{% include dp_download.html version="v1.0.1" dropbox-url="https://www.dropbox.com/scl/fi/e59okjzjbzsomywyj7fkf/better_hoe_enchantments_v1.0.1.zip?rlkey=iorztsd27yjir9qdsqna7kvam&st=qgnx0djh&dl=1" discontinued=true %}
 		</p>
 	</div>
 	<div role="tabpanel" class="tab-pane" id="1-21-5">
@@ -60,7 +60,7 @@ Choose the option compatible with your Minecraft version:
 
 The Efficiency, Silk Touch, and Fortune enchantments have extra features when using hoes:
 
-{% include comments/warning.html content='These effects **only work if the enchanted hoe is held on the main hand**. Holding the hoe in the off hand won\'t work.' %}
+{% include comments/warning.html content='These effects **only work if the enchanted hoe is held in the main hand**. Holding the hoe in the off hand won\'t work.' %}
 
 ### Efficiency
 
