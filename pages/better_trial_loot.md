@@ -4,36 +4,44 @@ keywords: minecraft, datapack, loot, trial, chambers
 tags: [datapack, standalone, QoL, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 16/Jul/2026
+last_updated: 30/Sep/2026
 permalink: better_trial_loot.html
 published: true
-pmc: https://www.planetminecraft.com/data-pack/better-trial-loot/
+# modrinth: 
 first_release: ["19","Jan","2025"]
-last_release: ["01","Oct","2025"]
+last_release: ["30","Sep","2026"]
 logo: better_trial_loot/pack.png
 thumbnail: better_trial_loot/thumbnail.png
 abstract: "A datapack which improves the loot found at trial chambers, making it less underwhelming."
 priority: 0
 index: 17
-downloads: 933
-downloads_str: "&gt;900"
+downloads: 1100  # ~1100 on pmc before migrating
+downloads_str: "&gt;1.1k"
 gallery: [images/better_trial_loot/thumbnail.png]
 ---
 
 ## Downloads
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.2</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.4</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1-21-9">
+    <div role="tabpanel" class="tab-pane active" id="26-3">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11, 26.1.1, 26.2" %}
+            {% include dp_badges.html supports="26.3+" tested="26.3" %}
             <br/>
-            {% include dp_download.html version="v1.0.2" pmc-url="https://www.planetminecraft.com/data-pack/better-trial-loot/" dropbox-url="https://www.dropbox.com/scl/fi/17s977p0w8sfp1eqjuvbs/better_trial_loot_v1.0.2.zip?rlkey=kbyufedcjslvpnilf5jl3ob04&st=q16qvwyy&dl=1" %}
+            {% include dp_download.html version="v1.0.3" dropbox-url="https://www.dropbox.com/scl/fi/8a6zhznqcmb5s2impr7t9/better_trial_loot_v1.0.3.zip?rlkey=53v4xs5hfh0tdwiyp95ovuort&st=c600ec2o&dl=1" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="1-21-9">
+        <p>
+            {% include dp_badges.html supports="1.21.9–26.2" tested="1.21.9, 1.21.11, 26.1.1, 26.2" %}
+            <br/>
+            {% include dp_download.html version="v1.0.2" dropbox-url="https://www.dropbox.com/scl/fi/17s977p0w8sfp1eqjuvbs/better_trial_loot_v1.0.2.zip?rlkey=kbyufedcjslvpnilf5jl3ob04&st=q16qvwyy&dl=1" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
