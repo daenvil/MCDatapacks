@@ -7,7 +7,7 @@ toc: true
 last_updated: 30/Sep/2026
 permalink: better_trial_loot.html
 published: true
-# modrinth: 
+modrinth: https://modrinth.com/datapack/better-trial-loot
 first_release: ["19","Jan","2025"]
 last_release: ["30","Sep","2026"]
 logo: better_trial_loot/pack.png

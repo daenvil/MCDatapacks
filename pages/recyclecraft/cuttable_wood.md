@@ -52,7 +52,7 @@ Choose the option compatible with your Minecraft version:
         </p>
         <p><b>OP version:</b></p>
         <p>
-            {% include dp_download.html version="v3.4-op" pmc-url="https://www.planetminecraft.com/data-pack/cuttable-wood/" dropbox-url="https://www.dropbox.com/scl/fi/ywt63ki7wmatvy0tuplmt/cuttable_wood_v3.4-op.zip?rlkey=fsv117jkl37czgmh6azyvnv2o&st=i37l4wns&dl=1" discontinued=true %}
+            {% include dp_download.html version="v3.4-op" dropbox-url="https://www.dropbox.com/scl/fi/ywt63ki7wmatvy0tuplmt/cuttable_wood_v3.4-op.zip?rlkey=fsv117jkl37czgmh6azyvnv2o&st=i37l4wns&dl=1" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">

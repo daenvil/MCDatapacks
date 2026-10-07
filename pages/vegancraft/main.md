@@ -4,19 +4,18 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, collection, crafting, food, info]
 sidebar: home_sidebar
 toc: true
-last_updated: 19/Jul/2026
+last_updated: 07/Oct/2026
 permalink: vegancraft.html
 published: true
 github: https://github.com/daenvil/vegancraft
-pmc-collection: https://www.planetminecraft.com/collection/162672/daenvil-s-vegancraft/
 first_release: ["17","Jun","2022"]
-last_release: ["19","Jul","2026"]
+last_release: ["07","Oct","2026"]
 logo: vegancraft/pack.png
 intro: "Vegancraft is a semi-modular datapack which makes a vegan gamestyle possible in a vanilla-like way without missing any game features. Tired of killing cows to make books and item frames? Tired of using sheep to make beds? This datapack is for you.<br/><br/>You can either download the full thing as a single datapack or <a href=#features>download some single features as individual datapacks</a>."
 abstract: "A merged version of every Vegancraft datapack, plus some additional features. Makes a vegan gamestyle possible in a vanilla-like way without missing any game features."
 index: 16
-downloads: 8400
-downloads_str: "&gt;8.4k"
+downloads: 8856
+downloads_str: "&gt;8.8k"
 ---
 
 ## Full datapack download
@@ -24,18 +23,24 @@ downloads_str: "&gt;8.4k"
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-2" data-toggle="tab">26.2+</a></li>
-    <li><a href="#26-1" data-toggle="tab">26.1+</a></li>
-    <li><a href="#1-21-9" data-toggle="tab">1.21.9+</a></li>
-    <li><a href="#1-21-8" data-toggle="tab">1.21.7–1.21.8</a></li>
-    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.17–1.21.4</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#26-2" data-toggle="tab">26.2</a></li>
+    <li><a href="#26-1" data-toggle="tab">26.1.x</a></li>
+    <li><a href="#1-21-9" data-toggle="tab">1.21.9–1.21.11</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.17–1.21.8</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26-2">
+    <div role="tabpanel" class="tab-pane active" id="26-3">
         <p>
-            {% include dp_badges.html supports="26.2+" tested="26.2" %}
+            {% include dp_badges.html supports="26.3+" tested="26.3" %}
+            <br/>
+            {% include dp_download.html version="v1.8" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.8/vegancraft-DP_v1.8.zip" rp-version="v1.8" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.8/vegancraft-RP_v1.8.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="26-2">
+        <p>
+            {% include dp_badges.html supports="26.2" tested="26.2" %}
             <br/>
             {% include dp_download.html version="v1.7" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-DP_v1.7.zip" rp-version="v1.7" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-RP_v1.7.zip" %}
         </p>
@@ -49,23 +54,9 @@ Choose the option compatible with your Minecraft version:
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.10, 1.21.11" %}
+            {% include dp_badges.html supports="1.21.9–1.21.11" tested="1.21.10, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v1.5.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.2/vegancraft-DP_v1.5.2.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-8">
-        <p>
-            {% include dp_badges.html supports="1.21.7–1.21.8" tested="1.21.8" %}
-            <br/>
-            {% include dp_download.html version="v1.5" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-DP_v1.5.zip" rp-version="v1.5" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-RP_v1.5.zip" discontinued=true %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-5">
-        <p>
-            {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.8" %}
-            <br/>
-            {% include dp_download.html version="v1.4.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4.2/vegancraft-DP_v1.4.2.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -78,6 +69,18 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.7–1.21.8</td>
+                <td>1.5</td>
+                <td>1.21.8</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-DP_v1.5.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.5/vegancraft-RP_v1.5.zip'>resourcepack</a></td>
+            </tr>
+            <tr>
+                <td>1.21.5–1.21.8</td>
+                <td>1.4.2</td>
+                <td>1.21.5, 1.21.8</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.4.2/vegancraft-DP_v1.4.2.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip'>resourcepack</a></td>
+            </tr>
             <tr>
                 <td>1.21.4</td>
                 <td>1.3</td>
@@ -184,7 +187,7 @@ A ton of new items are added as alternatives for animal-based brewing ingredient
 - **Poisonous Sprout**: an alternative to spider eyes. Crafted from poisonous potatoes.
 - **Fermented Sprout**: an alternative to fermented spider eyes. Crafted in the same way but from poisonous sprouts.
 - **Hardened Seagrass**: an alternative to turtle scutes. Crafted from seagrass and wax.
-- **End's Mist**: an alternative to dragon's breath. Crafted from a glass bottle, blazing powder, and a chorus flower.
+- **End's Mist**: an alternative to dragon's breath. Brewed by adding a chorus flower to an awkward potion in a brewing stand.
 - **Bouncy Boot**: an alternative to rabbit's feet. Crafted from leather boots surrounded by slimeballs (or acacia gum).
 - **Puffer Bubble**: an alternative to pufferfish. Crafted from a heart of the sea and soul sand.
 - **Feathery Membrane**: an alternative to phantom membranes. Crafted from feathers and wax.
@@ -195,6 +198,12 @@ Sniffer plants also drop some brewing ingredients, including a ghast tear altern
 Other animal brewing ingredients can already be obtained in a vegan way through other features:
 - Magma cream and slime blocks by substituting slime balls with acacia gum.
 - Synthetic cobwebs can be crafted using acacia gum and plant string.
+
+##### Galloping Potion *(New!)*
+
+The **Potion of the Galloping Master** is a new potion that grants a powerful speed boost for 8 minutes. It's brewed by adding an **apple** to an awkward potion. It can be enhanced with redstone/glowstone and inverted with fermented potato sprouts / spider eyes, just as vanilla potions
+
+This is an experimental addition, its purpose is to give an alternative to horses for land transport. It might be changed in the future when I get feedback.
 
 #### XP from farming plants
 
@@ -547,7 +556,7 @@ Craftable hot air balloons, **an alternative to happy ghast riding!**
 
 {% include comments/tip.html content="There's 16 kinds of balloons, one for each color, plus an additional sort-of-hidden one." %}
 
-### Inanimate Sulfur Cubes (New!)
+### Inanimate Sulfur Cubes
 
 {% include comments/note.html content="This is a very new feature, it will be better documented and developed in the future." %}
 
@@ -562,6 +571,10 @@ Craftable and inanimate sulfur cubes, **an alternative to using sulfur cube mobs
 ### Resourcepack
 
 Most of these features contain custom textures and item names. The Vegancraft resourcepack is needed in order to view them properly. For simplicity, this resourcepack is also the same for all sub-datapacks, and is available on the [Downloads](#full-datapack-download) section or in the page of any single datapack that uses it.
+
+### Uninstallation
+
+It's recommended to run the command ``/function dnv.vegancraft:uninstall`` if you want to remove the datapack from your world. Nothing will break if you don't, but it'll be better for performance, specially if you use other datapacks simultaneously.
 
 ## Future Features
 Planned features that may arrive in future versions...

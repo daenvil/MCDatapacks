@@ -4,13 +4,12 @@ keywords: minecraft, datapack, baking, cooking, food, vegan, veganism, plant-bas
 tags: [datapack, vegancraft, standalone, crafting, food]
 sidebar: home_sidebar
 toc: true
-last_updated: 19/Jul/2026
+last_updated: 07/Oct/2026
 permalink: plant-based_foods.html
 published: true
 github: https://github.com/daenvil/vegancraft
-pmc: https://www.planetminecraft.com/data-pack/plant-based-foods/
 first_release: ["17","Jun","2022"]
-last_release: ["19","Jul","2026"]
+last_release: ["07","Oct","2026"]
 logo: vegancraft/vegan_food/pack.png
 thumbnail: vegancraft/vegan_food/thumbnail.png
 intro: "A datapack that adds vegan alternatives to dairy, eggs, honey, and meat."
@@ -24,32 +23,32 @@ gallery: [images/vegancraft/vegan_food/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-2" data-toggle="tab">26.2+</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#26-2" data-toggle="tab">26.2</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.1.2</a></li>
-    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
-    <li><a href="#legacy" data-toggle="tab">1.16.2–1.21.4</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.16.2–1.21.8</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26-2">
+    <div role="tabpanel" class="tab-pane active" id="26-3">
         <p>
-            {% include dp_badges.html supports="26.2+" tested="26.2" %}
+            {% include dp_badges.html supports="26.3+" tested="26.3" %}
             <br/>
-            {% include dp_download.html version="v2.1.5" pmc-url="https://www.planetminecraft.com/data-pack/plant-based-foods/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/plant-based_foods_v2.1.5.zip" rp-version="v2.1.5" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-RP_v1.7.zip" %}
+            {% include dp_download.html version="v2.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.8/plant-based_foods_v2.2.zip" rp-version="v2.2" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.8/vegancraft-RP_v1.8.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="26-2">
+        <p>
+            {% include dp_badges.html supports="26.2" tested="26.2" %}
+            <br/>
+            {% include dp_download.html version="v2.1.5" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/plant-based_foods_v2.1.5.zip" rp-version="v2.1.5" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/vegancraft-RP_v1.7.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
+            {% include dp_badges.html supports="1.21.9–26.1.2" tested="1.21.9, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v2.1.2" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/plant-based_foods_v2.1.2.zip" rp-version="v1.5.1" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/vegancraft-RP_v1.5.1.zip" %}
-        </p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-5">
-        <p>
-            {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
-            <br/>
-            {% include dp_download.html version="v2.1.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/plant-based_foods_v2.1.1.zip" rp-version="v1.4" rp-github-url="https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="legacy">
@@ -62,6 +61,12 @@ Choose the option compatible with your Minecraft version:
                 <th>Download links</th>
             </tr></thead>
             <tbody>
+            <tr>
+                <td>1.21.5–1.21.8</td>
+                <td>2.1.1</td>
+                <td>1.21.5, 1.21.7</td>
+                <td>Github: <a href='https://github.com/daenvil/vegancraft/releases/download/v1.4/plant-based_foods_v2.1.1.zip'>datapack</a> | <a href='https://github.com/daenvil/vegancraft/releases/download/v1.4/vegancraft-RP_v1.4.zip'>resourcepack</a></td>
+            </tr>
             <tr>
                 <td>1.21.4</td>
                 <td>2.1</td>
@@ -158,7 +163,7 @@ Crafted in the same way as rabbit stew, but using a seitan steak instead of rabb
 {% include image/basic.html src="vegancraft/vegan_food/screenshots/recipes/seitan_stew.png" alt="Seitan stew recipe" align="center" width="300" %}
 
 #### Veggie burger
-Crafted with bread, beetroot, and a brown mushroom. *Behaves as a cooked porkchop*.
+Crafted with bread, beetroot, and a brown, red, or shelf mushroom. *Behaves as a cooked porkchop*.
 
 {% include image/basic.html src="vegancraft/vegan_food/screenshots/recipes/veggie_burger.png" alt="Veggie burger recipe" align="center" width="300" %}
 

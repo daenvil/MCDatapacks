@@ -4,13 +4,12 @@ keywords: minecraft, datapack, vegan, veganism, plant-based, pacifist, resin
 tags: [datapack, vegancraft, standalone, simple]
 sidebar: home_sidebar
 toc: true
-last_updated: 19/Jul/2026
+last_updated: 07/Oct/2026
 permalink: resin_from_stripping.html
 published: true
 github: https://github.com/daenvil/vegancraft
-pmc: https://www.planetminecraft.com/data-pack/resin-from-stripping-pale-oak/
 first_release: ["16","Apr","2025"]
-last_release: ["19","Jul","2026"]
+last_release: ["07","Oct","2026"]
 logo: vegancraft/resin_from_stripping/pack.png
 thumbnail: vegancraft/resin_from_stripping/thumbnail.png
 intro: "This datapack adds a chance of getting resin clumps when stripping pale oak logs."
@@ -24,27 +23,35 @@ gallery: [images/vegancraft/resin_from_stripping/thumbnail.png, images/vegancraf
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-2" data-toggle="tab">26.2+</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
+    <li><a href="#26-2" data-toggle="tab">26.2</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.1.2</a></li>
-    <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
+    <li><a href="#legacy" data-toggle="tab">1.21.5–1.21.8</a></li>
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26-2">
+    <div role="tabpanel" class="tab-pane active" id="26-3">
+        <p>
+            {% include dp_badges.html supports="26.3+" tested="26.3" %}
+            <br/>
+            {% include dp_download.html version="v1.0.4" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.8/resin_from_stripping_v1.0.4.zip" %}
+        </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="26-2">
         <p>
             {% include dp_badges.html supports="26.2+" tested="26.2" %}
             <br/>
-            {% include dp_download.html version="v1.0.3" pmc-url="https://www.planetminecraft.com/data-pack/resin-from-stripping-pale-oak/" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/resin_from_stripping_v1.0.3.zip" %}
+            {% include dp_download.html version="v1.0.3" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.7/resin_from_stripping_v1.0.3.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
-            {% include dp_badges.html supports="1.21.9+" tested="1.21.9, 1.21.11" %}
+            {% include dp_badges.html supports="1.21.9–26.1.2" tested="1.21.9, 1.21.11" %}
             <br/>
             {% include dp_download.html version="v1.0.1" github-url="https://github.com/daenvil/vegancraft/releases/download/v1.5.1/resin_from_stripping_v1.0.1.zip" %}
         </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="1-21-5">
+    <div role="tabpanel" class="tab-pane" id="legacy">
         <p>
             {% include dp_badges.html supports="1.21.5–1.21.8" tested="1.21.5, 1.21.7" %}
             <br/>
