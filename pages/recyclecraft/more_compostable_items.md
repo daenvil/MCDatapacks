@@ -35,9 +35,9 @@ Choose the option compatible with your Minecraft version:
 </ul>
 
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="26.3">
+    <div role="tabpanel" class="tab-pane active" id="26-3">
         <p>
-            {% include dp_badges.html supports="26.3+" tested="26.3" %}
+            {% include dp_badges.html supports="26.3" tested="26.3" %}
             <br/>
             {% include dp_download.html version="v1.4.2" modrinth-url="" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4.2/more_compostable_items_v1.4.2.zip" %}
         </p>

@@ -171,8 +171,6 @@ From Minecraft 1.20.5 and later versions, the custom items will appear in the in
 
 {% include image/basic.html src='vegancraft/ethical_textiles/screenshots/recipe_book.png' alt='All custom items showing up in the in-game recipe book' align='center' width='600' nn=true %}
 
-{% include comments/important.html content="Prior to Minecraft 1.20.5, the datapack worked differently, with the custom recipes outputting a knowledge book. I recommend playing on Minecraft 1.20.5 or superior, which is much better due to this change." %}
-
 ### Vegancraft
 
 This is a standalone datapack, but was designed as a part of [Vegancraft](vegancraft.html), a collection of datapacks with the goal of making a vegan gamestyle possible in a vanilla-like way without missing any game features.

@@ -183,10 +183,6 @@ From Minecraft 1.20.5 and later versions, the custom items will appear in the in
 
 {% include image/basic.html src='vegancraft/vegan_food/screenshots/recipe_book.png' alt='All custom items showing up in the in-game recipe book' align='center' width='600' nn=true %}
 
-However, there's a limitation which is kind of annoying, which is that custom items are not automatically recognized as ingredients, so you will still need to put them manually in the crafting grid. This the case only for the recipes that require a custom item as ingredient, which are: not-fish fillet (requires a seitan steak), not-salmon fillet (requires a vegan honey bottle), and seitan stew (requires a seitan steak). These recipes are shapeless to help with this issue.
-
-{% include comments/important.html content="Prior to Minecraft 1.20.5, the datapack worked differently, with the custom recipes outputting a knowledge book. I recommend playing on Minecraft 1.20.5 or superior, which is much better due to this change." %}
-
 ### Vegan ingredients detection
 
 Since some plant-based foods can be also crafted with animal ingredients (such as crafting a "seitan stew" with a cow steak instead of a seitan steak), the datapack will detect if you are using vegan ingredients or not when crafting these items, labelling them if they are not vegan. Vegan and non-vegan items do not stack.
