@@ -39,14 +39,14 @@ Choose the option compatible with your Minecraft version:
         <p>
             {% include dp_badges.html supports="26.3+" tested="26.3" %}
             <br/>
-            {% include dp_download.html version="v2.0" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/yAmy1tRb/more_compostable_items_v2.0.zip?mr_download_reason=standalone github-url="https://github.com/daenvil/more_compostable_items/releases/download/v2.0/more_compostable_items_v2.0.zip"%}
+            {% include dp_download.html version="v2.0" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/yAmy1tRb/more_compostable_items_v2.0.zip?mr_download_reason=standalone" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v2.0/more_compostable_items_v2.0.zip" %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
         <p>
             {% include dp_badges.html supports="1.21.9–26.2" tested="1.21.9, 1.21.11, 26.1.1, 26.2" %}
             <br/>
-            {% include dp_download.html version="v1.4.1" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/t7Cjjf4l/more_compostable_items_v1.4.1.zip" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4.1/more_compostable_items_v1.4.1.zip" %}
+            {% include dp_download.html version="v1.4.1" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/t7Cjjf4l/more_compostable_items_v1.4.1.zip" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4.1/more_compostable_items_v1.4.1.zip" discontinued=true %}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-5">
