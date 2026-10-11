@@ -108,9 +108,9 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 <li>By putting them in a hopper on top of a composter, the same way you would do with vanilla-compostable items.</li>
 <li>By dropping them *inside* a composter (vanilla items are also given this feature).</li>
 </ul>
-Composting items by dropping them inside composters can be disabled (see the <a href="#available-commands">Available commands</a> section)' %}
+Composting items by dropping them inside composters can be disabled (see the <a href="#available-commands">Available commands</a> section)' id='legacy-info' %}
 
-{% include comments/note.html content='This datapack was tested in a multiplayer server with ~10 players and performed well without any noticeable performance issue.' id='legacy-info' %}
+{% include comments/note.html content='This datapack was tested in a multiplayer server with ~10 players and performed well without any noticeable performance issue.' %}
 
 ### List of new compostable items
 *(Click to expand)*
