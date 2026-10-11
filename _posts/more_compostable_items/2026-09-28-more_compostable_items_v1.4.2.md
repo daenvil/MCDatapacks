@@ -12,5 +12,5 @@ A quick update to make it compatible with 26.3. But I plan to make a bigger upda
 
 <div class="btn-group">
     <a href="more_compostable_items_v1.4.1.html" role="button" class="btn btn-primary"><i class="fa fa-caret-left"></i>&nbsp; Previous release: v1.4.1</a>
-    <button role="button" class="btn btn-default disabled">Next release: TBR &nbsp;<i class="fa fa-caret-right"></i> </button>
+    <a href="more_compostable_items_v2.0.html" role="button" class="btn btn-primary">Next release: v2.0 &nbsp;<i class="fa fa-caret-right"></i></a>
 </div>

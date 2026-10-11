@@ -4,19 +4,19 @@ keywords: minecraft, datapack
 tags: [datapack, recyclecraft, standalone, QoL]
 sidebar: home_sidebar
 toc: true
-last_updated: 28/Sep/2026
+last_updated: 11/Oct/2026
 permalink: more_compostable_items.html
 published: true
 github: https://github.com/daenvil/more_compostable_items/
 modrinth: https://modrinth.com/datapack/more-compostable-items
 first_release: ["18","Jan","2022"]
-last_release: ["28","Sep","2026"]
+last_release: ["11","Oct","2026"]
 logo: recyclecraft/more_compostable_items/pack.png
 intro: "This datapack aims to add composting mechanics to all vanilla items which <i>should</i> be compostable, while being as close as possible to vanilla mechanics."
 abstract: "Adds composting mechanics to all vanilla items which should be compostable."
 priority: 1
 index: 6
-downloads: 13600 # 7000 on pmc before redirecting to modrinth
+downloads: 13900 # 7000 on pmc before redirecting to modrinth
 downloads_str: "&gt;13k"
 thumbnail: recyclecraft/more_compostable_items/thumbnail.png
 gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
@@ -27,7 +27,7 @@ gallery: [images/recyclecraft/more_compostable_items/thumbnail.png]
 Choose the option compatible with your Minecraft version:
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#26-3" data-toggle="tab">26.3</a></li>
+    <li class="active"><a href="#26-3" data-toggle="tab">26.3+</a></li>
     <li><a href="#1-21-9" data-toggle="tab">1.21.9–26.2</a></li>
     <li><a href="#1-21-5" data-toggle="tab">1.21.5–1.21.8</a></li>
     <li><a href="#1-21" data-toggle="tab">1.21–1.21.4</a></li>
@@ -37,9 +37,9 @@ Choose the option compatible with your Minecraft version:
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="26-3">
         <p>
-            {% include dp_badges.html supports="26.3" tested="26.3" %}
+            {% include dp_badges.html supports="26.3+" tested="26.3" %}
             <br/>
-            {% include dp_download.html version="v1.4.2" modrinth-url="" github-url="https://github.com/daenvil/more_compostable_items/releases/download/v1.4.2/more_compostable_items_v1.4.2.zip" %}
+            {% include dp_download.html version="v2.0" modrinth-url="https://cdn.modrinth.com/data/fli89JFe/versions/yAmy1tRb/more_compostable_items_v2.0.zip?mr_download_reason=standalone github-url="https://github.com/daenvil/more_compostable_items/releases/download/v2.0/more_compostable_items_v2.0.zip"%}
         </p>
     </div>
     <div role="tabpanel" class="tab-pane" id="1-21-9">
