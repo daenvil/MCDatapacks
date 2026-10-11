@@ -110,7 +110,7 @@ New compostable items, including rotten flesh, poisonous potatoes, foods, and ma
 </ul>
 Composting items by dropping them inside composters can be disabled (see the <a href="#available-commands">Available commands</a> section)' %}
 
-{% include comments/note.html content='This datapack was tested in a multiplayer server with ~10 players and performed well without any noticeable performance issue.' %}
+{% include comments/note.html content='This datapack was tested in a multiplayer server with ~10 players and performed well without any noticeable performance issue.' id='legacy-info' %}
 
 ### List of new compostable items
 *(Click to expand)*
